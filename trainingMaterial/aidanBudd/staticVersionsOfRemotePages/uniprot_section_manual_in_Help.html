@@ -1,0 +1,235 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head><title>section:manual in Help</title><meta content="IE=edge" http-equiv="X-UA-Compatible"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><link href="http://www.uniprot.org/" rel="home"><link href="http://creativecommons.org/licenses/by-nd/3.0/" rel="license"><link type="image/vnd.microsoft.icon" href="http://www.uniprot.org/favicon.ico" rel="shortcut icon"><link href="uniprot_section_manual_in_Help_files/css-compr.css" type="text/css" rel="stylesheet"><link href="uniprot_section_manual_in_Help_files/960_fluid_grid.css" type="text/css" rel="stylesheet"><link media="screen and (max-width: 1180px)" href="uniprot_section_manual_in_Help_files/960_fixed_grid.css" type="text/css" rel="stylesheet"><script type="text/javascript">
+			var BASE = '/';
+			var image_x_inverse = '/images/x_inverse.png';
+		</script>
+		<!--[if lte IE 8]><script charset="utf-8" src="/scripts/frontier/d3/r2d3.min.js"></script><![endif]-->
+		<!--[if gte IE 9]>  <!-->
+			<script src="uniprot_section_manual_in_Help_files/d3.js"></script>
+		<!-- <![endif]-->
+
+		<script charset="utf-8" src="uniprot_section_manual_in_Help_files/js-compr.js" type="text/javascript"></script><script type="text/javascript"> 
+				uniprot.namespace = 'help';
+			</script><script type="text/javascript">uniprot.cookie = new Cookie('uniprot.org');</script><script type="text/javascript">
+			;
+		</script><link href="http://www.uniprot.org/help/opensearch.xml" title="Help" type="application/opensearchdescription+xml" rel="search"><link href="uniprot_section_manual_in_Help_files/non_ie_fixes-compr.css" rel="stylesheet" type="text/css"><link media="print" href="uniprot_section_manual_in_Help_files/print.css" rel="stylesheet" type="text/css"></head><body xmlns:up="http://purl.uniprot.org/core/" typeof="schema:WebPage"><div style="position: absolute;" id="beta-feedback"><div id="beta-feedback-button"></div><div id="beta-feedback-container"><form id="beta-feedback-form"><input value="" name="referrer" type="hidden"><fieldset><ol><li><label>Name:</label><input id="feedback-name" name="name"></li><li><label>Email:</label><input id="feedback-email" name="email"></li><li><label>Subject:</label><input id="feedback-subject" name="betasubject"></li><li><label>Feedback type:</label><select id="feedback-praise" name="type"><option selected="selected" value="none">Choose one</option><option value="Praise">Praise</option><option value="Help request">Help request</option><option value="Bug report">Bug report</option><option value="Suggestion">Suggestion</option><option value="Other">Other</option></select></li><li><label>How are you feeling?</label><select id="feedback-mood" name="mood"><option selected="selected" value="none">Choose one</option><option value="Excited">Excited</option><option value="Happy">Happy</option><option value="Confused">Confused</option><option value="Frustrated">Frustrated</option></select></li><li><label>Your comments:</label><textarea id="feedback-comments" name="comments"></textarea></li></ol></fieldset><fieldset><a id="submit-feedback" class="button">Submit</a><a id="cancel-feedback" class="button">Cancel</a></fieldset></form></div><script>
+		onRdyFn(function() { new betaFeedBack(); });
+	</script></div>
+			<!--[if lt IE 8]>
+				<style type="text/css">
+					#browserwarning {
+						display:block;
+					};
+				</style>
+			<![endif]-->
+	        <p style="display:none"><a accesskey="2" href="#content">Skip Header</a></p><div id="masthead-container"><div class="container_12"><div class="masthead grid_12" id="local-masthead"><div id="local-title" class="grid_2 alpha"><h1><a id="logo" accesskey="1" href="http://www.uniprot.org/"><img alt="" src="uniprot_section_manual_in_Help_files/Logo_medium.png" title="UniProt home"></a></h1></div><div id="local-search" class="grid_10 omega"><form method="get" action="/help" id="search-form"><div class="namespace-help" id="namespace-background"><div class="searchBoxIndicator" id="searchBoxIndicator1">&nbsp;</div><div onclick="location.href='/help/text-search';" class="searchBoxIndicator" id="searchBoxIndicator2">&nbsp;</div><div class="searchBoxIndicator" id="searchBoxIndicator3">&nbsp;</div><fieldset><script type="text/javascript">
+			onRdyFn(uniprot.searchbar.init);
+		</script><a class="namespace-select" id="select-namespace" onclick="return false;" href=""><span class="caret_white" id="selected-namespace">Help</span></a><ul class="select-namespace-options"><a style="float:right" href="#" class="closeBox" id="closeNamespaceOptions">x</a><li><ul><li class="fixedHeight_namespaces"><h3 class="namespace_uniprot"><a class="namespace-option uniprot" href="#" id="uniprot">UniProtKB</a></h3><p>Protein knowledgebase</p></li><li class="fixedHeight_namespaces"><h3 class="namespace_proteomes"><a class="namespace-option proteomes" href="#" id="proteomes">Proteomes</a></h3><p>Protein sets from fully sequenced genomes</p></li></ul></li><li><ul><li class="fixedHeight_namespaces"><h3 class="namespace_uniref"><a class="namespace-option uniref" href="#" id="uniref">UniRef</a></h3><p>Sequence clusters</p></li><li class="fixedHeight_namespaces"><h3 class="supporting"><span href="#">Supporting data</span></h3><p class="supportingLeadingText">Select one of the options below to target your search:</p><ul class="supportingDataOptions"><li><a class="namespace-option supporting" href="#" id="citations">Literature citations</a></li><li><a class="namespace-option supporting" href="#" id="taxonomy">Taxonomy</a></li><li><a class="namespace-option supporting" href="#" id="keywords">Keywords</a></li><li><a class="namespace-option supporting" href="#" id="locations">Subcellular locations</a></li><li><a class="namespace-option supporting" href="#" id="database">Cross-referenced databases</a></li><li><a class="namespace-option supporting" href="#" id="diseases">Diseases</a></li><li><a class="namespace-option supporting" href="#" id="program">Annotation programs</a></li></ul></li></ul></li><li><ul><li class="fixedHeight_namespaces"><h3 class="namespace_uniparc"><a class="namespace-option uniparc" href="#" id="uniparc">UniParc</a></h3><p>Sequence archive</p></li><li class="fixedHeight_namespaces"><h3 class="namespace_help"><a class="namespace-option help" href="#" id="help">Help</a></h3><p>Help pages, FAQs, UniProtKB manual, documents, news archive, etc.</p></li></ul></li></ul><div id="query-area"><input value="section:manual" id="topQuery" type="hidden"><input style="width: 508px;" id="query" value="section:manual" accesskey="4" name="query" type="text"><a class="active" href="#" id="clear-query">x</a><a class="caret_grey" href="#" id="advanced-search-toggle">Advanced</a><input value="score" name="sort" type="hidden"></div><a id="search-button" title="Search" data-icon="1" class="icon icon-functional button" onclick="return false" href=""></a><script type="text/javascript">
+			onRdyFn(function() {
+				nameSpaceSelector();
+				uniprot.advSearchUI.template(uniprot.namespace);
+			});
+		</script><div class="advSearch" id="query-builder-container"><div style="padding-top:1%" class="advSearchHeader"><a href="#" class="closeAdvanceSearch closeBox">x</a>
+				Searching in <span id="namespaceInAdv">Help</span></div><div style="margin-top:2%" class="filterList" id="filterList"></div><div class="clearfix"></div><div class="advButtons"><a data-icon="1" style="float:right" href="#" class="icon icon-functional button advSearchButton"></a></div></div></fieldset></div></form></div><div id="nav"><ul id="local-nav" class="grid_12"><li class="first"><a class="tooltipped" title="" onclick="return uniprot.blast.checkSelectionsAndSubmit();" href="http://www.uniprot.org/blast">BLAST</a></li><li><a class="tooltipped" title="" onclick="return uniprot.align.checkSelectionsAndSubmit();" accesskey="9" href="http://www.uniprot.org/align">Align</a></li><li class="last"><a class="tooltipped" title="" rel="help" onclick="return (new upload()).uploadLinkHandler();" href="http://www.uniprot.org/uploadlists" id="upload-lists-nav">Retrieve/ID Mapping</a></li><li class="functional last"><a accesskey="9" href="http://www.uniprot.org/contact" id="contact">Contact</a></li><li class="functional"><a rel="help" href="http://www.uniprot.org/help/" id="help">Help</a></li></ul></div></div></div></div><div class="container_12 warn" id="browserwarning">You are using a version of browser that may not display all the features of this website. Please consider upgrading <a href="http://www.uniprot.org/help/browser_support">your browser</a>.</div><div property="schema:about" resource="" typeof="" id="content" class="container_12"><div style="display:none" class="grid_12 helpcontent help"><a class="closeBox" style="float:right" id="closeHelp" href="#">x</a><div class="left helpBoxContainer"><div class=""><h3>About UniProt</h3><ul><li><a href="http://www.uniprot.org/help/about">About UniProt</a><p class="details">History and background.</p></li><li><a href="http://www.uniprot.org/help/uniprotkb">UniProtKB</a>, 
+								<a href="http://www.uniprot.org/help/uniref">UniRef</a>, 
+								<a href="http://www.uniprot.org/help/uniparc">UniParc</a><p class="details">Overview of UniProt databases.</p></li><li><a href="http://www.uniprot.org/help/publications">Publications</a><p class="details">How to cite us.</p></li><li><a href="http://www.uniprot.org/help/biocuration">Biocuration in UniProt</a></li><li><a href="http://www.uniprot.org/help/uniprot%20staff">UniProt staff</a></li><li><a href="http://www.uniprot.org/help/license">License and disclaimer</a></li></ul></div><div class=""><h3>Support and services</h3><ul><li><a href="http://www.uniprot.org/help/?query=*&amp;fil=section:manual">UniProtKB manual</a></li><li><a data-icon="V" class="icon icon-generic" target="_blank" href="https://www.youtube.com/channel/UCkCR5RJZCZZoVTQzTYY92aw">Tutorials and videos on YouTube</a></li><li><a href="http://www.uniprot.org/help/?query=*&amp;fil=section:faq">FAQ</a></li><li><a href="http://www.uniprot.org/help/?query=*&amp;fil=section:news">News</a></li><li><a href="http://www.uniprot.org/help/changes">Format changes</a></li><li><a href="http://www.uniprot.org/help/technical">Technical corner</a></li><li><a href="http://www.uniprot.org/help/submissions">Submissions and updates</a></li><li><a href="http://www.uniprot.org/help/links">Links</a></li></ul></div></div><div class="right grid_6 omega"><div class="helpSectionPadding"><h3>Getting started</h3><ul><li><a href="http://www.uniprot.org/help/text-search">Text search</a></li><li><a href="http://www.uniprot.org/help/sequence-searches">Sequence similarity searches (BLAST)</a></li><li><a href="http://www.uniprot.org/help/sequence-alignments">Sequence alignments</a></li><li><a href="http://www.uniprot.org/help/batch">Upload lists</a></li></ul></div><div class=""><h3>Outreach</h3><ul><li><a target="_blank" href="http://web.expasy.org/spotlight/">Protein Spotlight</a><p class="details">One month, one protein.</p></li><li><a href="http://www.uniprot.org/help/courses">Courses</a><p class="details">Courses/seminars about UniProt</p></li><li><a target="_blank" href="http://www.ebi.ac.uk/training/online">EBI Training Online</a><p class="details">The bioinformatics training resource.</p></li><li><a target="_blank" href="http://ebiomics.sdcinfo.com/">eBiomics</a><p class="details">Bioinformatics learning platform.</p></li></ul></div></div></div><div class="grid_12"><a style="float:right" id="showHelp" href="#">Show quick links</a></div><script type="text/javascript">
+	onRdyFn(function(){
+			new helpBlog('help','section:manual');
+		},'high');
+	</script><div class="grid_12"><div id="customizeColumns" class="newCustomize"><h2 class="page-title">Customize results table</h2><div id="forcedColumnsArea"><div class="customise-header-container"><h4><a target="_blank" href="http://www.uniprot.org/help/customize">Unsaved columns<sup>i</sup></a></h4></div><p>Click on the <span class="add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>to add to <span>'Columns to be displayed'</span> and to the <span>'Miscellaneous'</span> section below for future use.</p><ul class="ui-sortable" id="forcedColumns"></ul></div><div class="customise-header-container" id="selectedColumnsArea"><h4><a target="_blank" href="http://www.uniprot.org/help/customize">Columns to be displayed<sup>i</sup></a></h4><ul class="customizeSettings"><li><a id="columnsResetToDefaults" href="#">Reset to <i>default</i></a></li><li><a class="button" id="customize-columns-save" href="#">Save</a></li><li><a class="button" id="customize-columns-cancel" href="#">Cancel</a></li></ul></div><p>Drag and drop to re-order.</p><ul class="ui-sortable" id="selectedColumns"></ul><div class="clearfix"></div><div><div class="customise-header-container"><h4><a target="_blank" href="http://www.uniprot.org/help/customize">Add more columns<sup>i</sup></a></h4><ul class="customizeSettings"><li id="expand_all"><a data-icon="9" class="icon icon-functional" id="expandAllHeaders" href="#">Expand all</a></li><li data-icon="8" class="icon icon-functional" style="display:none" id="collapse_all"><a id="collapseAllHeaders" href="#">Collapse all</a></li></ul></div><script type="text/javascript">
+			onRdyFn(function(){
+				$('#customizeSearch').inputHints();
+			});
+		</script><div id="customise-search-wrap"><div id="customise-search">Search: <input value="e.g. gene, ontology,..." title="e.g. gene, ontology,..." name="customizeSearch" id="customizeSearch" type="text"></div></div><div class="clearfix"></div><div class="container_12"><script type="text/javascript">onRdyFn(function(){ uniprot.defaultColumns=[];});</script></div><div id="customizeList"></div></div></div></div><script type="text/javascript">
+	var onCustomizeColumnsReady = function() {
+		var p = '';
+		var s = '';
+		
+				var customizeColumns = new CustomizeColumns();
+			
+		customizeColumns.init.call(customizeColumns);
+	};
+	onRdyFn(onCustomizeColumnsReady);
+	
+		onRdyFn(function(){
+			$('.expandableLink').click(function(event){
+				var element = $(this).next('div.foldable');
+				if (element.is(':visible')) {
+					element.slideUp();
+					$(this).attr("data-icon","9");
+				} else {
+					element.slideDown();
+					$(this).attr("data-icon","8");
+				}
+				return false;
+			});
+
+			$(':checkbox').change(function(){
+				if ($(this).parent().parent().parent().hasClass("foldable")){ // This restricts the effect to the customize columns page only, and not the results page
+					$(this).parent().css("background-color","#ffff99");
+					$(this).parent().animate({backgroundColor: '#FFFFFF'}, 3000);
+				}		
+			});
+		});
+	</script><div class="sidebar grid_2 displayThis"><h2 class="page-title">Results</h2></div><div class="mainContent grid_8"><p></p></div><div class="grid_2"><div id="basket"><a href="#" data-icon="b" class="closed basket-empty icon icon-static caret_white button" id="basket-list">Basket <span style="display: none;" id="basket-count">0</span></a></div><div style="z-index: 3;" id="basket-contents"><div id="closeBasket"><span class="basketText">(max 400 entries)</span><a class="closeBox" href="#">x</a></div><div id="emptyBasketContent"><h3>Your basket is currently empty.</h3><p>Select item(s) and click on "Add to basket" to create your own collection here<br> (400 entries max)<br></p><img src="uniprot_section_manual_in_Help_files/basket_help.png"></div><div style="display:none" id="loadingBasketContent"><img src="uniprot_section_manual_in_Help_files/progress128.gif" id="loading_basket"></div><div id="filledBasketContents"><ul class="tabs"><li><a class="uniprot tab tab-current">UniProtKB (<span class="uniprot-basket-count">0</span>)</a></li><li><a class="uniref tab">UniRef (<span class="uniref-basket-count">0</span>)</a></li><li><a class="uniparc tab">UniParc (<span class="uniparc-basket-count">0</span>)</a></li></ul><div style="display: block;" class="tabsContent" id="basket-uniprot"></div><div style="display: none;" class="tabsContent" id="basket-uniref"></div><div style="display: none;" class="tabsContent" id="basket-uniparc"></div></div><div id="basket-actions"><ul class="action-buttons-grouped"><li><a title="Select two or more entries and click here to align them" data-icon="i" class="button icon icon-functional align disabled" href="#" id="basket-align-button">Align</a></li><li><a data-icon="t" title="Select an entry and click here to run a BLAST search on it" class="button icon-functional icon blast disabled" href="#" id="basket-blast-button">BLAST</a></li><li><a data-icon="=" title="Download results" class="button icon icon-functional download disabled" href="#" id="basket-download-button">Download</a></li><li style="float: right;"><a title="Full View" class="button fullView disabled" id="basket-view-button">Full View</a></li><li style="float: right"><a title="Clear basket" class="button clear disabled" href="#">Clear</a></li></ul></div></div><form action="/align/" method="post" id="basket-alignForm"><input value="no" name="landingPage" type="hidden"><input value="clustalo" name="program" type="hidden"><input value="yes" name="redirect" type="hidden"><input value="" name="alignQuery" id="basket-alignQuery" type="hidden"></form><form action="/blast/" method="post" id="basket-blastForm"><input value="yes" name="redirect" type="hidden"><input value="no" name="landingPage" type="hidden"><input value="uniprotkb" name="dataset" type="hidden"><input value="10" name="threshold" type="hidden"><input value="" name="matrix" type="hidden"><input value="false" name="filter" type="hidden"><input value="true" name="gapped" type="hidden"><input value="250" name="numal" type="hidden"><input value="" id="basket-blastQuery" name="blastQuery" type="hidden"></form><form action="" method="post" id="basket-downloadForm"><input value="" name="query" type="hidden"></form></div><div class="clearfix"></div><div class="sidebar grid_2 displayThis"><div class="filterBy sidebarsubsection"><h3 class="first context-help tooltipped_ajax_filter_options">
+					Filter by<sup>i</sup></h3><div class="clearfix"></div><div class="sidebarsubsection"><div class="suggestSection"><ul><li class="active mousePointer"><a rel="nofollow" href="http://www.uniprot.org/help/?query=*&amp;fil=">UniProtKB manual (109)</a></li></ul></div><div class="suggestCategories"><h4>Categories</h4><ul><li><a rel="nofollow" href="http://www.uniprot.org/help/?query=*&amp;fil=category%3A%223D+structure%22+AND+section%3Amanual">3D structure (4)</a></li><li><a rel="nofollow" href="http://www.uniprot.org/help/?query=*&amp;fil=category%3ACross-references+AND+section%3Amanual">Cross-references (2)</a></li><li><a rel="nofollow" href="http://www.uniprot.org/help/?query=*&amp;fil=category%3A%22Entry+information%22+AND+section%3Amanual">Entry information (5)</a></li><li><a rel="nofollow" href="http://www.uniprot.org/help/?query=*&amp;fil=category%3AExpression+AND+section%3Amanual">Expression (4)</a></li><li><a rel="nofollow" href="http://www.uniprot.org/help/?query=*&amp;fil=category%3A%22Family+and+domains%22+AND+section%3Amanual">Family and domains (9)</a></li><li><a rel="nofollow" href="http://www.uniprot.org/help/?query=*&amp;fil=category%3AFunction+AND+section%3Amanual">Function (16)</a></li><li><a rel="nofollow" href="http://www.uniprot.org/help/?query=*&amp;fil=category%3AInteraction+AND+section%3Amanual">Interaction (3)</a></li><li><a rel="nofollow" href="http://www.uniprot.org/help/?query=*&amp;fil=category%3AMiscellaneous+AND+section%3Amanual">Miscellaneous (2)</a></li><li><a rel="nofollow" href="http://www.uniprot.org/help/?query=*&amp;fil=category%3A%22Names+and+taxonomy%22+AND+section%3Amanual">Names and taxonomy (8)</a></li><li><a rel="nofollow" href="http://www.uniprot.org/help/?query=*&amp;fil=category%3A%22Non-experimental+qualifiers%22+AND+section%3Amanual">Non-experimental qualifiers (1)</a></li><li><a rel="nofollow" href="http://www.uniprot.org/help/?query=*&amp;fil=category%3AOntology+AND+section%3Amanual">Ontology (1)</a></li><li><a rel="nofollow" href="http://www.uniprot.org/help/?query=*&amp;fil=category%3A%22Pathology+and+biotech%22+AND+section%3Amanual">Pathology and biotech (9)</a></li><li><a rel="nofollow" href="http://www.uniprot.org/help/?query=*&amp;fil=category%3A%22Protein+existence%22+AND+section%3Amanual">Protein existence (1)</a></li><li><a rel="nofollow" href="http://www.uniprot.org/help/?query=*&amp;fil=category%3AProteomes+AND+section%3Amanual">Proteomes (3)</a></li><li><a rel="nofollow" href="http://www.uniprot.org/help/?query=*&amp;fil=category%3A%22PTM+processing%22+AND+section%3Amanual">PTM processing (14)</a></li><li><a rel="nofollow" href="http://www.uniprot.org/help/?query=*&amp;fil=category%3APublications+AND+section%3Amanual">Publications (1)</a></li><li><a rel="nofollow" href="http://www.uniprot.org/help/?query=*&amp;fil=category%3ASequence+AND+section%3Amanual">Sequence (18)</a></li><li><a rel="nofollow" href="http://www.uniprot.org/help/?query=*&amp;fil=category%3A%22Similar+proteins%22+AND+section%3Amanual">Similar proteins (1)</a></li><li><a rel="nofollow" href="http://www.uniprot.org/help/?query=*&amp;fil=category%3A%22Subcellular+location%22+AND+section%3Amanual">Subcellular location (6)</a></li><li><a rel="nofollow" href="http://www.uniprot.org/help/?query=*&amp;fil=category%3ATaxonomy+AND+section%3Amanual">Taxonomy (8)</a></li><li><a rel="nofollow" href="http://www.uniprot.org/help/?query=*&amp;fil=category%3AUniProtKB+AND+section%3Amanual">UniProtKB (2)</a></li><li><a rel="nofollow" href="http://www.uniprot.org/help/?query=*&amp;fil=category%3AWebsite+AND+section%3Amanual">Website (1)</a></li></ul></div></div></div></div><div class="mainContent grid_10"><ul id="resultActionButtons" class="action-buttons-grouped decorated"></ul><span class="status"><strong> 1</strong> to <strong>
+				109
+			</strong>
+		of <strong id="queryResultCount">109</strong>&nbsp;
+	<span class="statusShow">Show
+		<select name="limit" class="limitdropDown"><option name="10">10</option><option name="25">25</option><option name="50">50</option><option name="100">100</option><option name="250" selected="selected">250</option></select></span><script type="text/javascript">
+			onRdyFn(function(){
+				$('.limitdropDown').on("change", function(event){
+					uniprot.cookie.save_tmp("limit",this.value);
+					location.reload();
+				});
+			});
+		</script></span><h2 class="page-title printThis">Help Results</h2><div class="content results"><div id="resultsArea"><table class="grid" id="results"><thead><tr><th class="capitalise">Help search results</th></tr></thead><tbody><tr><td><a href="http://www.uniprot.org/help/accession_numbers">Accession</a><p style="margin: 0">
+Provides a stable way of identifying UniProtKB entries    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/act_site">Active site</a><p style="margin: 0">
+Amino acid(s) directly involved in the activity of an enzyme    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/allergenic_properties">Allergenic properties</a><p style="margin: 0">
+Information relevant to allergenic proteins    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/alternative_products">Alternative products</a><p style="margin: 0">
+Description of the different proteins generated from the same gene    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/annotation_score">Annotation score</a><p style="margin: 0">
+Annotation scores provide a measure of how much annotation has been associated with a given entry or proteome.    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/binary_interactions">Binary interactions</a><p style="margin: 0">
+Information relevant to binary protein-protein interactions    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/binding">Binding site</a><p style="margin: 0">
+Binding site for any chemical group (co-enzyme, prosthetic group, etc.)    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/biophysicochemical_properties">Biophysicochemical properties</a><p style="margin: 0">
+Description of biophysical and physicochemical properties    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/biotechnological_use">Biotechnological use</a><p style="margin: 0">
+The use of a specific protein in the biotechnological industry    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/ca_bind">Calcium binding</a><p style="margin: 0">
+Denotes the position(s) of calcium binding region(s) within the protein    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/carbohyd">Glycosylation</a><p style="margin: 0">
+Covalently attached glycan group(s)    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/catalytic_activity">Catalytic activity</a><p style="margin: 0">
+Description of the reaction(s) catalyzed by an enzyme    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/caution">Caution</a><p style="margin: 0">
+Warning about possible errors and/or grounds for confusion    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/chain">Chain</a><p style="margin: 0">
+Extent of a polypeptide chain in the mature protein    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/cofactor">Cofactor</a><p style="margin: 0">
+Description of non-protein substance required by an enzyme to be active    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/coiled">Coiled coil</a><p style="margin: 0">
+Denotes the positions of regions of coiled coil within the protein    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/compbias">Compositional bias</a><p style="margin: 0">
+Region of compositional bias in the protein    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/conflict">Sequence conflict</a><p style="margin: 0">
+Description of sequence discrepancies of unknown origin    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/cross_references_section">Cross-references section</a><p style="margin: 0">
+Cross-references that point to data collections other than UniProtKB    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/crosslnk">Cross-link</a><p style="margin: 0">
+Residues participating in covalent linkage(s) between proteins    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/developmental_stage">Developmental stage</a><p style="margin: 0">
+Description of how the expression of a gene varies according to the stage of cell, tissue or organism development    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/disruption_phenotype">Disruption phenotype</a><p style="margin: 0">
+Description of the effects caused by the disruption of a protein-encoding gene.    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/disulfid">Disulfide bond</a><p style="margin: 0">
+Cysteine residues participating in disulfide bonds    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/dna_bind">DNA binding</a><p style="margin: 0">
+Denotes the position and type of a DNA-binding domain    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/domain">Domain</a><p style="margin: 0">
+Denotes the position and type of each modular protein domain    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/domain_cc">Domain</a><p style="margin: 0">
+Description of the domain(s) present in a protein    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/encoded_on">Encoded on</a><p style="margin: 0">
+Organelle or plasmid gene source    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/entry_history">Entry history</a><p style="margin: 0">
+Dates of creation and modification and version information    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/entry_information_section">Entry information section</a><p style="margin: 0">
+Content of the 'Entry information' section    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/entry_name">Entry name</a><p style="margin: 0">
+Mnemonic identifier for a UniProtKB entry    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/entry_status">Entry status</a><p style="margin: 0">
+Indicates if the entry has been manually reviewed (UniProtKB/Swiss-Prot) or not (UniProtKB/TrEMBL)    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/enzyme_regulation">Enzyme regulation</a><p style="margin: 0">
+Description of an enzyme regulatory mechanism    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/evidences">Evidences</a><p style="margin: 0">
+    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/expression_section">Expression section</a><p style="margin: 0">
+Content of the 'Expression' section    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/family_and_domains_section">Family and Domains section</a><p style="margin: 0">
+Content of the 'Family and Domains' section    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/function">Function</a><p style="margin: 0">
+General description of the function(s) of a protein    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/function_section">Function section</a><p style="margin: 0">
+Content of the 'Function' section    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/gene_name">Gene names</a><p style="margin: 0">
+Name(s) of the gene(s) that code for the protein    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/gene_ontology">Gene Ontology (GO)</a><p style="margin: 0">
+Selection of Gene Ontology (GO) terms    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/general_annotation">General annotation (Comments)</a><p style="margin: 0">
+Position-independent annotation    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/helix">Helix</a><p style="margin: 0">
+Helical regions within the experimentally determined protein structure    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/induction">Induction</a><p style="margin: 0">
+Description of the effects of environmental factors on the gene expression    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/init_met">Initiator methionine</a><p style="margin: 0">
+Cleaved initiator methionine    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/interaction_section">Interaction section</a><p style="margin: 0">
+Content of the 'Interaction' section    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/intramem">Intramembrane</a><p style="margin: 0">
+Extent of a region located in a membrane without crossing it    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/involvement_in_disease">Involvement in disease</a><p style="margin: 0">
+Description of the disease(s) associated with the deficiency of a protein    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/lipid">Lipidation</a><p style="margin: 0">
+Covalently attached lipid group(s)    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/mass_spectrometry">Mass spectrometry</a><p style="margin: 0">
+Information derived from mass spectrometry experiments    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/metal">Metal binding</a><p style="margin: 0">
+Binding site for a metal ion    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/miscellaneous">Miscellaneous</a><p style="margin: 0">
+Any relevant information that doesn't fit in any other defined sections    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/miscellaneous_section">Miscellaneous section</a><p style="margin: 0">
+Content of the 'Miscellaneous' section    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/mod_res">Modified residue</a><p style="margin: 0">
+Modified residues excluding lipids, glycans and protein crosslinks    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/motif">Motif</a><p style="margin: 0">
+Short (up to 20 amino acids) sequence motif of biological interest    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/mutagen">Mutagenesis</a><p style="margin: 0">
+Site which has been experimentally altered by mutagenesis    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/names_and_taxonomy_section">Names and Taxonomy section</a><p style="margin: 0">
+Content of the 'Names and Taxonomy' section    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/non_cons">Non-adjacent residues</a><p style="margin: 0">
+Indicates that two residues in a sequence are not consecutive    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/non_experimental_qualifiers">Non-experimental qualifiers</a><p style="margin: 0">
+Non-experimental qualifiers indicate that the information given is not based on experimental findings.    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/non_std">Non-standard residue</a><p style="margin: 0">
+Occurence of non-standard amino acids (selenocysteine and pyrrolysine) in the protein sequence
+
+    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/non_ter">Non-terminal residue</a><p style="margin: 0">
+The sequence is incomplete. Indicate that a residue is not the terminal residue of the complete protein.    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/np_bind">Nucleotide binding</a><p style="margin: 0">
+Nucleotide phosphate binding region    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/organism-name">Organism </a><p style="margin: 0">
+Name of the source organism    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/pathology_and_biotech_section">Pathology and Biotech section</a><p style="margin: 0">
+Content of the 'Pathology and Biotech' section    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/pathway">Pathway</a><p style="margin: 0">
+Description of associated metabolic pathways    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/peptide">Peptide</a><p style="margin: 0">
+Extent of an active peptide in the mature protein    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/pharmaceutical_use">Pharmaceutical use</a><p style="margin: 0">
+Description of the use of a protein as a pharmaceutical drug    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/polymorphism">Polymorphism</a><p style="margin: 0">
+Description of polymorphism(s)    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/post-translational_modification">Post-translational modification</a><p style="margin: 0">
+Description of post-translational modifications    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/propep">Propeptide</a><p style="margin: 0">
+Part of a protein that is cleaved during maturation or activation    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/protein_existence">Protein existence</a><p style="margin: 0">
+Level of evidence that supports the existence of the protein concerned    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/protein_names">Protein names</a><p style="margin: 0">
+Name and synonyms of the protein    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/proteome_component">Proteome component</a><p style="margin: 0">
+Genomic component encoding a set of proteins in a proteome.    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/proteome_id">Proteome identifier</a><p style="margin: 0">
+Unique identifier assigned to the set of proteins that constitute the proteome.    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/proteomes_manual">Proteomes</a><p style="margin: 0">
+Sets of proteins thought to be expressed by organisms whose genomes have been completely sequenced.    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/ptm_processing_section">PTM / Processing section</a><p style="margin: 0">
+Content of the 'PTM / Processing' section    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/publications_section">Publications section</a><p style="margin: 0">
+Literature citations    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/region">Region</a><p style="margin: 0">
+Region of interest in the sequence    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/repeat">Repeat</a><p style="margin: 0">
+Denotes the positions of repeated sequence motifs or repeated domains    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/rna_editing">RNA editing</a><p style="margin: 0">
+Description of amino acid change(s) due to RNA editing    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/sequence_annotation">Sequence annotation (Features)</a><p style="margin: 0">
+Position-dependent annotation    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/sequence_caution">Sequence caution</a><p style="margin: 0">
+Warning about possible errors related to the protein sequence    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/sequence_length">Sequence length</a><p style="margin: 0">
+Sequence length    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/sequence_processing">Sequence processing</a><p style="margin: 0">
+Indicates if the mature form of a protein is derived by processing of a precursor    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/sequence_similarities">Sequence similarities</a><p style="margin: 0">
+Description of the sequence similaritie(s) with other proteins    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/sequence_status">Sequence status</a><p style="margin: 0">
+Indicates if the protein sequence is complete or not    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/sequences">Sequences</a><p style="margin: 0">
+Protein sequence data for all described protein isoforms    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/sequences_section">Sequence section</a><p style="margin: 0">
+Content of the 'Sequence' section    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/signal">Signal  peptide</a><p style="margin: 0">
+Sequence targeting proteins to the secretory pathway or periplasmic space    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/similar_proteins_section">Similar Proteins section</a><p style="margin: 0">
+Content of the 'Similar Proteins' section    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/site">Site</a><p style="margin: 0">
+Any interesting single amino acid site on the sequence    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/strand">Beta strand</a><p style="margin: 0">
+Beta strand regions within the experimentally determined protein structure    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/structure_section">Structure section</a><p style="margin: 0">
+Content of the 'Structure' section    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/subcellular_location">Subcellular location</a><p style="margin: 0">
+Description of the subcellular location of the mature protein    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/subcellular_location_section">Subcellular location section</a><p style="margin: 0">
+Content of the 'Subcellular location' section    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/subunit_structure">Subunit structure</a><p style="margin: 0">
+Description of the quaternary structure of a protein    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/taxonomic_identifier">Taxonomic identifier</a><p style="margin: 0">
+NCBI unique identifier for the source organism    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/taxonomic_lineage">Taxonomic lineage</a><p style="margin: 0">
+Taxonomic classification of the source organism    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/tissue_specificity">Tissue specificity</a><p style="margin: 0">
+Description of the expression of a gene in different tissues    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/topo_dom">Topological domain</a><p style="margin: 0">
+Location of non-membrane regions of membrane-spanning proteins    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/toxic_dose">Toxic dose</a><p style="margin: 0">
+Lethal, paralytic, or effect dose, or lethal concentration of a toxin    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/transit">Transit peptide</a><p style="margin: 0">
+Extent of a transit peptide for organelle targeting    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/transmem">Transmembrane</a><p style="margin: 0">
+Extent of a membrane-spanning region    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/turn">Turn</a><p style="margin: 0">
+Turns within the experimentally determined protein structure    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/uniprotkb_manual">UniProtKB manual</a><p style="margin: 0">
+Table of contents of the UniProtKB manual    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/unsure">Sequence uncertainty</a><p style="margin: 0">
+Regions of uncertainty in the sequence    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/var_seq">Alternative sequence</a><p style="margin: 0">
+Amino acid change(s) producing alternate protein isoforms    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/variant">Natural variant</a><p style="margin: 0">
+Description of a natural variant of the protein    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/virus_host">Virus host</a><p style="margin: 0">
+The species that can be infected by a specific virus    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/web_resource">Web resources</a><p style="margin: 0">
+Links to related web resource(s) or database(s)    </p></td></tr><tr><td><a href="http://www.uniprot.org/help/zn_fing">Zinc finger</a><p style="margin: 0">
+Denotes the position(s) and type(s) of zinc fingers within the protein    </p></td></tr></tbody></table></div><span class="status"><strong> 1</strong> to <strong>
+				109
+			</strong>
+		of <strong id="queryResultCount">109</strong>&nbsp;
+	<span class="statusShow">Show
+		<select name="limit" class="limitdropDown"><option name="10">10</option><option selected="selected" name="25">25</option><option name="50">50</option><option name="100">100</option><option name="250">250</option></select></span><script type="text/javascript">
+			onRdyFn(function(){
+				$('.limitdropDown').on("change", function(event){
+					uniprot.cookie.save_tmp("limit",this.value);
+					location.reload();
+				});
+			});
+		</script></span></div></div><script type="text/javascript">
+			onRdyFn(uniprot.results.init,'normal',parseInt('109'), 
+					'section:manual', false);
+		</script><div class="clearfix"></div></div><div class="html5-section page-footer"><div class="container_12"><div class="html5-section grid_3 alpha"><h1>Tools</h1><ul><li><a href="http://www.uniprot.org/blast">BLAST</a></li><li><a href="http://www.uniprot.org/align">Align</a></li><li><a href="http://www.uniprot.org/uploadlists">Upload lists</a></li></ul></div><div class="html5-section grid_3 alpha"><h1>Core data</h1><ul><li><a href="http://www.uniprot.org/uniprot">Protein knowledgebase (UniProtKB)</a></li><li><a href="http://www.uniprot.org/uniref">Sequence clusters (UniRef)</a></li><li><a href="http://www.uniprot.org/uniparc">Sequence archive (UniParc)</a></li><li><a href="http://www.uniprot.org/proteomes">Proteomes</a></li></ul></div><div class="html5-section grid_3 alpha"><h1>Supporting data</h1><ul><li><a href="http://www.uniprot.org/citations">Literature citations</a></li><li><a href="http://www.uniprot.org/taxonomy">Taxonomy</a></li><li><a href="http://www.uniprot.org/keywords">Keywords</a></li><li><a href="http://www.uniprot.org/locations">Subcellular locations</a></li><li><a href="http://www.uniprot.org/database">Cross-referenced databases</a></li><li><a href="http://www.uniprot.org/diseases">Diseases</a></li></ul></div><div class="html5-section grid_2 alpha"><h1>Information</h1><ul><li><a href="http://www.uniprot.org/help/about">About UniProt</a></li><li><a href="http://www.uniprot.org/help">Help</a></li><li><a href="http://www.uniprot.org/help/?fil=section:faq">FAQ</a></li><li><a href="http://www.uniprot.org/help/?fil=section:manual">UniProtKB manual</a></li><li><a href="http://www.uniprot.org/help/technical">Technical corner</a></li><li><a href="http://www.uniprot.org/program">Annotation programs</a></li></ul></div><div class="html5-footer small">
+			© 2002–
+			<span property="schema:copyrightYear">2014</span>
+			<a accesskey="9" href="http://www.uniprot.org/help/about">UniProt Consortium</a> | <a href="http://www.uniprot.org/help/license">License &amp; Disclaimer</a><div resource="/help/about#UniProt" class="logos html5-section" typeof="schema:NGO" property="schema:creator"><span resource="/help/about#EBI" typeof="schema:Organisation" property="schema:member"><span class="hidden" property="schema:name">European Bioinformatics Institute</span><a href="http://www.ebi.ac.uk/" class="ebi" property="schema:url"></a></span><span resource="/help/about#PIR" typeof="schema:Organisation" property="schema:member"><span class="hidden" property="schema:name">Protein Information Resource</span><a href="http://pir.georgetown.edu/" class="pir" property="schema:url"></a></span><span resource="/help/about#SIB" typeof="schema:Organisation" property="schema:member"><span class="hidden" property="schema:name">SIB Swiss Institute of Bioinformatics</span><a href="http://www.isb-sib.ch/" class="sib" property="schema:url"></a></span></div></div><div class="clearfix"></div></div><script src="uniprot_section_manual_in_Help_files/api.js" type="text/javascript"></script><script type="text/javascript">
+			  var uploadListVariations = [
+			      'Upload Lists',
+			      'Retrieve/ID Mapping'
+			  ];
+			
+			  var variation = cxApi.chooseVariation();
+			  
+			  onRdyFn(function(){
+			    $('#upload-lists-nav').text(uploadListVariations[variation])
+			  });
+			</script><script type="text/javascript">
+				var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+				document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+			</script><script src="uniprot_section_manual_in_Help_files/ga.js" type="text/javascript"></script><script type="text/javascript">
+						_gaq.push(
+								  ['_setAccount',"UA-6228219-1"],
+								  ['_trackPageview']
+								 );
+					</script></div></body></html>
