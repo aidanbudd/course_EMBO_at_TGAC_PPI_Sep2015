@@ -17,7 +17,7 @@
 | 08:15       | Coach departs hotel to TGAC                                                                                    |                | Hotel               |
 | 08:30-09:00 | Registration and Coffee                                                                                        |                | Lobby               |
 | 09:00-09:15 | Welcome and introductions                                                                                      | Matt Drew      | Training room       |
-| 09:15-10:00 | []1 to 1 introductions round](./trainingMaterial/aidanBudd/introToTheCourseAidanBudd.html)                                                                                     | Aidan Budd     | Training room       |
+| 09:15-10:00 | [1 to 1 introductions round](./trainingMaterial/aidanBudd/introToTheCourseAidanBudd.html)                                                                                     | Aidan Budd     | Training room       |
 | 10:00-10:30 | Introduction to bioinformatics, protein modules and sequence alignments, practical and presentation            | Aidan Budd     | Training room       |
 | 10:30-11:00 | Coffee Break                                                                                                   |                | Lobby               |
 | 11:00-12:30 | Continued: Introduction to bioinformatics, protein modules and sequence alignments, practical and presentation | Aidan Budd     | TGAC Training room  |
