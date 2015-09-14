@@ -1,0 +1,140 @@
+/*----------------------------------------------------------------------------
+  Global Reset
+----------------------------------------------------------------------------*/
+
+* {
+  padding:0;
+  margin:0;
+}
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, label, ul, ol, dl, fieldset, address { margin:1em 0; }
+li, dd { margin-left:5%; }
+fieldset { padding: .5em; }
+select option{ padding:0 5px; }
+
+.access{ display:none; } /* For accessibility related elements */
+.clear{ clear:both; height:0px; font-size:0px; line-height:0px; overflow:hidden; }
+a{ outline:none; }
+a img{ border:none; }
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+* html .clearfix { height: 1%; }
+.clearfix { display:inline-block; }
+.clearfix { display: block; }
+
+/*----------------------------------------------------------------------------
+  Main Layout
+----------------------------------------------------------------------------*/
+
+
+body {
+  font-size: 17px;
+  line-height: 1.4;
+  color: #333;
+  text-shadow: 0 1px 0 rgba(255,255,255,1.0);
+  border-top: 4px solid #556270;
+  border-bottom: 4px solid #556270;
+}
+body > * { padding: 0.1em calc(33% - 6.6em); }
+
+body { display: flex;
+ min-height: 100%;
+  font-family: "ETBembo", "Palatino", "Palatino Linotype", "Palatino LT STD", "Book Antiqua", "Georgia", serif;
+ /*font-weight: 200;*/
+ /*font-size: 1.2em;*/
+ /*font-size: calc(.6vw + .8em);*/
+ flex-direction: column;
+ margin: 0;
+ }
+
+h1, h2, h3, h4, h5, h6 { text-transform: uppercase; }
+
+strong {
+  font-weight: bold;
+}
+
+a {
+  color: #2382c8;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  margin: 20px 0 25px 0;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 20px;
+  color: #ddd;
+  border: none;
+}
+hr:before {
+  content: '\2022 \2022 \2022 \2022 \2022';
+}
+
+
+
+/* ---- Code blocks and spans ---- */
+
+pre, code 
+    {
+    background-color: #fdf7ee;
+    width: 1000px;
+    align-self: center;
+    /* BEGIN word wrap */
+    /* Need all the following to word wrap instead of scroll box */
+    /* This will override the overflow:auto if present */
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+    /* END word wrap */
+    }
+
+pre /* Code blocks */
+    {
+    /* Distinguish pre blocks from other text by more than the font with a background tint. */
+    padding: 0.5em; /* Since we have a background color */
+    border-radius: 5px; /* Softens it */
+    /* Give it a some definition */
+    border: 5px solid #aaa;
+    /* Set it off left and right, seems to look a bit nicer when we have a background */
+    margin-left:  0.5em;
+    margin-right: 0.5em;
+    }
+
+@media screen
+    {
+    pre
+        {
+        /* On screen, use an auto scroll box for long lines, unless word-wrap is enabled */
+        white-space: pre;
+        overflow: auto;
+        /* Dotted looks better on screen and solid seems to print better. */
+        border: 1px dotted #777;
+        }
+    }
+
+code /* All inline code spans */
+    {
+    }
+
+p > code, li > code /* Code spans in paragraphs and tight lists */
+    {
+    /* Pad a little from adjacent text */
+    padding-left:  2px;
+    padding-right: 2px;
+    }
+    
+li > p code /* Code span in a loose list */
+    {
+    /* We have room for some more background color above and below */
+    padding: 2px;
+    }
