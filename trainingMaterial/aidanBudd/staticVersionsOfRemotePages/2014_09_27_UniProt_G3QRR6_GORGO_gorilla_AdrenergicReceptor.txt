@@ -1,0 +1,93 @@
+ID   G3QRR6_GORGO            Unreviewed;       413 AA.
+AC   G3QRR6;
+DT   16-NOV-2011, integrated into UniProtKB/TrEMBL.
+DT   16-NOV-2011, sequence version 1.
+DT   11-JUN-2014, entry version 23.
+DE   SubName: Full=Uncharacterized protein;
+GN   Name=101142746;
+OS   Gorilla gorilla gorilla (Lowland gorilla).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Gorilla.
+OX   NCBI_TaxID=9595;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RA   Scally A.;
+RT   "Insights into the evolution of the great apes provided by the gorilla
+RT   genome.";
+RL   Submitted (MAY-2011) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   IDENTIFICATION.
+RG   Ensembl;
+RL   Submitted (SEP-2011) to UniProtKB.
+CC   -!- SIMILARITY: Belongs to the G-protein coupled receptor 1 family.
+CC   -!- CAUTION: The sequence shown here is derived from an Ensembl
+CC       automatic analysis pipeline and should be considered as
+CC       preliminary data.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   RefSeq; XP_004042829.1; XM_004042781.1.
+DR   ProteinModelPortal; G3QRR6; -.
+DR   SMR; G3QRR6; 29-341.
+DR   PRIDE; G3QRR6; -.
+DR   Ensembl; ENSGGOT00000005470; ENSGGOP00000005329; ENSGGOG00000005445.
+DR   GeneID; 101142746; -.
+DR   KEGG; ggo:101142746; -.
+DR   CTD; 154; -.
+DR   GeneTree; ENSGT00720000108411; -.
+DR   KO; K04142; -.
+DR   OMA; RVFQVAK; -.
+DR   OrthoDB; EOG7BS4BS; -.
+DR   TreeFam; TF316350; -.
+DR   GO; GO:0016324; C:apical plasma membrane; IEA:Ensembl.
+DR   GO; GO:0005887; C:integral component of plasma membrane; IEA:Ensembl.
+DR   GO; GO:0005634; C:nucleus; IEA:Ensembl.
+DR   GO; GO:0043235; C:receptor complex; IEA:Ensembl.
+DR   GO; GO:0004941; F:beta2-adrenergic receptor activity; IEA:Ensembl.
+DR   GO; GO:0051380; F:norepinephrine binding; IEA:Ensembl.
+DR   GO; GO:0015459; F:potassium channel regulator activity; IEA:Ensembl.
+DR   GO; GO:0007190; P:activation of adenylate cyclase activity; IEA:Ensembl.
+DR   GO; GO:0007189; P:adenylate cyclase-activating G-protein coupled receptor signaling pathway; IEA:Ensembl.
+DR   GO; GO:0045453; P:bone resorption; IEA:Ensembl.
+DR   GO; GO:0050873; P:brown fat cell differentiation; IEA:Ensembl.
+DR   GO; GO:0002032; P:desensitization of G-protein coupled receptor protein signaling pathway by arrestin; IEA:Ensembl.
+DR   GO; GO:0002024; P:diet induced thermogenesis; IEA:Ensembl.
+DR   GO; GO:0031649; P:heat generation; IEA:Ensembl.
+DR   GO; GO:0040015; P:negative regulation of multicellular organism growth; IEA:Ensembl.
+DR   GO; GO:0045986; P:negative regulation of smooth muscle contraction; IEA:Ensembl.
+DR   GO; GO:0030501; P:positive regulation of bone mineralization; IEA:Ensembl.
+DR   GO; GO:0043410; P:positive regulation of MAPK cascade; IEA:Ensembl.
+DR   GO; GO:0031398; P:positive regulation of protein ubiquitination; IEA:Ensembl.
+DR   GO; GO:0045944; P:positive regulation of transcription from RNA polymerase II promoter; IEA:Ensembl.
+DR   GO; GO:0006898; P:receptor-mediated endocytosis; IEA:Ensembl.
+DR   GO; GO:0002028; P:regulation of sodium ion transport; IEA:Ensembl.
+DR   GO; GO:0042312; P:regulation of vasodilation; IEA:InterPro.
+DR   GO; GO:0009409; P:response to cold; IEA:Ensembl.
+DR   GO; GO:0002025; P:vasodilation by norepinephrine-epinephrine involved in regulation of systemic arterial blood pressure; IEA:Ensembl.
+DR   Gene3D; 1.20.1070.10; -; 1.
+DR   InterPro; IPR002233; ADR_fam.
+DR   InterPro; IPR000332; ADRB2_rcpt.
+DR   InterPro; IPR000276; GPCR_Rhodpsn.
+DR   InterPro; IPR017452; GPCR_Rhodpsn_7TM.
+DR   PANTHER; PTHR24248:SF21; PTHR24248:SF21; 1.
+DR   Pfam; PF00001; 7tm_1; 1.
+DR   PRINTS; PR01103; ADRENERGICR.
+DR   PRINTS; PR00562; ADRENRGCB2AR.
+DR   PRINTS; PR00237; GPCRRHODOPSN.
+DR   PROSITE; PS00237; G_PROTEIN_RECEP_F1_1; 1.
+DR   PROSITE; PS50262; G_PROTEIN_RECEP_F1_2; 1.
+PE   3: Inferred from homology;
+KW   Cell membrane; Complete proteome; G-protein coupled receptor;
+KW   Membrane; Receptor; Reference proteome; Transducer; Transmembrane;
+KW   Transmembrane helix.
+SQ   SEQUENCE   413 AA;  46459 MW;  408C22731C6EDFBE CRC64;
+     MGQPGNGSAF LLAPNGSHAP DHDVTQERDE VWVVGMGIVM SLIVLAIVFG NVLVITAIAK
+     FERLQTVTNY FITSLACADL VMGLAVVPFG AAHILMKMWT FGNFWCEFWT SIDVLCVTAS
+     IETLCVIAVD RYFAITSPFK YQSLLTKNKA RVIILMVWIV SGLTSFLPIQ MHWYRATHQE
+     AINCYANETC CDFFTNQAYA IASSIVSFYV PLVIMVFVYS RVFQEAKRQL QKIDKSEGRF
+     HVQNLSQVEQ DGRTGHGLRR SSKFCLKEHK ALKTLGIIMG TFTLCWLPFF IVNIVHVIQD
+     NLIRKEVYIL LNWIGYVNSG FNPLIYCRSP DFRIAFQELL CLRRSSLKAY GNGYSSNGNT
+     GEQSGYHVEQ EKENKLLCED LPGTEDFVGH QGTVPSDNID SQGRNCSTND SLL
+//

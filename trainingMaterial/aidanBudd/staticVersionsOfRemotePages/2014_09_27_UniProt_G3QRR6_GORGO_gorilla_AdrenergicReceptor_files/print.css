@@ -1,0 +1,97 @@
+.displayThis, .checkboxColumn, a.button{
+	display: none;
+}
+.displayThisInline{
+	display: none;
+	
+}
+.file{
+	background: none;
+	padding-left:0px;
+}
+.printThis{
+	display: block;
+}
+
+.printThisInline{
+	display: inline-block;
+	margin-left:20px;
+}
+
+#history table.nestedEntryTable tr td, #history table.nestedEntryTable tr{
+	border: none;
+}
+
+
+
+
+.sequence-isoform-leftcol{
+	width: 100%;
+}
+.sequence-isoform-rightcol{
+	width: 100%;
+}
+
+
+.sidebar, .status, #basket, #showHelp, .addRemoveColumn, .expanderHeading a, .expander{
+	display: none;
+}
+
+.entry_view_content sup, tr.feature_row sup {
+	display: none; 
+}
+
+img.reviewedUnreviewed{
+	max-width: none;
+	max-height: none;
+	width: 20px;
+	height: 21px;
+}
+.expanderHeading span{
+	font-weight: bold;
+}
+.selected-row{
+	border-left: none;
+}
+
+#results input{
+	display: none;
+}
+
+
+#header, #searchbar, #save, #options, .next, #banner, #toc, .toc, .toplink, #form, #cart, .action, .hide, .close, #feedback, .noprint
+{
+#	display: none ! important;
+}
+div.section
+{
+#	page-break-inside:avoid;
+}
+
+span.history, td.tools, th.tools
+{
+#	display: none;
+#	visibility: hidden;
+}
+div#footer
+{
+#	clear:both;
+#	position:static ! important;
+#	bottom:0;
+}
+
+table.sequence td.feature{
+#	border: 1pt solid #000000;
+}
+
+a:link:after, a:visited:after {
+    content: "";
+}
+
+#page > div.sidebar, #resultActionButtons, #local-masthead, .page-footer {
+	display:none;
+}
+
+#page > div.mainContent {
+	width:100%;left:0%
+}
