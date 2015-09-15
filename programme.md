@@ -10,10 +10,9 @@
 
 -------
 
-### DAY 1 - Monday 28 September 2015
-
 | Time        | Activity                                                                                                       | Responsible    | Location               |
 | :---------- | :------------------------------------------------------------------------------------------------------------- | :------------- | :--------------------- |
+| | ** DAY 1 - Monday 28 September 2015 **| | | 
 | 08:15       | Coach departs hotel to TGAC                                                                                    |                | Hotel car park         |
 | 08:30-09:00 | Registration and Coffee                                                                                        |                | TGAC Atrium            |
 | 09:00-09:15 | Welcome and introductions                                                                                      | Matt Drew      | Darwin - Training Room |
@@ -29,14 +28,7 @@
 | 17:30-19:00 | Trainee data practical session: working with your own data                                                     |                | Darwin - Training Room |
 | 19:00       | Coach departs TGAC to hotel                                                                                    |                | Outside TGAC entrance  |
 | 19:30       | Dinner @ Toreros                                                                                               |                | Meet at hotel lobby    |
-
-
--------
-
-### DAY 2 - Tuesday 28 September 2015
-
-| Time        | Activity                                                                                                       | Responsible    | Location               |
-| :---------- | :------------------------------------------------------------------------------------------------------------- | :------------- | :--------------------- |
+| | **DAY 2 - Tuesday 28 September 2015** | | |
 | 08:15       | Coach departs hotel to TGAC                                                                                    |                | Hotel                  |
 | 08:30-09:00 | Coffee Break                                                                                                   |                | TGAC Atrium            |
 | 09:00-10:30 | Protein families and domains and annotation transfer by homology                                               | Marco Punta    | Darwin - Training Room |
@@ -49,12 +41,7 @@
 | 18:00-18:45 | Dinner - Pizza                                                                                                 |                | TGAC Atrium            |
 | 18:45-20:00 | DAS Game                                                                                                       | Vicky & Aidan  | Darwin - Training Room |
 | 20:00       | Coach departs TGAC to hotel                                                                                    |                | Outside TGAC entrance  |
-
-
-### DAY 3 - Wednesday 30 September 2015
-
-| Time        | Activity                                                                                                       | Responsible    | Location               |
-| :---------- | :------------------------------------------------------------------------------------------------------------- | :------------- | :--------------------- |
+| | **DAY 3 - Wednesday 30 September 2015** | | | 
 | 08:15       | Coach departs hotel to TGAC                                                                                    |                | Hotel Car Park         |
 | 08:30-09:00 | Morning Coffee                                                                                                 |                | TGAC Atrium            |
 | 09:00-10:30 | Prediction of protein features (in absence of 3D info)                                                         | Miguel Andrade | Darwin - Training Room |
@@ -64,11 +51,7 @@
 | 14:00-17:00 | Tour around Sandringham Estate and Gardens & Free Time                                                         |                |                        |
 | 17:00-18:30 | Coach leaves Sandringham Estate to hotel                                                                       |                | Sandringham Estate Car Park |
 | 19:00       | Dinner - Trattoria Rustica                                                                                     |                | Meet at hotel lobby    |
-
-### DAY 4 - Thursday 1 October 2015
-
-| Time        | Activity                                                                                                       | Responsible    | Location            |
-| :---------- | :------------------------------------------------------------------------------------------------------------- | :------------- | :------------------ |
+| | **DAY 4 - Thursday 1 October 2015** | | |
 | 08:15       | Coach departs hotel to TGAC                                                                                    |                | Hotel Car Park              |
 | 08:30-09:00 | Morning Coffee      |                  | TGAC Atrium         |
 | 09:00-10:30 |  Biology and prediction of instrinsically unstructured peptide regions | Zsuzsanna Dosztanyi | Darwin - Training Room |
@@ -81,12 +64,7 @@
 | 18:00-19:00 | Dinner - Pizza |          | TGAc Atrium  |
 | 19:00-21:00 | [Bioinformatics unseminar: "Open data, open tools"] (http://hub-hub.de/wiki/index.php?title=NUB2) |         | Darwin - Training Room  |
 | 21:00 | Coach departs TGAC to hotel |         | Outside TGAC entrance |
-
-
-### DAY 5 - Friday 2 October 2015
-
-| Time        | Activity                                                                                                       | Responsible    | Location            |
-| :---------- | :------------------------------------------------------------------------------------------------------------- | :------------- | :------------------ |
+| | **DAY 5 - Friday 2 October 2015** | | |
 | 08:15       | Coach departs hotel to TGAC                                                                                    |                | Hotel Car Park              |
 | 08:30-09:00 | Morning Coffee      |                  | TGAC Atrium         |
 | 09:00-10:30 |  Continued: Linear motif biology and prediction, cooperativity in cellular signalling, automated access of online tools using REST interfaces | Holger Dinkel & Toby Gibson | Darwin - Training Room |
@@ -98,11 +76,7 @@
 | 15:30-17:00 | Continued: STRING, networking and PPIs  | Lars Juhl Jensen | Darwin - Training Room |
 | 17:00 | Coach departs TGAC to hotel |         | Outside TGAC entrance |
 | 17:00 | Dinner - Maids Head Hotel |         | Meet at hotel restaurant |
-
-### DAY 6 - Saturday 3 October 2015
-
-| Time        | Activity                                                                                                       | Responsible    | Location            |
-| :---------- | :------------------------------------------------------------------------------------------------------------- | :------------- | :------------------ |
+| | **DAY 6 - Saturday 3 October 2015** | | |
 | 08:15       | Coach departs hotel to TGAC                                                                                    |                | Hotel Car Park              |
 | 08:30-09:00 | Morning Coffee      |                  | TGAC Atrium         |
 | 09:00-10:30 |  Exploring PPI networks using Cytoscape | Scooter Morris & Nadezhda Doncheva | Darwin - Training Room |
