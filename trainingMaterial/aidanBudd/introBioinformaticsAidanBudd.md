@@ -1,6 +1,6 @@
 ---
 title: Introduction to Bioinformatics
-layout: page
+
 author: Aidan Budd
 ---
 

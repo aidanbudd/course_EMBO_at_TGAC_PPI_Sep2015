@@ -1,6 +1,5 @@
 ---
 title: Course Program
-layout: page
 ---
 
 <style>

@@ -1,3 +1,8 @@
+---
+title: 
+author: Aidan Budd
+---
+
 # [EMBO Practical Course - Computational analysis of protein-protein interactions: from sequences to networks](http://events.embo.org/15-protein-protein/)
 
 -------
