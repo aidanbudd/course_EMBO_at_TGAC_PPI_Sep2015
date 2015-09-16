@@ -1,10 +1,10 @@
-# Introduction to Bioinformatics
-## Monday 29th September 2014
-### EMBO Practical Course on Computational analysis of protein-protein interactions: From sequences to networks
-#### 28 September - 3 October 2014, UCT, Cape Town, South Africa
-#### Aidan Budd, EMBL, Heidelberg
+---
+title: Introduction to Bioinformatics
+layout: page
+author: Aidan Budd
+---
 
-## [Presentation](./presentations/introBioinformaticsBuddCTSept2014.pdf)
+<!-- missing: ## [Presentation](./presentations/introBioinformaticsBuddCTSept2014.pdf) -->
 
 ## Uniprot
 

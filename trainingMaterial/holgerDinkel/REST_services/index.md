@@ -1,6 +1,7 @@
 ---
 title: REST services
 layout: page
+author: Holger Dinkel
 ---
 
 # REST

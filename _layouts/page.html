@@ -8,6 +8,7 @@ layout: default
   </header>
 
   <article class="post-content">
+    {% if page.author %}by {{ page.author }} {% endif %}
     {{ content }}
   </article>
 
