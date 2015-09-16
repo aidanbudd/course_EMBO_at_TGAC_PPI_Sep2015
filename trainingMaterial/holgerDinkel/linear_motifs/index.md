@@ -5,8 +5,10 @@ layout: page
 
 Objective: Get familiar with the [Phospho.ELM](http://phospho.elm.eu.org) resource.
 
+<!---
 <file:Phospho.ELM.DinkelHolger.pdf>
 <file:Short_Linear_Motifs.DinkelHolger.pdf>
+-->
 
 ## Searching via protein id
 
@@ -169,7 +171,9 @@ Recently, you've learned about the protein 'EPSIN1' and you are curious to know 
 [ELM](http://elm.eu.org)  (Eukaryotic Linear Motif)
 __prediction tool__.
 
+<!---
 <file:ELM_Eukaryotic_Linear_Motif_Resource.DinkelHolger.pdf>
+-->
 
 <!--- TODO: Check for cross-usage with phosphoelm -->
 
@@ -311,12 +315,12 @@ the [ELM (Eukaryotic Linear Motif)](http://elm.eu.org) __database__.
 
 # References:
 
-#. Van Roey K, Uyar B, Weatheritt RJ, Dinkel H, Seiler M, Budd A, Gibson TJ, Davey NE. (2014) "**Short Linear Motifs: Ubiquitous and Functionally Diverse Protein Interaction Modules Directing Cell Regulation**" Chem Rev. 2014 Jun 13.  [[URL]([http://pubs.acs.org/doi/abs/10.1021/cr400585q])]
-#. Dinkel H, Van Roey K, Michael S, Davey NE, Weatheritt RJ, Born D, Speck T, Krueger D, Grebnev G, Kuban M, Strumillo M, Uyar B, Budd A, Altenberg B, Seiler M, Chemes LB, Glavina J, Sanchez IE, Diella F, Gibson TJ. (2014) "**The eukaryotic linear motif resource ELM: 10 years and counting**"  Nucleic Acids Res., Nov, 2013 [[URL](http://nar.oxfordjournals.org/content/early/2013/11/07/nar.gkt1047.full)]
-#. Davey NE, Van Roey K, Weatheritt RJ, Toedt G, Uyar B, Altenberg B, Budd A, Diella F, Dinkel H and Gibson TJ (2012), **"Attributes of short linear motifs"**, Mol Biosyst., Jan, 2012. Vol. 8, pp. 268-281. [[DOI]([http://dx.doi.org/10.1039/c1mb05231d)] [[URL]([http://dx.doi.org/10.1039/c1mb05231d)] 
-#. Davey NE, Travé G and Gibson TJ (2011), **"How viruses hijack cell regulation"**, Trends Biochem Sci., Mar, 2011. Vol. 36, pp. 159-169. [[DOI](http://dx.doi.org/10.1016/j.tibs.2010.10.002)] [[URL]([http://dx.doi.org/10.1016/j.tibs.2010.10.002)] 
-#. Dinkel H, Chica C, Via A, Gould CM, Jensen LJ, Gibson TJ and Diella F (2011), **"Phospho.ELM: a database of phosphorylation sites--update 2011."**, Nucleic Acids Res., Jan, 2011. Vol. 39(Database issue), pp. D261-D267. [<span style="line-height: 1.5;">[[DOI](http://dx.doi.org/10.1093/nar/gkq1104)<span style="line-height: 1.5;">] [<span style="line-height: 1.5;">[[URL](http://dx.doi.org/10.1093/nar/gkq1104)<span style="line-height: 1.5;">] 
-#. Dyson HJ and Wright PE (2005), **"Intrinsically unstructured proteins and their functions"**, Nat Rev Mol Cell Biol., Mar, 2005. Vol. 6, pp. 197-208. [[DOI]([http://dx.doi.org/10.1038/nrm1589)] [[URL]([http://dx.doi.org/10.1038/nrm1589)] 
+1. Van Roey K, Uyar B, Weatheritt RJ, Dinkel H, Seiler M, Budd A, Gibson TJ, Davey NE. (2014) "**Short Linear Motifs: Ubiquitous and Functionally Diverse Protein Interaction Modules Directing Cell Regulation**" Chem Rev. 2014 Jun 13.  [[URL]([http://pubs.acs.org/doi/abs/10.1021/cr400585q])]
+1. Dinkel H, Van Roey K, Michael S, Davey NE, Weatheritt RJ, Born D, Speck T, Krueger D, Grebnev G, Kuban M, Strumillo M, Uyar B, Budd A, Altenberg B, Seiler M, Chemes LB, Glavina J, Sanchez IE, Diella F, Gibson TJ. (2014) "**The eukaryotic linear motif resource ELM: 10 years and counting**"  Nucleic Acids Res., Nov, 2013 [[URL](http://nar.oxfordjournals.org/content/early/2013/11/07/nar.gkt1047.full)]
+1. Davey NE, Van Roey K, Weatheritt RJ, Toedt G, Uyar B, Altenberg B, Budd A, Diella F, Dinkel H and Gibson TJ (2012), **"Attributes of short linear motifs"**, Mol Biosyst., Jan, 2012. Vol. 8, pp. 268-281. [[DOI]([http://dx.doi.org/10.1039/c1mb05231d)] [[URL]([http://dx.doi.org/10.1039/c1mb05231d)] 
+1. Davey NE, Travé G and Gibson TJ (2011), **"How viruses hijack cell regulation"**, Trends Biochem Sci., Mar, 2011. Vol. 36, pp. 159-169. [[DOI](http://dx.doi.org/10.1016/j.tibs.2010.10.002)] [[URL]([http://dx.doi.org/10.1016/j.tibs.2010.10.002)] 
+1. Dinkel H, Chica C, Via A, Gould CM, Jensen LJ, Gibson TJ and Diella F (2011), **"Phospho.ELM: a database of phosphorylation sites--update 2011."**, Nucleic Acids Res., Jan, 2011. Vol. 39(Database issue), pp. D261-D267. [<span style="line-height: 1.5;">[[DOI](http://dx.doi.org/10.1093/nar/gkq1104)<span style="line-height: 1.5;">] [<span style="line-height: 1.5;">[[URL](http://dx.doi.org/10.1093/nar/gkq1104)<span style="line-height: 1.5;">] 
+1. Dyson HJ and Wright PE (2005), **"Intrinsically unstructured proteins and their functions"**, Nat Rev Mol Cell Biol., Mar, 2005. Vol. 6, pp. 197-208. [[DOI]([http://dx.doi.org/10.1038/nrm1589)] [[URL]([http://dx.doi.org/10.1038/nrm1589)] 
 <!--- #. Van Roey K, Orchard S, Kerrien S, Dumousseau M, Ricard-Blum S, Hermjakob H and Gibson TJ (2013), **"Capturing cooperative interactions with the PSI-MI format"**, Database (Oxford). Vol. 2013, pp. bat066. [[DOI]([http://dx.doi.org/10.1093/database/bat066)] [[URL]([http://dx.doi.org/10.1093/database/bat066)]  -->
 
 * * * * *
