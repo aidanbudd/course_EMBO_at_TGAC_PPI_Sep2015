@@ -7,3 +7,4 @@ REST_services/impress.js/
 REST_services/index.pdf
 REST_services/slides.md
 _site
+.DS_Store
