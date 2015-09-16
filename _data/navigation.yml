@@ -1,0 +1,13 @@
+
+- title: "Home"
+  href: "/"
+
+- title: "Programme"
+  href: "/programme.html"
+
+- title: "Teaching Material"
+  subcategories:
+    - subtitle: "Budd"
+      subhref: "/trainingMaterial/aidanBudd/"
+    - subtitle: "Dinkel"
+      subhref: "/trainingMaterial/holgerDinkel/"
