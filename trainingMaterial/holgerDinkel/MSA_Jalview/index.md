@@ -1,3 +1,8 @@
+---
+title: MSA & Jalview
+layout: page
+---
+
 In these exercises, we will introduce and work with Jalview the JAVA Alignment Viewer. Jalview is powerful visualisation software that can allow alignments to be generated, manipulated, edited and annotated. It interfaces remotely with tools such as multiple sequence alignment programs and secondary structure predictors. We will visualise alignments of modular proteins with Jalview, discussing sequence features such as folded protein domains, short functional peptide motifs and natively disordered polypeptide. These structure-function modules will reappear regularly during the course.
 
 The JalView developers are now making training videos for YouTube. You can access these at the The JalView Youtube channel.

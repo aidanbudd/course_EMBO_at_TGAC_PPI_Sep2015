@@ -1,3 +1,8 @@
+---
+title: REST services
+layout: page
+---
+
 # REST
 
 ## Introduction
