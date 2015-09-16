@@ -17,7 +17,7 @@ Objective: Get familiar with the [Phospho.ELM](http://phospho.elm.eu.org) resour
     1.  How many annotated sites/residues do you find? Which sites have information from multiple references? <!--- 8 out of 11 -->
     2.  How many are annotated as *high throughput experiments*? <!--- 4 -->
     3.  What information is given on the surface accessibility of the annotated residues?
-    4.  (Optional) later during this course, when you've learned to use a 3D-viewer, use it to visualize the structure of ([1NW9](http://www.rcsb.org/pdb/explore/explore.do?structureId=1NW9) and try to highlight the individual phosphorylatable residues and investigate their surface accessibility.
+    4.  (Optional) later during this course, when you've learned to use a 3D-viewer, use it to visualize the structure of ([1NW9](http://www.rcsb.org/pdb/explore/explore.do?structureId=1NW9)) and try to highlight the individual phosphorylatable residues and investigate their surface accessibility.
 
 1.  Query Phospho.ELM for phosphorylation sites of protein '*Cyclin dependent kinase inhibitor 1B*' (use the accession P46527)
     1.  How many phosphorylation sites are annotated for this protein? <!--- 10 -->
@@ -25,16 +25,16 @@ Objective: Get familiar with the [Phospho.ELM](http://phospho.elm.eu.org) resour
     3.  Are there any (MINT) interactions annotated for this protein? <!--- 7 -->
     4.  (OPTIONAL) Which of these interactions at MINT describe the phosphorylation reaction? <!--- 1 Akt1 -->
 
-1.  Query Phospho.ELM for SRRM2_HUMAN to see a protein with a quite high number of phosphorylations. Can you count them?
-    1.  How many of these annotations stem from low throughput experiments?
+1.  Query Phospho.ELM for SRRM2_HUMAN to see a protein with a quite high number of phosphorylations. Can you estimate how many there are?
+    1.  Have a look at how many of these annotations stem from low throughput experiments? (eg. **not** having 'HTP' as Source)
 
 * * * * *
 
 ## Searching via gene name
 
-Recently, you've learned about the protein 'EPSIN1' and you are curious to know if there are any phosphorylation sites annotated for this protein.
+Recently, you've learned about the protein 'EPSIN' and you are curious to know if there are any phosphorylation sites annotated for this protein.
 
-1.  Go to [Phospho.ELM](http://phospho.elm.eu.org) and enter protein name 'epsin' in the first form field.
+1.  Go to [Phospho.ELM](http://phospho.elm.eu.org) and enter protein name 'epsin' in the *first* form field ('gene name').
     1.  You should see a table showing multiple hits in the database. Why? <!--- Multiple Epsins -->
     2.  Select 'Epsin 1'. Now you're at the results page. However, if you scroll down, you see results from multiple proteins. Why? <!--- Epsin-1 in Multiple Organisms -->
     3.  Which protein has the most annotation? <!--- Human -->
@@ -265,7 +265,7 @@ __prediction tool__.
 % 
 % CASP9_HUMAN -\> cleavage site?
 -->
-1.  (OPTIONAL) Caspase 9 is mainly globular protein. Focus on the carboxyterminal globular domain (CASc Caspase, interleukin-1 beta converting enzyme and try to assess which modification sites (MOD\_) are surface accessible (Hint: Mouse-over to find high accessibility scores with low p-values)
+1.  (OPTIONAL) Caspase 9 is mainly globular protein. Focus on the carboxyterminal globular domain (CASc Caspase, interleukin-1 beta converting enzyme) and try to assess which modification sites (MOD\_) are surface accessible (Hint: Mouse-over to find high accessibility scores with low p-values)
 
 
 * * * * *
