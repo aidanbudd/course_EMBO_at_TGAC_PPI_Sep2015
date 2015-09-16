@@ -11,6 +11,12 @@ layout: page
 
 -------
 
+<style>
+tr:nth-child(even) {
+    background-color: #DDDDDD;
+};
+</style>
+
 | Time        | Activity                                                                                                       | Responsible    | Location               |
 | :---------- | :------------------------------------------------------------------------------------------------------------- | :------------- | :--------------------- |
 |             |                                                                                                                |                     |                        |
@@ -46,7 +52,6 @@ layout: page
 | 18:00-18:45 | Dinner - Pizza                                                                                                 |                     | TGAC Atrium            |
 | 18:45-20:00 | DAS Game                                                                                                       | Vicky & Aidan       | Darwin - Training Room |
 | 20:00       | Coach departs TGAC to hotel                                                                                    |                     | Outside TGAC entrance  |
-|             |                                                                                                                |                     |                        |
 |             | **DAY 3 - Wednesday 30 September 2015**                                                                        |                     |                        | 
 |             |                                                                                                                |                     |                        |
 | 08:15       | Coach departs hotel to TGAC                                                                                    |                     | Hotel Car Park         |
@@ -73,7 +78,6 @@ layout: page
 | 18:00-19:00 | Dinner - Pizza |          | TGAc Atrium  |
 | 19:00-21:00 | [Bioinformatics unseminar: "Open data, open tools"] (http://hub-hub.de/wiki/index.php?title=NUB2) |         | Darwin - Training Room  |
 | 21:00 | Coach departs TGAC to hotel |         | Outside TGAC entrance |
-|             |                                                                                                                |                |                        |
 | | **DAY 5 - Friday 2 October 2015** | | |
 |             |                                                                                                                |                |                        |
 | 08:15       | Coach departs hotel to TGAC                                                                                    |                | Hotel Car Park              |
@@ -102,3 +106,5 @@ layout: page
 | 17:00-17:30 | Wrap up and Feedback  | Matt Drew | Darwin - Training Room |
 | 17:00 | Coach departs TGAC to hotel |         | Outside TGAC entrance |
 | 17:00 | Dinner - Last Wine Bar |         | Meet at hotel lobby         |
+
+
