@@ -1,3 +1,8 @@
+---
+title: Program
+layout: page
+---
+
 # [EMBO Practical Course - Computational analysis of protein-protein interactions: from sequences to networks](http://events.embo.org/15-protein-protein/)
 
 -------
@@ -62,9 +67,9 @@
 | 10:30-11:00 | Coffee Break                                                                                                   |                     | TGAC Atrium            |
 | 11:00-12:30 | Continued: Biology and prediction of instrinsically unstructured peptide regions | Zsuzsanna Dosztanyi  | Darwin - Training Room |
 | 12:30-14:30 | Lunch and Poster Session |            | TGAC Atrium          |
-| 14:30-16:00 | Linear motif biology and prediction, cooperativity in cellular signalling, automated access of online tools using REST interfaces | Holger Dinkel & Toby Gibson         | Darwin - Training Room |
+| 14:30-16:00 | [Linear motif biology and prediction, cooperativity in cellular signalling](trainingMaterial/holgerDinkel/linear_motifs/index.html) | Holger Dinkel & Toby Gibson         | Darwin - Training Room |
 | 16:00-16:30 | Coffee Break |           | TGAC Atrium          |
-| 16:30-18:00 | Continued: Linear motif biology and prediction, cooperativity in cellular signalling, automated access of online tools using REST interfaces  | Holger Dinkel & Toby Gibson | Darwin - Training Room |
+| 16:30-18:00 | [Continued: Linear motif biology and prediction, cooperativity in cellular signalling](trainingMaterial/holgerDinkel/linear_motifs/index.html)  | Holger Dinkel & Toby Gibson | Darwin - Training Room |
 | 18:00-19:00 | Dinner - Pizza |          | TGAc Atrium  |
 | 19:00-21:00 | [Bioinformatics unseminar: "Open data, open tools"] (http://hub-hub.de/wiki/index.php?title=NUB2) |         | Darwin - Training Room  |
 | 21:00 | Coach departs TGAC to hotel |         | Outside TGAC entrance |
@@ -73,9 +78,9 @@
 |             |                                                                                                                |                |                        |
 | 08:15       | Coach departs hotel to TGAC                                                                                    |                | Hotel Car Park              |
 | 08:30-09:00 | Morning Coffee      |                  | TGAC Atrium         |
-| 09:00-10:30 |  Continued: Linear motif biology and prediction, cooperativity in cellular signalling, automated access of online tools using REST interfaces | Holger Dinkel & Toby Gibson | Darwin - Training Room |
+| 09:00-10:30 | [Automated access of online tools using REST interfaces](trainingMaterial/holgerDinkel/REST_services/) | Holger Dinkel & Toby Gibson | Darwin - Training Room |
 | 10:30-11:00 | Coffee Break |             | TGAC Atrium         |
-| 11:00-12:30 | Continued: Linear motif biology and prediction, cooperativity in cellular signalling, automated access of online tools using REST interfaces | Holger Dinkel & Toby Gibson  | Darwin - Training Room |
+| 11:00-12:30 | [Multiple Sequence Alignments using JalView](trainingMaterial/holgerDinkel/MSA_Jalview/) | Holger Dinkel & Toby Gibson  | Darwin - Training Room |
 | 12:30-13:30 | Lunch |            | TGAC Atrium          |
 | 13:30-15:00 | STRING, networking and PPIs | Lars Juhl Jensen | Darwin - Training Room |
 | 15:00-15:30 | Coffee Break |           | TGAC Atrium          |
