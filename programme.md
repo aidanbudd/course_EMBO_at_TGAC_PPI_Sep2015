@@ -90,7 +90,7 @@ DAY 5 - Friday 2 October 2015
 | 08:30-09:00 | Morning Coffee      |                  | TGAC Atrium         |
 | 09:00-10:30 | [Automated access of online tools using REST interfaces](trainingMaterial/holgerDinkel/REST_services/) | Holger Dinkel & Toby Gibson | Darwin - Training Room |
 | 10:30-11:00 | Coffee Break |             | TGAC Atrium         |
-| 11:00-12:30 | [Multiple Sequence Alignments using JalView](trainingMaterial/holgerDinkel/MSA_Jalview/) | Holger Dinkel & Toby Gibson  | Darwin - Training Room |
+| 11:00-12:30 | [Multiple Sequence Alignments using JalView](trainingMaterial/tobyGibson/MSA_Jalview.html) | Holger Dinkel & Toby Gibson  | Darwin - Training Room |
 | 12:30-13:30 | Lunch |            | TGAC Atrium          |
 | 13:30-15:00 | [STRING, networking and PPIs](trainingMaterial/larsJuhlJensen/) | Lars Juhl Jensen | Darwin - Training Room |
 | 15:00-15:30 | Coffee Break |           | TGAC Atrium          |
