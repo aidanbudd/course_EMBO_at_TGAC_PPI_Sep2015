@@ -37,8 +37,8 @@ body {
   line-height: 1.4;
   color: #333;
   text-shadow: 0 1px 0 rgba(255,255,255,1.0);
-  border-top: 4px solid #556270;
-  border-bottom: 4px solid #556270;
+  /*border-top: 4px solid #556270;*/
+  /*border-bottom: 4px solid #556270;*/
 }
 body > * { padding: 0.1em calc(33% - 6.6em); }
 

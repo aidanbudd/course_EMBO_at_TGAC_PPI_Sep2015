@@ -77,7 +77,7 @@ DAY 4 - Thursday 1 October 2015
 | 14:30-16:00 | [Linear motif biology and prediction, cooperativity in cellular signalling](trainingMaterial/holgerDinkel/linear_motifs) | Holger Dinkel & Toby Gibson         | Darwin - Training Room |
 | 16:00-16:30 | Coffee Break |           | TGAC Atrium          |
 | 16:30-18:00 | [Continued: Linear motif biology and prediction, cooperativity in cellular signalling](trainingMaterial/holgerDinkel/linear_motifs)  | Holger Dinkel & Toby Gibson | Darwin - Training Room |
-| 18:00-19:00 | Dinner - Pizza |          | TGAc Atrium  |
+| 18:00-19:00 | Dinner - Pizza |          | TGAC Atrium  |
 | 19:00-21:00 | [Bioinformatics unseminar: "Open data, open tools"](http://hub-hub.de/wiki/index.php?title=NUB2) |         | Darwin - Training Room  |
 | 21:00 | Coach departs TGAC to hotel |         | Outside TGAC entrance |
 
