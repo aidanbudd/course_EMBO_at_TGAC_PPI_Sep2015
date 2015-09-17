@@ -163,9 +163,9 @@ nav.animenu a:link, a:visited {
     padding-top: 4px;
     padding-bottom: 4px;
     text-decoration: none;
-    color: #303030;
+    text-transform: capitalize;
 }
 
 nav.animenu li:nth-child(even) {
-    background-color: #CCEEFF;
+    background-color: #EEEEFF;
 };
