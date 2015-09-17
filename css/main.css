@@ -138,3 +138,34 @@ li > p code /* Code span in a loose list */
     /* We have room for some more background color above and below */
     padding: 2px;
     }
+
+nav.animenu {
+  position: fixed;
+  left: 0;
+  top: 10%;
+  width: 19%;
+}
+
+nav.animenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav.animenu a:link, a:visited {
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    border-left: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-decoration: none;
+    color: #303030;
+}
+
+nav.animenu li:nth-child(even) {
+    background-color: #CCEEFF;
+};
