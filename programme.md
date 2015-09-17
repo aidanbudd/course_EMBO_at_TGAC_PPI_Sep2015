@@ -45,7 +45,7 @@ DAY 2 - Tuesday 28 September 2015
 | 16:00-16:30 | Coffee Break                                                                                                   |                     | TGAC Atrium            |
 | 16:30-18:00 | [Continued: Structure of PPIs and interfaces of PPIs, predicting globular 3D structure](trainingMaterial/allegraVia)                          | Allegra Via         | Darwin - Training Room |
 | 18:00-18:45 | Dinner - Pizza                                                                                                 |                     | TGAC Atrium            |
-| 18:45-20:00 | DAS Game                                                                                                       | Vicky & Aidan       | Darwin - Training Room |
+| 18:45-20:00 | Trainee data practical session: working with your own data                                                     | Vicky & Aidan       | Darwin - Training Room |
 | 20:00       | Coach departs TGAC to hotel                                                                                    |                     | Outside TGAC entrance  |
 
 DAY 3 - Wednesday 30 September 2015
