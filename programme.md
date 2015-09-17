@@ -47,7 +47,7 @@
 | 16:00-16:30 | Coffee Break |           | TGAC Atrium          |
 | 16:30-18:00 | Continued: Web resources describing results of PPI experiments: design of such databases, minimal information to describe PPIs  |    | Darwin - Training Room |
 | 18:00-18:45 | Dinner - Pizza |          | TGAC Atrium          |
-| 18:45-20:00 | DAS Game  | Vicky Schneider & Aidan Budd | Darwin - Training Room |
+| 18:45-20:00 | Trainee data practical session: working with your own data |     | Darwin - Training Room |
 | 20:00       | Coach departs TGAC to hotel |        | Outside TGAC entrance |
 
 
