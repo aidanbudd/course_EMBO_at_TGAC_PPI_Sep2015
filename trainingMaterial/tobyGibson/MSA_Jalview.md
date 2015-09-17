@@ -14,10 +14,10 @@ The JalView developers are now making training videos for YouTube. You can acces
 -   Go to the Jalview [downloads page](http://www.jalview.org/download.html) and choose “Launch Jalview Desktop”
 -   Load a set of sequences by cut and paste into Jalview using:
 -   File-\>Input Alignment-\> from Text Box
--   Cut the sequences from [this page of Epsin Sequences](http://training.h3abionet.org/embo_workshop_2014/?page_id=261) in FASTA format
+-   Cut the sequences from [this page of Epsin Sequences](epsins.fasta) in FASTA format
 -   Remotely align sequences via the Web Service-\>Alignment-\> options (Choose a service and run with defaults)
 -   Different participants can do the alignment using different MSA tools so we can compare the results afterwards
--   Examine the alignment, identify possible regions of misalignment, and try correcting these by moving bits of sequence as described in the[Jalview documentation](http://www.jalview.org/examples/editing.html); remember to Select-\>Deselect All if you are unable to make the edits you want
+-   Examine the alignment, identify possible regions of misalignment, and try correcting these by moving bits of sequence as described in the [Jalview documentation](http://www.jalview.org/examples/editing.html); remember to Select-\>Deselect All if you are unable to make the edits you want
 -   Get a remote secondary structure prediction by the JNet surver using the Web Service link
 -   Look at the conservation of [DPW](http://elm.eu.org/elms/elmPages/LIG_AP2alpha_2.html), [NPF](http://elm.eu.org/elms/elmPages/LIG_EH_1.html), and [clathrin boxes](http://elm.eu.org/elms/elmPages/LIG_Clathr_ClatBox_1.html) using Select-\>Find…-\> providing the appropriate text pattern, and doing Find All
 -   Follow this up by creating and naming a New Feature from the pattern matches
@@ -39,7 +39,7 @@ The JalView developers are now making training videos for YouTube. You can acces
 
 ## Part 2. Using Jalview with p53s
 
-Try a similar exercise yourself using p53 sequences (perhaps using this linked set of [unaligned p53 sequences](http://training.h3abionet.org/embo_workshop_2014/?p=361%20V "P53 sequences")). Search in the sequences and make new features with different colours for the following motifs:
+Try a similar exercise yourself using p53 sequences (perhaps using this linked set of [unaligned p53 sequences](p53.fasta)). Search in the sequences and make new features with different colours for the following motifs:
 -   [Cyclin box](http://elm.eu.org/elms/elmPages/DOC_CYCLIN_1.html)
 -   [SUMO modification site](http://elm.eu.org/elmPages/MOD_SUMO.html)
 -   [MDM2-interaction motif](http://elm.eu.org/elmPages/LIG_MDM2.html)
@@ -53,18 +53,15 @@ Try a similar exercise yourself using p53 sequences (perhaps using this linked s
 
 ## Part 3. Using Jalview with TIR protein isolates from pathogenic E. coli
 
-TIR proteins are secreted by pathogenic E. coli. They attach to targeted mammalian cells and the N- and C- termini enter through the membrane, taking over the local cell regulation and, with other inserted proteins, induce the actin pedestal. The central portion of TIR remains extracellular and is bound by the bacterium. Many TIR isolates have been sequenced and are in Uniprot. Load by cut and paste this [already aligned set of TIR proteins](http://training.h3abionet.org/embo_workshop_2014/?p=381%20 "TIR protein alignment") into Jalview. Go to the ELM server that you have just been using and find the Cyclin and CDK motif entries and use the regular expressions to create new features in all sequences. Do all sequences have both motifs? Are they all alignable, or can they move around? Some are juxtaposed – can they both be functional at the same time? Note that as far as we know in creating this exercise, these motifs have not been studied, but there is some evidence that cell cycle is disrupted by pathogenic E. coli (e.g. [PMID: 11598051](http://www.ncbi.nlm.nih.gov/pubmed/19151095)). Pathogens might commonly secrete into the cells that they take over proteins that are natively disordered and contain linear motifs to control cell regulation.
+TIR proteins are secreted by pathogenic E. coli. They attach to targeted mammalian cells and the N- and C- termini enter through the membrane, taking over the local cell regulation and, with other inserted proteins, induce the actin pedestal. The central portion of TIR remains extracellular and is bound by the bacterium. Many TIR isolates have been sequenced and are in Uniprot. Load by cut and paste this [already aligned set of TIR proteins](tir.fasta) into Jalview. Go to the ELM server that you have just been using and find the Cyclin and CDK motif entries and use the regular expressions to create new features in all sequences. Do all sequences have both motifs? Are they all alignable, or can they move around? Some are juxtaposed – can they both be functional at the same time? Note that as far as we know in creating this exercise, these motifs have not been studied, but there is some evidence that cell cycle is disrupted by pathogenic E. coli (e.g. [PMID: 11598051](http://www.ncbi.nlm.nih.gov/pubmed/19151095)). Pathogens might commonly secrete into the cells that they take over proteins that are natively disordered and contain linear motifs to control cell regulation.
 
 ## Publications
 
-Jalview Version 2–a multiple sequence alignment editor and analysis workbench.
+- *Jalview Version 2–a multiple sequence alignment editor and analysis workbench.*
  Waterhouse AM, Procter JB, Martin DM, Clamp M, Barton GJ. Bioinformatics. 2009 May 1;25(9):1189-91.
  [PMID: 19151095](http://www.ncbi.nlm.nih.gov/pubmed/19151095)
 
-Fast, scalable generation of high-quality protein multiple sequence alignments using Clustal Omega.
+- *Fast, scalable generation of high-quality protein multiple sequence alignments using Clustal Omega.*
  Sievers F, Wilm A, Dineen D, Gibson TJ, Karplus K, Li W, Lopez R, McWilliam H, Remmert M, Söding J, Thompson JD, Higgins DG. Mol Syst Biol. 2011 Oct 11;7:539.
  [PMID: 21988835](http://www.ncbi.nlm.nih.gov/pubmed/21988835)
 
-Search for:
-
-[Proudly powered by WordPress](http://wordpress.org/ "Semantic Personal Publishing Platform")
