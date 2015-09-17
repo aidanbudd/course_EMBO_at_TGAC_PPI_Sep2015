@@ -70,9 +70,9 @@ DAY 4 - Thursday 1 October 2015
 | :---------- | :------------------------------------------------------------------------------------------------------------- | :------------- | :--------------------- |
 | 08:15       | Coach departs hotel to TGAC                                                                                    |                     | Hotel Car Park         |
 | 08:30-09:00 | Morning Coffee                                                                                                 |                     | TGAC Atrium            |
-| 09:00-10:30 | [Biology and prediction of instrinsically unstructured peptide regions](trainingMaterial/zsuzsannaDosztanyi/)                                          | Zsuzsanna Dosztanyi | Darwin - Training Room |
+| 09:00-10:30 | [Biology and prediction of intrinsically unstructured peptide regions](trainingMaterial/zsuzsannaDosztanyi/)                                          | Zsuzsanna Dosztanyi | Darwin - Training Room |
 | 10:30-11:00 | Coffee Break                                                                                                   |                     | TGAC Atrium            |
-| 11:00-12:30 | [Continued: Biology and prediction of instrinsically unstructured peptide regions](trainingMaterial/zsuzsannaDosztanyi) | Zsuzsanna Dosztanyi  | Darwin - Training Room |
+| 11:00-12:30 | [Continued: Biology and prediction of intrinsically unstructured peptide regions](trainingMaterial/zsuzsannaDosztanyi) | Zsuzsanna Dosztanyi  | Darwin - Training Room |
 | 12:30-14:30 | Lunch and Poster Session |            | TGAC Atrium          |
 | 14:30-16:00 | [Linear motif biology and prediction, cooperativity in cellular signalling](trainingMaterial/holgerDinkel/linear_motifs) | Holger Dinkel & Toby Gibson         | Darwin - Training Room |
 | 16:00-16:30 | Coffee Break |           | TGAC Atrium          |
