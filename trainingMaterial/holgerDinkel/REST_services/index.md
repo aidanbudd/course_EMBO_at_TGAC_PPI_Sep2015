@@ -107,13 +107,13 @@ In order to get yourself acquainted with the Uniprot syntax, please use the butt
 
 
 
-#. Search for all proteins with the name 'GRB2' which have the status 'reviewed'
-#. Next, copy this 'name:GRB2 AND reviewed:yes' from the search field into the url: 
+1. Search for all proteins with the name 'GRB2' which have the status 'reviewed'
+1. Next, copy this 'name:GRB2 AND reviewed:yes' from the search field into the url: 
 `http://www.uniprot.org/uniprot/?query=` so that your URL looks like this: 
 `http://www.uniprot.org/uniprot/?query=name:GRB2 AND reviewed:yes`
-#. Add the following to your query to turn the output format from HTML to TAB: `&format=tab`:
+1. Add the following to your query to turn the output format from HTML to TAB: `&format=tab`:
 `http://www.uniprot.org/uniprot/?query=name:GRB2 AND reviewed:yes&format=tab`
-#. Repeat this query with protein name 'ABL1'. How many resulting lines do you get?
+1. Repeat this query with protein name 'ABL1'. How many resulting lines do you get?
 
 **Different formats**
 
@@ -131,14 +131,16 @@ The output format can be one of:
 - rss
 
 
-#. Try the previous exercises (eg. searching for GRB2 or ABL1) with at least three different output formats.
+1. Try the previous exercises (eg. searching for GRB2 or ABL1) with at least three different output formats.
 
 
 **Limiting results**
 
 While testing your queries, it's a good idea to limit the number of results (in order not to stress the server or block your browser) `&limit=10`.
 
-Example: Retrieving the first ten human sequences as fasta:
+#### Example: 
+
+Retrieving the first ten human sequences as fasta:
 
 <http://www.uniprot.org/uniprot/?query=reviewed:yes+AND+organism:9606&limit=10&format=fasta>
 
@@ -148,40 +150,40 @@ You can 'walk' along a set of results by using limit and offset, eg to retrieve 
 
 
 
-#. Try to get all proteins which have 'ABL2' in their name in tab format.
-#. How many are there?
-#. Try to 'walk' along these results by using a limit of 3 and an appropriate offset until you've seen all results.
+1. Try to get all proteins which have 'ABL2' in their name in tab format.
+1. How many are there?
+1. Try to 'walk' along these results by using a limit of 3 and an appropriate offset until you've seen all results.
 
 
 **Selecting columns**
 
-#. Read the FAQ (table in section 'Retrieving entries via queries') and find out which columns can be selected as returnvalues.
-#. Using the tab format, retrieve all proteins named 'Proepiregulin' and select 'id', 'entry name', and 'genes' as output columns.
-#. Using the same format and protein name, try at least three different column types as return (first indivdually, then all three at once)
-#. Get all 'ABL1' proteins and use 'entry name' and 'interactor' as output.
-#. Which of these proteins have interactors annotated?
-#. Use the additional column 'taxon'
+1. Read the FAQ (table in section 'Retrieving entries via queries') and find out which columns can be selected as returnvalues.
+1. Using the tab format, retrieve all proteins named 'Proepiregulin' and select 'id', 'entry name', and 'genes' as output columns.
+1. Using the same format and protein name, try at least three different column types as return (first indivdually, then all three at once)
+1. Get all 'ABL1' proteins and use 'entry name' and 'interactor' as output.
+1. Which of these proteins have interactors annotated?
+1. Use the additional column 'taxon'
 
 **Length**
 
 Now, we want to restrict our search by sequence length:
 
-#. First, retrieve (as tabular format) proteins which have the gene name 'ABL1' and the 'reviewed' status.
-#. How many sequences are retrieved?
-#. Next, limit the results by setting the sequence length to between 1000 and 1200 using the following parameter format: `length:[1000 TO 1200]` (Note: the 'TO' needs to be uppercase)
-#. How many sequences are now retrieved?
+1. First, retrieve (as tabular format) proteins which have the gene name 'ABL1' and the 'reviewed' status.
+1. How many sequences are retrieved?
+1. Next, limit the results by setting the sequence length to between 1000 and 1200 using the following parameter format: `length:[1000 TO 1200]` (Note: the 'TO' needs to be uppercase)
+1. How many sequences are now retrieved?
 
 **Searching for annotations**
 
-#. Search for all proteins which have the domain 'CAP_GLY' annotated.
-#. Use 'id' and 'domain' as output column (tabbed format) to see the overall domain architecture of these proteins.
-#. List the first 10 human proteins which are annotated as transmembrane by adjusting the following query: `annotation: (type:transmem count:[5 TO \*])`
+1. Search for all proteins which have the domain 'CAP_GLY' annotated.
+1. Use 'id' and 'domain' as output column (tabbed format) to see the overall domain architecture of these proteins.
+1. List the first 10 human proteins which are annotated as transmembrane by adjusting the following query: `annotation: (type:transmem count:[5 TO \*])`
 
 
 **Database crosslinks**
 
-#. (Optional) Search for entries which have a link to the PDB entry '1NW9'.
-#. How many/which entries do you find?
+1. (Optional) Search for entries which have a link to the PDB entry '1NW9'.
+1. How many/which entries do you find?
 
 
 ## More public bioinformatics databases with REST interfaces
@@ -193,12 +195,12 @@ Now, we want to restrict our search by sequence length:
 
 The Research Collaboratory for Structural Bioinformatics (RCSB) is hosting the Protein Data Bank (PDB) archive, which is the single worldwide repository of information about the 3D structures of large biological molecules, including proteins and nucleic acids.
 
-Examples:
+#### Examples:
 
-#. Get status of Structure 1HHB:
+1. Get status of Structure 1HHB:
 <http://www.rcsb.org/pdb/rest/idStatus?structureId=1HHB>
 
-#. Try to receive the following PDB file (as text): 1NW9, 2H63
+1. Try to receive the following PDB file (as text): 1NW9, 2H63
 
 
 
@@ -211,10 +213,10 @@ Ensembl is a joint scientific project between the European Bioinformatics Instit
 
 The Ensembl REST web-service is a convenient way to access some of our popular datatypes such as the VEP, Sequence retrieval, assembly coordinate transformations, gene homologies and cross-references. The data can be requested with simple HTTP requests and returned in a variety of programatic and bioinformatical relevant formats such as JSON, XML, YAML and FASTA.
 
-Examples:
+#### Examples:
 
-#. Retrieving a single DNA sequence: <http://beta.rest.ensembl.org/sequence/id/ENSG00000157764>
-#. multiple sequences translated to protein: <http://beta.rest.ensembl.org/sequence/id/ENSG00000157764?multiple_sequences=1;type=protein>
+1. Retrieving a single DNA sequence: <http://beta.rest.ensembl.org/sequence/id/ENSG00000157764>
+1. multiple sequences translated to protein: <http://beta.rest.ensembl.org/sequence/id/ENSG00000157764?multiple_sequences=1;type=protein>
 
 
 curl 'http://beta.rest.ensembl.org/sequence/id/ENSG00000157764?multiple_sequences=1;type=protein' -H 'Content-type:text/x-fasta'
@@ -229,18 +231,18 @@ curl 'http://beta.rest.ensembl.org/sequence/id/ENSG00000157764?multiple_sequence
 STRING is a database of known and predicted protein interactions including direct (physical) and indirect (functional) associations, derived from different sources.
 The STRING resource has an application programming interface (API) which enables users to get data without using the graphical user interface of the web page.
 
-Examples:
+#### Examples:
 
-#. Retrieve all STRING interactions for id 'ABL1_HUMAN' as psi-mi-tab format
+1. Retrieve all STRING interactions for id 'ABL1_HUMAN' as psi-mi-tab format
 <http://string-db.org/api/psi-mi-tab/interactionsList?identifiers=ABL1_HUMAN>
 
-#. Download the network image of interactions of protein id P12931, limit the number of nodes to 20
+1. Download the network image of interactions of protein id P12931, limit the number of nodes to 20
 <http://string-db.org/api/image/network?identifier=P12931&required_score=950&limit=20&network_flavor=evidence>
 
-#. Get a list of items (resolve) using the query term 'ABL1' and species 9606. Why do you get so many results?
+1. Get a list of items (resolve) using the query term 'ABL1' and species 9606. Why do you get so many results?
 <http://string-db.org/api/tsv/resolve?identifier=ABL1&species=9606>
 
-#. Get a list of all STRING ids (format=only-ids) for the protein 'ABL1_HUMAN' (use 'tsv-no-header')
+1. Get a list of all STRING ids (format=only-ids) for the protein 'ABL1_HUMAN' (use 'tsv-no-header')
 <http://string-db.org/api/tsv-no-header/resolve?identifier=ABL1_HUMAN&format=only-ids>
 
 
@@ -256,12 +258,12 @@ Currently, Pfam provides only XML as output format, however a list of all famili
 
 <http://pfam.sanger.ac.uk/families?output=text>
 
-Examples:
+#### Examples:
 
-#. Getting information about a domain family:
+1. Getting information about a domain family:
 <http://pfam.sanger.ac.uk/family/CAP_GLY?output=xml>
 
-#. Retrieving information about domains within a given protein id:
+1. Retrieving information about domains within a given protein id:
 <http://pfam.sanger.ac.uk/protein/P00789?output=xml>
 
 
