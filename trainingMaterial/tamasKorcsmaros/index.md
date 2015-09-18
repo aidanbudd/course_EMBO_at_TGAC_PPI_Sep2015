@@ -1,5 +1,5 @@
 ---
-title: Integration of PPI sources and prediction methods
+title: Pulling it all together - summary and lessons learnt
 
 author: Tamas Korcsmaros
 ---

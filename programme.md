@@ -111,7 +111,7 @@ DAY 6 - Saturday 3 October 2015
 | 12:30-13:30 | Lunch |            | TGAC Atrium          |
 | 13:30-15:00 | [Continued: Exploring PPI networks using Cytoscape](trainingMaterial/nadezhdaDoncheva/) | Scooter Morris & Nadezhda Doncheva | Darwin - Training Room |
 | 15:00-15:30 | Coffee Break |           | TGAC Atrium          |
-| 15:30-17:00 | [Integration of PPI sources and prediction methods](trainingMaterial/tamasKorcsmaros/)  | Tamas Korcsmaros | Darwin - Training Room |
+| 15:30-17:00 | [Pulling it all together - summary and lessons learnt](trainingMaterial/tamasKorcsmaros/)  | Tamas Korcsmaros | Darwin - Training Room |
 | 17:00-17:30 | Wrap up and Feedback  | Matt Drew | Darwin - Training Room |
 | 17:00       | Coach departs TGAC to hotel |         | Outside TGAC entrance |
 | 17:00       | Dinner - Last Wine Bar |         | Meet at hotel lobby         |
