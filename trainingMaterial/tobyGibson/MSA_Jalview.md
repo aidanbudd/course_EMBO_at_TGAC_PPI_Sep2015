@@ -6,7 +6,7 @@ author: Toby Gibson
 
 In these exercises, we will introduce and work with Jalview the JAVA Alignment Viewer. Jalview is powerful visualisation software that can allow alignments to be generated, manipulated, edited and annotated. It interfaces remotely with tools such as multiple sequence alignment programs and secondary structure predictors. We will visualise alignments of modular proteins with Jalview, discussing sequence features such as folded protein domains, short functional peptide motifs and natively disordered polypeptide. These structure-function modules will reappear regularly during the course.
 
-The JalView developers are now making training videos for YouTube. You can access these at the [JalView Youtube channel](https://www.youtube.com/channel/UCIjpnvZB770yz7ftbrJ0tfw).
+The JalView developers have prepared training videos for YouTube. You can access these at the [JalView Youtube channel](https://www.youtube.com/channel/UCIjpnvZB770yz7ftbrJ0tfw).
 
 
 ## Part 1. Using Jalview with Epsins
@@ -19,7 +19,8 @@ The JalView developers are now making training videos for YouTube. You can acces
 -   Different participants can do the alignment using different MSA tools so we can compare the results afterwards
 -   Examine the alignment, identify possible regions of misalignment, and try correcting these by moving bits of sequence as described in the [Jalview documentation](http://www.jalview.org/examples/editing.html); remember to Select-\>Deselect All if you are unable to make the edits you want
 -   Get a remote secondary structure prediction by the JNet surver using the Web Service link
--   Look at the conservation of [DPW](http://elm.eu.org/elms/elmPages/LIG_AP2alpha_2.html), [NPF](http://elm.eu.org/elms/elmPages/LIG_EH_1.html), and [clathrin boxes](http://elm.eu.org/elms/elmPages/LIG_Clathr_ClatBox_1.html) using Select-\>Find…-\> providing the appropriate text pattern, and doing Find All
+-   Select the Epn1_Human sequence. Get a remote natively disordered structure prediction from one of the Protein Disorder Web Service links
+-   Look at the conservation of some short motifs from the ELM Server, [DPW](http://elm.eu.org/elms/elmPages/LIG_AP2alpha_2.html), [NPF](http://elm.eu.org/elms/elmPages/LIG_EH_1.html), and [clathrin boxes](http://elm.eu.org/elms/elmPages/LIG_Clathr_ClatBox_1.html) using JalView Select-\>Find…-\> and copying over the appropriate motif text pattern, and then clicking Find All
 -   Follow this up by creating and naming a New Feature from the pattern matches
 -   Save the annotated alignment data in a file in Jalview format – this allows you to examine in the future these and other features/annotations you may add to your alignment File-\>Save As-\>FileFormat Jalview (.jar)
 -   Sort the order of sequences in the alignment, clustering by pairwise identity Calculate-\>Sort-\>By Pairwise Identity
@@ -30,7 +31,8 @@ The JalView developers are now making training videos for YouTube. You can acces
 -   which residues are assigned similar colours?
 -   which residues are assigned different colours?
 -   in which situations are residues left uncoloured?
--   Try some other colouring schemes.
+-   are there residues that are always coloured? Why is that useful?
+-   try some other colouring schemes.
 2. Are matches to the linear motif regular expressions more likely to be conserved in regions known/predicted to be globular or in IUP regions? Does the JNet 2D structure predictor suggest large numbers of alpha helices and beta strands throughout the alignment?
 3. What are the characteristics of regions of the MSA that you expect to be well aligned? Consider:
 -   residue identity/property conservation
