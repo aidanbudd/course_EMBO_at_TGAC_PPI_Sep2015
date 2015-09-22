@@ -7,20 +7,20 @@ author: Scooter Morris
 Objective: Learn about visualizing and analysing protein structure with UCSF Chimera
 
 ## Introduction to UCSF Chimera
-Before Monday if possible, please install the appropriate version of UCSF Chimera on your laptop:
- - [Windows 64bit](./chimera-1.10.2-win64.exe)
- - [MacOS 64bit](./chimera-1.10.2-mac64.dmg)
- - [Linux 64bit](./chimera-1.10.2-linux_x86_64.bin)
- - [Windows 32bit](./chimera-1.10.2-win32.exe)
+
+Hopefully, you have installed Chimera on your laptop already.  If not, please get it installed during the Demo.
 
 ### Demo
+
 - [Exploration of the HIV Virus Architecture with UCSF Chimera](http://www.cgl.ucsf.edu/chimera/data/hiv-drug-nov2011/hiv-demo.html).
 
 ### Initial presentation
+
 - [Presentation slides (PDF)](./Molecular Visualization Tutorial.pdf).  This version strips the animations, so some content will be lost.
 - [Presentation slides (PPSX)](./Molecular Visualization Tutorial.ppsx).  This should preserve all of the content.
 
 ### Hands-on Tutorials
+
 1. [Getting Started](./ChimeraGettingStarted.pdf).  This should be done first by everyone.
 1. Depending on your interest, and how quickly you got through the first tutorial, you may also want to do one of the following (from the user's guide):
  1. [Structure Analysis and Comparison](./StructureAnalysis.pdf).  Binding site analysis and comparison of related structures by superposition and morphing.
@@ -31,6 +31,7 @@ Before Monday if possible, please install the appropriate version of UCSF Chimer
  1. [Mapping Sequence Conservation onto Structures with Chimera](./SequenceConservation.pdf).  You'll need the data in [SequenceConservation.zip](./SequenceConservation.zip) to do this one.
 
 ### Other useful links
+
 - [Chimera Quick Reference](./quickref.pdf)
 - [Chimera Home Page](http://www.cgl.ucsf.edu/chimera/).  Includes links to additional tutorials as well as animations, images, and video tutorials.
 - [Chimera Users](http://www.cgl.ucsf.edu/pipermail/chimera-users/)
