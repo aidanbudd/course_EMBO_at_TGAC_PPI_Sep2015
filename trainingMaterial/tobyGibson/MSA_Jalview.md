@@ -4,7 +4,7 @@ author: Toby Gibson
 ---
 
 
-In these exercises, we will introduce and work with Jalview the JAVA Alignment Viewer. Jalview is powerful visualisation software that can allow alignments to be generated, manipulated, edited and annotated. It interfaces remotely with tools such as multiple sequence alignment programs and secondary structure predictors. We will visualise alignments of modular proteins with Jalview, discussing sequence features such as folded protein domains, short functional peptide motifs and natively disordered polypeptide. These structure-function modules will reappear regularly during the course.
+In these exercises, we will introduce and work with Jalview, the JAVA Alignment Viewer. Jalview is powerful visualisation software that can allow alignments to be generated, manipulated, edited and annotated. It interfaces remotely with tools such as multiple sequence alignment programs and secondary structure predictors. We will visualise alignments of modular proteins with Jalview, discussing sequence features such as folded protein domains, short functional peptide motifs and natively disordered polypeptide. These structure-function modules will reappear regularly during the course.
 
 The JalView developers have prepared training videos for YouTube. You can access these at the [JalView Youtube channel](https://www.youtube.com/channel/UCIjpnvZB770yz7ftbrJ0tfw).
 
@@ -41,21 +41,26 @@ The JalView developers have prepared training videos for YouTube. You can access
 
 ## Part 2. Using Jalview with p53s
 
-Try a similar exercise yourself using p53 sequences (perhaps using this linked set of [unaligned p53 sequences](p53.fasta)). Search in the sequences and make new features with different colours for the following motifs:
+Try a similar exercise yourself using p53 sequences (perhaps using this linked set of [unaligned p53 sequences](p53.fasta)). Search in the sequences and make new features with different colours and names for the following motifs:
 -   [Cyclin box](http://elm.eu.org/elms/elmPages/DOC_CYCLIN_1.html)
 -   [SUMO modification site](http://elm.eu.org/elmPages/MOD_SUMO.html)
--   [MDM2-interaction motif](http://elm.eu.org/elmPages/LIG_MDM2.html)
+-   [SUMO reversed site](http://elm.eu.org/elms/MOD_SUMO_rev_2.html)
+-   [MDM2-interaction motif](http://elm.eu.org/elms/DEG_MDM2_SWIB_1)
+-   Also put in this long version of the CDK phosphosite [ST]P..[RK] which is not yet in ELM.
 
 ### Questions:
 
 5. Some of the sequences included in the MSA are shorter than others. Why might this be? Do all sequences begin with a Met residue? If you want a high quality alignment, will you keep these sequences or discard them?
-6. Do all p53 sequences have MDM2 interaction motifs? Have they all been found by the motif pattern? Is there a way to improve the pattern?
+6. Do all p53 sequences have MDM2 interaction motifs? Are they all the same length? How can an alpha helical sequence vary in length?
 7. Do all p53 sequences have cyclin box candidates? Are they all in the same place in the sequences?
-8. Do all P53 sequences have SUMO sites? Can they all be aligned? If not, is there an evolutionary process that can account for their change in position?
+8. Do all p53 sequences have CDK sites? CDK sites require cyclin boxes to function? Is there any correlation between the presence or absence of cyclin and CDK sites?
+9. Do all P53 sequences have SUMO sites? Can they all be aligned? If not, is there an evolutionary process that can account for their change in position?
+9. Do all P53 sequences have revertsed SUMO sites? Can they all be aligned? 
+-   If some SUMO sites cannot be aligned, is there an evolutionary process that can account for their change in position?
 
 ## Part 3. Using Jalview with TIR protein isolates from pathogenic E. coli
 
-TIR proteins are secreted by pathogenic E. coli. They attach to targeted mammalian cells and the N- and C- termini enter through the membrane, taking over the local cell regulation and, with other inserted proteins, induce the actin pedestal. The central portion of TIR remains extracellular and is bound by the bacterium. Many TIR isolates have been sequenced and are in Uniprot. Load by cut and paste this [already aligned set of TIR proteins](tir.fasta) into Jalview. Go to the ELM server that you have just been using and find the Cyclin and CDK motif entries and use the regular expressions to create new features in all sequences. Do all sequences have both motifs? Are they all alignable, or can they move around? Some are juxtaposed – can they both be functional at the same time? Note that as far as we know in creating this exercise, these motifs have not been studied, but there is some evidence that cell cycle is disrupted by pathogenic E. coli (e.g. [PMID: 11598051](http://www.ncbi.nlm.nih.gov/pubmed/19151095)). Pathogens might commonly secrete into the cells that they take over proteins that are natively disordered and contain linear motifs to control cell regulation.
+TIR proteins are secreted by pathogenic E. coli. They attach to targeted mammalian cells and both the N- and C- termini enter through the membrane, taking over the local cell regulation and, with other inserted proteins, induce the actin pedestal. The central portion of TIR remains extracellular and is bound by the bacterium. Many TIR isolates have been sequenced and are in Uniprot. Load by cut and paste this [already aligned set of TIR proteins](tir.fasta) into Jalview. Go to the ELM server that you have just been using and find the Cyclin and CDK motif entries and use the regular expressions to create new features in all sequences. Do all sequences have both motifs? Are they all alignable, or can they move around? Some are juxtaposed – can they both be functional at the same time? Note that as far as we know in creating this exercise, these motifs have not been studied, but there is some evidence that cell cycle is disrupted by pathogenic E. coli (e.g. [PMID: 11598051](http://www.ncbi.nlm.nih.gov/pubmed/11598051)). Proteins that are natively disordered, and contain linear motifs to control cell regulation, might commonly be secreted by pathogens into the cells that they take over.
 
 ## Publications
 
