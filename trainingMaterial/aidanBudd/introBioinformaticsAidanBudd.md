@@ -4,7 +4,7 @@ layout: page
 author: Aidan Budd
 ---
 
-<!-- missing: ## [Presentation](./presentations/introBioinformaticsBuddCTSept2014.pdf) -->
+## [Presentation](./presentations/introBioinformaticsAidanBudd.pdf)
 
 ## Uniprot
 
