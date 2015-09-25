@@ -18,6 +18,6 @@ author: Aidan Budd
 
 ## Aidan Budd, EMBL, Heidelberg
 
-### [Introduction to the course](./introToTheCourseAidanBudd.html), Monday 28th September 2015
+### [Introduction to the course](./whatWeGetFromACourse/introToTheCourseAidanBudd.html), Monday 28th September 2015
 
-### [Introduction to Bioinformatics](./introBioinformaticsAidanBudd.html), Monday 28th September 2015
+### [Introduction to Bioinformatics](./introToBioinformatics.html), Monday 28th September 2015
