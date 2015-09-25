@@ -20,4 +20,4 @@ author: Aidan Budd
 
 ### [Introduction to the course](./whatWeGetFromACourse/introToTheCourseAidanBudd.html), Monday 28th September 2015
 
-### [Introduction to Bioinformatics](./introToBioinformatics.html), Monday 28th September 2015
+### [Introduction to Bioinformatics](./introToBioinformatics/introToBioinformatics.html), Monday 28th September 2015
