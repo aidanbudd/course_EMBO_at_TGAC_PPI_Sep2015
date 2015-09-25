@@ -1,5 +1,6 @@
 ---
-title: 
+title: Intro to course, intro to bioinformatics
+layout: page
 author: Aidan Budd
 ---
 
