@@ -30,7 +30,7 @@ DAY 1 - Monday 28 September 2015
 | 19:00       | Coach departs TGAC to hotel                                                                                    |                     | Outside TGAC entrance  |
 | 19:30       | Dinner @ Toreros                                                                                               |                     | Meet at hotel lobby    |
 
-DAY 2 - Tuesday 28 September 2015
+DAY 2 - Tuesday 29 September 2015
 --------------------------------
 
 | Time        | Activity                                                                                                       | Responsible    | Location               |
