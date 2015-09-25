@@ -1,0 +1,56 @@
+CLUSTAL 2.0.12 multiple sequence alignment
+
+
+src_human_P12931_kinaseDom_270      --------------------------------------------------
+STK_HYDAT_P17713_fullLengthMGP      VTIFVALYDYEARISEDLSFKKGERLQIINTADGDWWYARSLITNSEGYI
+ABL2_HUMAN_P42684_kinaseDom_28      --------------------------------------------------
+SRMS_HUMAN_Q9H3Y6_kinaseDom_23      --------------------------------------------------
+                                                                                      
+
+src_human_P12931_kinaseDom_270      --------------------------------------------------
+STK_HYDAT_P17713_fullLengthMGP      PSTYVAPEKSYEAEEWYFGDVKRAEAEKRLMVRGLPSGTFLIRKAETAVG
+ABL2_HUMAN_P42684_kinaseDom_28      --------------------------------------------------
+SRMS_HUMAN_Q9H3Y6_kinaseDom_23      --------------------------------------------------
+                                                                                      
+
+src_human_P12931_kinaseDom_270      --------------------------------------------------
+STK_HYDAT_P17713_fullLengthMGP      NFSLSVRDGDSVKHYRVRKLDTGGYFITTRAPFNSLYELVQHYTKDADGL
+ABL2_HUMAN_P42684_kinaseDom_28      --------------------------------------------------
+SRMS_HUMAN_Q9H3Y6_kinaseDom_23      --------------------------------------------------
+                                                                                      
+
+src_human_P12931_kinaseDom_270      -----------------------------LRLEVKLGQGCFGEVWMGTWN
+STK_HYDAT_P17713_fullLengthMGP      VCALTLPCPKDKPVTGGIAKDAWEIPRESLRLNRKLGAGQFGEVWAGVWN
+ABL2_HUMAN_P42684_kinaseDom_28      -----------------------------ITMKHKLGGGQYGEVYVGVWK
+SRMS_HUMAN_Q9H3Y6_kinaseDom_23      -----------------------------FALGRKLGEGYFGEVWEGLWL
+                                                                 : :  *** * :***: * * 
+
+src_human_P12931_kinaseDom_270      G-TTRVAIKTLKPGTMSPEAFLQEAQVMKKLRHEKLVQLYAVVSE-EPIY
+STK_HYDAT_P17713_fullLengthMGP      N-TTQVAVKTLKPGTMSPASFLDEAGVMKKLRHKHLVQLYAICSDREPIY
+ABL2_HUMAN_P42684_kinaseDom_28      KYSLTVAVKTLKEDTMEVEEFLKEAAVMKEIKHPNLVQLLGVCTLEPPFY
+SRMS_HUMAN_Q9H3Y6_kinaseDom_23      G-SLPVAIKVIKSANMKLTDLAKEIQTLKGLRHERLIRLHAVCSGGEPVY
+                                      :  **:*.:*  .*.   : .*  .:* ::* .*::* .: :   *.*
+
+src_human_P12931_kinaseDom_270      IVTEYMSKGSLLDFLKGETGKYLRLPQLVDMAAQIASGMAYVERMNYVHR
+STK_HYDAT_P17713_fullLengthMGP      IVTEYMSGGSLLDYLSKGEGVNLQLPTLIDMAAQVASGMAFLEAQGYIHR
+ABL2_HUMAN_P42684_kinaseDom_28      IVTEYMPYGNLLDYLRECNREEVTAVVLLYMATQISSAMEYLEKKNFIHR
+SRMS_HUMAN_Q9H3Y6_kinaseDom_23      IVTELMRKGNLQAFLGTPEGRALRLPPLLGFACQVAEGMSYLEEQRVVHR
+                                    **** *  *.*  :*       :    *: :* *::..* ::*    :**
+
+src_human_P12931_kinaseDom_270      DLRAANILVGENLVCKVADFGLARLIEDNEYTARQGAKFPIKWTAPEAAL
+STK_HYDAT_P17713_fullLengthMGP      DLAARNILVGENYICKVADFGLARLIEDDEYTAHEGAKFPIKWTAPEAAL
+ABL2_HUMAN_P42684_kinaseDom_28      DLAARNCLVGENHVVKVADFGLSRLMTGDTYTAHAGAKFPIKWTAPESLA
+SRMS_HUMAN_Q9H3Y6_kinaseDom_23      DLAARNVLVDDGLACKVADFGLARLLKDDIYSPSSSSKIPVKWTAPEAAN
+                                    ** * * **.:.   *******:**: .: *:.  .:*:*:******:  
+
+src_human_P12931_kinaseDom_270      YGRFTIKSDVWSFGILLTELTTKGRVPYPGMVNREVLDQVERGYRMPCPP
+STK_HYDAT_P17713_fullLengthMGP      YNRFTIKSDVWSFGILMAEIVTKGRIPYPGMTNAQTIAEVEKGYRMPIMP
+ABL2_HUMAN_P42684_kinaseDom_28      YNTFSIKSDVWAFGVLLWEIATYGMSPYPGIDLSQVYDLLEKGYRMEQPE
+SRMS_HUMAN_Q9H3Y6_kinaseDom_23      YRVFSQKSDVWSFGVLLHEVFTYGQCPYEGMTNHETLQQIMRGYRLPRPA
+                                    *  *: *****:**:*: *: * *  ** *:   :.   : :***:    
+
+src_human_P12931_kinaseDom_270      ECPESLHDLMCQCWRKEPEERPTFEYLQAFLEDYF---------------
+STK_HYDAT_P17713_fullLengthMGP      GCPEPLYNIMLQTWNKDPENRPTFDYLQGVLEDYFVSTEQGYRDLGEANS
+ABL2_HUMAN_P42684_kinaseDom_28      GCPPKVYELMRACWKWSPADRPSFAETHQAF-------------------
+SRMS_HUMAN_Q9H3Y6_kinaseDom_23      ACPAEVYVLMLECWRSSPEERPSFATLREKLHAIHRCHP-----------
+                                     **  :: :*   *. .* :**:*   :  :                   

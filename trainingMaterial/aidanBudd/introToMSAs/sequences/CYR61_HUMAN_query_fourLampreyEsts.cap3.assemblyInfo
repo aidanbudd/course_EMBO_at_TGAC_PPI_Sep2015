@@ -1,0 +1,192 @@
+Number of segment pairs = 12; number of pairwise comparisons = 2
+'+' means given segment; '-' means reverse complement
+
+Overlaps            Containments  No. of Constraints Supporting Overlap
+
+******************* Contig 1 ********************
+gi|166890771|gb|FD722199.1|FD722199+
+                    gi|166889711|gb|FD725895.1|FD725895+ is in gi|166890771|gb|FD722199.1|FD722199+
+******************* Contig 2 ********************
+gi|166886138|gb|FD718728.1|FD718728+
+gi|166894739|gb|FD727930.1|FD727930+
+
+DETAILED DISPLAY OF CONTIGS
+******************* Contig 1 ********************
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166890771|gb|FD72+ CTGAGAGAGAGAGAGAAGGCGCTGCTCCAGATACTTAGAGAACGGGACCTCCAACTTACC
+gi|166889711|gb|FD72+    AGAGAGAGAGAGAAGGCGCTGCTCCAGATACTTAGAGAACGGGACCTCCAACTTACC
+                      ____________________________________________________________
+consensus             CTGAGAGAGAGAGAGAAGGCGCTGCTCCAGATACTTAGAGAACGGGACCTCCAACTTACC
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166890771|gb|FD72+ AGTTGTGTGTACTCTTCAGGGCTACGCCATAACTCGAGTTTAAAGACCAAGTCAAACGCT
+gi|166889711|gb|FD72+ AGTTGTGTGTACTCTTCAGGGCTACGCCATAACTCGAGTTTAAAGACCAAGTCAAACGCT
+                      ____________________________________________________________
+consensus             AGTTGTGTGTACTCTTCAGGGCTACGCCATAACTCGAGTTTAAAGACCAAGTCAAACGCT
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166890771|gb|FD72+ CATTTTTTTTTGGTTTAAGTGTCGTCTCTATTTTTTTTATATACATCATCATCCTTGCGC
+gi|166889711|gb|FD72+ CATTTTTTT--GGTTTAAGTGTCGTCTCTATTTTTTTTATATACATCATCATCCTTGCGC
+                      ____________________________________________________________
+consensus             CATTTTTTTTTGGTTTAAGTGTCGTCTCTATTTTTTTTATATACATCATCATCCTTGCGC
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166890771|gb|FD72+ TCCGTTTTCCTTTTATTGTCGAAGCAAAGTCCGTGGATTTTATGCTTTGGAGAGCTTCGC
+gi|166889711|gb|FD72+ TCCGTTTTCCTTTTATTGTCGAAGCAAAGTCCGTGGATTTTATGCTTTGGAGAGCTTCGC
+                      ____________________________________________________________
+consensus             TCCGTTTTCCTTTTATTGTCGAAGCAAAGTCCGTGGATTTTATGCTTTGGAGAGCTTCGC
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166890771|gb|FD72+ GCTAAGCGCCCGTTGTTTTAAGAGCAACGATCATTCGACACGGTCGACTCTAGGCGGTTA
+gi|166889711|gb|FD72+ GCTAAGCGCCCGTTGTTTTAAGAGCAACGATCATTCGACACGGTCGACTCTAGGCGGTTA
+                      ____________________________________________________________
+consensus             GCTAAGCGCCCGTTGTTTTAAGAGCAACGATCATTCGACACGGTCGACTCTAGGCGGTTA
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166890771|gb|FD72+ AACTTTTGATCTCGTCGGTCGCTAGTTGATACGAAGAGAAGAGATGGCTTCAGTGTTGGT
+gi|166889711|gb|FD72+ AACTTTTGATCTCGTCGGTCGCTAGTTGATACGAAGAGAAGAGATGGCTTCAGTGTTGGT
+                      ____________________________________________________________
+consensus             AACTTTTGATCTCGTCGGTCGCTAGTTGATACGAAGAGAAGAGATGGCTTCAGTGTTGGT
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166890771|gb|FD72+ GATTAGCGCTCTGCTCGCCGTCTGTGTGAACTTGGCGTCCAGCAGCTGCCCCGCGCAGTG
+gi|166889711|gb|FD72+ GATTAGCGCTCTGCTCGCCGTCTGTGTGAACTTGGCGTCCAGCAGCTGCCCCGCGCAGTG
+                      ____________________________________________________________
+consensus             GATTAGCGCTCTGCTCGCCGTCTGTGTGAACTTGGCGTCCAGCAGCTGCCCCGCGCAGTG
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166890771|gb|FD72+ CCCGCAATGCCCCGCGAGTCTACCGCAGTGCGCCCTTGGCGTGAGTCTGGTGAACGACGG
+gi|166889711|gb|FD72+ CCCGCAGTGCCCCGCGAGTCTACCGCAGTGCGCCCTTGGCGTGAGTCTGGTGAACGACGG
+                      ____________________________________________________________
+consensus             CCCGCAATGCCCCGCGAGTCTACCGCAGTGCGCCCTTGGCGTGAGTCTGGTGAACGACGG
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166890771|gb|FD72+ CTGCGGCTGCTGCAAGGTCTGCGCACGGCAGTTCAACCAGGACTGCAGCCGCTCGGAGCC
+gi|166889711|gb|FD72+ CTGCGGCTGCTGCAAGGTCTGCGCACGGCAGTTCAACCAGGACTGCAGCCGCTCGGAGCC
+                      ____________________________________________________________
+consensus             CTGCGGCTGCTGCAAGGTCTGCGCACGGCAGTTCAACCAGGACTGCAGCCGCTCGGAGCC
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166890771|gb|FD72+ CTGCGACCCGCTCAAGGGGCTCGAGTGCGACTCGGGAGCGGACGCGGCTGCCGAGAGAGG
+gi|166889711|gb|FD72+ CTGCGACCCGCTCAAGGGGCTCGAGTGCGACTCGGGAGCGGACGCGGCTGCCGAGAGAGG
+                      ____________________________________________________________
+consensus             CTGCGACCCGCTCAAGGGGCTCGAGTGCGACTCGGGAGCGGACGCGGCTGCCGAGAGAGG
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166890771|gb|FD72+ AATTTGCCGAGCCAAGTCGGAAGGGAGAACTTGCGACTACAACGGCAAGATCTACCAGCA
+gi|166889711|gb|FD72+ AATTTGCCGAGCCAAGTCGGAAGGGAGAACTTGCGACTACAACGGCAAAATCTACCAGCA
+                      ____________________________________________________________
+consensus             AATTTGCCGAGCCAAGTCGGAAGGGAGAACTTGCGACTACAACGGCAAAATCTACCAGCA
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166890771|gb|FD72+ CGGCGAGAGCTTCCAGCCCAACTGCAAGCACGCGTGCACGTGCGTGGACGGCGTGGTGGG
+gi|166889711|gb|FD72+ CGGCGAGAGCTTCCAGCCCAACTGCAAGCACGCGTGCACGTGCGTGGACGGCGTGGTGGG
+                      ____________________________________________________________
+consensus             CGGCGAGAGCTTCCAGCCCAACTGCAAGCACGCGTGCACGTGCGTGGACGGCGTGGTGGG
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166890771|gb|FD72+ CTGCATGCCCCTGTGCCCGCAAGAGCTCGCCTTCCCCGCCGCTCGCCTCGCCGGCTGCGC
+gi|166889711|gb|FD72+ CTGCATGCCCCTGTGCCCGCAAGAGCTCGCCTTCCCCGCCGC                  
+                      ____________________________________________________________
+consensus             CTGCATGCCCCTGTGCCCGCAAGAGCTCGCCTTCCCCGCCGCTCGCCTCGCCGGCTGCGC
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166890771|gb|FD72+ CAACCCGCGTCTCGTCAAGGTGCCCGGCCGCTGCTGCGAGGAGTGGACCTGCGACGACGC
+                      ____________________________________________________________
+consensus             CAACCCGCGTCTCGTCAAGGTGCCCGGCCGCTGCTGCGAGGAGTGGACCTGCGACGACGC
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166890771|gb|FD72+ CGTGGCCGCTGACTCGTC
+                      ____________________________________________________________
+consensus             CGTGGCCGCTGACTCGTC
+
+******************* Contig 2 ********************
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166886138|gb|FD71+ CCCAGTCGAAGAAGCAAGAAAGAAGTGGTTGAGATTTCTAAGCTCTCTCTATATATACCT
+gi|166894739|gb|FD72+    AGTCGAAGAAGCAAGAAAGAAGTGGTTGAGATTTCTAAGCTCTCTCTATATATACCT
+                      ____________________________________________________________
+consensus             CCCAGTCGAAGAAGCAAGAAAGAAGTGGTTGAGATTTCTAAGCTCTCTCTATATATACCT
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166886138|gb|FD71+ ACATCAGCAAAGTTTTTGCTGAGTGTATGAAAAGACAGCAACCTTAGCCTTCGTTTGTGC
+gi|166894739|gb|FD72+ ACATCAGCAAAGTTTTTGCTGAGTGTATGAAAAGACAGCAACCTTAGCCTTCGTTTGTGC
+                      ____________________________________________________________
+consensus             ACATCAGCAAAGTTTTTGCTGAGTGTATGAAAAGACAGCAACCTTAGCCTTCGTTTGTGC
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166886138|gb|FD71+ TCGAGATCGTCATGGCAAGAATCCTCGTCCTCTGCGTGGTCCTTATTGCCAGCCTCTATC
+gi|166894739|gb|FD72+ TCGAGATCGTCATGGCAAGAATCCTCGTCCTCTGCGTGGTCCTTATTGCCAGCCTCTATC
+                      ____________________________________________________________
+consensus             TCGAGATCGTCATGGCAAGAATCCTCGTCCTCTGCGTGGTCCTTATTGCCAGCCTCTATC
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166886138|gb|FD71+ AGGCTGCGTGCCAGCAGTGCTCCAATGTCTGCCGCTGCCCGAAGGGGCCGCCCGTGTGTC
+gi|166894739|gb|FD72+ AGGCTGCGTGCCAGCAGTGCTCCAATGTCTGCCGCTGCCCGAAGGGGCCGCCCGTGTGTC
+                      ____________________________________________________________
+consensus             AGGCTGCGTGCCAGCAGTGCTCCAATGTCTGCCGCTGCCCGAAGGGGCCGCCCGTGTGTC
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166886138|gb|FD71+ CCGTGGGCGTGAGCCTGGTGGCCGACGGCTGCGGCTGCTGCAAGGTCTGCGCCAAGCAGC
+gi|166894739|gb|FD72+ CCGTGGGCGTGAGCCTGGTGGCCGACGGCTGCGGCTGCTGCAAGGTCTGCGCCAAGCAGC
+                      ____________________________________________________________
+consensus             CCGTGGGCGTGAGCCTGGTGGCCGACGGCTGCGGCTGCTGCAAGGTCTGCGCCAAGCAGC
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166886138|gb|FD71+ TGGGAGACGTCTGCACGGAGGCGGACTCGTGCGACCCGCACCGCGGCCTCTACTGCGCCT
+gi|166894739|gb|FD72+ TGGGAGACGTCTGCACGGAGGCGGACTCGTGCGACCCGCACCGCGGCCTCTACTGCGCCT
+                      ____________________________________________________________
+consensus             TGGGAGACGTCTGCACGGAGGCGGACTCGTGCGACCCGCACCGCGGCCTCTACTGCGCCT
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166886138|gb|FD71+ TCAGCACCGACCTGCAGATCAGGATCGGCGTCTGCTCTGCTCGCGACGGAGTGCCGTGCG
+gi|166894739|gb|FD72+ TCAGCACCGACCTGCAGATCAGGATCGGCGTCTGCTCTGCTCGCGACGGAGTGCCGTGCG
+                      ____________________________________________________________
+consensus             TCAGCACCGACCTGCAGATCAGGATCGGCGTCTGCTCTGCTCGCGACGGAGTGCCGTGCG
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166886138|gb|FD71+ AGCTGGGAGGCACCATGTACCTCAACGGCGAGAGCTTCGAGCCCAGCTGCAAGTACCGCT
+gi|166894739|gb|FD72+ AGCTGGGAGGCACCATGTACCTCAACGGCGAGAGCTTCGAGCCCAGCTGCAAGTACCGCT
+                      ____________________________________________________________
+consensus             AGCTGGGAGGCACCATGTACCTCAACGGCGAGAGCTTCGAGCCCAGCTGCAAGTACCGCT
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166886138|gb|FD71+ GCACGTGTGTGGACGGAGCCATCGGCTGCGTGCCGCTGTGCGCGCAGGACGTGCGGCTGC
+gi|166894739|gb|FD72+ GCACGTGTGTGGACGGAGCCATCGGCTGCGTGCCGCTGTGCGCGCAGGACGTGCGGCTGC
+                      ____________________________________________________________
+consensus             GCACGTGTGTGGACGGAGCCATCGGCTGCGTGCCGCTGTGCGCGCAGGACGTGCGGCTGC
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166886138|gb|FD71+ CCAGCGCCGACTGCCCGCACCCGCGGCACGTCAAGCTACCCGGCAAGTGCTGCGAGGAGT
+gi|166894739|gb|FD72+ CCAGCGCCGACTGCCCGCACCCGCGGCACGTCAAGCTACCCGGCAAGTGCTGCGAGGAGT
+                      ____________________________________________________________
+consensus             CCAGCGCCGACTGCCCGCACCCGCGGCACGTCAAGCTACCCGGCAAGTGCTGCGAGGAGT
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166886138|gb|FD71+ GNGTGTGCGACGGACGCAAGGAGCCCAACTCCACGCCACTCGGGGGATTCGCCCTACCCG
+gi|166894739|gb|FD72+ GGGTGTGCGACGGACGCAAGGAGCCCAACTCCACGCCACTCGGGGGATTCGCCCTACCCG
+                      ____________________________________________________________
+consensus             GGGTGTGCGACGGACGCAAGGAGCCCAACTCCACGCCACTCGGGGGATTCGCCCTACCCG
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166886138|gb|FD71+ CGTACCGCCAAGAGGAGACCTACGGGCCCGACCCGGAATCGGTGCGTGACAACTGCATCG
+gi|166894739|gb|FD72+ CGTACCGCCAAGAGGAGACCTACGGGCCCGACCCGGAATCGGTGCGTGACAACTGCATCG
+                      ____________________________________________________________
+consensus             CGTACCGCCAAGAGGAGACCTACGGGCCCGACCCGGAATCGGTGCGTGACAACTGCATCG
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166886138|gb|FD71+ TGCAGACCACCGAGTGGAGCGCCTGCTCGCACACGTGCGGCCTCGGGGTGTCGTCGCGGG
+gi|166894739|gb|FD72+ TGCAGACCACCGAGTGGAGCGCCTGCTCGCACACGTGCGGCCTCGGGGTGTCGTCGCGGG
+                      ____________________________________________________________
+consensus             TGCAGACCACCGAGTGGAGCGCCTGCTCGCACACGTGCGGCCTCGGGGTGTCGTCGCGGG
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166886138|gb|FD71+ TCACCAACGACAACCGCCAGTGCCGCCTCGAGCGACAGAC                    
+gi|166894739|gb|FD72+ TCACCAACGAACACCGCCAGTGCCGCCTCGAGCGACAGACTCGCCTGTGCACGGTGCGAC
+                      ____________________________________________________________
+consensus             TCACCAACGAAAACCGCCAGTGCCGCCTCGAGCGACAGACTCGCCTGTGCACGGTGCGAC
+
+                          .    :    .    :    .    :    .    :    .    :    .    :
+gi|166894739|gb|FD72+ CCTGCGACGTGCCGCTACAGGATGTCA
+                      ____________________________________________________________
+consensus             CCTGCGACGTGCCGCTACAGGATGTCA
+

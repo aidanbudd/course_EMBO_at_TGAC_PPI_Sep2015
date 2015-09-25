@@ -1,0 +1,13 @@
+#NEXUS
+BEGIN DATA;
+dimensions ntax=4 nchar=5;
+format missing=?
+interleave=yes datatype=PROTEIN gap= -;
+
+matrix
+aa          HRTTY
+ab          HRTTY
+ac          HRTTY
+ad          HRTTY
+;
+end;
