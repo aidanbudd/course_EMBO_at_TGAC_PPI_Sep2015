@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" type="text/css" media="screen, projection, print"
+    href="http://www.w3.org/Talks/Tools/Slidy2/styles/slidy.css" />
+  <script src="http://www.w3.org/Talks/Tools/Slidy2/scripts/slidy.js"
+    charset="utf-8" type="text/javascript"></script>
+</head>
+<body>
+<div id="version-control" class="slide section level1">
+<h1>Version Control</h1>
+<div class="figure">
+<img src="phd052810s.png" alt="" />
+
+</div>
+</div>
+<div id="the-benefits-of-version-control" class="slide section level1">
+<h1>The Benefits of Version Control</h1>
+<p>Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. The benefits are at hand:</p>
+<ul>
+<li><dl>
+<dt>Track incremental backups and recover:</dt>
+<dd><p>Every document can be backed up automatically and restored at a second's notice.</p>
+</dd>
+</dl></li>
+<li><dl>
+<dt>Track every change:</dt>
+<dd><p>Every infinitesimal change can be recorded and can be used to revert a file to an earlier state.</p>
+</dd>
+</dl></li>
+<li><dl>
+<dt>Track writing experiments:</dt>
+<dd><p>Writing experiments can be sandboxed to copies while keeping the main file intact.</p>
+</dd>
+</dl></li>
+<li><dl>
+<dt>Track co-authoring and collaboration:</dt>
+<dd><p>Teams can work independently on their own files, but merge them into a latest common revision.</p>
+</dd>
+</dl></li>
+<li><dl>
+<dt>Track individual contributions:</dt>
+<dd><p>Good VCS systems tag changes with authors who make them.</p>
+</dd>
+</dl></li>
+</ul>
+</div>
+<div id="single-repository" class="slide section level1">
+<h1>Single Repository</h1>
+<div class="figure">
+<img src="repo_single.png" alt="Files are added from the working directory, which always holds the current version of your files, to the staging area. Staged files will be stored into the repository in the next commit. The repository itself contains all previous versions of all files ever committed." />
+<p class="caption">Files are added from the working directory, which always holds the current version of your files, to the staging area. Staged files will be stored into the repository in the next commit. The repository itself contains all previous versions of all files ever committed.</p>
+</div>
+</div>
+<div id="distributed-repository" class="slide section level1">
+<h1>Distributed Repository</h1>
+<div class="figure">
+<img src="repo_distributed.png" alt="Distributed Workflow using a centralized repository. Here, three local copies of one central repository allow you, Jon and Matt to work on the same files and sync files between each other using the central server." />
+<p class="caption">Distributed Workflow using a centralized repository. Here, three local copies of one central repository allow you, Jon and Matt to work on the same files and sync files between each other using the central server.</p>
+</div>
+</div>
+<div id="git-at-a-glance" class="slide section level1">
+<h1>git at a Glance</h1>
+<p>The git tool has many subcommands that can be invoked like git &lt;subcommand&gt; for instance git status to get the status of a repository.</p>
+<p>The most important ones (and hence the ones we'll be focusing on) are:</p>
+<dl>
+<dt>init:</dt>
+<dd><p>initialize a repository</p>
+</dd>
+<dt>clone:</dt>
+<dd><p>clone a repository</p>
+</dd>
+<dt>status:</dt>
+<dd><p>get information about a repository</p>
+</dd>
+<dt>log:</dt>
+<dd><p>view the history and commit messages of the repository</p>
+</dd>
+<dt>add:</dt>
+<dd><p>add a file to the staging area</p>
+</dd>
+<dt>commit:</dt>
+<dd><p>commit your changes to your <strong>local</strong> repository</p>
+</dd>
+<dt>push:</dt>
+<dd><p>push changes to a <strong>remote</strong> repository</p>
+</dd>
+<dt>pull:</dt>
+<dd><p>pull changes from a <strong>remote</strong> repository</p>
+</dd>
+<dt>checkout:</dt>
+<dd><p>retrieve a specific version of a file</p>
+</dd>
+</dl>
+<p>you can read more about each command by invoking the help: :</p>
+<pre><code>$ git commit --help
+$ git help commit</code></pre>
+</div>
+<div id="git-settings" class="slide section level1">
+<h1>git Settings</h1>
+<h2 id="setting-your-identity">setting your identity</h2>
+<p>Before we start, we should set the user name and e-mail address. This is important because every git commit uses this information and it's also incredibly useful when looking at the history and commit log: :</p>
+<pre><code>$ git config --global user.name &quot;John Doe&quot;
+$ git config --global user.email johndoe@embl.de</code></pre>
+<p>Other useful settings include your favorite editor as well as difftool: :</p>
+<pre><code>$ git config --global core.editor vim
+$ git config --global merge.tool meld</code></pre>
+<h3 id="checking-your-settings">Checking Your Settings</h3>
+<p>You can use the git config --list command to list all your settings: :</p>
+<pre><code>$ git config --list
+user.name=&quot;John Doe&quot;
+user.email=johndoe@embl.de
+core.editor=vim
+merge.tool=meld
+color.status=auto
+color.branch=auto
+color.interactive=auto
+color.diff=auto
+...</code></pre>
+</div>
+<div id="a-typical-git-workflow" class="slide section level1">
+<h1>A Typical git Workflow</h1>
+</div>
+<div id="creating-a-git-repository" class="slide section level1">
+<h1>Creating a git Repository</h1>
+<p>Turning an existing directory into a git repository is as simple as changing into that directory and invoking &lt;init&gt; git init. Here we first create an empty directory called new_repository and create a repository in there: :</p>
+<pre><code>$ mkdir new_repository
+$ cd new_repository
+$ git init</code></pre>
+<blockquote>
+<p><strong>note</strong></p>
+<p>As a result, there should be a directory called .git in this directory...</p>
+</blockquote>
+</div>
+<div id="cloning-a-git-repository" class="slide section level1">
+<h1>Cloning a git Repository</h1>
+<p>Instead of creating a new directory, we can clone a repository. That origin repository can reside in a different folder on our computer, on a remote machine, or on a dedicated git server:</p>
+<p>Local directory:</p>
+<pre><code>$ git clone ../other_directory</code></pre>
+<p>Remote directory:</p>
+<pre><code>$ git clone ssh://user@server/project.git</code></pre>
+<p>Remote git server:</p>
+<pre><code>$ git clone git@server:user/project
+$ git clone git@git.embl.de:dinkel/linuxcommandline</code></pre>
+</div>
+<div id="checking-the-status" class="slide section level1">
+<h1>Checking the Status</h1>
+<p>If you don't know in which state the current repository is in, it's always a good idea to check: :</p>
+<pre><code>$ git status
+
+# On branch master
+#
+# Initial commit
+#
+nothing to commit (create/copy files and use &quot;git add&quot; to track)</code></pre>
+</div>
+<div id="adding-files" class="slide section level1">
+<h1>Adding files</h1>
+<p>First, we'll create a new file: :</p>
+<pre><code>$ echo &quot;First entry in first file!&quot; &gt; file1.txt
+
+$ git status
+
+# On branch master
+#
+# Initial commit
+#
+# Untracked files:
+#   (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)
+#
+#       file1.txt
+nothing added to commit but untracked files present (use &quot;git add&quot; to track)</code></pre>
+<p>Now we'll add this file to the so called `staging area`: :</p>
+<pre><code>$ git add file1.txt
+
+$ git status
+
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use &quot;git rm --cached &lt;file&gt;...&quot; to unstage)
+#
+#       new file:   file1.txt
+#</code></pre>
+<p>This tells us that the file1.txt has been added and can be committed to the repository.</p>
+</div>
+<div id="committing-changes" class="slide section level1">
+<h1>Committing changes</h1>
+<p>It might be a bit confusing at first to find out that git add does <strong>not</strong> add a file to the repository. You need to commit the file/changes to do that: :</p>
+<pre><code>$ git commit -m &quot;message describing the changes you made&quot;</code></pre>
+<blockquote>
+<p><strong>note</strong></p>
+<p>You <strong>MUST</strong> provide a commit message! git will ignore your attempt to commit if the message is empty.</p>
+</blockquote>
+<blockquote>
+<p>If you do not provide the -m parameter, git will open an editor in which you should write your commit message (can be multiple lines of text). Once you save/quit your editor, git will continue to commit...</p>
+</blockquote>
+<p>After succesfully committing, we can check the status again: :</p>
+<pre><code>$ git status
+
+# On branch master
+nothing to commit, working directory clean</code></pre>
+</div>
+<div id="viewing-the-history" class="slide section level1">
+<h1>Viewing the History</h1>
+<p>You can use git log to view the history of a repository. All previous commits including details such as Name &amp; Email-address of the committer, Date &amp; Time of the commit as well as the actual commit message are shown: :</p>
+<pre><code>$ git log
+
+commit  &lt;some hash value identifying this commit&gt;
+Author: &lt;your name and email address&gt;
+Date:   &lt;the actual date of the commit&gt;
+
+message describing the changes you made</code></pre>
+</div>
+<div id="pushing-changes" class="slide section level1">
+<h1>Pushing changes</h1>
+<p>If we had cloned this repository from a remote location, we probably want our changes to be propagated to that repository as well. To push all committed changes, simply type: :</p>
+<pre><code>$ git push</code></pre>
+<blockquote>
+<p><strong>note</strong></p>
+<p>git &quot;knows&quot; from which location you had cloned this repository and will try to</p>
+</blockquote>
+<blockquote>
+<p>push to exactly that location (using the protocol you used to clone: ssh, git, etc)...</p>
+</blockquote>
+<blockquote>
+<p><strong>warning</strong></p>
+<p>If you get a warning message, you probably 'just' need to pull others changes before you are allowed to push your own...</p>
+</blockquote>
+</div>
+<div id="pulling-changes" class="slide section level1">
+<h1>Pulling changes</h1>
+<p>To update your local repository with changes from others, you need to pull these changes. In a centralized workflow you actually <strong>must</strong> pull changes that other people have contributed, before you can submit your own. :</p>
+<pre><code>$ git pull</code></pre>
+<blockquote>
+<p><strong>warning</strong></p>
+<p>Ideally, changes from others don't conflict with yours, but whenever someone else has edited the same lines in the same files as you,</p>
+</blockquote>
+<blockquote>
+<p>you will receive an error message about a <strong>merge conflict</strong>. You will need to resolve this conflict manually, then add each resolved file (git add) and commit.</p>
+</blockquote>
+<p>Undo local changes <strong><strong><strong><em>*</em></strong></strong></strong></p>
+<p>One of the great features of using version control is that you can revert (undo) changes easily. If you want to undo all changes in a local file, you simply checkout the latest version of this file: :</p>
+<pre><code>$ git checkout -- &lt;filename&gt;</code></pre>
+<blockquote>
+<p><strong>warning</strong></p>
+<p>You will loose all changes you made since the last commit!</p>
+</blockquote>
+</div>
+<div id="using-centralized-workflow" class="slide section level1">
+<h1>Using centralized workflow</h1>
+<p>When you want to use one central repository, to which everybody can push/pull, you should initialize this repo like so:</p>
+<pre><code>$  git init --bare</code></pre>
+<p>Basically what this does is create a repository which all the files from the .git directory in the working directory. This also means that you should never add/edit/delete files in this directory. Rather clone this directory in another folder/computer, edit files there and commit/push...</p>
+<div class="figure">
+<img src="repo_distributed.png" alt="" />
+
+</div>
+</div>
+</body>
+</html>
