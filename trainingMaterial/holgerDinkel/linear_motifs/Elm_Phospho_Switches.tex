@@ -1,9 +1,9 @@
 \documentclass[a4paper,10pt,xcolor=pdftex,dvipsnames,table]{beamer}
 \mode<presentation> {
 		\usetheme{Madrid}
-		\usecolortheme[]{seagull}
+		\usecolortheme[]{beaver}
+%		\usecolortheme[]{seahorse}
 %		\usecolortheme[]{dolphin}
-%  \usecolortheme{crane}
 		\usefonttheme{professionalfonts}
 %		\usefonttheme[onlysmall]{structurebold}				% use smallcaps in bold structures (not everywhere)
 %		\usefonttheme[frametitle]{structuresmallcapsserif}
@@ -13,7 +13,7 @@
         \useoutertheme{progressbar}
         \setbeamertemplate{blocks}[rounded][shadow=false]
         \useinnertheme{rounded}    % circles, inmargin, rectangles, rounded
-%                \newcommand{\includeoptional}{false}
+%        \newcommand{\includeoptional}{false}
         \newcommand{\includeoptional}{true}
 		\setbeamertemplate{headline}{}
         \setbeamertemplate{navigation symbols}{}
@@ -305,9 +305,9 @@
     \note{Current status of ELM. This is how ELM looks like for the user?}%
     \note{my Job: Improving the user interface and implementing new methods}%
         \visible<1->{\vspace{-2mm}
-            \optional{\includegraphics[width=.8\textwidth]{images/elm/elm_title.jpg}}\\\vspace{-8mm}%
-        \hogsboxtop{The \includegraphics[width=1cm]{elm_logo_transparent.png}~resource}{is a collection of nearly 200 thoroughly annotated motif
-        classes with over 2400 annotated instances. \\
+            \optional{\includegraphics[width=.8\textwidth]{images/elm/elm_title_trans.png}}\\\vspace{-8mm}%
+        \hogsboxtop{The \includegraphics[width=1cm]{elm_logo_transparent.png}~resource}{is a collection of nearly 240 thoroughly annotated motif
+        classes with over 2700 annotated instances. \\
         It is also a prediction tool to detect these motifs in protein sequences employing different filters to distinguish between \structure{functional}
         and \structure{non-functional} motif instances.}%
     }\medskip
@@ -378,11 +378,21 @@
         \optional{\includegraphics[width=.9\textwidth]{images/elm/ELM_diseases_page.png}}%
     \end{center}%
 \end{frame}
-\subsection{ELM database:Viruses}
+
+% \subsection{ELM database:Viruses}
+% \begin{frame}[t]\frametitle{\insertsubsection{}}%
+%     \elmlogo
+%     \begin{center}\vskip-1.1em%
+%         \optional{\includegraphics[width=.9\textwidth]{images/elm/ELM_virus_page.png}}%
+%     \end{center}%
+% \end{frame}
+
+
+\subsection{ELM database:Pathways}
 \begin{frame}[t]\frametitle{\insertsubsection{}}%
     \elmlogo
     \begin{center}\vskip-1.1em%
-        \optional{\includegraphics[width=.9\textwidth]{images/elm/ELM_virus_page.png}}%
+        \optional{\includegraphics[width=.9\textwidth]{images/elm/kegg_wnt_pathway.png}}%
     \end{center}%
 \end{frame}
 
