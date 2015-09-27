@@ -50,3 +50,16 @@ Open a terminal, and move to the git repo directory (on the Desktop) - probably:
 Pull any changes
 
     $ git pull
+
+
+## Viewing the course content locally
+
+We use Jekyll to generate the course pages.
+
+Open a terminal, and change to the directory ~/Desktop/course_EMBO_at_TGAC_PPI_Sep2015/:
+
+    cd ~/Desktop/course_EMBO_at_TGAC_PPI_Sep2015/
+    jekyll serve --port 8080
+
+Now you can open the course content in your browser at:
+[http://127.0.0.1:8080/course_EMBO_at_TGAC_PPI_Sep2015/](http://127.0.0.1:8080/course_EMBO_at_TGAC_PPI_Sep2015/)
