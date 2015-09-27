@@ -8,6 +8,8 @@
   href: "trainingMaterial/aidanBudd/introBioinformaticsAidanBudd.html"
 - title: "Chimera protein structure"
   href: "trainingMaterial/scooterMorris"
+- title: "Introduction to Markdown, Pandoc & Git"
+  href: "trainingMaterial/holgerDinkel/git/"
 - title: "Protein families and domains"
   href: "trainingMaterial/marcoPunta"
 - title: "Structure & interfaces of PPIs"
