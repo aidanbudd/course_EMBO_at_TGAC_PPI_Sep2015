@@ -124,7 +124,9 @@ pre /* Code blocks */
 
 @media print
     {
-        display: none !important;
+        .site-nav {
+        display: none;
+        }
     }
 
 code /* All inline code spans */
