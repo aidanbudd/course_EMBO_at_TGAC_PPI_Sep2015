@@ -1,0 +1,134 @@
+
+// Provide a default path to dwr.engine
+if (dwr == null) var dwr = {};
+if (dwr.engine == null) dwr.engine = {};
+if (DWREngine == null) var DWREngine = dwr.engine;
+
+if (AjaxServices == null) var AjaxServices = {};
+AjaxServices._path = '/srs/dwr';
+AjaxServices.getDescription = function(p0, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getDescription', p0, callback);
+}
+AjaxServices.getGroup = function(p0, p1, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getGroup', p0, p1, callback);
+}
+AjaxServices.getUserEmail = function(callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getUserEmail', callback);
+}
+AjaxServices.getQueryName = function(p0, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getQueryName', p0, callback);
+}
+AjaxServices.getSynonyms = function(p0, p1, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getSynonyms', p0, p1, callback);
+}
+AjaxServices.getLinkPath = function(p0, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getLinkPath', p0, callback);
+}
+AjaxServices.getQueryDescription = function(p0, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getQueryDescription', p0, callback);
+}
+AjaxServices.getDatabankDescription = function(p0, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getDatabankDescription', p0, callback);
+}
+AjaxServices.checkEntry = function(p0, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'checkEntry', p0, callback);
+}
+AjaxServices.setQueryOptions = function(p0, p1, p2, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'setQueryOptions', p0, p1, p2, callback);
+}
+AjaxServices.getAnnotationQueries = function(p0, p1, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getAnnotationQueries', p0, p1, callback);
+}
+AjaxServices.getAvoidSessionTimeout = function(callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getAvoidSessionTimeout', callback);
+}
+AjaxServices.getEntryInfo = function(p0, p1, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getEntryInfo', p0, p1, callback);
+}
+AjaxServices.getFinders = function(callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getFinders', callback);
+}
+AjaxServices.getOntologyInfo = function(callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getOntologyInfo', callback);
+}
+AjaxServices.getLinksForDatabanks = function(p0, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getLinksForDatabanks', p0, callback);
+}
+AjaxServices.getSectionGroupsConfiguration = function(p0, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getSectionGroupsConfiguration', p0, callback);
+}
+AjaxServices.getDefaultSectionGroupsConfiguration = function(p0, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getDefaultSectionGroupsConfiguration', p0, callback);
+}
+AjaxServices.getBatchJobsStatus = function(callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getBatchJobsStatus', callback);
+}
+AjaxServices.setAsFavorite = function(p0, p1, p2, p3, p4, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'setAsFavorite', p0, p1, p2, p3, p4, callback);
+}
+AjaxServices.storeInSession = function(p0, p1, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'storeInSession', p0, p1, callback);
+}
+AjaxServices.getEntryChecksums = function(p0, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getEntryChecksums', p0, callback);
+}
+AjaxServices.checkAnnotatedEntries = function(p0, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'checkAnnotatedEntries', p0, callback);
+}
+AjaxServices.validateAnnotation = function(p0, p1, p2, p3, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'validateAnnotation', p0, p1, p2, p3, callback);
+}
+AjaxServices.loadInputFromQuery = function(p0, p1, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'loadInputFromQuery', p0, p1, callback);
+}
+AjaxServices.getToolOptionDescription = function(p0, p1, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getToolOptionDescription', p0, p1, callback);
+}
+AjaxServices.getParentLibraryName = function(p0, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getParentLibraryName', p0, callback);
+}
+AjaxServices.registerNewQueryAlert = function(p0, p1, p2, p3, p4, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'registerNewQueryAlert', p0, p1, p2, p3, p4, callback);
+}
+AjaxServices.reRegisterQueryAlert = function(p0, p1, p2, p3, p4, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'reRegisterQueryAlert', p0, p1, p2, p3, p4, callback);
+}
+AjaxServices.userEmailValidated = function(callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'userEmailValidated', callback);
+}
+AjaxServices.sendValidationEmail = function(callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'sendValidationEmail', callback);
+}
+AjaxServices.getQueryAlertStatus = function(p0, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getQueryAlertStatus', p0, callback);
+}
+AjaxServices.getQueryAlertState = function(p0, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getQueryAlertState', p0, callback);
+}
+AjaxServices.getMonitoredQueryState = function(p0, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getMonitoredQueryState', p0, callback);
+}
+AjaxServices.getAlertErrorDiagnostic = function(p0, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getAlertErrorDiagnostic', p0, callback);
+}
+AjaxServices.removeAlert = function(p0, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'removeAlert', p0, callback);
+}
+AjaxServices.changeMonitoringEngineStatus = function(p0, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'changeMonitoringEngineStatus', p0, callback);
+}
+AjaxServices.changeIndexMonitorStatus = function(p0, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'changeIndexMonitorStatus', p0, callback);
+}
+AjaxServices.getAnnotationUserStatus = function(p0, p1, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getAnnotationUserStatus', p0, p1, callback);
+}
+AjaxServices.termIsBasicType = function(p0, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'termIsBasicType', p0, callback);
+}
+AjaxServices.getQualsInfo = function(p0, p1, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getQualsInfo', p0, p1, callback);
+}
+AjaxServices.getAutoQueryDescription = function(p0, callback) {
+  dwr.engine._execute(AjaxServices._path, 'AjaxServices', 'getAutoQueryDescription', p0, callback);
+}

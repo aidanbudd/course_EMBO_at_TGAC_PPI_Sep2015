@@ -1,0 +1,359 @@
+<interpro id="IPR000566" type="Domain" short_name="Lipocln_cytFABP" protein_count="904">
+    <name>Lipocalin-related protein and Bos/Can/Equ allergen</name>
+    <abstract>
+Proteins which transport small hydrophobic molecules such as steroids, bilins, retinoids, and lipids share limited
+regions of sequence homology and a common tertiary structure architecture <cite idref="PUB00001491" />, <cite idref="PUB00004787" />, <cite idref="PUB00004981" />,
+<cite idref="PUB00005013" />, <cite idref="PUB00005340" />. This is an eight stranded antiparallel beta-barrel with a repeated + 1 topology enclosing
+a internal ligand binding site <cite idref="PUB00005013" />, <cite idref="PUB00004981" />. The name 'lipocalin' has been proposed <cite idref="PUB00001491" /> for
+this protein family, but cytosolic fatty-acid binding proteins are also included. The sequences of most members of the family, the core or kernal lipocalins, are characterised by
+three short conserved stretches of residues, while others, the outlier lipocalin group, share only one or two of these
+<cite idref="PUB00000205" />, <cite idref="PUB00005013" />. Proteins known to belong to this family include alpha-1-microglobulin (protein HC);
+alpha-1-acid glycoprotein (orosomucoid) <cite idref="PUB00004508" />; aphrodisin; apolipoprotein D; beta-lactoglobulin; complement
+component C8 gamma chain <cite idref="PUB00003778" />; crustacyanin <cite idref="PUB00001391" />; epididymal-retinoic acid binding protein
+(E-RABP) <cite idref="PUB00005238" />; insectacyanin; odorant-binding protein (OBP); human pregnancy-associated endometrial alpha-2
+globulin; probasin (PB), a rat prostatic protein; prostaglandin D synthase (<db_xref db="EC" dbkey="5.3.99.2" />) <cite idref="PUB00005379" />; purpurin; Von
+Ebner's gland protein (VEGP) <cite idref="PUB00001451" />; and lizard epididymal secretory protein IV (LESP IV) <cite idref="PUB00002777" />.
+
+
+&lt;p&gt;Some of the proteins in this family are allergens. Allergies are hypersensitivity reactions of the immune system to specific substances called allergens (such as pollen, stings, drugs, or food) that, in most people, result in no symptoms. A nomenclature system  has  been  established for antigens (allergens) that cause IgE-mediated atopic allergies in humans [WHO/IUIS Allergen Nomenclature Subcommittee
+ King T.P., Hoffmann D., Loewenstein H., Marsh D.G., Platts-Mills T.A.E.,
+ Thomas W. Bull. World Health Organ. 72:797-806(1994)]. This  nomenclature system is defined  by a designation  that is composed of
+the first  three letters  of  the  genus;  a space; the first letter of the
+species name; a  space and an arabic number. In  the event that two species
+names have identical designations, they are  discriminated from one another
+by adding one  or  more letters (as necessary) to each species designation.&lt;/p&gt;
+&lt;p&gt; The allergens in this family include allergens with the following designations: Bla g 4, Bos d 2, Bos d 5, Can f 1, Can f 2, Equ c 1 and Equ c 2.&lt;/p&gt;
+</abstract>
+    <class_list>
+      <classification id="GO:0005488" class_type="GO">
+	<category>Molecular Function</category>
+	<description>binding</description>
+      </classification>
+    </class_list>
+    <example_list />
+    <pub_list>
+      <publication id="PUB00000205">
+	<author_list>Flower DR, North AC, Attwood TK.</author_list>
+	<title>Mouse oncogene protein 24p3 is a member of the lipocalin protein family.</title>
+	<db_xref db="PUBMED" dbkey="1834059" />
+	<journal>Biochem. Biophys. Res. Commun.</journal>
+	<location pages="69-74" volume="180" issue="1" />
+	<year>1991</year>
+      </publication>
+      <publication id="PUB00001391">
+	<author_list>Keen JN, Caceres I, Eliopoulos EE, Zagalsky PF, Findlay JB.</author_list>
+	<title>Complete sequence and model for the A2 subunit of the carotenoid pigment complex, crustacyanin.</title>
+	<db_xref db="PUBMED" dbkey="2026162" />
+	<journal>Eur. J. Biochem.</journal>
+	<location pages="407-17" volume="197" issue="2" />
+	<year>1991</year>
+      </publication>
+      <publication id="PUB00001451">
+	<author_list>Kock K, Ahlers C, Schmale H.</author_list>
+	<title>Structural organization of the genes for rat von Ebner's gland proteins 1 and 2 reveals their close relationship to lipocalins.</title>
+	<db_xref db="PUBMED" dbkey="7514123" />
+	<journal>Eur. J. Biochem.</journal>
+	<location pages="905-16" volume="221" issue="3" />
+	<year>1994</year>
+      </publication>
+      <publication id="PUB00001491">
+	<author_list>Pervaiz S, Brew K.</author_list>
+	<title>Homology and structure-function correlations between alpha 1-acid glycoprotein and serum retinol-binding protein and its relatives.</title>
+	<db_xref db="PUBMED" dbkey="3622999" />
+	<journal>FASEB J.</journal>
+	<location pages="209-14" volume="1" issue="3" />
+	<year>1987</year>
+      </publication>
+      <publication id="PUB00002777">
+	<author_list>Morel L, Dufaure JP, Depeiges A.</author_list>
+	<title>LESP, an androgen-regulated lizard epididymal secretory protein family identified as a new member of the lipocalin superfamily.</title>
+	<db_xref db="PUBMED" dbkey="8486691" />
+	<journal>J. Biol. Chem.</journal>
+	<location pages="10274-81" volume="268" issue="14" />
+	<year>1993</year>
+      </publication>
+      <publication id="PUB00003778">
+	<author_list>Haefliger JA, Peitsch MC, Jenne DE, Tschopp J.</author_list>
+	<title>Structural and functional characterization of complement C8 gamma, a member of the lipocalin protein family.</title>
+	<db_xref db="PUBMED" dbkey="1707134" />
+	<journal>Mol. Immunol.</journal>
+	<location pages="123-31" volume="28" issue="1-2" />
+	<year>1991</year>
+      </publication>
+      <publication id="PUB00004508">
+	<author_list>Kremer JM, Wilting J, Janssen LH.</author_list>
+	<title>Drug binding to human alpha-1-acid glycoprotein in health and disease.</title>
+	<db_xref db="PUBMED" dbkey="3064105" />
+	<journal>Pharmacol. Rev.</journal>
+	<location pages="1-47" volume="40" issue="1" />
+	<year>1988</year>
+      </publication>
+      <publication id="PUB00004787">
+	<author_list>Igarashi M, Nagata A, Toh H, Urade Y, Hayaishi O.</author_list>
+	<title>Structural organization of the gene for prostaglandin D synthase in the rat brain.</title>
+	<db_xref db="PUBMED" dbkey="1608945" />
+	<journal>Proc. Natl. Acad. Sci. U.S.A.</journal>
+	<location pages="5376-80" volume="89" issue="12" />
+	<year>1992</year>
+      </publication>
+      <publication id="PUB00004981">
+	<author_list>Cowan SW, Newcomer ME, Jones TA.</author_list>
+	<title>Crystallographic refinement of human serum retinol binding protein at 2A resolution.</title>
+	<db_xref db="PUBMED" dbkey="2217163" />
+	<journal>Proteins</journal>
+	<location pages="44-61" volume="8" issue="1" />
+	<year>1990</year>
+      </publication>
+      <publication id="PUB00005013">
+	<author_list>Flower DR, North AC, Attwood TK.</author_list>
+	<title>Structure and sequence relationships in the lipocalins and related proteins.</title>
+	<db_xref db="PUBMED" dbkey="7684291" />
+	<journal>Protein Sci.</journal>
+	<location pages="753-61" volume="2" issue="5" />
+	<year>1993</year>
+      </publication>
+      <publication id="PUB00005238">
+	<author_list>Newcomer ME.</author_list>
+	<title>Structure of the epididymal retinoic acid binding protein at 2.1 A resolution.</title>
+	<db_xref db="PUBMED" dbkey="8069623" />
+	<journal>Structure</journal>
+	<location pages="7-18" volume="1" issue="1" />
+	<year>1993</year>
+      </publication>
+      <publication id="PUB00005340">
+	<author_list>Godovac-Zimmermann J.</author_list>
+	<title>The structural motif of beta-lactoglobulin and retinol-binding protein: a basic framework for binding and transport of small hydrophobic molecules?</title>
+	<db_xref db="PUBMED" dbkey="3238752" />
+	<journal>Trends Biochem. Sci.</journal>
+	<location pages="64-6" volume="13" issue="2" />
+	<year>1988</year>
+      </publication>
+      <publication id="PUB00005379">
+	<author_list>Peitsch MC, Boguski MS.</author_list>
+	<title>The first lipocalin with enzymatic activity.</title>
+	<db_xref db="PUBMED" dbkey="1723819" />
+	<journal>Trends Biochem. Sci.</journal>
+	<location pages="363" volume="16" issue="10" />
+	<year>1991</year>
+      </publication>
+    </pub_list>
+    <parent_list>
+      <rel_ref ipr_ref="IPR012674" />
+    </parent_list>
+    <child_list>
+      <rel_ref ipr_ref="IPR000463" />
+      <rel_ref ipr_ref="IPR002345" />
+      <rel_ref ipr_ref="IPR002450" />
+    </child_list>
+    <found_in>
+      <rel_ref ipr_ref="IPR001500" />
+    </found_in>
+    <member_list>
+      <db_xref protein_count="904" db="PFAM" dbkey="PF00061" name="Lipocalin" />
+    </member_list>
+    <external_doc_list>
+      <db_xref db="PANDIT" dbkey="PF00061" />
+    </external_doc_list>
+    <structure_db_links>
+      <db_xref db="PDB" dbkey="1a18" />
+      <db_xref db="PDB" dbkey="1a2d" />
+      <db_xref db="PDB" dbkey="1a3y" />
+      <db_xref db="PDB" dbkey="1a57" />
+      <db_xref db="PDB" dbkey="1ab0" />
+      <db_xref db="PDB" dbkey="1acd" />
+      <db_xref db="PDB" dbkey="1ael" />
+      <db_xref db="PDB" dbkey="1alb" />
+      <db_xref db="PDB" dbkey="1aqb" />
+      <db_xref db="PDB" dbkey="1b0o" />
+      <db_xref db="PDB" dbkey="1b4m" />
+      <db_xref db="PDB" dbkey="1b56" />
+      <db_xref db="PDB" dbkey="1b8e" />
+      <db_xref db="PDB" dbkey="1bbp" />
+      <db_xref db="PDB" dbkey="1beb" />
+      <db_xref db="PDB" dbkey="1bj7" />
+      <db_xref db="PDB" dbkey="1blr" />
+      <db_xref db="PDB" dbkey="1bm5" />
+      <db_xref db="PDB" dbkey="1brp" />
+      <db_xref db="PDB" dbkey="1brq" />
+      <db_xref db="PDB" dbkey="1bso" />
+      <db_xref db="PDB" dbkey="1bsq" />
+      <db_xref db="PDB" dbkey="1bsy" />
+      <db_xref db="PDB" dbkey="1bwy" />
+      <db_xref db="PDB" dbkey="1cbi" />
+      <db_xref db="PDB" dbkey="1cbq" />
+      <db_xref db="PDB" dbkey="1cbr" />
+      <db_xref db="PDB" dbkey="1cbs" />
+      <db_xref db="PDB" dbkey="1cj5" />
+      <db_xref db="PDB" dbkey="1crb" />
+      <db_xref db="PDB" dbkey="1dc9" />
+      <db_xref db="PDB" dbkey="1df3" />
+      <db_xref db="PDB" dbkey="1dfv" />
+      <db_xref db="PDB" dbkey="1dv9" />
+      <db_xref db="PDB" dbkey="1dzj" />
+      <db_xref db="PDB" dbkey="1dzk" />
+      <db_xref db="PDB" dbkey="1dzm" />
+      <db_xref db="PDB" dbkey="1dzp" />
+      <db_xref db="PDB" dbkey="1e00" />
+      <db_xref db="PDB" dbkey="1e02" />
+      <db_xref db="PDB" dbkey="1e06" />
+      <db_xref db="PDB" dbkey="1e5p" />
+      <db_xref db="PDB" dbkey="1eal" />
+      <db_xref db="PDB" dbkey="1eii" />
+      <db_xref db="PDB" dbkey="1eio" />
+      <db_xref db="PDB" dbkey="1epa" />
+      <db_xref db="PDB" dbkey="1epb" />
+      <db_xref db="PDB" dbkey="1erb" />
+      <db_xref db="PDB" dbkey="1ew3" />
+      <db_xref db="PDB" dbkey="1exs" />
+      <db_xref db="PDB" dbkey="1fdq" />
+      <db_xref db="PDB" dbkey="1fe3" />
+      <db_xref db="PDB" dbkey="1fel" />
+      <db_xref db="PDB" dbkey="1fem" />
+      <db_xref db="PDB" dbkey="1fen" />
+      <db_xref db="PDB" dbkey="1ftp" />
+      <db_xref db="PDB" dbkey="1g5w" />
+      <db_xref db="PDB" dbkey="1g74" />
+      <db_xref db="PDB" dbkey="1g7n" />
+      <db_xref db="PDB" dbkey="1g85" />
+      <db_xref db="PDB" dbkey="1ggl" />
+      <db_xref db="PDB" dbkey="1gka" />
+      <db_xref db="PDB" dbkey="1gm6" />
+      <db_xref db="PDB" dbkey="1gt1" />
+      <db_xref db="PDB" dbkey="1gt3" />
+      <db_xref db="PDB" dbkey="1gt4" />
+      <db_xref db="PDB" dbkey="1gt5" />
+      <db_xref db="PDB" dbkey="1gx8" />
+      <db_xref db="PDB" dbkey="1gx9" />
+      <db_xref db="PDB" dbkey="1gxa" />
+      <db_xref db="PDB" dbkey="1h91" />
+      <db_xref db="PDB" dbkey="1hbp" />
+      <db_xref db="PDB" dbkey="1hbq" />
+      <db_xref db="PDB" dbkey="1hmr" />
+      <db_xref db="PDB" dbkey="1hn2" />
+      <db_xref db="PDB" dbkey="1hqp" />
+      <db_xref db="PDB" dbkey="1i04" />
+      <db_xref db="PDB" dbkey="1i05" />
+      <db_xref db="PDB" dbkey="1i06" />
+      <db_xref db="PDB" dbkey="1i4u" />
+      <db_xref db="PDB" dbkey="1icm" />
+      <db_xref db="PDB" dbkey="1icn" />
+      <db_xref db="PDB" dbkey="1ifb" />
+      <db_xref db="PDB" dbkey="1ifc" />
+      <db_xref db="PDB" dbkey="1iiu" />
+      <db_xref db="PDB" dbkey="1iw2" />
+      <db_xref db="PDB" dbkey="1jbh" />
+      <db_xref db="PDB" dbkey="1jjj" />
+      <db_xref db="PDB" dbkey="1jjx" />
+      <db_xref db="PDB" dbkey="1jv4" />
+      <db_xref db="PDB" dbkey="1jyd" />
+      <db_xref db="PDB" dbkey="1jyj" />
+      <db_xref db="PDB" dbkey="1jzu" />
+      <db_xref db="PDB" dbkey="1kgl" />
+      <db_xref db="PDB" dbkey="1kqw" />
+      <db_xref db="PDB" dbkey="1kqx" />
+      <db_xref db="PDB" dbkey="1kt3" />
+      <db_xref db="PDB" dbkey="1kt4" />
+      <db_xref db="PDB" dbkey="1kt5" />
+      <db_xref db="PDB" dbkey="1kt6" />
+      <db_xref db="PDB" dbkey="1kt7" />
+      <db_xref db="PDB" dbkey="1kxo" />
+      <db_xref db="PDB" dbkey="1kzw" />
+      <db_xref db="PDB" dbkey="1kzx" />
+      <db_xref db="PDB" dbkey="1l6m" />
+      <db_xref db="PDB" dbkey="1lf7" />
+      <db_xref db="PDB" dbkey="1lib" />
+      <db_xref db="PDB" dbkey="1lic" />
+      <db_xref db="PDB" dbkey="1lid" />
+      <db_xref db="PDB" dbkey="1lie" />
+      <db_xref db="PDB" dbkey="1lif" />
+      <db_xref db="PDB" dbkey="1lke" />
+      <db_xref db="PDB" dbkey="1lnm" />
+      <db_xref db="PDB" dbkey="1lpj" />
+      <db_xref db="PDB" dbkey="1mdc" />
+      <db_xref db="PDB" dbkey="1mup" />
+      <db_xref db="PDB" dbkey="1mvg" />
+      <db_xref db="PDB" dbkey="1mx7" />
+      <db_xref db="PDB" dbkey="1mx8" />
+      <db_xref db="PDB" dbkey="1n0s" />
+      <db_xref db="PDB" dbkey="1ngl" />
+      <db_xref db="PDB" dbkey="1o1u" />
+      <db_xref db="PDB" dbkey="1o1v" />
+      <db_xref db="PDB" dbkey="1obp" />
+      <db_xref db="PDB" dbkey="1obq" />
+      <db_xref db="PDB" dbkey="1obu" />
+      <db_xref db="PDB" dbkey="1opa" />
+      <db_xref db="PDB" dbkey="1opb" />
+      <db_xref db="PDB" dbkey="1p6p" />
+      <db_xref db="PDB" dbkey="1pbo" />
+      <db_xref db="PDB" dbkey="1pmp" />
+      <db_xref db="PDB" dbkey="1qg5" />
+      <db_xref db="PDB" dbkey="1qqs" />
+      <db_xref db="PDB" dbkey="1qy0" />
+      <db_xref db="PDB" dbkey="1qy1" />
+      <db_xref db="PDB" dbkey="1qy2" />
+      <db_xref db="PDB" dbkey="1rbp" />
+      <db_xref db="PDB" dbkey="1s2p" />
+      <db_xref db="PDB" dbkey="1s44" />
+      <db_xref db="PDB" dbkey="1sa8" />
+      <db_xref db="PDB" dbkey="1t0v" />
+      <db_xref db="PDB" dbkey="1tou" />
+      <db_xref db="PDB" dbkey="1tow" />
+      <db_xref db="PDB" dbkey="1tvq" />
+      <db_xref db="PDB" dbkey="1tw4" />
+      <db_xref db="PDB" dbkey="1ure" />
+      <db_xref db="PDB" dbkey="1uz2" />
+      <db_xref db="PDB" dbkey="1vyf" />
+      <db_xref db="PDB" dbkey="1vyg" />
+      <db_xref db="PDB" dbkey="1x71" />
+      <db_xref db="PDB" dbkey="1x89" />
+      <db_xref db="PDB" dbkey="1x8u" />
+      <db_xref db="PDB" dbkey="1xca" />
+      <db_xref db="PDB" dbkey="1xki" />
+      <db_xref db="PDB" dbkey="1yiv" />
+      <db_xref db="PDB" dbkey="1yp6" />
+      <db_xref db="PDB" dbkey="1yp7" />
+      <db_xref db="PDB" dbkey="1yup" />
+      <db_xref db="PDB" dbkey="1znd" />
+      <db_xref db="PDB" dbkey="1zne" />
+      <db_xref db="PDB" dbkey="1zng" />
+      <db_xref db="PDB" dbkey="1znh" />
+      <db_xref db="PDB" dbkey="1znk" />
+      <db_xref db="PDB" dbkey="1znl" />
+      <db_xref db="PDB" dbkey="1zry" />
+      <db_xref db="PDB" dbkey="2a2g" />
+      <db_xref db="PDB" dbkey="2a2u" />
+      <db_xref db="PDB" dbkey="2akq" />
+      <db_xref db="PDB" dbkey="2ans" />
+      <db_xref db="PDB" dbkey="2blg" />
+      <db_xref db="PDB" dbkey="2cbr" />
+      <db_xref db="PDB" dbkey="2cbs" />
+      <db_xref db="PDB" dbkey="2dm5" />
+      <db_xref db="PDB" dbkey="2f73" />
+      <db_xref db="PDB" dbkey="2flj" />
+      <db_xref db="PDB" dbkey="2fr3" />
+      <db_xref db="PDB" dbkey="2frs" />
+      <db_xref db="PDB" dbkey="2fs6" />
+      <db_xref db="PDB" dbkey="2fs7" />
+      <db_xref db="PDB" dbkey="2hmb" />
+      <db_xref db="PDB" dbkey="2ifb" />
+      <db_xref db="PDB" dbkey="3blg" />
+      <db_xref db="PDB" dbkey="3cbs" />
+      <db_xref db="PDB" dbkey="3ifb" />
+      <db_xref db="CATH" dbkey="2.40.128.20" />
+      <db_xref db="SCOP" dbkey="b.60.1.1" />
+      <db_xref db="SCOP" dbkey="b.60.1.2" />
+    </structure_db_links>
+    <taxonomy_distribution>
+      <taxon_data name="Arthropoda" proteins_count="110" />
+      <taxon_data name="Caenorhabditis elegans" proteins_count="6" />
+      <taxon_data name="Chordata" proteins_count="753" />
+      <taxon_data name="Eukaryota" proteins_count="902" />
+      <taxon_data name="Fruit Fly" proteins_count="8" />
+      <taxon_data name="Human" proteins_count="90" />
+      <taxon_data name="Metazoa" proteins_count="902" />
+      <taxon_data name="Nematoda" proteins_count="6" />
+    </taxonomy_distribution>
+    <sec_list>
+      <sec_ac acc="IPR002342" />
+    </sec_list>
+  </interpro>

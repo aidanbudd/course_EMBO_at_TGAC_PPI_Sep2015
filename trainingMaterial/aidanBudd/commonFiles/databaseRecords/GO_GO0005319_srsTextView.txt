@@ -1,0 +1,849 @@
+<go:term rdf:about="http://www.geneontology.org/go#GO:0005319">
+            <go:accession>GO:0005319</go:accession>
+            <go:name>lipid transporter activity</go:name>
+            <go:synonym>apolipoprotein</go:synonym>
+            <go:synonym>high-density lipoprotein</go:synonym>
+            <go:synonym>lipophorin</go:synonym>
+            <go:synonym>low-density lipoprotein</go:synonym>
+            <go:synonym>very-low-density lipoprotein</go:synonym>
+            <go:definition>Enables the directed movement of lipids into, out of, within or between cells.</go:definition>
+            <go:is_a rdf:resource="http://www.geneontology.org/go#GO:0022892" />
+            <go:dbxref rdf:parseType="Resource">
+                <go:database_symbol>MIPS_funcat</go:database_symbol>
+                <go:reference>20.01.13</go:reference>
+            </go:dbxref>
+            <go:dbxref rdf:parseType="Resource">
+                <go:database_symbol>Reactome</go:database_symbol>
+                <go:reference>7042</go:reference>
+            </go:dbxref>
+            <go:dbxref rdf:parseType="Resource">
+                <go:database_symbol>InterPro</go:database_symbol>
+                <go:reference>IPR001747</go:reference>
+            </go:dbxref>
+            <go:dbxref rdf:parseType="Resource">
+                <go:database_symbol>InterPro</go:database_symbol>
+                <go:reference>IPR007594</go:reference>
+            </go:dbxref>
+            <go:dbxref rdf:parseType="Resource">
+                <go:database_symbol>InterPro</go:database_symbol>
+                <go:reference>IPR009454</go:reference>
+            </go:dbxref>
+            <go:dbxref rdf:parseType="Resource">
+                <go:database_symbol>InterPro</go:database_symbol>
+                <go:reference>IPR011030</go:reference>
+            </go:dbxref>
+            <go:dbxref rdf:parseType="Resource">
+                <go:database_symbol>InterPro</go:database_symbol>
+                <go:reference>IPR015255</go:reference>
+            </go:dbxref>
+            <go:dbxref rdf:parseType="Resource">
+                <go:database_symbol>InterPro</go:database_symbol>
+                <go:reference>IPR015258</go:reference>
+            </go:dbxref>
+            <go:dbxref rdf:parseType="Resource">
+                <go:database_symbol>InterPro</go:database_symbol>
+                <go:reference>IPR015816</go:reference>
+            </go:dbxref>
+            <go:dbxref rdf:parseType="Resource">
+                <go:database_symbol>InterPro</go:database_symbol>
+                <go:reference>IPR015817</go:reference>
+            </go:dbxref>
+            <go:dbxref rdf:parseType="Resource">
+                <go:database_symbol>InterPro</go:database_symbol>
+                <go:reference>IPR015818</go:reference>
+            </go:dbxref>
+            <go:dbxref rdf:parseType="Resource">
+                <go:database_symbol>InterPro</go:database_symbol>
+                <go:reference>IPR015819</go:reference>
+            </go:dbxref>
+            <go:dbxref rdf:parseType="Resource">
+                <go:database_symbol>SP_KW</go:database_symbol>
+                <go:reference>KW-0345</go:reference>
+            </go:dbxref>
+            <go:dbxref rdf:parseType="Resource">
+                <go:database_symbol>SP_KW</go:database_symbol>
+                <go:reference>KW-0427</go:reference>
+            </go:dbxref>
+            <go:dbxref rdf:parseType="Resource">
+                <go:database_symbol>SP_KW</go:database_symbol>
+                <go:reference>KW-0850</go:reference>
+            </go:dbxref>
+            <go:dbxref rdf:parseType="Resource">
+                <go:database_symbol>HAMAP</go:database_symbol>
+                <go:reference>MF_01585</go:reference>
+            </go:dbxref>
+            <go:dbxref rdf:parseType="Resource">
+                <go:database_symbol>HAMAP</go:database_symbol>
+                <go:reference>MF_01703</go:reference>
+            </go:dbxref>
+            <go:dbxref rdf:parseType="Resource">
+                <go:database_symbol>Pfam</go:database_symbol>
+                <go:reference>PF01347</go:reference>
+            </go:dbxref>
+            <go:dbxref rdf:parseType="Resource">
+                <go:database_symbol>Pfam</go:database_symbol>
+                <go:reference>PF04506</go:reference>
+            </go:dbxref>
+            <go:dbxref rdf:parseType="Resource">
+                <go:database_symbol>Pfam</go:database_symbol>
+                <go:reference>PF06448</go:reference>
+            </go:dbxref>
+            <go:dbxref rdf:parseType="Resource">
+                <go:database_symbol>Pfam</go:database_symbol>
+                <go:reference>PF09172</go:reference>
+            </go:dbxref>
+            <go:dbxref rdf:parseType="Resource">
+                <go:database_symbol>Pfam</go:database_symbol>
+                <go:reference>PF09175</go:reference>
+            </go:dbxref>
+            <go:dbxref rdf:parseType="Resource">
+                <go:database_symbol>PROSITE</go:database_symbol>
+                <go:reference>PS51211</go:reference>
+            </go:dbxref>
+            <go:dbxref rdf:parseType="Resource">
+                <go:database_symbol>SMART</go:database_symbol>
+                <go:reference>SM00638</go:reference>
+            </go:dbxref>
+            <go:dbxref rdf:parseType="Resource">
+                <go:database_symbol>JCVI_TIGRFAMS</go:database_symbol>
+                <go:reference>TIGR02203</go:reference>
+            </go:dbxref>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="IMP">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>MGI</go:database_symbol>
+                        <go:reference>MGI:50633</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>Apoa1</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>MGI</go:database_symbol>
+                        <go:reference>MGI:88049</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="IDA">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>MGI</go:database_symbol>
+                        <go:reference>MGI:2176648</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>Apoa1</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>MGI</go:database_symbol>
+                        <go:reference>MGI:88049</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="ISS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>RGD</go:database_symbol>
+                        <go:reference>1624291</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>Apoa1</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>RGD</go:database_symbol>
+                        <go:reference>2130</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="ISS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>ZFIN</go:database_symbol>
+                        <go:reference>ZDB-PUB-071010-1</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>apoa1</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>ZFIN</go:database_symbol>
+                        <go:reference>ZDB-GENE-990415-14</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="TAS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>PMID</go:database_symbol>
+                        <go:reference>3080432</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>APOA4</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>UniProtKB</go:database_symbol>
+                        <go:reference>P06727</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="TAS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>RGD</go:database_symbol>
+                        <go:reference>634656</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>Apoc3</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>RGD</go:database_symbol>
+                        <go:reference>2136</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="TAS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>PMID</go:database_symbol>
+                        <go:reference>8530039</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>APOC4</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>UniProtKB</go:database_symbol>
+                        <go:reference>P55056</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="TAS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>PMID</go:database_symbol>
+                        <go:reference>3453108</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>APOD</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>UniProtKB</go:database_symbol>
+                        <go:reference>P05090</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="IDA">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>RGD</go:database_symbol>
+                        <go:reference>1626397</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>Apoe</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>RGD</go:database_symbol>
+                        <go:reference>2138</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="IDA">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>RGD</go:database_symbol>
+                        <go:reference>634663</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>Apoe</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>RGD</go:database_symbol>
+                        <go:reference>2138</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="TAS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>PMID</go:database_symbol>
+                        <go:reference>6816269</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>APOF</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>UniProtKB</go:database_symbol>
+                        <go:reference>Q13790</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="TAS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>PMID</go:database_symbol>
+                        <go:reference>10233894</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>APOL3</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>UniProtKB</go:database_symbol>
+                        <go:reference>O95236</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="NAS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>UniProtKB</go:database_symbol>
+                        <go:reference>Q9BWW8</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>APOL6</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>UniProtKB</go:database_symbol>
+                        <go:reference>Q9BWW8</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="TAS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>PMID</go:database_symbol>
+                        <go:reference>10531326</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>APOM</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>UniProtKB</go:database_symbol>
+                        <go:reference>O95445</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="IMP">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>TAIR</go:database_symbol>
+                        <go:reference>Publication:501706000</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>AT1G19800</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>TAIR</go:database_symbol>
+                        <go:reference>locus:2013099</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="IMP">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>TAIR</go:database_symbol>
+                        <go:reference>Publication:501719274</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>AT3G20320</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>TAIR</go:database_symbol>
+                        <go:reference>locus:2092354</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="ISS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>TAIR</go:database_symbol>
+                        <go:reference>Publication:501679991</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>AT3G51600</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>TAIR</go:database_symbol>
+                        <go:reference>locus:2081855</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="ISS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>TAIR</go:database_symbol>
+                        <go:reference>Publication:2295</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>AT4G28395</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>TAIR</go:database_symbol>
+                        <go:reference>locus:505006530</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="ISS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>TAIR</go:database_symbol>
+                        <go:reference>Publication:501682727</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>AT5G48485</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>TAIR</go:database_symbol>
+                        <go:reference>locus:505006681</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="TAS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>PMID</go:database_symbol>
+                        <go:reference>9038172</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>CFHR4</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>UniProtKB</go:database_symbol>
+                        <go:reference>Q92496</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="ISS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>PMID</go:database_symbol>
+                        <go:reference>15660156</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>CJE_0894</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>TIGR_CMR</go:database_symbol>
+                        <go:reference>CJE_0894</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="ISS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>GO_REF</go:database_symbol>
+                        <go:reference>0000012</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>CPS_2125</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>TIGR_CMR</go:database_symbol>
+                        <go:reference>CPS_2125</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="ISS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>GO_REF</go:database_symbol>
+                        <go:reference>0000012</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>CPS_2774</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>TIGR_CMR</go:database_symbol>
+                        <go:reference>CPS_2774</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="IDA">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>RGD</go:database_symbol>
+                        <go:reference>1598996</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>Gm2a</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>RGD</go:database_symbol>
+                        <go:reference>628651</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="ISS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>PMID</go:database_symbol>
+                        <go:reference>14671304</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>GSU_2260</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>TIGR_CMR</go:database_symbol>
+                        <go:reference>GSU_2260</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="TAS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>PMID</go:database_symbol>
+                        <go:reference>3266596</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>LRP1</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>UniProtKB</go:database_symbol>
+                        <go:reference>Q07954</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="ISS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>PMID</go:database_symbol>
+                        <go:reference>15383840</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>MCA_0964</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>TIGR_CMR</go:database_symbol>
+                        <go:reference>MCA_0964</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="IMP">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>PMID</go:database_symbol>
+                        <go:reference>11278265</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>MsbA</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>EcoCyc</go:database_symbol>
+                        <go:reference>EG10613-MONOMER</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="RCA">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>PMID</go:database_symbol>
+                        <go:reference>16729895</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>msbA</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>PseudoCAP</go:database_symbol>
+                        <go:reference>PA4997</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="RCA">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>PMID</go:database_symbol>
+                        <go:reference>16729895</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>msbA</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>PseudoCAP</go:database_symbol>
+                        <go:reference>PA4997</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="ISS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>ZFIN</go:database_symbol>
+                        <go:reference>ZDB-PUB-041228-15</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>mtp</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>ZFIN</go:database_symbol>
+                        <go:reference>ZDB-GENE-040419-2</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="IDA">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>MGI</go:database_symbol>
+                        <go:reference>MGI:2386141</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>Mttp</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>MGI</go:database_symbol>
+                        <go:reference>MGI:106926</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="ISS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>RGD</go:database_symbol>
+                        <go:reference>1624291</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>Mttp</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>RGD</go:database_symbol>
+                        <go:reference>1308388</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="IDA">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>RGD</go:database_symbol>
+                        <go:reference>1582565</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>Mttp</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>RGD</go:database_symbol>
+                        <go:reference>1308388</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="NAS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>UniProtKB</go:database_symbol>
+                        <go:reference>P83139</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>P83139</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>UniProtKB</go:database_symbol>
+                        <go:reference>P83139</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="ISS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>PMID</go:database_symbol>
+                        <go:reference>12368867</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>PF14_0493</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>GeneDB_Pfalciparum</go:database_symbol>
+                        <go:reference>PF14_0493</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="ISS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>PMID</go:database_symbol>
+                        <go:reference>12928499</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>PSPPH_0527</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>TIGR_CMR</go:database_symbol>
+                        <go:reference>PSPPH_0527</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="ISS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>PMID</go:database_symbol>
+                        <go:reference>12928499</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>PSPTO_4984</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>JCVI_CMR</go:database_symbol>
+                        <go:reference>PSPTO_4984</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="IDA">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>PMID</go:database_symbol>
+                        <go:reference>16289995</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>Q6RG02</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>UniProtKB</go:database_symbol>
+                        <go:reference>Q6RG02</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="IDA">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>FB</go:database_symbol>
+                        <go:reference>FBrf0086579</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>Rfabg</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>FB</go:database_symbol>
+                        <go:reference>FBgn0087002</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="TAS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>RGD</go:database_symbol>
+                        <go:reference>1304382</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>Scarb1</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>RGD</go:database_symbol>
+                        <go:reference>2302</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="TAS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>RGD</go:database_symbol>
+                        <go:reference>1304245</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:evidence evidence_code="TAS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>RGD</go:database_symbol>
+                        <go:reference>1304213</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:evidence evidence_code="TAS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>RGD</go:database_symbol>
+                        <go:reference>1304216</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:evidence evidence_code="TAS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>RGD</go:database_symbol>
+                        <go:reference>1304217</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>Scarb1</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>RGD</go:database_symbol>
+                        <go:reference>2302</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="TAS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>PMID</go:database_symbol>
+                        <go:reference>2995821</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>SFTPA1</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>UniProtKB</go:database_symbol>
+                        <go:reference>Q8IWL2</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="TAS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>PMID</go:database_symbol>
+                        <go:reference>8787677</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>SLCO2A1</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>UniProtKB</go:database_symbol>
+                        <go:reference>Q92959</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="ISS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>PMID</go:database_symbol>
+                        <go:reference>12368813</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>SO_2802</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>TIGR_CMR</go:database_symbol>
+                        <go:reference>SO_2802</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="ISS">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>PMID</go:database_symbol>
+                        <go:reference>10952301</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>VC_1878</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>TIGR_CMR</go:database_symbol>
+                        <go:reference>VC_1878</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="IDA">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>FB</go:database_symbol>
+                        <go:reference>FBrf0180678</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>wun2</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>FB</go:database_symbol>
+                        <go:reference>FBgn0041087</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+            <go:association rdf:parseType="Resource">
+                <go:evidence evidence_code="RCA">
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>SGD_REF</go:database_symbol>
+                        <go:reference>S000127119</go:reference>
+                    </go:dbxref>
+                </go:evidence>
+                <go:gene_product rdf:parseType="Resource">
+                    <go:name>YKL091C</go:name>
+                    <go:dbxref rdf:parseType="Resource">
+                        <go:database_symbol>SGD</go:database_symbol>
+                        <go:reference>S000001574</go:reference>
+                    </go:dbxref>
+                </go:gene_product>
+            </go:association>
+        </go:term>

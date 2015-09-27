@@ -1,0 +1,310 @@
+ID   A1CF_HUMAN              Reviewed;         594 AA.
+AC   Q9NQ94; Q5SZQ0; Q9NQ93; Q9NQX8; Q9NQX9; Q9NXC9; Q9NZD3;
+DT   20-DEC-2005, integrated into UniProtKB/Swiss-Prot.
+DT   01-OCT-2000, sequence version 1.
+DT   05-MAY-2009, entry version 69.
+DE   RecName: Full=APOBEC1 complementation factor;
+DE   AltName: Full=APOBEC1-stimulating protein;
+GN   Name=A1CF; Synonyms=ACF, ASP;
+OS   Homo sapiens (Human).
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+OC   Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+OC   Catarrhini; Hominidae; Homo.
+OX   NCBI_TaxID=9606;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 2), FUNCTION, AND
+RP   INTERACTION WITH APOBEC1.
+RC   TISSUE=Liver, and Small intestine;
+RX   MEDLINE=20347895; PubMed=10781591; DOI=10.1074/jbc.M001786200;
+RA   Lellek H., Kirsten R., Diehl I., Apostel F., Buck F., Greeve J.;
+RT   "Purification and molecular cloning of a novel essential component of
+RT   the apolipoprotein B mRNA editing enzyme-complex.";
+RL   J. Biol. Chem. 275:19848-19856(2000).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2), FUNCTION, INTERACTION WITH
+RP   APOBEC1, AND TISSUE SPECIFICITY.
+RX   MEDLINE=20136062; PubMed=10669759;
+RX   DOI=10.1128/MCB.20.5.1846-1854.2000;
+RA   Mehta A., Kinter M.T., Sherman N.E., Driscoll D.M.;
+RT   "Molecular cloning of APOBEC-1 complementation factor, a novel RNA-
+RT   binding protein involved in the editing of apolipoprotein B mRNA.";
+RL   Mol. Cell. Biol. 20:1846-1854(2000).
+RN   [3]
+RP   NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 2 AND 3).
+RC   TISSUE=Liver;
+RA   Sowden M.P., Smith H.C.;
+RT   "Human APOBEC-1 complementation factor related protein.";
+RL   Submitted (MAY-2000) to the EMBL/GenBank/DDBJ databases.
+RN   [4]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 4).
+RX   PubMed=14702039; DOI=10.1038/ng1285;
+RA   Ota T., Suzuki Y., Nishikawa T., Otsuki T., Sugiyama T., Irie R.,
+RA   Wakamatsu A., Hayashi K., Sato H., Nagai K., Kimura K., Makita H.,
+RA   Sekine M., Obayashi M., Nishi T., Shibahara T., Tanaka T., Ishii S.,
+RA   Yamamoto J., Saito K., Kawai Y., Isono Y., Nakamura Y., Nagahari K.,
+RA   Murakami K., Yasuda T., Iwayanagi T., Wagatsuma M., Shiratori A.,
+RA   Sudo H., Hosoiri T., Kaku Y., Kodaira H., Kondo H., Sugawara M.,
+RA   Takahashi M., Kanda K., Yokoi T., Furuya T., Kikkawa E., Omura Y.,
+RA   Abe K., Kamihara K., Katsuta N., Sato K., Tanikawa M., Yamazaki M.,
+RA   Ninomiya K., Ishibashi T., Yamashita H., Murakawa K., Fujimori K.,
+RA   Tanai H., Kimata M., Watanabe M., Hiraoka S., Chiba Y., Ishida S.,
+RA   Ono Y., Takiguchi S., Watanabe S., Yosida M., Hotuta T., Kusano J.,
+RA   Kanehori K., Takahashi-Fujii A., Hara H., Tanase T.-O., Nomura Y.,
+RA   Togiya S., Komai F., Hara R., Takeuchi K., Arita M., Imose N.,
+RA   Musashino K., Yuuki H., Oshima A., Sasaki N., Aotsuka S.,
+RA   Yoshikawa Y., Matsunawa H., Ichihara T., Shiohata N., Sano S.,
+RA   Moriya S., Momiyama H., Satoh N., Takami S., Terashima Y., Suzuki O.,
+RA   Nakagawa S., Senoh A., Mizoguchi H., Goto Y., Shimizu F., Wakebe H.,
+RA   Hishigaki H., Watanabe T., Sugiyama A., Takemoto M., Kawakami B.,
+RA   Yamazaki M., Watanabe K., Kumagai A., Itakura S., Fukuzumi Y.,
+RA   Fujimori Y., Komiyama M., Tashiro H., Tanigami A., Fujiwara T.,
+RA   Ono T., Yamada K., Fujii Y., Ozaki K., Hirao M., Ohmori Y.,
+RA   Kawabata A., Hikiji T., Kobatake N., Inagaki H., Ikema Y., Okamoto S.,
+RA   Okitani R., Kawakami T., Noguchi S., Itoh T., Shigeta K., Senba T.,
+RA   Matsumura K., Nakajima Y., Mizuno T., Morinaga M., Sasaki M.,
+RA   Togashi T., Oyama M., Hata H., Watanabe M., Komatsu T.,
+RA   Mizushima-Sugano J., Satoh T., Shirai Y., Takahashi Y., Nakagawa K.,
+RA   Okumura K., Nagase T., Nomura N., Kikuchi H., Masuho Y., Yamashita R.,
+RA   Nakai K., Yada T., Nakamura Y., Ohara O., Isogai T., Sugano S.;
+RT   "Complete sequencing and characterization of 21,243 full-length human
+RT   cDNAs.";
+RL   Nat. Genet. 36:40-45(2004).
+RN   [5]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RX   PubMed=15164054; DOI=10.1038/nature02462;
+RA   Deloukas P., Earthrowl M.E., Grafham D.V., Rubenfield M., French L.,
+RA   Steward C.A., Sims S.K., Jones M.C., Searle S., Scott C., Howe K.,
+RA   Hunt S.E., Andrews T.D., Gilbert J.G.R., Swarbreck D., Ashurst J.L.,
+RA   Taylor A., Battles J., Bird C.P., Ainscough R., Almeida J.P.,
+RA   Ashwell R.I.S., Ambrose K.D., Babbage A.K., Bagguley C.L., Bailey J.,
+RA   Banerjee R., Bates K., Beasley H., Bray-Allen S., Brown A.J.,
+RA   Brown J.Y., Burford D.C., Burrill W., Burton J., Cahill P., Camire D.,
+RA   Carter N.P., Chapman J.C., Clark S.Y., Clarke G., Clee C.M., Clegg S.,
+RA   Corby N., Coulson A., Dhami P., Dutta I., Dunn M., Faulkner L.,
+RA   Frankish A., Frankland J.A., Garner P., Garnett J., Gribble S.,
+RA   Griffiths C., Grocock R., Gustafson E., Hammond S., Harley J.L.,
+RA   Hart E., Heath P.D., Ho T.P., Hopkins B., Horne J., Howden P.J.,
+RA   Huckle E., Hynds C., Johnson C., Johnson D., Kana A., Kay M.,
+RA   Kimberley A.M., Kershaw J.K., Kokkinaki M., Laird G.K., Lawlor S.,
+RA   Lee H.M., Leongamornlert D.A., Laird G., Lloyd C., Lloyd D.M.,
+RA   Loveland J., Lovell J., McLaren S., McLay K.E., McMurray A.,
+RA   Mashreghi-Mohammadi M., Matthews L., Milne S., Nickerson T.,
+RA   Nguyen M., Overton-Larty E., Palmer S.A., Pearce A.V., Peck A.I.,
+RA   Pelan S., Phillimore B., Porter K., Rice C.M., Rogosin A., Ross M.T.,
+RA   Sarafidou T., Sehra H.K., Shownkeen R., Skuce C.D., Smith M.,
+RA   Standring L., Sycamore N., Tester J., Thorpe A., Torcasso W.,
+RA   Tracey A., Tromans A., Tsolas J., Wall M., Walsh J., Wang H.,
+RA   Weinstock K., West A.P., Willey D.L., Whitehead S.L., Wilming L.,
+RA   Wray P.W., Young L., Chen Y., Lovering R.C., Moschonas N.K.,
+RA   Siebert R., Fechtel K., Bentley D., Durbin R.M., Hubbard T.,
+RA   Doucette-Stamm L., Beck S., Smith D.R., Rogers J.;
+RT   "The DNA sequence and comparative analysis of human chromosome 10.";
+RL   Nature 429:375-381(2004).
+RN   [6]
+RP   GENE STRUCTURE, AND ALTERNATIVE SPLICING.
+RX   MEDLINE=21575688; PubMed=11718896; DOI=10.1016/S0167-4781(01)00295-0;
+RA   Henderson J.O., Blanc V., Davidson N.O.;
+RT   "Isolation, characterization and developmental regulation of the human
+RT   apobec-1 complementation factor (ACF) gene.";
+RL   Biochim. Biophys. Acta 1522:22-30(2001).
+RN   [7]
+RP   IDENTIFICATION IN A COMPLEX WITH APOBEC1 AND CUGBP2.
+RX   PubMed=11577082; DOI=10.1074/jbc.M104911200;
+RA   Anant S., Henderson J.O., Mukhopadhyay D., Navaratnam N., Kennedy S.,
+RA   Min J., Davidson N.O.;
+RT   "Novel role for RNA-binding protein CUGBP2 in mammalian RNA editing.
+RT   CUGBP2 modulates C to U editing of apolipoprotein B mRNA by
+RT   interacting with apobec-1 and ACF, the apobec-1 complementation
+RT   factor.";
+RL   J. Biol. Chem. 276:47338-47351(2001).
+RN   [8]
+RP   RNA-BINDING DOMAIN, AND MUTAGENESIS OF PHE-59; PHE-100; PHE-139;
+RP   PHE-183; TYR-234 AND PHE-270.
+RX   MEDLINE=21860382; PubMed=11871661; DOI=10.1017/S1355838202015649;
+RA   Mehta A., Driscoll D.M.;
+RT   "Identification of domains in apobec-1 complementation factor required
+RT   for RNA binding and apolipoprotein-B mRNA editing.";
+RL   RNA 8:69-82(2002).
+RN   [9]
+RP   FUNCTION, AND SUBCELLULAR LOCATION.
+RX   PubMed=12881431; DOI=10.1093/emboj/cdg369;
+RA   Chester A., Somasekaram A., Tzimina M., Jarmuz A., Gisbourne J.,
+RA   O'Keefe R., Scott J., Navaratnam N.;
+RT   "The apolipoprotein B mRNA editing complex performs a multifunctional
+RT   cycle and suppresses nonsense-mediated decay.";
+RL   EMBO J. 22:3971-3982(2003).
+RN   [10]
+RP   NUCLEAR LOCALIZATION SIGNAL, AND INTERACTION WITH TNPO2.
+RX   PubMed=12896982; DOI=10.1074/jbc.M302951200;
+RA   Blanc V., Kennedy S., Davidson N.O.;
+RT   "A novel nuclear localization signal in the auxiliary domain of
+RT   apobec-1 complementation factor regulates nucleocytoplasmic import and
+RT   shuttling.";
+RL   J. Biol. Chem. 278:41198-41204(2003).
+RN   [11]
+RP   STRUCTURE BY NMR OF 223-308.
+RG   RIKEN structural genomics initiative (RSGI);
+RT   "Solution structure of the RNA recognition motif of human APOBEC-1
+RT   complementation factor, ACF.";
+RL   Submitted (NOV-2005) to the PDB data bank.
+CC   -!- FUNCTION: Essential component of the apolipoprotein B mRNA editing
+CC       enzyme complex which is responsible for the postranscriptional
+CC       editing of a CAA codon for Gln to a UAA codon for stop in APOB
+CC       mRNA. Binds to APOB mRNA and is probably responsible for docking
+CC       the catalytic subunit, APOBEC1, to the mRNA to allow it to
+CC       deaminate its target cytosine. The complex also protects the
+CC       edited APOB mRNA from nonsense-mediated decay.
+CC   -!- SUBUNIT: Part of the apolipoprotein B mRNA editing complex with
+CC       APOBEC1. Found in a complex with APOBEC1 and CUGBP2. Interacts
+CC       with KHSRP/KRSP which is not required for APOBEC1 activity but
+CC       which may confer stability on the editing complex. Also interacts
+CC       with the nuclear import protein TNPO2/TRN2 which may be
+CC       responsible for its transport into the nucleus.
+CC   -!- SUBCELLULAR LOCATION: Nucleus. Endoplasmic reticulum (By
+CC       similarity). Cytoplasm. Note=Predominantly nuclear where it
+CC       localizes to heterochromatin. Also cytoplasmic where it is found
+CC       at the outer surface of the endoplasmic reticulum (By similarity).
+CC       Shuttles between the nucleus and cytoplasm. May be transported
+CC       into the nucleus by the nuclear import protein TNPO2/TRN2 or by
+CC       APOBEC1.
+CC   -!- ALTERNATIVE PRODUCTS:
+CC       Event=Alternative splicing; Named isoforms=6;
+CC       Name=1;
+CC         IsoId=Q9NQ94-1; Sequence=Displayed;
+CC       Name=2;
+CC         IsoId=Q9NQ94-2; Sequence=VSP_051929;
+CC         Note=Major isoform found in 66-78% of cDNA clones;
+CC       Name=3;
+CC         IsoId=Q9NQ94-3; Sequence=VSP_051926, VSP_051929;
+CC       Name=4;
+CC         IsoId=Q9NQ94-4; Sequence=VSP_051927, VSP_051929;
+CC         Note=No experimental confirmation available. Does not exhibit
+CC         APOBEC1 complementation activity;
+CC       Name=5;
+CC         IsoId=Q9NQ94-5; Sequence=VSP_051925;
+CC         Note=Does not exhibit APOBEC1 complementation activity;
+CC       Name=6;
+CC         IsoId=Q9NQ94-6; Sequence=VSP_051928;
+CC         Note=Minor isoform found in 2-3% of cDNA clones;
+CC   -!- TISSUE SPECIFICITY: Widely expressed with highest levels in brain,
+CC       liver, pancreas, colon and spleen.
+CC   -!- DOMAIN: The RRM domains are necessary but not sufficient for
+CC       binding to APOB mRNA. Additional residues in the pre-RRM and C-
+CC       terminal regions are required for RNA-binding and for
+CC       complementing APOBEC1 activity.
+CC   -!- SIMILARITY: Contains 3 RRM (RNA recognition motif) domains.
+CC   -!- SEQUENCE CAUTION:
+CC       Sequence=BAA91086.1; Type=Frameshift; Positions=148;
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AJ272078; CAB94754.1; -; mRNA.
+DR   EMBL; AJ272079; CAB94755.1; -; mRNA.
+DR   EMBL; AF209192; AAF34824.1; -; mRNA.
+DR   EMBL; AF271789; AAF76221.1; -; mRNA.
+DR   EMBL; AF271790; AAF76222.1; -; mRNA.
+DR   EMBL; AK000324; BAA91086.1; ALT_FRAME; mRNA.
+DR   EMBL; AL512366; CAI14233.1; -; Genomic_DNA.
+DR   EMBL; AL589794; CAI14233.1; JOINED; Genomic_DNA.
+DR   EMBL; AL512366; CAI14235.1; -; Genomic_DNA.
+DR   EMBL; AL589794; CAI14235.1; JOINED; Genomic_DNA.
+DR   EMBL; AL512366; CAI14236.1; -; Genomic_DNA.
+DR   EMBL; AL589794; CAI14236.1; JOINED; Genomic_DNA.
+DR   EMBL; AL589794; CAI15762.1; -; Genomic_DNA.
+DR   EMBL; AL512366; CAI15762.1; JOINED; Genomic_DNA.
+DR   EMBL; AL589794; CAI15763.1; -; Genomic_DNA.
+DR   EMBL; AL512366; CAI15763.1; JOINED; Genomic_DNA.
+DR   EMBL; AL589794; CAI15764.1; -; Genomic_DNA.
+DR   EMBL; AL512366; CAI15764.1; JOINED; Genomic_DNA.
+DR   IPI; IPI00071360; -.
+DR   IPI; IPI00148257; -.
+DR   IPI; IPI00299499; -.
+DR   IPI; IPI00657723; -.
+DR   IPI; IPI00657770; -.
+DR   IPI; IPI00657992; -.
+DR   RefSeq; NP_055391.2; -.
+DR   RefSeq; NP_620310.1; -.
+DR   RefSeq; NP_620311.1; -.
+DR   UniGene; Hs.499643; -.
+DR   PDB; 2CPD; NMR; -; A=223-308.
+DR   PDBsum; 2CPD; -.
+DR   SMR; Q9NQ94; 128-230.
+DR   PhosphoSite; Q9NQ94; -.
+DR   PRIDE; Q9NQ94; -.
+DR   Ensembl; ENSG00000148584; Homo sapiens.
+DR   GeneID; 29974; -.
+DR   KEGG; hsa:29974; -.
+DR   GeneCards; GC10M052237; -.
+DR   H-InvDB; HIX0004173; -.
+DR   H-InvDB; HIX0008828; -.
+DR   HGNC; HGNC:24086; A1CF.
+DR   HOVERGEN; Q9NQ94; -.
+DR   OMA; Q9NQ94; AFPGYAV.
+DR   Reactome; REACT_1675; mRNA Processing.
+DR   NextBio; 52719; -.
+DR   ArrayExpress; Q9NQ94; -.
+DR   Bgee; Q9NQ94; -.
+DR   CleanEx; HS_A1CF; -.
+DR   GermOnline; ENSG00000148584; Homo sapiens.
+DR   GO; GO:0030895; C:apolipoprotein B mRNA editing enzyme complex; IDA:UniProtKB.
+DR   GO; GO:0005783; C:endoplasmic reticulum; IEA:UniProtKB-KW.
+DR   GO; GO:0000166; F:nucleotide binding; IEA:InterPro.
+DR   GO; GO:0005515; F:protein binding; IPI:UniProtKB.
+DR   GO; GO:0003727; F:single-stranded RNA binding; IDA:UniProtKB.
+DR   GO; GO:0006397; P:mRNA processing; IEA:UniProtKB-KW.
+DR   GO; GO:0050821; P:protein stabilization; IDA:UniProtKB.
+DR   InterPro; IPR012677; a_b_plait_nuc_bd.
+DR   InterPro; IPR006535; HnRNP_R_Q.
+DR   InterPro; IPR000504; RRM_RNP1.
+DR   Gene3D; G3DSA:3.30.70.330; a_b_plait_nuc_bd; 3.
+DR   Pfam; PF00076; RRM_1; 3.
+DR   SMART; SM00360; RRM; 3.
+DR   TIGRFAMs; TIGR01648; hnRNP-R-Q; 1.
+DR   PROSITE; PS50102; RRM; 3.
+PE   1: Evidence at protein level;
+KW   3D-structure; Alternative splicing; Cytoplasm; Endoplasmic reticulum;
+KW   mRNA processing; Nucleus; Polymorphism; Repeat; RNA-binding.
+FT   CHAIN         1    594       APOBEC1 complementation factor.
+FT                                /FTId=PRO_0000081482.
+FT   DOMAIN       56    134       RRM 1.
+FT   DOMAIN      136    218       RRM 2.
+FT   DOMAIN      231    303       RRM 3.
+FT   REGION      360    409       Required for nuclear localization.
+FT   VAR_SEQ       1     84       Missing (in isoform 5).
+FT                                /FTId=VSP_051925.
+FT   VAR_SEQ       1     33       MESNHKSGDGLSGTQKEAALRALVQRTGYSLVQ -> MLCS
+FT                                PSFCKLCWKRKK (in isoform 3).
+FT                                /FTId=VSP_051926.
+FT   VAR_SEQ       1     33       MESNHKSGDGLSGTQKEAALRALVQRTGYSLVQ -> MEAV
+FT                                CLGTCPEPEASMSTAIPGLKKGNNALQSIILQTLLEK (in
+FT                                isoform 4).
+FT                                /FTId=VSP_051927.
+FT   VAR_SEQ     202    256       Missing (in isoform 6).
+FT                                /FTId=VSP_051928.
+FT   VAR_SEQ     381    388       Missing (in isoform 2, isoform 3 and
+FT                                isoform 4).
+FT                                /FTId=VSP_051929.
+FT   VARIANT     555    555       V -> M (in dbSNP:rs9073).
+FT                                /FTId=VAR_052201.
+FT   MUTAGEN      59     59       F->A: Greatly reduced RNA binding.
+FT   MUTAGEN     100    100       F->A: Greatly reduced RNA binding.
+FT   MUTAGEN     139    139       F->A: Greatly reduced RNA binding.
+FT   MUTAGEN     183    183       F->A: Greatly reduced RNA binding.
+FT   MUTAGEN     234    234       Y->A: Slightly reduced RNA binding.
+FT   MUTAGEN     270    270       F->A: Slightly reduced RNA binding.
+FT   CONFLICT    191    191       A -> T (in Ref. 2; AAF34824).
+FT   CONFLICT    277    277       E -> K (in Ref. 2 and 3).
+SQ   SEQUENCE   594 AA;  65202 MW;  AA5EF76BD8815807 CRC64;
+     MESNHKSGDG LSGTQKEAAL RALVQRTGYS LVQENGQRKY GGPPPGWDAA PPERGCEIFI
+     GKLPRDLFED ELIPLCEKIG KIYEMRMMMD FNGNNRGYAF VTFSNKVEAK NAIKQLNNYE
+     IRNGRLLGVC ASVDNCRLFV GGIPKTKKRE EILSEMKKVT EGVVDVIVYP SAADKTKNRG
+     FAFVEYESHR AAAMARRKLL PGRIQLWGHG IAVDWAEPEV EVDEDTMSSV KILYVRNLML
+     STSEEMIEKE FNNIKPGAVE RVKKIRDYAF VHFSNREDAV EAMKALNGKV LDGSPIEVTL
+     AKPVDKDSYV RYTRGTGGRG TMLQGEYTYS LGQVYDPTTT YLGAPVFYAP QTYAAIPSLH
+     FPATKGHLSN RAIIRAPSVR EIYMNVPVGA AGVRGLGGRG YLAYTGLGRG YQVKGDKRED
+     KLYDILPGME LTPMNPVTLK PQGIKLAPQI LEEICQKNNW GQPVYQLHSA IGQDQRQLFL
+     YKITIPALAS QNPAIHPFTP PKLSAFVDEA KTYAAEYTLQ TLGIPTDGGD GTMATAAAAA
+     TAFPGYAVPN ATAPVSAAQL KQAVTLGQDL AAYTTYEVYP TFAVTARGDG YGTF
+//
+

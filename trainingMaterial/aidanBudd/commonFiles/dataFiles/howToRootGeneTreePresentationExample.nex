@@ -1,0 +1,355 @@
+#NEXUS
+[written Fri Feb 20 12:27:15 CET 2009 by Mesquite  version 2.01 (build j28) at mac-gibson17-AidanLaptop.local/193.175.249.83]
+
+BEGIN TAXA;
+	TITLE vertebrate_genes;
+	DIMENSIONS NTAX=7;
+	TAXLABELS
+		Chick Frog HumanY MouseX RabbitV HumanZ RabbitW 
+	;
+
+END;
+
+
+BEGIN TREES;
+	Title RootedGeneTrees;
+	LINK Taxa = vertebrate_genes;
+	TRANSLATE
+		1 Chick,
+		2 Frog,
+		3 HumanY,
+		4 MouseX,
+		5 RabbitV,
+		6 HumanZ,
+		7 RabbitW;
+	TREE RootedTreeA = ((1:0.2631307650569724,((3:0.15000000000000002,(4:0.05,5:0.05):0.16000000000000003):0.10833333333333334,(6:0.17,7:1.042678362769322):0.05):0.05):0.1985858200838189,2:0.24633591470258132):0.05;
+	TREE RootedTreeB = ((4:0.05,(3:0.15000000000000002,((6:0.17,7:1.042678362769322):0.05,(1:0.2631307650569724,2:0.4449217347864002):0.05):0.10833333333333334):0.16000000000000003):0.025,5:0.025):0.05;
+	TREE RootedTreeC = ((6:0.17,((1:0.2631307650569724,2:0.4449217347864002):0.05,(3:0.15000000000000002,(4:0.05,5:0.05):0.16000000000000003):0.10833333333333334):0.05):0.321339181384661,7:0.721339181384661):0.05;
+
+END;
+
+
+
+BEGIN TAXA;
+	TITLE VertSpeciesTree;
+	DIMENSIONS NTAX=5;
+	TAXLABELS
+		Frog Chick Rabbit Human Mouse 
+	;
+
+END;
+
+
+BEGIN TaxaAssociation;
+TITLE SpeciesGeneAssociations;
+TAXA VertSpeciesTree ,  vertebrate_genes;
+ASSOCIATES 
+
+	Frog /  Frog , 
+	Chick /  Chick , 
+	Rabbit /  RabbitV RabbitW , 
+	Human /  HumanY HumanZ , 
+	Mouse /  MouseX
+
+;
+
+END;
+
+
+BEGIN TREES;
+	Title SpeciesTrees;
+	LINK Taxa = VertSpeciesTree;
+	TRANSLATE
+		1 Frog,
+		2 Chick,
+		3 Rabbit,
+		4 Human,
+		5 Mouse;
+	TREE SpeciesTree = (1,(2,(4,(3,5))));
+
+END;
+
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 3236621208131690514;
+			setID 1 3640978484080929655;
+		endTell;
+		getEmployee  #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord;
+		tell It;
+			makeTreeWindow #3236621208131690514  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTaxa #3236621208131690514;
+					setTreeBlock 1;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 971.1235126592488.8818415304821704619;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 774 524;
+					setLocation 52 54;
+					setFont SanSerif;
+					setFontSize 14;
+					getToolPalette;
+					tell It;
+					endTell;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.SquareTree.SquareTree;
+					tell It;
+						setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							stretchToggle off;
+							branchLengthsToggle on;
+							toggleScale off;
+							toggleBroadScale off;
+							toggleCenter on;
+							toggleEven on;
+							namesAngle ?;
+						endTell;
+						setEdgeWidth 12;
+						orientRight;
+						toggleCorners off;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setFontSize 36;
+						setColor Black;
+						toggleColorPartition on;
+						toggleShadePartition off;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+					endTell;
+				endTell;
+					setTreeNumber 1;
+					useSuggestedSize on;
+					toggleTextOnTree off;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+			endTell;
+			makeTreeWindow #3640978484080929655  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTaxa #3640978484080929655;
+					setTreeBlock 1;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 1047.1235127614848.3931493782365472442;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 70;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 774 484;
+					setLocation 52 54;
+					setFont SanSerif;
+					setFontSize 14;
+					getToolPalette;
+					tell It;
+						setTool mesquite.trees.BasicTreeWindowMaker.BasicTreeWindow.arrow;
+					endTell;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.assoc.ContainedAssociates.ContainedAssociates;
+					tell It;
+						suppress ;
+						getAssociationSource  #mesquite.assoc.StoredAssociations.StoredAssociations;
+						tell It;
+							setCurrentAssociation 0;
+						endTell;
+						getReconstructor  #mesquite.coalesce.RecCoalescenceHistory.RecCoalescenceHistory;
+						tell It;
+							toggleUnrooted off;
+							toggleResolve on;
+							toggleUseLengths on;
+						endTell;
+						setEdgeWidth 64;
+						setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+						tell It;
+							setTaxa #3236621208131690514;
+							setTreeBlock 1;
+							toggleUseWeights off;
+						endTell;
+						setContained 3;
+						toggleScale on;
+						setInitialOffsetX -197;
+						setInitialOffsetY -347;
+						desuppress ;
+						getEmployee #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							stretchToggle off;
+							branchLengthsToggle on;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter off;
+							toggleEven off;
+							namesAngle ?;
+						endTell;
+					endTell;
+					setBackground White;
+					setBranchColor Blue;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setColor Black;
+						toggleColorPartition on;
+						toggleShadePartition off;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+					endTell;
+				endTell;
+					setTreeNumber 1;
+					setTree '((2,(4,(5,3))),1);';
+					useSuggestedSize on;
+					toggleTextOnTree off;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+			endTell;
+			makeTreeWindow #3640978484080929655  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTaxa #3640978484080929655;
+					setTreeBlock 1;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 1077.1235128553586.6467753540364162474;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 774 524;
+					setLocation 52 54;
+					setFont SanSerif;
+					setFontSize 14;
+					getToolPalette;
+					tell It;
+					endTell;
+					setActive;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.DiagonalDrawTree.DiagonalDrawTree;
+					tell It;
+						setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							stretchToggle on;
+							branchLengthsToggle off;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter off;
+							toggleEven off;
+							namesAngle ?;
+						endTell;
+						setEdgeWidth 12;
+						orientRight;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setFontSize 30;
+						setColor Black;
+						toggleColorPartition on;
+						toggleShadePartition off;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+					endTell;
+				endTell;
+					setTreeNumber 1;
+					useSuggestedSize on;
+					toggleTextOnTree off;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+end;
+
+

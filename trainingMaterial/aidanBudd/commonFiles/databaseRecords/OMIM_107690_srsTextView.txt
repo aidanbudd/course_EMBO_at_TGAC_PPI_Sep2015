@@ -1,0 +1,262 @@
+*FIELD* NO
+107690
+*FIELD* TI
+*107690 APOLIPOPROTEIN A-IV; APOA4
+*FIELD* TX
+Apolipoprotein A-IV is a component of chylomicrons and high-density
+lipoproteins. By isoelectric focusing, 2 isoforms, designated A-IV-1 and
+A-IV-2, can be identified. Menzel et al. (1982) demonstrated another
+variant form. Anderson and Anderson (1977) and Tracy et al. (1982)
+described genetic polymorphism of an unidentified serum peptide with a
+molecular weight of about 45,000. Schamaun et al. (1984) immunologically
+identified this serum protein as apoA-IV. Karathanasis et al. (1986)
+isolated and characterized the APOA4 gene. In contrast to APOA1 and
+APOA3 genes, which contain 3 introns, the APOA4 gene contains only 2.
+The similarities suggest, however, that the 3 closely linked genes were
+derived from a common evolutionary ancestor, and that during evolution,
+the APOA4 gene lost one of its introns. A polymorphic site in the second
+intron and a polymorphic site 9 kb 3-prime to the APOA4 gene were found
+to be polymorphic in Mediterranean and other European populations.
+Elshourbagy et al. (1987) determined the complete nucleotide sequence of
+the APOA4 gene and, contrary to the findings described above, reported
+that the gene contains 3 exons of 162, 127, and 1180 nucleotides
+separated by 2 introns of 357 and 777 nucleotides. They stated that the
+human APOA4 gene lacks an intron in the area encoding the 5-prime
+untranslated region of its mRNA, which distinguishes it from all the
+other human apolipoprotein genes whose sequences are known. Kamboh and
+Ferrell (1987) determined the frequency of polymorphism at the APOA4
+locus by a simple and rapid 1-dimensional isoelectric-focusing technique
+followed by immunoblotting. In an Icelandic population, Menzel et al.
+(1990) found a higher frequency of the APOA4*2 allele (0.117 vs 0.077)
+than in Tyroleans (Menzel et al., 1988). In both populations the alleles
+at the APOA4 locus had significant effects on plasma high-density
+lipoprotein cholesterol and triglyceride levels. In the Icelandic
+population, the average effect of the APO4*2 allele was to raise
+cholesterol by 4.9 mg/dl and to lower triglyceride levels by 19.4 mg/dl.
+Menzel et al. (1990) estimated that the genetic variability at the APOA4
+locus accounted for 3.1% of the total variability of HDL cholesterol and
+for 2.8% of the total variability of triglycerides in the Icelandic
+population. Genetically determined polymorphism of apoA-IV has been
+reported in dogs, horses, and baboons, in addition to humans. Data on
+gene frequencies of allelic variants were tabulated by Roychoudhury and
+Nei (1988).
+
+In a Norwegian family with a mutant APOA1 gene and polymorphism of
+APOA4, Schamaun et al. (1984) found close linkage of the APOA1 and APOA4
+loci; for the sexes combined, the peak lod score was 3.01 at a
+recombination fraction of 0.00. Rogne et al. (1986) raised the lod score
+to 6.32 by using 2 DNA polymorphisms of an APOA1 probe to study families
+informative for apoA-IV protein variants. Karathanasis (1985) showed
+that the APOA4 gene is located 12 kb 3-prime to the APOA1 gene.
+
+Duverger et al. (1996) expressed the human APOA4 gene in the livers of
+mice deficient in apoE (107741). They found that apoA-4 levels did not
+affect the levels of HDL cholesterol in these mice. However, transgenic
+mice had a significant reduction in the size of atherosclerotic lesions.
+Duverger et al. (1996) suggested that apoA-IV protects against
+atherosclerosis by a mechanism that does not involve an increase in HDL
+cholesterol concentration. They stated that their data support other
+evidence that suggests that apoA-IV may participate in reverse
+cholesterol transport (from tissues to the liver for elimination).
+
+Cohen et al. (1997) produced transgenic mice with inserts of several
+copies of murine apoA-IV gene. They found 3-fold increases in plasma
+apoA-IV levels in mice fed a chow diet and 6-fold increases in those fed
+an atherogenic diet. Plasma triglycerides, total cholesterol, HDL
+cholesterol, and free fatty acids were increased, while unesterified
+cholesterol was decreased, in the atherogenic diet group. Transgenic
+mice exhibited 70% fewer aortic lesions than controls. HDL-sized
+lipoproteins from mice fed the atherogenic diet promoted greater
+cholesterol efflux from cholesterol-loaded human monocytes than
+controls, and plasma from these mice showed raised cholesterol
+esterification rates. Cohen et al. (1997) suggested that apoA-IV levels
+may influence metabolism of HDL and its effects on atherogenesis.
+
+*FIELD* AV
+.0001
+APOLIPOPROTEIN A-IV POLYMORPHISM, APOA4*1/APOA4*2
+APOA4, GLN360HIS
+
+Lohse et al. (1990) demonstrated that the genetic polymorphism of plasma
+apolipoprotein A-IV, detected by isoelectric focusing followed by
+immunoblotting, results from a single nucleotide change. Specifically,
+the difference between APOA4*1 and APOA4*2 is a G-to-T substitution
+leading to a conversion of glutamine-360 to histidine in the mature
+protein. The allelic change is predicted to cause the loss of 2
+restriction enzyme sites in the formation of a new restriction site for
+a third enzyme. In Caucasian populations, the APOA4*1 and APOA4*2
+alleles have a frequency of about 0.9 and 0.08, respectively; 3 rare
+alleles, APOA4*0 (107690.0002), APOA4*3 (107690.0003), and APOA4*4, have
+been described. In a study of various polymorphisms of APOA4, von
+Eckardstein et al. (1992) could not confirm the previously reported
+association of elevated HDL cholesterol concentrations with the his360
+allele; from other associations, the authors concluded that the APOA4
+gene locus has an important role in the metabolism of apolipoprotein B
+and, to a lesser extent, apolipoprotein A-I-containing lipoproteins.
+
+.0002
+APOLIPOPROTEIN A-IV RARE VARIANT, APOA4*0
+APOA4, 12-BP INS, GLU-GLN-GLN-GLN INS, CODONS 361-362 
+
+Lohse et al. (1990) described the molecular basis of the rare variant
+APOA4*0: an insertion of 12 nucleotides in the carboxyl-terminal region,
+which is highly conserved among human, rat, and mouse A-IV
+apolipoproteins. This in-frame insertion of 4 amino acids,
+glu-gln-gln-gln, between residues 361 and 362 of the mature protein,
+produces the 1-charge unit, more acidic APOA4*0 isoprotein (pI = 4.92).
+
+.0003
+APOLIPOPROTEIN A-IV RARE VARIANT, APOA4*3
+APOA4, GLU230LYS
+
+Lohse et al. (1990) identified a single G-to-A substitution that
+converted the glutamic acid (GAG) at position 230 of the mature apoA-IV
+protein to lysine (AAG). The change added 2 positive charge units to the
+apoA-IV-1 isoprotein (pI = 4.97) to give the more basic APOA4*3
+isoprotein (pI, 5.08).
+
+.0004
+APOLIPOPROTEIN A-IV RARE VARIANT, APOA4*5
+APOA4, 12-BP INS, GLU-GLN-GLN-GLN INS
+
+Kamboh et al. (1992) described the same in-frame insertion of 12
+nucleotides (coding for the 4 amino acids glu-gln-gln-gln) near the
+carboxy-terminal region of the mature protein as Lohse et al. (1990)
+(see 107690.0002). This study also revealed a polymorphism (G to T,
+codon 316, third position) that did not result in an amino acid
+substitution. Kamboh et al. (1992) noted that finding the exact position
+of the 12 inserted bases was difficult because the sequences of 2 of the
+5 repeat units in the APOA4*5 allele are identical. Possible sites of
+insertion are between codons 357 and 358, or between codons 361 and 362.
+Using data obtained from 308 subjects, they estimated the frequency of
+the APOA4*5 allele in African Americans to be 3.2%.
+
+*FIELD* SA
+Elshourbagy et al. (1986); Green et al. (1980)
+*FIELD* RF
+1. Anderson, L.; Anderson, N. G.: High resolution two-dimensional
+electrophoresis of human plasma proteins. Proc. Nat. Acad. Sci. 12:
+5421-5425, 1977.
+
+2. Cohen, R. D.; Castellani, L. W.; Qiao, J.-H.; Van Lenten, B. J.;
+Lusis, A. J.; Reue, K.: Reduced aortic lesions and elevated high
+density lipoprotein levels in transgenic mice overexpressing mouse
+apolipoprotein A-IV. J. Clin. Invest. 99: 1906-1916, 1997.
+
+3. Duverger, N.; Tremp, G.; Caillaud, J.-M.; Emmanuel, F.; Castro,
+G.; Fruchart, J.-C.; Steinmetz, A.; Denefle, P.: Protection against
+atherogenesis in mice mediated by human apolipoprotein A-IV. Science 273:
+966-968, 1996.
+
+4. Elshourbagy, N. A.; Walker, D. W.; Boguski, M. S.; Gordon, J. I.;
+Taylor, J. M.: The nucleotide and derived amino acid sequence of
+human apolipoprotein A-IV mRNA and the close linkage of its gene to
+the genes of apolipoproteins A-I and C-III. J. Biol. Chem. 261:
+1998-2002, 1986.
+
+5. Elshourbagy, N. A.; Walker, D. W.; Paik, Y.-K.; Boguski, M. S.;
+Freeman, M.; Gordon, J. I.; Taylor, J. M.: Structure and expression
+of the human apolipoprotein A-IV gene. J. Biol. Chem. 262: 7973-7981,
+1987.
+
+6. Green, P. H. R.; Glickman, R. M.; Riley, J. W.; Quinet, E.: Human
+apolipoprotein A-IV: intestinal origin and distribution in plasma. J.
+Clin. Invest. 65: 911-919, 1980.
+
+7. Kamboh, M. I.; Ferrell, R. E.: Genetic studies of human apolipoproteins.
+I. Polymorphism of apolipoprotein A-IV. Am. J. Hum. Genet. 41: 119-127,
+1987.
+
+8. Kamboh, M. I.; Williams, E. R.; Law, J. C.; Aston, C. E.; Bunker,
+C. H.; Ferrell. R. E.; Pollitzer, W. S.: Molecular basis of a unique
+African variant (A-IV 5) of human apolipoprotein A-IV and its significance
+in lipid metabolism. Genet. Epidemiol. 9: 379-388, 1992.
+
+9. Karathanasis, S. K.: Apolipoprotein multigene family: tandem organization
+of human apolipoprotein AI, CIII, and AIV genes. Proc. Nat. Acad.
+Sci. 82: 6374-6378, 1985.
+
+10. Karathanasis, S. K.; Oettgen, P.; Haddad, I. A.; Antonarakis,
+S. E.: Structure, evolution, and polymorphisms of the human apolipoprotein
+A4 gene (APOA4). Proc. Nat. Acad. Sci. 83: 8457-8461, 1986.
+
+11. Lohse, P.; Kindt, M. R.; Rader, D. J.; Brewer, H. B., Jr.: Genetic
+polymorphism of human plasma apolipoprotein A-IV is due to nucleotide
+substitutions in the apolipoprotein A-IV gene. J. Biol. Chem. 265:
+10061-10064, 1990.
+
+12. Lohse, P.; Kindt, M. R.; Rader, D. J.; Brewer, H. B., Jr.: Human
+plasma apolipoproteins A-IV-0 and A-IV-3: molecular basis for two
+rare variants of apolipoprotein A-IV-1. J. Biol. Chem. 265: 12734-12739,
+1990.
+
+13. Menzel, H.-J.; Boerwinkle, E.; Schrangl-Will, S.; Utermann, G.
+: Human apolipoprotein A-IV polymorphism: frequency and effect on
+lipid and lipoprotein levels. Hum. Genet. 79: 368-372, 1988.
+
+14. Menzel, H.-J.; Kovary, P. M.; Assmann, G.: Apolipoprotein A-IV
+polymorphism in man. Hum. Genet. 62: 349-352, 1982.
+
+15. Menzel, H.-J.; Sigurdsson, G.; Boerwinkle, E.; Schrangl-Will,
+S.; Dieplinger, H.; Utermann, G.: Frequency and effect of human apolipoprotein
+A-IV polymorphism on lipid and lipoprotein levels in an Icelandic
+population. Hum. Genet. 84: 344-346, 1990.
+
+16. Rogne, S.; Myklebost, O.; Olaisen, B.; Gedde-Dahl, T., Jr.; Prydz,
+H.: Confirmation of the close linkage between the loci for human
+apolipoproteins AI and AIV by the use of a cloned cDNA probe and two
+restriction site polymorphisms. Hum. Genet. 72: 68-71, 1986.
+
+17. Roychoudhury, A. K.; Nei, M.: Human Polymorphic Genes: World
+Distribution.  New York: Oxford Univ. Press (pub.)  1988.
+
+18. Schamaun, O.; Olaisen, B.; Mevag, B.; Gedde-Dahl, T., Jr.; Ehnholm,
+C.; Teisberg, P.: The two apolipoprotein loci apoA-I and apoA-IV
+are closely linked in man. Hum. Genet. 68: 181-184, 1984.
+
+19. Tracy, R. P.; Currie, R. M.; Young, D. S.: Two-dimensional gel
+electrophoresis of serum specimens from a normal population. Clin.
+Chem. 28: 890-899, 1982.
+
+20. von Eckardstein, A.; Funke, H.; Schulte, M.; Erren, M.; Schulte,
+H.; Assmann, G.: Nonsynonymous polymorphic sites in the apolipoprotein
+(apo) A-IV gene are associated with changes in the concentration of
+apo B- and apo A-I-containing lipoproteins in a normal population. Am.
+J. Hum. Genet. 50: 1115-1128, 1992.
+
+*FIELD* CS
+
+Misc:
+   Influences apolipoprotein B metablism and apolipoprotein A-I containing
+   lipoproteins;
+   Affects plasma high density lipoprotein cholesterol and triglyceride
+   levels
+
+Inheritance:
+   Autosomal dominant
+
+*FIELD* CN
+Michael J. Wright  - updated: 9/25/1997
+Jennifer P. Macke - updated: 7/28/1997
+Stylianos E. Antonarakis - updated: 7/8/1996
+
+*FIELD* CD
+Victor A. McKusick: 6/4/1986
+
+*FIELD* ED
+terry: 06/01/1998
+alopez: 11/11/1997
+alopez: 11/10/1997
+dholmes: 8/25/1997
+dholmes: 8/4/1997
+terry: 7/28/1997
+terry: 7/9/1997
+mark: 7/8/1996
+mimadm: 4/9/1994
+carol: 7/6/1992
+supermim: 3/19/1992
+supermim: 3/16/1992
+carol: 1/27/1992
+carol: 2/8/1991
+
+

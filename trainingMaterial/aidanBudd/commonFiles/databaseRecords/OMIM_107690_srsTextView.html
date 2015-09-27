@@ -1,0 +1,1219 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+
+
+<title>Entry view - OMIM:107690</title>
+<link href="OMIM_107690_srsTextView_files/styles.css" rel="stylesheet" type="text/css">
+<link href="OMIM_107690_srsTextView_files/entryviews.css" rel="stylesheet" type="text/css">
+<link href="OMIM_107690_srsTextView_files/queryresults.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="http://srs.embl.de/srs/images/bwfavicon.ico" type="image/x-icon">    
+<script language="javascript" src="OMIM_107690_srsTextView_files/srs_standard.js"></script>
+<script language="javascript" src="OMIM_107690_srsTextView_files/AjaxServices.txt"> </script>
+<script language="javascript" src="OMIM_107690_srsTextView_files/engine.js"> </script>
+<script language="javascript" src="OMIM_107690_srsTextView_files/srs_ajax.js"> </script>
+<script language="javascript" src="OMIM_107690_srsTextView_files/slider.js"></script>
+<script language="javascript" src="OMIM_107690_srsTextView_files/export.js"></script>
+<script language="javascript" src="OMIM_107690_srsTextView_files/entryviews.js"></script>
+<script language="javascript">
+  collapsibleSections="";
+  function resetHiddenFields() {
+	  document.getElementById('action').value = '';
+      document.getElementById('appToExport').value = '';
+      document.getElementById('viewForExport').value = '';
+      document.getElementById('queryString').value = document.getElementById('queryString_backup').value;
+      document.forms['primaryForm'].target = '';
+  }
+</script>
+
+</head><body onload="initiate();moveBack();setHighlightTerms();evaluateSections(collapsibleSections);">
+<form id="quickSearchBarForm" name="quickSearchForm" action="quickSearchToolBar.do" method="post">
+<div style="margin-left: 5px;"> 
+<table class="navBg" border="0" cellpadding="0" cellspacing="0" width="954">
+  <tbody><tr>
+    <td class="navBottomLeft" colspan="2" halign="right" rowspan="2" valign="top" width="80"><a href="http://srs.embl.de/srs/frontpage.do"><img halign="right" src="OMIM_107690_srsTextView_files/logo.gif" title="Click here to go to the front page" border="0"></a>&nbsp;</td>
+    <td width="614"><table border="0" cellpadding="0" cellspacing="0" width="600">
+                <tbody><tr>
+                  <td width="28">&nbsp;&nbsp;&nbsp;Find&nbsp;</td>
+                  <td width="274"><input name="queryStrTextBoxHeader" onkeypress="return Qcodes(event, 'quicksearch')" id="queryStrTextBoxHeader" size="40" type="text"></td>
+				  <td id="toolBar_Synonyms" width="60">
+					<a href="javascript:getFinders('quickSearchForm',%20'queryStrTextBoxHeader_div',%20'queryStrTextBoxHeader');">
+                  <img id="synonymImage_queryStrTextBoxHeader_div" src="OMIM_107690_srsTextView_files/synonym_select.gif" title="Find Synonyms" border="0">
+				  </a>
+                  </td>
+                  <td width="23">&nbsp;in&nbsp;</td>
+                  <td width="115">
+						  <table border="0" cellpadding="0" cellspacing="0" width="115">
+							<tbody><tr>
+							  <td valign="bottom">
+								  <div id="conceptSelected">Results Overview</div>
+								</td>
+							  <td align="left"><a href="#"><img id="dropdownboxarrow" src="OMIM_107690_srsTextView_files/dropdownboxarrow.gif" style="position: relative;" align="top" border="0"></a></td>
+							</tr>
+							<tr><td align="left"><div id="quickSearchBarMenu" class="quickSearchBarMenu">
+							<table border="0" cellpadding="0" cellspacing="0">
+							<tbody><tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="all" onmousedown="selectedConcept('all','Results Overview');" href="#">Results Overview</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="nucleicAcidSeq" onmousedown="selectedConcept('nucleicAcidSeq REFSEQ EMBL GENBANK','Nucleic Acid Sequence');" href="#">Nucleic Acid Sequence<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ REFSEQ EMBL GENBANK&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="proteinSeq" onmousedown="selectedConcept('proteinSeq UNIPROT','Protein Sequence');" href="#">Protein Sequence<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ UNIPROT&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="proteinFamily" onmousedown="selectedConcept('proteinFamily INTERPRO','Protein Family/Domain');" href="#">Protein Family/Domain<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ INTERPRO&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="disease" onmousedown="selectedConcept('disease OMIM','Disease');" href="#">Disease<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ OMIM&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="enzyme" onmousedown="selectedConcept('enzyme ENZYME','Enzyme');" href="#">Enzyme<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ ENZYME&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="proteinFunction" onmousedown="selectedConcept('proteinFunction GO','Protein Function');" href="#">Protein Function<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ GO&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="genomicLocation" onmousedown="selectedConcept('genomicLocation ENTREZGENE','Genomic Location');" href="#">Genomic Location<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ ENTREZGENE&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="biologicalPathway" onmousedown="selectedConcept('biologicalPathway PATHWAY LREACTION LCOMPOUND LENZYME LGLYCAN REACTOME','Biological Pathway');" href="#">Biological Pathway<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ PATHWAY LREACTION LCOMPOUND LENZYME LGLYCAN REACTOME&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="threeDStructure" onmousedown="selectedConcept('threeDStructure PDB HSSP PSSH','Macromolecular Structure');" href="#">Macromolecular Structure<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ PDB HSSP PSSH&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="srsql" onmousedown="selectedConcept('srsql','SRS Query Language');" href="#">SRS Query Language</a>
+								</td>
+								</tr>
+								
+		                    <tr><td>&nbsp;</td></tr>
+								<tr>
+								<td align="right">
+								<a href="http://srs.embl.de/srs/userConcepts.do">Customize...</a>
+								</td>
+								</tr>
+							</tbody></table>
+							</div></td></tr>
+						  </tbody></table>					  
+				  <input name="menu_PreferredConcepts" id="menu_PreferredConcepts" value="all" type="hidden">
+				  <input name="menu_PreferredConceptsDisplay" id="menu_PreferredConceptsDisplay" value="all" type="hidden">
+					</td>
+                  <td width="100"><a name="link_searchBar_go_button" id="link_searchBar_go_button" href="javascript:quickSearchBarSubmit();"><img name="img_searchBar_go_button" id="img_searchBar_go_button" src="OMIM_107690_srsTextView_files/btn_go_off.gif" onmouseover="swapImage(this, 'images/biowisdom/btn_go_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_go_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_go_on.gif');" border="0"></a> </td>
+     </tr>
+              </tbody></table>
+			  <script language="javascript">
+			  	document.getElementById('queryStrTextBoxHeader').value = "";
+			  </script>
+			  </td>
+    <td class="navTopRight" height="55"></td>
+  </tr>
+  <tr>
+    <!-- <td width="37" height="30" align="left"><img src="images/biowisdom/nav/bottom_left.gif" width="37" height="30"></td>
+	<td></td> -->
+    <td valign="bottom"><table border="0" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+          <td><a href="http://srs.embl.de/srs/quicksearches.do"><img style="cursor: pointer;" id="nav_mysrs" src="OMIM_107690_srsTextView_files/nav_mysrs_off.gif" onmouseover="swapImage(this, 'images/biowisdom/nav/nav_mysrs_on.gif');" onmouseout="swapImage(this, 'images/biowisdom/nav/nav_mysrs_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/nav/nav_mysrs_on.gif');" border="0"></a><a href="http://srs.embl.de/srs/querybuilder.do"><img style="cursor: pointer;" id="nav_querybuilder" src="OMIM_107690_srsTextView_files/nav_querybuilder_off.gif" onmouseover="swapImage(this, 'images/biowisdom/nav/nav_querybuilder_on.gif');" onmouseout="swapImage(this, 'images/biowisdom/nav/nav_querybuilder_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/nav/nav_querybuilder_on.gif');" border="0"></a><a href="http://srs.embl.de/srs/analysisTools.do"><img style="cursor: pointer;" id="nav_analysistools" src="OMIM_107690_srsTextView_files/nav_analysistools_off.gif" onmouseover="swapImage(this, 'images/biowisdom/nav/nav_analysistools_on.gif');" onmouseout="swapImage(this, 'images/biowisdom/nav/nav_analysistools_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/nav/nav_analysistools_on.gif');" border="0"></a></td>
+          <td><table border="0" cellpadding="0" cellspacing="0"><tbody><tr>
+		  <td id="batchQueue"><img src="OMIM_107690_srsTextView_files/null.gif" height="20" width="20"></td>
+			<td onmouseover="changehighlight('queryHistory', 'navTopOn');" onmouseout="changehighlight('queryHistory', 'navTopOff');" id="queryHistory" class="navTopOff"><a id="nav_queryHistory" href="http://srs.embl.de/srs/queryHistory.do">history</a></td><td>&nbsp;-&nbsp;</td>
+			<td onmouseover="changehighlight('customView', 'navTopOn');" onmouseout="changehighlight('customView', 'navTopOff');" id="customView" class="navTopOff" height="20"><a id="nav_customView" href="http://srs.embl.de/srs/customview.do">manage views</a></td><td>&nbsp;-&nbsp;</td>
+			<td onmouseover="changehighlight('databankInfo', 'navTopOn');" onmouseout="changehighlight('databankInfo', 'navTopOff');" id="databankInfo" class="navTopOff"><a id="nav_databankInfo" href="javascript:goToDatabankInfo();">databank list</a></td><td>&nbsp;-&nbsp;</td>
+			<td class="navHelp"><a id="nav_help" href="http://srs.embl.de/srs/docpage.do?page=doc/srsbooks/srs_user_guide/9_1.html" target="docPage">Help?</a></td>
+		  </tr></tbody></table></td>
+        </tr>
+      </tbody></table></td>
+    <td class="navlogin" align="right">
+	    <a href="http://srs.embl.de/srs/login?redirecturl=quicksearches.do">Log In</a>&nbsp;
+				</td>
+  </tr>
+</tbody></table>
+</div>
+<script language="javascript">
+function goToDatabankInfo(){
+	var cookieValue = getCookie("toolFilterCookie");
+	var cookieSortValue = getCookie("sortCookie");
+	var cookieReverseValue = getCookie("reverseCookie");
+    document.location = 'databanklist.do?filterTools='+cookieValue+'&sort='+cookieSortValue+'&reverse='+cookieReverseValue+'';
+}
+var thisIsFrontPage = false;
+</script>
+
+<script language="javascript" src="OMIM_107690_srsTextView_files/synonyms.js"></script>
+<script language="javascript">createSynonymDivs('queryStrTextBoxHeader_div');</script><input id="hidden_previous_synonym_queryStrTextBoxHeader_div" name="hidden_synonym_queryStrTextBoxHeader_div" value="" type="hidden"><input id="synonymsSelected_queryStrTextBoxHeader_div" name="synonymsSelected_queryStrTextBoxHeader_div" value="" type="hidden"><div id="queryStrTextBoxHeader_div" class="synonymsContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td class="sectionHeading">Add Synonyms for :<div style="display: inline;" id="queryStrTextBoxHeader_div_searchTerm"></div></td><td><div id="queryStrTextBoxHeader_div_synonymsFindersContainerLaunch" class="synonymsFindersContainerLaunch"><a href="javascript:showFinders('queryStrTextBoxHeader_div')">Show Finders</a></div></td></tr></tbody></table><p></p><div class="synonymsMainArea"><div id="queryStrTextBoxHeader_div_synonymsFinderContainer" class="synonymsFinderContainer">Loading...</div><div id="queryStrTextBoxHeader_div_synonymsResultsContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td></td></tr><tr><td>&nbsp;<strong>Your results are :</strong><p></p></td><td>&nbsp;</td></tr><tr><td colspan="2"><div id="queryStrTextBoxHeader_div_synonymsResults" class="synonymsResultsContainer">Loading ....</div></td></tr></tbody></table></div></div><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td><p>&nbsp;<a href="javascript:hideSynonymPopup('queryStrTextBoxHeader_div','synonymImage_queryStrTextBoxHeader_div');%20hideFinders('queryStrTextBoxHeader_div');hideFreeze();"><img src="OMIM_107690_srsTextView_files/btn_close_off.gif" id="synonymSearch" onmouseover="swapImage(this, 'images/biowisdom/btn_close_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_close_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_close_on.gif');" border="0"></a></p></td></tr></tbody></table></div>
+<script language="javascript">
+function showStopOption(type) {
+
+   // update the cookie with the ticket id in the model
+   setCookie('SRSACCESS_TICKET_ID', 'null|F44A79168EA1DB4F836C2BA973206137/20684');
+
+   document.getElementById('freezepage').style.display = "block";
+   document.getElementById('freezepage').style.visibility = "visible";
+   if (type == "annotations"){
+   	   document.getElementById('displayText').innerHTML = "SRS is processing...";
+   	   document.getElementById('stopOption').style.display = "block";
+   	   document.getElementById('stopOption').style.visibility = "visible";   
+   } else if (type == "freezeOnly"){
+   	   document.getElementById('stopOption').style.visibility = "hidden";
+	   document.getElementById('stopOption').style.display = "none";
+   }else{
+	   document.getElementById('stopOption').style.display = "block";
+   	   document.getElementById('stopOption').style.visibility = "visible";
+   }
+   updateWindowSizes();
+}
+
+function hideFreeze(){
+   document.getElementById('freezepage').style.visibility = "hidden";
+   document.getElementById('freezepage').style.display = "none";
+   document.getElementById('stopOption').style.visibility = "hidden";
+   document.getElementById('stopOption').style.display = "none";
+}
+
+function updateWindowSizes() {
+   var windowWidth = 0;
+   var windowHeight = 0;
+   var stopperWidth = 300;
+   var stopperHeight = 80;
+   if (document.all) {
+     windowWidth = document.documentElement.clientWidth;
+     windowHeight = document.documentElement.clientHeight;
+     if (windowWidth == 0) {
+       windowWidth = document.body.clientWidth;
+       windowHeight = document.body.clientHeight;
+     }
+   } else {
+     windowWidth = window.innerWidth;
+     windowHeight = window.innerHeight;
+   }
+   if (windowWidth < 300) {
+     windowWidth = 300;
+   }
+   if (windowHeight < 80) {
+     windowHeight = 80;
+   }
+   document.getElementById('freezepage').style.width = windowWidth + 'px';
+   document.getElementById('freezepage').style.height = windowHeight + 'px';
+   document.getElementById('stopOption').style.left = ((windowWidth - 300)/2) + 'px';
+   document.getElementById('stopOption').style.top = ((windowHeight - 80)/2) + 'px';
+}
+</script>  
+<style type="text/css">
+.freezepage{
+	background-image:url(images/shared/translucent_lightgrey.gif);
+	position:absolute;
+	top:expression((ignoreVar = document.documentElement.scrollTop) + "px");
+	left:expression((ignoreVar2 = document.documentElement.scrollLeft) + "px");
+	visibility:hidden;
+	z-index:101;
+}
+html[xmlns] .freezepage { 
+	background-image:url(images/shared/translucent_lightgrey.gif);
+    position: fixed;
+    top: 1px;
+	left:1px;
+	visibility:hidden;
+	z-index:101;
+} 
+html>body .freezepage { 
+	background-image:url(images/shared/translucent_lightgrey.gif);
+    position: fixed;
+    top: 1px;
+	left:1px;
+	visibility:hidden;
+	z-index:101;
+}
+.stopper{
+	background-color:#FFFFFF;
+	height: 80px;
+	width: 300px;
+	top: 800px;
+	position:absolute;
+	border:1px solid black;
+	z-index:999;
+	visibility:hidden;
+	display:none;
+}
+</style>
+<div id="freezepage" class="freezepage">
+<div id="stopOption" class="stopper">
+<table border="0" cellpadding="0" cellspacing="0" width="300">
+  <tbody><tr>
+    <td>
+	  <div align="center">
+<script language="JavaScript" type="text/javascript">
+	
+var requiredVersion = 7;   // Version the user needs to view site (max 9, min 2)
+var useRedirect = false;    // Flag indicating whether or not to load a separate page
+
+var flash2Installed = false;    // boolean. true if flash 2 is installed
+var flash3Installed = false;    // boolean. true if flash 3 is installed
+var flash4Installed = false;    // boolean. true if flash 4 is installed
+var flash5Installed = false;    // boolean. true if flash 5 is installed
+var flash6Installed = false;    // boolean. true if flash 6 is installed
+var flash7Installed = false;    // boolean. true if flash 7 is installed
+var flash8Installed = false;    // boolean. true if flash 8 is installed
+var flash9Installed = false;    // boolean. true if flash 9 is installed
+var maxVersion = 9;             // highest version we can actually detect
+var actualVersion = 0;          // version the user really has
+var hasRightVersion = false;    // boolean. true if it's safe to embed the flash movie in the page
+var jsVersion = 1.0;            // the version of javascript supported
+
+// Check the browser...we're looking for ie/win
+var isIE  = (navigator.appVersion.indexOf("MSIE") != -1) ? true : false;    // true if we're on ie
+var isWin = (navigator.appVersion.toLowerCase().indexOf("win") != -1) ? true : false; // true if we're on windows
+jsVersion = 1.1;
+
+if(isIE && isWin){
+  document.write('<SCR' + 'IPT LANGUAGE=VBScript\> \n');
+  document.write('on error resume next \n');
+  document.write('flash2Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.2"))) \n');
+  document.write('flash3Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.3"))) \n');
+  document.write('flash4Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.4"))) \n');
+  document.write('flash5Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.5"))) \n');  
+  document.write('flash6Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.6"))) \n');  
+  document.write('flash7Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.7"))) \n');
+  document.write('flash8Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.8"))) \n');
+  document.write('flash9Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.9"))) \n');
+  document.write('<\/SCR' + 'IPT\> \n'); // break up end tag so it doesn't end our script
+}
+
+function detectFlash() {  
+  // If navigator.plugins exists...
+  if (navigator.plugins) {
+    // ...then check for flash 2 or flash 3+.
+    if (navigator.plugins["Shockwave Flash 2.0"]
+        || navigator.plugins["Shockwave Flash"]) {
+
+      var isVersion2 = navigator.plugins["Shockwave Flash 2.0"] ? " 2.0" : "";
+      var flashDescription = navigator.plugins["Shockwave Flash" + isVersion2].description;
+
+      var flashVersion = parseInt(flashDescription.substring(16));
+
+      flash2Installed = flashVersion == 2;    
+      flash3Installed = flashVersion == 3;
+      flash4Installed = flashVersion == 4;
+      flash5Installed = flashVersion == 5;
+      flash6Installed = flashVersion == 6;
+      flash7Installed = flashVersion == 7;
+      flash8Installed = flashVersion == 8;
+      flash9Installed = flashVersion >= 9;
+    }
+  }
+  
+  for (var i = 2; i <= maxVersion; i++) {  
+    if (eval("flash" + i + "Installed") == true) actualVersion = i;
+  }
+  if(navigator.userAgent.indexOf("WebTV") != -1) actualVersion = 4;  
+  if (actualVersion >= requiredVersion) {
+    if (useRedirect) {
+      if(jsVersion > 1.0) {
+        window.location.replace(flashPage);  
+      } else {
+        window.location = flashPage;
+      }
+    }
+
+    hasRightVersion = true;                
+  } else {  
+    if (useRedirect) {
+       if(jsVersion > 1.0) {
+        window.location.replace((actualVersion >= 2) ? upgradePage : noFlashPage);
+      } else {
+        window.location = (actualVersion >= 2) ? upgradePage : noFlashPage;
+      }
+    }
+  }
+}
+
+detectFlash();  // call detector now that it's safely loaded. 
+
+	if (!useRedirect) {    // if dynamic embedding is turned on
+  if(hasRightVersion) {  // if we've detected an acceptable version
+    var oeTags = '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="80" height="30">'
++'<param name="movie" value="images/shared/helixv4.swf">'
++'<param name="quality" value="high">'
++'<embed src="images/shared/helixv4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="80" height="30"></embed>'
++'</object>';
+
+  document.write(oeTags);   
+  } else {  // flash is too old or we can't detect the plugin
+    // NOTE: height, width are required!
+    var alternateContent = '<IMG SRC="images/shared/helixv4.gif" HEIGHT="30" WIDTH="80">';
+     
+    document.write(alternateContent);  // insert non-flash content
+  }
+}
+</script><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" height="30" width="80"><param name="movie" value="images/shared/helixv4.swf"><param name="quality" value="high"><embed src="OMIM_107690_srsTextView_files/helixv4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" height="30" width="80"></object>
+      </div>
+	  </td></tr><tr>
+    <td><div align="center">
+		<span id="displayText">SRS is searching...</span>
+		<p>
+        <a href="http://srs.embl.de/srs/cancelServices.do?ticketid=null%7CF44A79168EA1DB4F836C2BA973206137/20684">Click here to cancel</a></p></div></td>
+  </tr>
+</tbody></table>
+</div>
+</div></form>
+<p class="pageTitle">
+<span id="bookmark">
+		<a href="javascript:addBookmark('SRS%20Entry%20View%20-%20OMIM:107690',%20'http://srs.embl.de:80/srs/showEntryView.do?entryId=OMIM:107690&amp;entryView=OmimEntry');">
+			<img src="OMIM_107690_srsTextView_files/bookmark.gif" border="0">
+		</a>
+	</span>
+Entry view - OMIM:107690</p>
+<iframe id="quickSearchBarMenuiFrame" style="width: 390px; height: 160px; position: absolute; top: 1px; left: 1px; display: none; z-index: 25;" marginwidth="0" src="" marginheight="0" frameborder="0" scrolling="no"></iframe>
+<iframe id="synonymLaunchiFrame" style="width: 700px; height: 500px; position: absolute; top: 100px; left: 100px; display: none;" marginwidth="0" src="" marginheight="0" frameborder="0" scrolling="no"></iframe>
+<div class="mainPageAreaEntryViews">
+  <div id="deleteConfirmX" class="alertingTip"></div>
+
+<form method="post" name="primaryForm" action="updateEntryView.do">
+<!-- option panel -->
+<!-- Top Menu -->
+
+<input name="queryString" id="queryString" value="[OMIM:107690]" type="hidden">
+<input name="appToExport" id="appToExport" value="" type="hidden">
+<input name="viewForExport" id="viewForExport" value="" type="hidden">
+<input name="action" id="action" value="" type="hidden">
+<input name="entryId" id="entryId" value="OMIM:107690" type="hidden">
+<input name="entryView" id="entryView" value="OmimEntry" type="hidden">
+
+<!-- summary sheet special -->
+<input name="input" id="input" value="OMIM:107690" type="hidden">
+
+<!-- fields used for dependency with query result page -->
+<input id="currentSearchSortField" name="currentSearchSortField" value="" type="hidden">
+<input id="currentSearchSortDirection" name="currentSearchSortDirection" value="0" type="hidden">
+<input id="currentSearchSelectedViewName" name="currentSearchSelectedViewName" value="" type="hidden">
+<input id="currentSearchFilteredDatabank" name="currentSearchFilteredDatabank" value="" type="hidden">
+<input id="currentSearchStart" name="currentSearchStart" value="1" type="hidden">
+<input id="currentSearchSize" name="currentSearchSize" value="30" type="hidden">
+<input id="selectedConceptName" name="selectedConceptName" value="" type="hidden">
+<input id="selectedConceptType" name="selectedConceptType" value="" type="hidden">
+<input id="primarySearchQueryName" name="primarySearchQueryName" value="q10" type="hidden">
+<input id="primarySearchParentQueryName" name="primarySearchParentQueryName" value="q10" type="hidden">
+<input id="parentConceptNames" name="parentConceptNames" value="" type="hidden">
+
+<!-- keeping a track of the parent entry position including when an annotation has been added -->
+<input id="entryPositionInSet" name="entryPositionInSet" value="15" type="hidden">
+<input id="totalEntriesInSet" name="totalEntriesInSet" value="183" type="hidden">
+<!-- Backup -->
+<input name="queryString_backup" id="queryString_backup" value="[OMIM:107690]" type="hidden">
+<!--  for back links with annotations  -->
+
+<input name="referEntryId" id="referEntryId" value="" type="hidden">
+<div id="displayOptionsContainer">
+	<!-- round corners  -->
+	<span class="topLeftImage"></span>
+	<span class="topRightImage"></span>
+
+  <table border="0" cellpadding="0" cellspacing="0">
+    <tbody><tr>
+      <td><img src="OMIM_107690_srsTextView_files/null.gif" height="5"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;&nbsp;&nbsp;<strong>Options:</strong>&nbsp;</td>
+	  <td>
+		<div class="displayOptionsButton" id="actionsMenuButton" onmouseover="showMenu('actionsMenu')" onmouseout="hideMenu('actionsMenu');">
+			Actions <img class="arrowIcon" src="OMIM_107690_srsTextView_files/options_tab_arrow.gif" title="Menu">
+		</div>
+  	  	<div id="actionsMenu" onmouseover="showMenu('actionsMenu')" onmouseout="hideMenu('actionsMenu');">
+		<a href="javascript:showStopOption('full');resetHiddenFields();setFormElementById('action','backToResults');document.forms['primaryForm'].submit();">Back to Results</a><br>
+		<a href="http://srs.embl.de/srs/showResults.do?query=%5BOMIM:107690%5D">Set As Primary Search</a><br>
+		</div>
+	  </td>
+      <td>
+		<div class="displayOptionsButton" id="viewsMenuButton" onmouseover="showMenu('viewsMenuEntry')" onmouseout="hideMenu('viewsMenuEntry');">
+			View <img class="arrowIcon" src="OMIM_107690_srsTextView_files/options_tab_arrow.gif" title="Menu">
+		</div>
+  	  	<div style="visibility: hidden;" id="viewsMenuEntry" onmouseover="showMenu('viewsMenuEntry')" onmouseout="hideMenu('viewsMenuEntry');">
+	  <a onclick="showStopOption('full');" href="http://srs.embl.de/srs/showEntryView.do?entryId=OMIM:107690&amp;pQ=q10&amp;ppQ=q10&amp;num=15&amp;total=183&amp;sF=&amp;sD=0&amp;pV=&amp;pDB=&amp;pC=&amp;pCT=&amp;pSt=1&amp;pSz=30&amp;pCN=&amp;entryView=CompleteEntry">
+					Text Entry</a><br>
+				
+			<strong>OmimEntry</strong><br>
+			</div>
+	  </td>
+	<td style="padding-left: 20px; white-space: nowrap;">
+	<strong>View Summary Sheet:</strong>
+</td>	  
+<td>
+	<a onclick="showStopOption('full');" href="http://srs.embl.de/srs/showEntryView.do?entryId=OMIM:107690&amp;pQ=&amp;num=&amp;total=&amp;sF=&amp;sD=&amp;pV=&amp;pDB=&amp;pC=&amp;pCT=&amp;pSt=&amp;pSz=&amp;pCN=&amp;entryView=summarySheetView">
+		<img src="OMIM_107690_srsTextView_files/icon_summarysheet.gif">
+	</a>
+</td>
+<td style="padding-left: 20px; white-space: nowrap;">
+	<strong>Get PDF version:</strong>
+</td>
+<td>
+	<a href="http://srs.embl.de/srs/showEntryViewAsPdf.do?entryId=OMIM:107690&amp;entryView=OmimEntry"><img class="pdf" src="OMIM_107690_srsTextView_files/pdf_icon.gif"></a>
+</td>
+<td style="padding-left: 20px; white-space: nowrap;">
+	<strong>View Databank:</strong>
+</td>
+<td>
+	<a href="http://srs.embl.de/srs/databankinfo.do?dbName=OMIM"><img class="pdf" src="OMIM_107690_srsTextView_files/icon_db.gif"></a>
+</td>
+<td class="resultNav">
+		<a onclick="showStopOption('full');" href="http://srs.embl.de/srs/showEntryView.do?entryId=OMIM:107680&amp;pQ=q10&amp;ppQ=q10&amp;num=14&amp;total=183&amp;sF=&amp;sD=0&amp;pV=&amp;pDB=&amp;pC=&amp;pCT=&amp;pSt=1&amp;pSz=30&amp;pCN=&amp;entryView=OmimEntry">
+				&lt;
+			</a>
+		
+		
+		Page 15 of 183<a onclick="showStopOption('full');" href="http://srs.embl.de/srs/showEntryView.do?entryId=OMIM:107710&amp;pQ=q10&amp;ppQ=q10&amp;num=16&amp;total=183&amp;sF=&amp;sD=0&amp;pV=&amp;pDB=&amp;pC=&amp;pCT=&amp;pSt=1&amp;pSz=30&amp;pCN=&amp;entryView=OmimEntry">
+				&gt;
+			</a>
+		</td>
+	</tr>
+  </tbody></table>
+</div>
+<div id="basessm" style="visibility: hidden; position: absolute; left: -2px; top: 169px; z-index: 20; width: 240px;">
+    <div id="thessm" style="position: absolute; left: -200px; top: 0px; z-index: 21; visibility: visible;">
+    <script type="text/javascript">
+function confirmDeleteEntry(divId, toolName) {
+	var ht = '<table><tr><td colspan="2" align="center">Do you wish to remove OMIM:107690 from your sequence database?</td></tr>';
+	ht = ht + '<tr><td align="right"><a id="' + divId + 'rename" href="javascript:hideDivSection(\'' + divId + '\');launchTool(\'' + toolName + '\');showStopOption(\'annotations\');">';
+	ht = ht + '<img border="0" src="images/biowisdom/btn_accept_off.gif" onmouseover="swapImage(this, \'images/biowisdom/btn_accept_hover.gif\');" onmouseout="swapImage(this, \'images/biowisdom/btn_accept_off.gif\');"/></a></td>';
+	ht = ht + '<td align="left"><a id="' + divId + 'cancelAlerting" href="javascript:hideDivSection(\'' + divId + '\');hideFreeze()">';
+	ht = ht + '<img border="0" src="images/biowisdom/btn_cancel_off.gif" onmouseover="swapImage(this, \'images/biowisdom/btn_cancel_hover.gif\');" onmouseout="swapImage(this, \'images/biowisdom/btn_cancel_off.gif\');"/></a></td></tr></table>';
+
+	document.getElementById(divId).innerHTML = ht
+	showDivSection(divId);
+	centerDivPosition(divId);
+	showStopOption('freezeOnly');
+}
+</script>
+    
+      <table border="0" cellpadding="0" cellspacing="0" width="216">
+        <tbody><tr>
+          <td class="toolsMainArea" valign="top" width="200"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+              <tbody><tr>
+                <td class="toolsHeading">Analysis Tools</td>
+              </tr>
+              <tr>
+                <td class="toolsContent"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tbody><tr>
+                      <td class="toolsContent2" align="left" valign="top" width="100%"><table border="0" cellpadding="2" cellspacing="2">
+                          <tbody><tr>
+                            <td valign="top"><a href="http://srs.embl.de/srs/analysisTools.do?queryString=%5BOMIM:107690%5D&amp;query=q22&amp;databanks=OMIM">Go to Tools Page</a> </td>
+                          </tr>
+                          <tr>
+                                <td valign="top">No tools available for the current results</td>
+                              </tr>
+                        </tbody></table>
+                       </td>
+                    </tr>
+                  </tbody></table></td>
+              </tr>
+              
+              <tr>
+                <td class="toolsHeading">Save/Export</td>
+              </tr>
+              <tr>
+                <td class="toolsContent">
+                <table id="exportApplications" border="0" cellpadding="2" cellspacing="2">
+		                  <tbody><tr>
+		                        <td><a href="javascript:exportTo('txtXml','txt-xml');resetHiddenFields();">XML or Text format</a></td>
+		                        <td align="center"><img src="OMIM_107690_srsTextView_files/txt_icon.gif"></td>
+		                      </tr>
+		                      <tr>
+		                        <td><a href="javascript:exportTo('pdf','');resetHiddenFields();">Acrobat PDF</a></td>
+		                        <td align="center"><img src="OMIM_107690_srsTextView_files/pdf_icon.gif"></td>
+		                      </tr>
+		                      </tbody></table>
+	                </td>
+              </tr>
+              <tr>
+                <td class="toolsHeading">Link</td>
+              </tr>
+              <tr>
+                <td class="toolsContent"><p>
+                <a href="http://srs.embl.de/srs/updatelinkUniverse.do?fromQueryString=%5BOMIM:107690%5D&amp;fromQuery=q22&amp;fromDatabank=OMIM&amp;mode=text&amp;action=redirect">
+                Link to...
+                </a><br>
+				</p></td>
+              </tr>
+              <tr>
+                <td class="toolsHeading">Term Highlighting</td>
+              </tr>
+              <tr>
+                <td class="toolsContent"><p>
+				</p><div id="highlightTermsTrigger"><a href="#" onclick="highlightTerms('false');">Switch Off</a></div>
+				
+                <br>
+                </td>
+              </tr>
+              
+            </tbody></table></td>
+          <td valign="top" width="16"><table border="0" cellpadding="0" cellspacing="0" width="16">
+              <tbody><tr>
+                <td class="toolsTab" onclick="movementDecider();" align="center" valign="top">&nbsp; T o o l s &nbsp;</td>
+              </tr>
+              <tr>
+                <td style="cursor: pointer;" onclick="javascript:clickthrough();" onmouseover="this.style.cursor='hand'" onmouseout="this.style.cursor='pointer'" height="100" valign="top">&nbsp;</td>
+              </tr>
+            </tbody></table></td>
+        </tr>
+      </tbody></table>
+    </div>
+  </div>
+</form>
+<br>
+
+<form method="post" name="viewForm" action="updateEntryView.do">
+<table border="0" cellpadding="5" cellspacing="0">
+<tbody><tr>
+<td bgcolor="#aad2f5" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>Go To:</b></font></td>
+<td bgcolor="#aad2f5" valign="top"><a href="#omimGeneral">General</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#omimDescription">Description</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#omimAlleles">Allelic Variants</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#omimReferences">References</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#omimClin">Clinical Synopsis</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#omimCuration">Curation Details</a>
+</td>
+</tr>
+</tbody></table>
+<table border="0" cellpadding="2" cellspacing="2">
+<tbody><tr>
+<td colspan="2" bgcolor="#aad2f5" valign="top" width=""><a class="sectionHead" name="omimGeneral">General Information about the Entry</a></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#a0b8dc" valign="top">ID</td>
+<td colspan="1" valign="top">107690</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#a0b8dc" valign="top">Name</td>
+<td colspan="1" valign="top"><span class="termHighlight"><span class="termHighlight">APOLIPOPROTEIN</span></span> A-IV; APOA4 </td>
+<script language="JavaScript">
+ var sectionName='section_omimDescription';
+ if(collapsibleSections == ''){
+  var collapsibleSections=(sectionName);
+ } else {
+  var collapsibleSections=(collapsibleSections + "@" + sectionName);
+ }
+</script>
+
+</tr>
+<tr>
+<td colspan="2" bgcolor="#aad2f5" valign="top" width=""><a href="javascript:toggleRegion('section_omimDescription',0);" id="imgLink_image_section_omimDescription"><img src="OMIM_107690_srsTextView_files/minus.gif" id="image_section_omimDescription" align="center" border="0"></a>
+<a class="sectionHead" name="omimDescription">Description</a></td>
+</tr></tbody><tbody id="section_omimDescription">
+<tr>
+<td colspan="2" valign="top"><span class="termHighlight"><span class="termHighlight">Apolipoprotein</span></span> A-IV is a component of chylomicrons and high-density
+lipoproteins. By isoelectric focusing, 2 isoforms, designated A-IV-1 and
+A-IV-2, can be identified. <a href="#Menzel1982">Menzel et al. (1982)</a>  demonstrated another
+variant form. <a href="#Anderson1977">Anderson and Anderson (1977)</a>  and <a href="#Tracy1982">Tracy et al. (1982)</a> 
+described genetic polymorphism of an unidentified serum peptide with a
+molecular weight of about 45,000. <a href="#Schamaun1984">Schamaun et al. (1984)</a>  immunologically
+identified this serum protein as apoA-IV. <a href="#Karathanasis1986">Karathanasis et al. (1986)</a> 
+isolated and characterized the APOA4 gene. In contrast to APOA1 and
+APOA3 genes, which contain 3 introns, the APOA4 gene contains only 2.
+The similarities suggest, however, that the 3 closely linked genes were
+derived from a common evolutionary ancestor, and that during evolution,
+the APOA4 gene lost one of its introns. A polymorphic site in the second
+intron and a polymorphic site 9 kb 3-prime to the APOA4 gene were found
+to be polymorphic in Mediterranean and other European populations.
+<a href="#Elshourbagy1987">Elshourbagy et al. (1987)</a>  determined the complete nucleotide sequence of
+the APOA4 gene and, contrary to the findings described above, reported
+that the gene contains 3 exons of 162, 127, and 1180 nucleotides
+separated by 2 introns of 357 and 777 nucleotides. They stated that the
+human APOA4 gene lacks an intron in the area encoding the 5-prime
+untranslated region of its mRNA, which distinguishes it from all the
+other human <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span> genes whose sequences are known. <a href="#Kamboh1987">Kamboh and
+Ferrell (1987)</a>  determined the frequency of polymorphism at the APOA4
+locus by a simple and rapid 1-dimensional isoelectric-focusing technique
+followed by immunoblotting. In an Icelandic population, <a href="#Menzel1990">Menzel et al.
+(1990)</a>  found a higher frequency of the APOA4*2 allele (0.117 vs 0.077)
+than in Tyroleans (<a href="#Menzel1988">Menzel et al., 1988)</a> . In both populations the alleles
+at the APOA4 locus had significant effects on plasma high-density
+lipoprotein cholesterol and triglyceride levels. In the Icelandic
+population, the average effect of the APO4*2 allele was to raise
+cholesterol by 4.9 mg/dl and to lower triglyceride levels by 19.4 mg/dl.
+<a href="#Menzel1990">Menzel et al. (1990)</a>  estimated that the genetic variability at the APOA4
+locus accounted for 3.1% of the total variability of HDL cholesterol and
+for 2.8% of the total variability of triglycerides in the Icelandic
+population. Genetically determined polymorphism of apoA-IV has been
+reported in dogs, horses, and baboons, in addition to humans. Data on
+gene frequencies of allelic variants were tabulated by <a href="#Roychoudhury1988">Roychoudhury and
+Nei (1988)</a> .
+
+<p>In a Norwegian family with a mutant APOA1 gene and polymorphism of
+APOA4, <a href="#Schamaun1984">Schamaun et al. (1984)</a>  found close linkage of the APOA1 and APOA4
+loci; for the sexes combined, the peak lod score was 3.01 at a
+recombination fraction of 0.00. <a href="#Rogne1986">Rogne et al. (1986)</a>  raised the lod score
+to 6.32 by using 2 DNA polymorphisms of an APOA1 probe to study families
+informative for apoA-IV protein variants. <a href="#Karathanasis1985">Karathanasis (1985)</a>  showed
+that the APOA4 gene is located 12 kb 3-prime to the APOA1 gene.
+
+</p><p><a href="#Duverger1996">Duverger et al. (1996)</a>  expressed the human APOA4 gene in the livers of
+mice deficient in apoE (<a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Bomim-ID:107741%5D">107741</a>). They found that apoA-4 levels did not
+affect the levels of HDL cholesterol in these mice. However, transgenic
+mice had a significant reduction in the size of atherosclerotic lesions.
+<a href="#Duverger1996">Duverger et al. (1996)</a>  suggested that apoA-IV protects against
+atherosclerosis by a mechanism that does not involve an increase in HDL
+cholesterol concentration. They stated that their data support other
+evidence that suggests that apoA-IV may participate in reverse
+cholesterol transport (from tissues to the liver for elimination).
+
+</p><p><a href="#Cohen1997">Cohen et al. (1997)</a>  produced transgenic mice with inserts of several
+copies of murine apoA-IV gene. They found 3-fold increases in plasma
+apoA-IV levels in mice fed a chow diet and 6-fold increases in those fed
+an atherogenic diet. Plasma triglycerides, total cholesterol, HDL
+cholesterol, and free fatty acids were increased, while unesterified
+cholesterol was decreased, in the atherogenic diet group. Transgenic
+mice exhibited 70% fewer aortic lesions than controls. HDL-sized
+lipoproteins from mice fed the atherogenic diet promoted greater
+cholesterol efflux from cholesterol-loaded human monocytes than
+controls, and plasma from these mice showed raised cholesterol
+esterification rates. <a href="#Cohen1997">Cohen et al. (1997)</a>  suggested that apoA-IV levels
+may influence metabolism of HDL and its effects on atherogenesis.
+
+</p><p></p></td>
+</tr></tbody><script language="JavaScript">
+ var sectionName='section_omimAlleles';
+ if(collapsibleSections == ''){
+  var collapsibleSections=(sectionName);
+ } else {
+  var collapsibleSections=(collapsibleSections + "@" + sectionName);
+ }
+</script>
+
+
+<tbody><tr>
+<td colspan="2" bgcolor="#aad2f5" valign="top" width=""><a href="javascript:toggleRegion('section_omimAlleles',0);" id="imgLink_image_section_omimAlleles"><img src="OMIM_107690_srsTextView_files/minus.gif" id="image_section_omimAlleles" align="center" border="0"></a>
+<a class="sectionHead" name="omimAlleles">Allelic Variants</a></td>
+</tr></tbody><tbody id="section_omimAlleles">
+<tr>
+<td colspan="1" bgcolor="#a0b8dc" valign="top">Name</td>
+<td colspan="1" valign="top"><span class="termHighlight"><span class="termHighlight">APOLIPOPROTEIN</span></span> A-IV POLYMORPHISM, APOA4*1/APOA4*2
+ ( 107690.0001 )</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Amino Acid Mutation</td>
+<td colspan="1" valign="top">GLN &gt; HIS</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Position</td>
+<td colspan="1" valign="top">360</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Description</td>
+<td colspan="1" valign="top">
+Lohse et al. (1990) demonstrated that the genetic polymorphism of plasma
+<span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span> A-IV, detected by isoelectric focusing followed by
+immunoblotting, results from a single nucleotide change. Specifically,
+the difference between APOA4*1 and APOA4*2 is a G-to-T substitution
+leading to a conversion of glutamine-360 to histidine in the mature
+protein. The allelic change is predicted to cause the loss of 2
+restriction enzyme sites in the formation of a new restriction site for
+a third enzyme. In Caucasian populations, the APOA4*1 and APOA4*2
+alleles have a frequency of about 0.9 and 0.08, respectively; 3 rare
+alleles, APOA4*0 (107690.0002), APOA4*3 (107690.0003), and APOA4*4, have
+been described. In a study of various polymorphisms of APOA4, von
+Eckardstein et al. (1992) could not confirm the previously reported
+association of elevated HDL cholesterol concentrations with the his360
+allele; from other associations, the authors concluded that the APOA4
+gene locus has an important role in the metabolism of <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span> B
+and, to a lesser extent, <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span> A-I-containing lipoproteins.
+
+<p></p></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#a0b8dc" valign="top">Name</td>
+<td colspan="1" valign="top"><span class="termHighlight"><span class="termHighlight">APOLIPOPROTEIN</span></span> A-IV RARE VARIANT, APOA4*0
+ ( 107690.0002 )</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">DNA Mutation Type</td>
+<td colspan="1" valign="top">insertion</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Amino Acid Mutation</td>
+<td colspan="1" valign="top">GLU &gt; GLN</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Position</td>
+<td colspan="1" valign="top">-</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Description</td>
+<td colspan="1" valign="top">
+Lohse et al. (1990) described the molecular basis of the rare variant
+APOA4*0: an insertion of 12 nucleotides in the carboxyl-terminal region,
+which is highly conserved among human, rat, and mouse A-IV
+<span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span>s. This in-frame insertion of 4 amino acids,
+glu-gln-gln-gln, between residues 361 and 362 of the mature protein,
+produces the 1-charge unit, more acidic APOA4*0 isoprotein (pI = 4.92).
+
+<p></p></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#a0b8dc" valign="top">Name</td>
+<td colspan="1" valign="top"><span class="termHighlight"><span class="termHighlight">APOLIPOPROTEIN</span></span> A-IV RARE VARIANT, APOA4*3
+ ( 107690.0003 )</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Amino Acid Mutation</td>
+<td colspan="1" valign="top">GLU &gt; LYS</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Position</td>
+<td colspan="1" valign="top">230</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Description</td>
+<td colspan="1" valign="top">
+Lohse et al. (1990) identified a single G-to-A substitution that
+converted the glutamic acid (GAG) at position 230 of the mature apoA-IV
+protein to lysine (AAG). The change added 2 positive charge units to the
+apoA-IV-1 isoprotein (pI = 4.97) to give the more basic APOA4*3
+isoprotein (pI, 5.08).
+
+<p></p></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#a0b8dc" valign="top">Name</td>
+<td colspan="1" valign="top"><span class="termHighlight"><span class="termHighlight">APOLIPOPROTEIN</span></span> A-IV RARE VARIANT, APOA4*5
+ ( 107690.0004 )</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">DNA Mutation Type</td>
+<td colspan="1" valign="top">insertion</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Amino Acid Mutation</td>
+<td colspan="1" valign="top">GLU &gt; GLN</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Position</td>
+<td colspan="1" valign="top">-</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Description</td>
+<td colspan="1" valign="top">
+Kamboh et al. (1992) described the same in-frame insertion of 12
+nucleotides (coding for the 4 amino acids glu-gln-gln-gln) near the
+carboxy-terminal region of the mature protein as Lohse et al. (1990)
+(see 107690.0002). This study also revealed a polymorphism (G to T,
+codon 316, third position) that did not result in an amino acid
+substitution. Kamboh et al. (1992) noted that finding the exact position
+of the 12 inserted bases was difficult because the sequences of 2 of the
+5 repeat units in the APOA4*5 allele are identical. Possible sites of
+insertion are between codons 357 and 358, or between codons 361 and 362.
+Using data obtained from 308 subjects, they estimated the frequency of
+the APOA4*5 allele in African Americans to be 3.2%.
+
+<p></p></td>
+</tr></tbody><script language="JavaScript">
+ var sectionName='section_omimReferences';
+ if(collapsibleSections == ''){
+  var collapsibleSections=(sectionName);
+ } else {
+  var collapsibleSections=(collapsibleSections + "@" + sectionName);
+ }
+</script>
+
+
+<tbody><tr>
+<td colspan="2" bgcolor="#aad2f5" valign="top" width=""><a href="javascript:toggleRegion('section_omimReferences',0);" id="imgLink_image_section_omimReferences"><img src="OMIM_107690_srsTextView_files/minus.gif" id="image_section_omimReferences" align="center" border="0"></a>
+<a class="sectionHead" name="omimReferences">References</a></td>
+</tr></tbody><tbody id="section_omimReferences">
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>1.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top"><a name="Anderson1977"></a>Anderson, L.; Anderson, N. G.  High resolution two-dimensional electrophoresis of human plasma proteins.  </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>2.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top"><a name="Cohen1997"></a>Cohen, R. D.;
+Castellani, L. W.; Qiao, J.-H.; Van Lenten, B. J.;
+Lusis, A. J.; Reue, K. Reduced aortic lesions and elevated high density
+lipoprotein levels in transgenic mice overexpressing mouse <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span> A-IV.  </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>3.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top"><a name="Duverger1996"></a>Duverger, N.; Tremp, G.; Caillaud, J.-M.; Emmanuel, F.; Castro,
+G.; Fruchart, J.-C.; Steinmetz, A.; Denefle, P.  Protection against atherogenesis in mice mediated by human <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span> A-IV.  </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>4.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top"><a name="Elshourbagy1986"></a>Elshourbagy, N. A.; Walker, D. W.; Boguski, M. S.; Gordon, J. I.;
+Taylor, J. M.  The nucleotide and derived amino acid sequence of human <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span> A-IV mRNA and the close linkage of its gene to the genes of <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span>s A-I and C-III.  </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>5.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top"><a name="Elshourbagy1987"></a>Elshourbagy, N. A.; Walker, D. W.; Paik, Y.-K.; Boguski, M. S.;
+Freeman, M.; Gordon, J. I.; Taylor, J. M.  Structure and expression of the human <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span> A-IV gene.  </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>6.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top"><a name="Green1980"></a>Green, P. H. R.; Glickman, R. M.; Riley, J. W.; Quinet, E.  Human <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span> A-IV: intestinal origin and distribution in plasma.  </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>7.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top"><a name="Kamboh1987"></a>Kamboh, M. I.; Ferrell, R. E.  Genetic studies of human <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span>s.  </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>8.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top"><a name="Kamboh1992"></a>Kamboh, M. I.; Williams, E. R.; Law, J. C.; Aston, C. E.; Bunker,
+C. H.; Ferrell. R. E.; Pollitzer, W. S.  Molecular basis of a unique African variant (A-IV 5) of human <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span> A-IV and its significance in lipid metabolism.  </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>9.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top"><a name="Karathanasis1985"></a>Karathanasis, S. K.  <span class="termHighlight"><span class="termHighlight">Apolipoprotein</span></span> multigene family: tandem organization of human <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span> AI, CIII, and AIV genes.  </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>10.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top"><a name="Karathanasis1986"></a>Karathanasis, S. K.; Oettgen, P.; Haddad, I. A.; Antonarakis,
+S. E.  Structure, evolution, and polymorphisms of the human <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span> A4 gene (APOA4).  </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>11.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top"><a name="Lohse1990"></a>Lohse, P.; Kindt, M. R.; Rader, D. J.; Brewer, H. B., Jr.  Genetic polymorphism of human plasma <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span> A-IV is due to nucleotide substitutions in the <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span> A-IV gene.  </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>12.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top"><a name="Lohse1990"></a>Lohse, P.; Kindt, M. R.; Rader, D. J.; Brewer, H. B., Jr.  Human plasma <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span>s A-IV-0 and A-IV-3: molecular basis for two rare variants of <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span> A-IV-1.  </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>13.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top"><a name="Menzel1988"></a>Menzel, H.-J.; Boerwinkle, E.; Schrangl-Will, S.; Utermann, G.
+  Human <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span> A-IV polymorphism: frequency and effect on lipid and lipoprotein levels.  </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>14.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top"><a name="Menzel1982"></a>Menzel, H.-J.; Kovary, P. M.; Assmann, G.  <span class="termHighlight"><span class="termHighlight">Apolipoprotein</span></span> A-IV polymorphism in man.  </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>15.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top"><a name="Menzel1990"></a>Menzel, H.-J.; Sigurdsson, G.; Boerwinkle, E.; Schrangl-Will,
+S.; Dieplinger, H.; Utermann, G.  Frequency and effect of human <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span> A-IV polymorphism on lipid and lipoprotein levels in an Icelandic population.  </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>16.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top"><a name="Rogne1986"></a>Rogne, S.; Myklebost, O.; Olaisen, B.; Gedde-Dahl, T., Jr.; Prydz,
+H.  Confirmation of the close linkage between the loci for human <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span>s AI and AIV by the use of a cloned cDNA probe and two restriction site polymorphisms.  </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>17.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top"><a name="Roychoudhury1988"></a>Roychoudhury, A. K.; Nei, M.  Human Polymorphic Genes: World Distribution.   New York: Oxford Univ. Press (pub.)  1988.
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>18.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top"><a name="Schamaun1984"></a>Schamaun, O.; Olaisen, B.; Mevag, B.; Gedde-Dahl, T., Jr.; Ehnholm,
+C.; Teisberg, P.  The two <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span> loci apoA-I and apoA-IV are closely linked in man.  Hum. Genet. 68: 181-184, 1984.
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>19.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top"><a name="Tracy1982"></a>Tracy, R. P.; Currie, R. M.; Young, D. S.  Two-dimensional gel electrophoresis of serum specimens from a normal population.  </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>20.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top"><a name="von1992"></a>von Eckardstein, A.; Funke, H.; Schulte, M.; Erren, M.; Schulte,
+H.; Assmann, G.  Nonsynonymous polymorphic sites in the <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span>
+(apo) A-IV gene are associated with changes in the concentration of apo
+B- and apo A-I-containing lipoproteins in a normal population. </td>
+</tr>
+</tbody></table>
+</td>
+</tr></tbody><script language="JavaScript">
+ var sectionName='section_omimClin';
+ if(collapsibleSections == ''){
+  var collapsibleSections=(sectionName);
+ } else {
+  var collapsibleSections=(collapsibleSections + "@" + sectionName);
+ }
+</script>
+
+
+<tbody><tr>
+<td colspan="2" bgcolor="#aad2f5" valign="top" width=""><a href="javascript:toggleRegion('section_omimClin',0);" id="imgLink_image_section_omimClin"><img src="OMIM_107690_srsTextView_files/minus.gif" id="image_section_omimClin" align="center" border="0"></a>
+<a class="sectionHead" name="omimClin">Clinical Synopsis</a></td>
+</tr></tbody><tbody id="section_omimClin">
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Misc</td>
+<td colspan="1" valign="top">Influences <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span> B metablism and <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span> A-I containing
+   lipoproteins<br>Affects plasma high density lipoprotein cholesterol and triglyceride
+   levels</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Inheritance</td>
+<td colspan="1" valign="top">Autosomal dominant</td>
+</tr></tbody><script language="JavaScript">
+ var sectionName='section_omimCuration';
+ if(collapsibleSections == ''){
+  var collapsibleSections=(sectionName);
+ } else {
+  var collapsibleSections=(collapsibleSections + "@" + sectionName);
+ }
+</script>
+
+
+<tbody><tr>
+<td colspan="2" bgcolor="#aad2f5" valign="top" width=""><a href="javascript:toggleRegion('section_omimCuration',0);" id="imgLink_image_section_omimCuration"><img src="OMIM_107690_srsTextView_files/minus.gif" id="image_section_omimCuration" align="center" border="0"></a>
+<a class="sectionHead" name="omimCuration">Curation Details</a></td>
+</tr></tbody><tbody id="section_omimCuration">
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Creation Date</td>
+<td colspan="1" valign="top">4-JUN-1986</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">See Also</td>
+<td colspan="1" valign="top"><a href="#Elshourbagy1986">Elshourbagy et al. (1986)</a> ; <a href="#Green1980">Green et al. (1980)</a> 
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Contributors</td>
+<td colspan="1" valign="top">Michael J. Wright  - updated: 9/25/1997
+Jennifer P. Macke - updated: 7/28/1997
+Stylianos E. Antonarakis - updated: 7/8/1996
+
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Edit History</td>
+<td colspan="1" valign="top">terry: 06/01/1998
+<br>alopez: 11/11/1997
+<br>alopez: 11/10/1997
+<br>dholmes: 8/25/1997
+<br>dholmes: 8/4/1997
+<br>terry: 7/28/1997
+<br>terry: 7/9/1997
+<br>mark: 7/8/1996
+<br>mimadm: 4/9/1994
+<br>carol: 7/6/1992
+<br>supermim: 3/19/1992
+<br>supermim: 3/16/1992
+<br>carol: 1/27/1992
+<br>carol: 2/8/1991
+<br>
+</td>
+</tr></tbody>
+</table>
+<table border="0" cellpadding="5" cellspacing="0">
+<tbody><tr>
+<td bgcolor="#aad2f5" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>Go To:</b></font></td>
+<td bgcolor="#aad2f5" valign="top"><a href="#omimGeneral">General</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#omimDescription">Description</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#omimAlleles">Allelic Variants</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#omimReferences">References</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#omimClin">Clinical Synopsis</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#omimCuration">Curation Details</a>
+</td>
+</tr>
+</tbody></table>
+<div id="confirmDelete" class="tip2">
+<table align="center">
+<tbody><tr><td colspan="2">Are you sure you want to delete this annotation?</td></tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr><td align="right">
+<a href="javascript:confirmAnnotationDeleteAction('deleteAnnotation.do?referEntryId=OMIM:107690&amp;pQ=q10&amp;sF=&amp;num=15&amp;total=183&amp;sD=0&amp;pV=&amp;pDB=&amp;pC=&amp;pCT=&amp;pSt=1&amp;pSz=30&amp;pCN=');">
+<img src="OMIM_107690_srsTextView_files/btn_delete_off.gif" onmouseover="swapImage(this, 'images/biowisdom/btn_delete_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_delete_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_delete_on.gif');" border="0"></a></td>
+<td align="left"><a href="javascript:hideDivSection('confirmDelete');hideFreeze();">
+<img src="OMIM_107690_srsTextView_files/btn_cancel_off.gif" onmouseover="swapImage(this, 'images/biowisdom/btn_cancel_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_cancel_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_cancel_on.gif');" border="0"></a></td>
+</tr>	
+</tbody></table>
+</div>
+
+
+
+
+</form>
+
+</div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr>
+<td align="center"><img src="OMIM_107690_srsTextView_files/null.gif" border="0" height="50" width="10"></td>
+</tr>
+<tr>
+<td align="center"><img class="navBg" src="OMIM_107690_srsTextView_files/null.gif" height="1" width="600"></td>
+</tr>
+<tr>
+<td align="center">
+<p class="copy">SRS Release 8.3
+<a class="small" href="javascript:void(window.open('copyright.do','footerinfo','menubar=no,%20status=yes,%20toolbar=no,%20resizable=yes,%20scrollbars=yes,%20height=400,%20width=510'))">Copyright</a> © 2007 BioWisdom SRS Ltd. All Rights Reserved.
+<a class="small" href="javascript:void(window.open('termsofuse.do','footerinfo','menubar=no,%20status=yes,%20toolbar=no,%20resizable=yes,%20scrollbars=yes,%20height=400,%20width=510'))">Terms of Use</a>&nbsp;<a class="small" href="javascript:void(window.open('feedback.do','footerinfo','menubar=no,%20status=yes,%20toolbar=no,%20resizable=yes,%20scrollbars=yes,%20height=400,%20width=510'))">Feedback</a></p>
+</td></tr></tbody></table>
+<div id="popupInfo">Loading ...</div>
+<!-- This iFrame is required to display hidden DIV above select menus in IE -->
+<iframe id="frame" src="OMIM_107690_srsTextView_files/a.html" style="border: 0pt none ; position: absolute; display: block; z-index: 0; visibility: hidden;" frameborder="0" height="0" scrolling="no" width="0"></iframe>
+<div id="annotationDeleted" class="tip2">
+<table align="center" border="0">
+<tbody><tr><td align="center">Annotation deleted successfully !</td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td align="center">
+<a href="javascript:hideDivSection('annotationDeleted');">
+<img src="OMIM_107690_srsTextView_files/btn_close_off.gif" onmouseover="swapImage(this, 'images/biowisdom/btn_close_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_close_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_close_on.gif');" align="center" border="0"></a>
+</td></tr>
+
+</tbody></table>
+</div>
+</body></html>

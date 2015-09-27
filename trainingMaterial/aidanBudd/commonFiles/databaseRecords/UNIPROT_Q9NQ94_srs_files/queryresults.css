@@ -1,0 +1,749 @@
+img {
+	border-style: none;
+}
+
+#activeConceptButton{
+	color:#000066;
+}
+
+.mainMove{
+position:relative;
+}
+
+.ribShift_visible{
+	display:block;
+}
+
+.ribShift_hidden{
+	position:absolute;
+	display:none;
+}
+
+.ribtoggle_bg{
+	background-color:#e6f0fa;
+}
+
+/*
+	Classes regarding the Primary Search display
+*/
+#primarySearchContainer{
+	margin-left:3px;
+	min-height:60px;
+}
+.topright{
+	border-top:1px solid #5679b3;
+	border-right:1px solid #5679b3;
+	border-bottom:1px solid #5679b3;
+}
+.leftline{
+	border-left:1px solid #5679b3;
+	padding-left: 10px;
+}
+.bottomleft{
+	border-bottom:1px solid #5679b3;
+	border-left:1px solid #5679b3;
+	padding-left: 10px;
+	padding-top:5px;
+}
+.bottomline{
+	border-bottom:1px solid #5679b3;
+}
+.topbottomline{
+	border-bottom:1px solid #5679b3;
+	border-top:1px solid #5679b3;
+	padding-top:5px;
+}	
+.topline{
+	border-top:1px solid #5679b3;
+	padding-left: 5px;
+	padding-top:  5px;
+}
+.submenu_connector{
+	background-color:#aad2f5;
+	border-top:1px solid #5679b3;
+	border-bottom:1px solid #5679b3;
+}
+
+.submenu_mainarea{
+	background-color:#aad2f5;
+	border-top:1px solid #5679b3;
+	border-right:1px solid #5679b3;
+	border-bottom:1px solid #5679b3;
+}
+
+.submenu_left{
+	border-right:1px solid #5679b3;
+}
+
+
+#primarySearchHeader{
+	background-color:#AAD2F5;
+	width:200px;
+	text-align:center;
+	font-weight:bold;
+	font-size:15px;
+	padding:5px 0px 5px 0px;
+	border-bottom:1px solid #5B85C2;
+	border-right:1px solid #5B85C2;
+}
+
+#slideBarArea {
+	color: #000063;
+	white-space: nowrap;
+	width: 400px;
+	height:50px;
+	scrollbar-face-color: #5b85c2;
+	scrollbar-arrow-color: #DEE7F7;
+	scrollbar-track-color: #DEE7F7;
+	overflow: auto;
+	overflow-y: auto;
+	overflow-x: auto;
+	padding: px;
+}
+/*
+	Classes regarding the Display Options display
+*/
+#displayOptionsContainer{
+	margin-left:0px;
+	background-color:#AAD2F5;
+	background-image:url(../../images/biowisdom/actionbar_topright.gif);
+	background-position:top right;
+	background-repeat:no-repeat;
+	min-width:790px;
+	height:34px;
+	vertical-align:bottom;
+}
+.displayOptionsButton{
+	text-decoration:none;
+	padding:2px;
+	padding-left:10px;
+	padding-right:2px;
+	font-size:11px;
+	background-color:#FFFFFF;
+	border:1px solid #000066;
+	cursor:pointer;
+	white-space: nowrap;
+}
+
+.displayOptionsButton a{	
+	text-decoration:none;
+}
+
+.arrowIcon {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.displayOptionsScroller{
+	color: #000063;
+	border: 1px solid #5b85c2;
+	line-height:2 ;
+	font-size: 10px;
+	padding: 0px 15px 15px 15px;
+	width: 160px; 
+	height:70px;
+	scrollbar-face-color: #5b85c2;
+	scrollbar-arrow-color: #DEE7F7;
+	scrollbar-track-color: #DEE7F7;
+	overflow: auto;
+	overflow-y: auto;
+	overflow-x: auto;
+	z-index:1;
+}
+
+#displayOptionsContainerBottom{
+	background-color:#AAD2F5;
+	text-decoration:none;
+	border-top: 2px #AAD2F5 solid;
+}
+
+#paging{
+	white-space: nowrap;
+	padding:2px;
+	background-color:white;
+	font-size:14px;
+}
+
+#displayOptionsContainerBottom a{
+	text-decoration: none;
+}
+
+#displayOptionsContainerBottom a:link, a:hover{
+	text-decoration: none;
+}
+
+#relatedConceptInfo{
+	padding:10px;
+	background-color:#E6f0fA;
+	min-width:790px;
+	margin-left:5px;
+}
+/* List Of Menu Elements */
+#sortMenu{
+	display: none;
+	position:absolute;
+	width:220px;
+	height: 230px;
+	background-color:#FFFFFF;
+	z-index:20;
+}
+
+#sortMenu_iframe {
+	position: absolute;
+	top:0px;
+	left:0px;
+	width: 220px;
+	height: 231px;
+}
+
+#sortMenu_iframepanel_content {
+	position: relative;
+	padding: 10px;
+	top:0px;
+	left:0px;
+	width: 198px;
+	height: 209px;
+	border:1px solid #000066;
+	background-color:#FFFFFF;
+}
+
+#viewsMenu{
+	display: none;
+	position:absolute;
+	width:220px;
+	height:160px;
+	padding:0px;
+	background-color:#FFFFFF;
+	z-index:20;
+}
+
+#viewsMenu_iframe {
+	position: absolute;
+	top:0px;
+	left:0px;
+	width: 220px;
+	height: 161px;
+}
+
+#viewsMenu_iframepanel_content {
+	position: relative;
+	padding: 10px;
+	top:0px;
+	left:0px;
+	width: 198px;
+	height: 199px;
+	border:1px solid #000066;
+	background-color:#FFFFFF;
+}
+
+#databankMenu{
+	display: none;
+	position:absolute;
+	width:220px;
+	height:150px;
+	background-color:#FFFFFF;
+	z-index:20;
+}
+
+#databankMenu_iframe {
+	position: absolute;
+	top:0px;
+	left:0px;
+	width: 220px;
+	height: 151px;
+}
+
+#databankMenu_iframepanel_content {
+	position: relative;
+	padding: 10px;
+	top:0px;
+	left:0px;
+	width: 198px;
+	height: 129px;
+	border:1px solid #000066;
+}
+
+#rppMenu{
+	display: none;
+	position:absolute;
+	width:170px;
+	height:160px;
+	background-color:#FFFFFF;
+	z-index:20;
+}
+
+#rppMenu_iframe {
+	position: absolute;
+	top:0px;
+	left:0px;
+	width: 170px!important;
+	width: 172px;
+	height: 161px;
+}
+
+#rppMenu_iframepanel_content {
+	position: relative;
+	padding: 10px;
+	top:0px;
+	left:0px;
+	width: 148px;
+	height: 139px;
+	border:1px solid #000066;
+}
+
+/*
+	Classes regarding the RIB display
+*/
+
+
+#ribContainerXXXX{
+	background-color:#E6F0FA;
+	width:200px;
+	background-image:url(../../images/biowisdom/hideRCB_81.gif);
+	background-position:bottom right;
+	background-repeat:no-repeat;
+	margin-right:10px;
+}
+
+.ribcolor{
+	background-color:#5679b3;
+}
+
+#ribContainer{
+	width:208px; 
+	background-color:#5679b3;
+}
+
+#ribtoggle_bg{
+	background-color:#ffffff;
+	cursor:pointer;
+}
+
+#ribContent{
+	width:208px;
+	z-index:10;
+}
+
+#ribMain{
+	z-index:10;
+	text-align:center;
+	width:208px;
+	background-color:#5679b3;
+}
+
+#ribMainxxx p{
+	z-index:10;
+	padding:0px 5px 0px 5px;
+	font-size:9px;
+}
+
+#ribToggle{
+	width:0px;
+	height:100%;
+	cursor:pointer;
+}
+/*
+	Classes which define the style of
+	the concepts buttons
+*/
+.cssnav {
+	position: relative;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-image: url(../../images/biowisdom/btn_conceptv2_small_hover.gif);
+	background-repeat: no-repeat;
+	white-space: normal;
+	display: block;
+	width: 208px;
+	height: 32px;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;
+	cursor:pointer;
+}
+
+.cssnavPointer{
+	position: absolute;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-image: url(../../images/biowisdom/submenu_bullet_trans.gif);
+	background-repeat: no-repeat;
+	white-space: normal;
+	display: inline;
+	width: 27px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	cursor:pointer;
+	left:181px;
+	top:2px;
+}
+
+.cssnav2 {
+	position: relative;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-image: url(../../images/biowisdom/btn_conceptv2_large_hover.gif);
+	background-repeat: no-repeat;
+	white-space: normal;
+	display: block;
+	width: 208px;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;
+	cursor:pointer;
+}
+.cssnav a {
+	display: block;
+	color: #ffffff;
+	font-size: 11px;
+	width: 200px;
+	height: 32px;
+	display: block;
+	float: left;
+	color: black;
+	text-decoration: none;
+}
+.cssnav2 a {
+	display: block;
+	color: #ffffff;
+	font-size: 11px;
+	width: 200px;
+	height: 40px;
+	display: block;
+	float: left;
+	color: black;
+	text-decoration: none;
+}
+
+.cssnav img {
+	width: 208px; 
+	height: 32px; 
+	border: 0; 
+}
+.cssnav2 img {
+	width: 208px; 
+	height: 40px; 
+	border: 0; 
+}
+
+* html a:hover {
+	visibility:visible;
+}
+
+.cssnav a:hover img{
+	visibility:hidden;
+}
+
+.cssnav2 a:hover img{
+	visibility:hidden;
+}
+
+.cssnav a:hover span {
+	color: #000066;
+}
+
+.cssnav2 a:hover span {
+	color: #000066;
+}
+
+.cssnav span {
+	position: absolute;
+	left: 5px;
+	top: 9px;
+	margin: 0px 5px;
+	padding: 0px;
+	cursor: pointer;
+	vertical-align:middle;
+	text-align:center;
+	width: 180px;
+	white-space: normal;
+	color:#000066;
+}
+
+.cssnav2 span {
+	position: absolute;
+	left: 5px;
+	top: 9px;
+	margin: 0px 5px;
+	padding: 0px;
+	cursor: pointer;
+	vertical-align:middle;
+	text-align:center;
+	width: 180px;
+	white-space: normal;
+	color:#000066;
+}
+/* Class used for the Display of the RIB linking options */
+.ribOptions{
+	visibility:hidden;
+	position:absolute;
+	width:350px;
+	height:40px;
+	padding:10px;
+	text-align:left;
+	z-index:999;	
+}
+
+.ribOptions a{
+	color:#000066;
+}
+
+.ribOptions a:hover{
+	color:#5679b3;
+}
+
+.ribMore a{
+	color:#ffffff;
+	text-align:left;
+}
+
+.ribNavBlocker{
+	position:absolute;
+	top:100px;
+	left:250px;
+	width:340px;
+	height:112px;
+	visibility:hidden;
+	display:none;
+	z-index:800;
+	background-color:#FFFFFF;
+	border:0;
+}
+
+/*
+	Classes for the display of the results table
+*/
+.resultTable {
+	min-width:790px;
+}
+.resultTableShifted{
+	width:200%;
+}
+
+.columnHeader{
+	background-color:#AAD2F5;
+	color:#000066;
+	margin: 0px;
+	padding: 3px;
+}
+
+.relatedColumnHeader{
+	color:white;
+	background-color:#5679b3;
+}
+
+.odd{
+	background-color:#E6F0FA;
+	margin-bottom:5px;
+}
+
+.even{
+	margin-bottom:5px;
+}
+
+.even_highlight{
+	background-color:#fee6c0;
+	margin-bottom:5px;
+}
+
+.even_highlight a:hover{
+	color:#000000;
+}
+
+.odd_highlight{
+	background-color:#fee6c0;/*e3c9ae   or   fed18d*/
+	margin-bottom:5px;
+}
+
+.odd_highlight a:hover{
+	color:#000000;
+}
+
+.set{
+	background-color:#fee6c0;
+	margin-bottom:5px;
+}
+
+.listField{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+}
+/*
+	Classes used for the Refine popup
+*/
+#popupRefine {
+	display: none;
+	Position : Absolute;
+	Z-Index : 20;
+	background-color: #FFFFFF;
+	width:530px;
+	height: 180px;
+}
+
+#popupRefine_iframe {
+	position: absolute;
+	top:0px;
+	left:0px;
+	width: 530px;
+	height: 181px;
+}
+
+#popupRefine_iframeContent {
+	position: relative;
+	padding: 10px;
+	top:0px;
+	left:0px;
+	width: 506px;
+	height: 156px;
+	border:2px solid #5b85c2;
+	overflow: auto;
+}
+
+/*
+	Classes used for display of the description content either by mouseover or onClick
+*/
+
+.RCBpopupDescription {  /* class used to style the Description box on the RIB */
+	visibility:hidden;
+	position:absolute;
+	Z-Index : 21;
+	width:500px;
+	height: 200px;
+	background-color: #FFFFFF;
+	padding:0;
+	border-top: 2px solid #5b85c2;
+	border-right: 2px solid #5b85c2;
+	border-bottom: 2px solid #5b85c2;
+	border-left: 2px solid #5b85c2;
+
+}
+
+.RCBpopupDescriptionMouse {  /* class used to style the Description Mouseover box on the RIB */
+	visibility:hidden;
+	position:absolute;
+	Z-Index : 21;
+	width:500px;
+	background-color: #a0b8dc;
+	padding:5;
+	border-top: 2px solid #5b85c2;
+	border-right: 2px solid #5b85c2;
+	border-bottom: 2px solid #5b85c2;
+	border-left: 2px solid #5b85c2;
+	top:300px; 
+	left:600px;
+	vertical-align:middle;
+}
+
+.RDBpopDescriptionDraggableBarTop{
+	border-bottom: 1px solid #5b85c2;
+	background-color: #a0b8dc;
+}
+
+
+.RDBpopDescriptionDraggableBarBottom{
+	border-top: 1px solid #5b85c2;
+	background-color: #a0b8dc;
+}
+
+#popup_descriptionContent{
+	padding:2px;
+	width:495px;
+	display:inline;
+	overflow:auto;
+	height:137px;
+	display:block;
+}
+
+#popup_descriptionContentMouse{
+	background-color: #ffffff;
+	padding:2px;
+	display:block;
+	height:100px;
+}
+
+#selectedEntriesMenu{
+	background-color:#FFFFFF;
+	/*visibility:hidden;*/
+	display: none;
+	position:absolute;
+	width:230px;
+	min-height:200px;
+	padding:0px;
+	/*border:1px solid #000066;*/
+}
+
+#selectedEntriesMenu_iframe {
+	position: absolute;
+	top:0px;
+	left:0px;
+	width: 230px;
+	min-height: 201px;
+}
+
+#selectedEntriesPopup {
+	position: relative;
+	display:table-cell;
+	color:#000066;
+	font-weight:normal;
+	text-align:left;
+	padding: 10px;
+	top:0px;
+	left:0px;
+	width: 208px;
+	height: 201px!important;
+	height: 179px;
+        min-height: 201px;
+	border:1px solid #000066;
+}
+
+#selectedButton{
+}
+
+.noHighLight:hover{
+	color:#5679b3;
+}
+
+.termHighlight {
+	background-color: #e4ffae;
+	padding: 0px;
+	margin:0px;
+	border:0px;
+}
+
+.noTermHighlight { /* this is intentially empty */
+}
+
+.optgroup  {  /* format the optgroup title in a menu */
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 10pt;
+	color: red;    
+}
+
+.optgroup option {  /* format the option inside an optgroup in a menu */
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 10pt;
+	color: green;  
+}
+
+.option {  /* format the option in a menu */
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 10pt;
+	color: biowisdom;
+}
+
+.userDisplayDiv{
+	position:absolute;
+	top:100px;
+	left:250px;
+	width:450px;
+	height:310px;
+	border:2px solid #5b85c2;
+	background-color:#ffffff;
+	visibility:hidden;
+	display:none;
+	z-index:999;
+}
