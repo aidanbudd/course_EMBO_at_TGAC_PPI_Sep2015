@@ -122,6 +122,11 @@ pre /* Code blocks */
         }
     }
 
+@media print
+    {
+        display: none !important;
+    }
+
 code /* All inline code spans */
     {
     }
@@ -169,3 +174,12 @@ nav.animenu a:link, a:visited {
 nav.animenu li:nth-child(even) {
     background-color: #EEEEFF;
 };
+
+.page-content {
+    min-height: 1000px;
+}
+
+.site-footer {
+        font-size: x-small;
+        background-color: #FeFeFe;
+    }
