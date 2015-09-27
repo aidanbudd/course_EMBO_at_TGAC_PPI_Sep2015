@@ -9,6 +9,8 @@ tr:nth-child(even) {
 </style>
 
 
+**General notes on [using the IT infrastructure during the course](softwareNotes.html)**
+
 DAY 1 - Monday 28 September 2015
 --------------------------------
 
