@@ -251,6 +251,18 @@ the [ELM (Eukaryotic Linear Motif)](http://elm.eu.org) __database__.
     2.  Which experimental evidence is annotated and how reliable is this evidence?
     3.  Try to get these instances as TSV-file (tab separated values)
 
+## Pathways
+
+
+1.  (OPTIONAL) Go to the ELM Pathways page (ELM db -> ELM Pathways) and type "jak" into the search field.
+    1. From the search results, click on the link "Jak STAT signaling pathway" for the human pathway (hsa04630)
+    1. In the KEGG pathway map, try to locate the "SOS" protein.
+    1. Which color is it? What does that mean?
+    1. Go back tho the ELM database and search for annotated instances in the SOS1_HUMAN protein (use the quick search at the top right of the
+       ELM page)
+    1. Click on the instance with startposition 1151. Which interaction has been annotated for this instance? Do you find this interactor in the
+       KEGG pathway? Which domain(s) does this protein consist of? Which motif in SOS1_HUMAN does it interact with?
+
 * * * * *
 
 <!---  -->
