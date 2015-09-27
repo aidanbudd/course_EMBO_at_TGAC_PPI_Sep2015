@@ -12,6 +12,10 @@ Notes on using VMs during the course
 
 On my (Aidan's) MacBook Pro, I get the list of shortcuts for the Ubuntu VM using leftclick-leftcommand
 
+### Moving desktop windows from fullscreen
+
+If you maximise a window on the desktop, just click on the top bar of the window, and drag down, to stop it filling the screen.
+
 ## NoMachine graphics
 
 To edit how the NoMachine remote desktop shows the desktop from my Ubuntu VM, I go to the top right corner of the remote destop, the top of the page peels back, I can click on there, and specify e.g. "Full screen" and lots of other options.
