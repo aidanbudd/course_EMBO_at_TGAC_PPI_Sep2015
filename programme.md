@@ -8,6 +8,11 @@ tr:nth-child(even) {
 };
 </style>
 
+## Other relevant links
+
+- General notes on [using the IT infrastructure during the course](softwareNotes.html)
+- EMBO-hosted [webpage for the course](http://events.embo.org/15-protein-protein/)
+- Twitter search results for for [#EMBOPPI](https://twitter.com/search?q=%23EMBOPPI&src=typd&lang=en-gb) and [Course tweeters list](https://twitter.com/AidanBudd/lists/embo-2015-ppi-tweeps)
 
 DAY 1 - Monday 28 September 2015
 --------------------------------
@@ -17,10 +22,10 @@ DAY 1 - Monday 28 September 2015
 | 08:15       | Coach departs hotel to TGAC                                                                                    |                     | Hotel car park         |
 | 08:30-09:00 | Registration and Coffee                                                                                        |                     | TGAC Atrium            |
 | 09:00-09:15 | Welcome and introductions                                                                                      | Matt Drew           | Darwin - Training Room |
-| 09:15-10:00 | [1 to 1 introductions round](trainingMaterial/aidanBudd/introToTheCourseAidanBudd.html)                      | Aidan Budd          | Darwin - Training Room |
-| 10:00-10:30 | [Introduction to bioinformatics, protein modules and sequence alignments, practical and presentation](trainingMaterial/aidanBudd/introBioinformaticsAidanBudd.html)            | Aidan Budd          | Darwin - Training Room |
+| 09:15-10:00 | [1 to 1 introductions round](trainingMaterial/aidanBudd/whatWeGetFromACourse/introToTheCourseAidanBudd.html)                      | Aidan Budd          | Darwin - Training Room |
+| 10:00-10:30 | [Introduction to bioinformatics, protein modules, practical and presentation](trainingMaterial/aidanBudd/introToBioinformatics/introToBioinformatics.html)            | Aidan Budd          | Darwin - Training Room |
 | 10:30-11:00 | Coffee Break                                                                                                   |                     | TGAC Atrium            |
-| 11:00-12:30 | [Continued: Introduction to bioinformatics, protein modules and sequence alignments, practical and presentation](trainingMaterial/aidanBudd/introBioinformaticsAidanBudd.html) | Aidan Budd          | Darwin - Training room |
+| 11:00-12:30 | [Continued: Introduction to sequence alignments, practical and presentation](trainingMaterial/aidanBudd/introToMSAs/introToMSAsAidanBudd.html) | Aidan Budd          | Darwin - Training room |
 | 12:30-13:30 | Lunch                                                                                                          |                     | TGAC Atrium            |
 | 13:30-15:00 | [Chimera protein structure](trainingMaterial/scooterMorris)                                                                                      | Scooter Morris      | Darwin - Training Room |
 | 15:00-15:30 | Coffee Break                                                                                                   |                     | TGAC Atrium            |
@@ -30,7 +35,7 @@ DAY 1 - Monday 28 September 2015
 | 19:00       | Coach departs TGAC to hotel                                                                                    |                     | Outside TGAC entrance  |
 | 19:30       | Dinner @ Toreros                                                                                               |                     | Meet at hotel lobby    |
 
-DAY 2 - Tuesday 28 September 2015
+DAY 2 - Tuesday 29 September 2015
 --------------------------------
 
 | Time        | Activity                                                                                                       | Responsible    | Location               |
@@ -96,7 +101,7 @@ DAY 5 - Friday 2 October 2015
 | 15:00-15:30 | Coffee Break |           | TGAC Atrium          |
 | 15:30-17:00 | [Continued: STRING, networking and PPIs](trainingMaterial/larsJuhlJensen/)  | Lars Juhl Jensen | Darwin - Training Room |
 | 17:00       | Coach departs TGAC to hotel |         | Outside TGAC entrance |
-| 17:00       | Dinner - Maids Head Hotel |         | Meet at hotel restaurant |
+| 17:30       | Dinner - Maids Head Hotel |         | Meet at hotel restaurant |
 
 DAY 6 - Saturday 3 October 2015
 --------------------------------
@@ -113,7 +118,7 @@ DAY 6 - Saturday 3 October 2015
 | 15:00-15:30 | Coffee Break |           | TGAC Atrium          |
 | 15:30-17:00 | [Pulling it all together - summary and lessons learnt](trainingMaterial/tamasKorcsmaros/)  | Tamas Korcsmaros | Darwin - Training Room |
 | 17:00-17:30 | Wrap up and Feedback  | Matt Drew | Darwin - Training Room |
-| 17:00       | Coach departs TGAC to hotel |         | Outside TGAC entrance |
-| 17:00       | Dinner - Last Wine Bar |         | Meet at hotel lobby         |
+| 17:30       | Coach departs TGAC to hotel |         | Outside TGAC entrance |
+| 18:00       | Dinner - Last Wine Bar |         | Meet at hotel lobby         |
 
 

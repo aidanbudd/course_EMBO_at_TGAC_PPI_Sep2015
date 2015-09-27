@@ -1,0 +1,135 @@
+/* BODY RULES */
+/* text-align:center is for IE5 - cos margin:auto doesn't work! All text in page should later be reset to justify */
+body {
+  margin:0px;
+  border:0px;
+  padding:5px;
+  background-color:#EEEEFF;
+  color:#000000;
+  font-family:Bitstream Vera Sans,Arial,sans-serif;
+  text-align:center;
+}
+a { text-decoration:none; }
+
+/* SPACERS */
+.spacer_2 { margin:0px; border:0px; padding:0px; height:2px; clear:both; }
+.spacer_4 { margin:0px; border:0px; padding:0px; height:4px; clear:both; }
+.spacer_5 { margin:0px; border:0px; padding:0px; height:5px; clear:both; }
+.spacer_10 { margin:0px; border:0px; padding:0px; height:10px; clear:both; }
+.spacer_15 { margin:0px; border:0px; padding:0px; height:15px; clear:both; }
+.spacer_20 { margin:0px; border:0px; padding:0px; height:20px; clear:both; }
+.spacer_25 { margin:0px; border:0px; padding:0px; height:25px; clear:both; }
+.spacer_30 { margin:0px; border:0px; padding:0px; height:30px; clear:both; }
+.spacer_35 { margin:0px; border:0px; padding:0px; height:35px; clear:both; }
+.spacer_40 { margin:0px; border:0px; padding:0px; height:40px; clear:both; }
+
+/* MAIN BOX RULES */
+div.pageouter { margin:0px auto; border:1px solid #0000CC; padding:1px; width:796px; background:#FFFFFF; }
+div.pageinner { margin:0px auto; border:3px solid #0000CC; padding:0px; width:790px; background:#FFFFFF; }
+div.body_outer { margin:0px; border:0px solid #0000CC; padding:0px; width:790px; background:#FFFFEE; }
+div.body_inner { margin:0px; border:0px solid #000000; padding:10px; width:770px; overflow:hidden; text-align:justify; }
+/* Tan hacks for IE */
+* html div.pageouter { width:800px; w\idth:796px; }
+* html div.pageinner { width:796px; w\idth:790px; }
+* html div.body_inner { width:790px; w\idth:770px; }
+/* end tan hacks */
+
+/* BANNER RULES */
+.banner {
+  margin:0px; border:0px solid #0000CC; padding:0px; width:790px; height:74px;
+  background:#FFFF66; overflow:hidden;
+}
+#title {
+  margin:0px 0px 0px 7px; border:0px solid #FF0000; padding:0px; width:649px; height:74px; line-height:74px;
+  float:left; font-weight:bold; font-size:28px; text-align:left;
+}
+div#bi_logo { float:right; margin:7px; border:0px; padding:0px; width:120px; height:60px; text-decoration:none; }
+img#bilogo { margin:0px; border:0px; padding:0px; width:120px; height:60px; }
+div#bi_logo a { text-decoration:none; border:0px; }
+
+/* A FEW SMALL (FLEXIBLY-SIZED) BORDERED BOX RULES */
+div.sub18_box {
+  display:inline;
+  float:left;
+  clear:both;
+  margin:0px;
+  border:2px solid #000000;
+  padding:3px;
+  font-size:18px;
+  font-weight:bold;
+  text-align:left;
+  background:#FFFF66;
+  color:#000000;
+}
+div.sub16_box {
+  display:inline;
+  float:left;
+  clear:both;
+  margin:0px;
+  border:2px solid #000000;
+  padding:3px;
+  font-size:16px;
+  font-weight:bold;
+  text-align:left;
+  background:#FFFF66;
+  color:#000000;
+}
+div.sub14_box {
+  display:inline;
+  float:left;
+  clear:both;
+  margin:0px;
+  border:2px solid #000000;
+  padding:3px;
+  font-size:14px;
+  font-weight:bold;
+  text-align:left;
+  background:#FFFF66;
+  color:#000000;
+}
+div.sublink_holder {
+  overflow:visible;
+  margin:0px auto;
+  border:0px solid #FF0000;
+  padding:0px;
+  text-align:center;
+}
+div.sublink_box {
+  display:inline;
+  overflow:hidden;
+  margin:0px 2px;
+  border:2px solid #000000;
+  padding:3px;
+  font-weight:bold;
+  font-size:14px;
+  text-decoration:none;
+  background:#FFFF66;
+  color:#000000;
+}
+ 
+/* IMAGE RULES */
+div.pic_120x160 { margin:0 auto;border:2px solid #000000;padding:0;width:122px;height:162px; }
+img.pic_120x160 { margin:1px;border:0;padding:0;width:120px;height:160px; }
+div.picbox_side { margin:0;border:0;padding:0;width:220px;float:left;clear:none;text-align:center; }
+div.picbox_mid { margin:0 55px;border:0;padding:0;width:220px;float:left;clear:none;text-align:center; }
+div.img_centre { margin:0;border:0;padding:0; }
+img.img_centre { margin:0 auto;border:1px solid #000000;padding:0;display:block;}
+ 
+/* OTHER STANDARD PARAGRAPH STYLES */
+.sub { font-weight:bold; font-size:24px; text-align:left; color:#000000; }
+.sub16 { font-weight:bold; font-size:16px; text-align:left; color:#000000; }
+.sub14 { font-weight:bold; font-size:14px; text-align:left; color:#000000; }
+.sub14_centre { font-weight:bold; font-size:14px; text-align:center; color:#000000; }
+.body, .paragraph, .para { font-size:12px; text-align:justify; color:#000000; }
+.body_bold, .paragraph_bold, .para_bold { font-weight:bold; font-size:12px; text-align:justify; color:#000000; }
+.body_italic, .paragraph_italic, .para_ital { font-style:italic; font-weight:normal; font-size:12px; text-align:justify; color:#000000; }
+.body_bold_left, .paragraph_bold_left, .para_bold_left { font-weight:bold; font-size:12px; text-align:left; color:#000000; }
+.body_bold_right, .paragraph_bold_right, .para_bold_right { font-weight:bold; font-size:12px; text-align:right; color:#000000; }
+.mono, .mono_bold { font-size:12px; font-family:"Bitstream Vera Sans Mono","Courier New",monospace; }
+.mono_bold { font-weight:bold; }
+.input { font-size:12px; font-family:monospace; color:#000099; background:#EEEEFF; }
+.button_large { font-weight:bold; font-size:14px; color:#FFFFEE; background:#0000CC; }
+.button { font-weight:bold; font-size:12px; color:#FFFFEE; background:#0000CC; }
+.footer { font-size:9px; text-align:center; color:#666666; }
+.footer_left { font-size:9px; text-align:left; color:#666666; }
+.error { margin:0px;border:1px solid #CC0000;padding:5px;font-weight:bold;font-size:13px;text-align:center;color:#CC0000; }

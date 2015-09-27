@@ -1,0 +1,721 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+
+
+<title>Entry view - PDB:1ALF</title>
+<link href="PDB_1ALF_PDBconcise_files/styles.css" rel="stylesheet" type="text/css">
+<link href="PDB_1ALF_PDBconcise_files/entryviews.css" rel="stylesheet" type="text/css">
+<link href="PDB_1ALF_PDBconcise_files/queryresults.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="http://srs.embl.de/srs/images/bwfavicon.ico" type="image/x-icon">    
+<script language="javascript" src="PDB_1ALF_PDBconcise_files/srs_standard.js"></script>
+<script language="javascript" src="PDB_1ALF_PDBconcise_files/AjaxServices.txt"> </script>
+<script language="javascript" src="PDB_1ALF_PDBconcise_files/engine.js"> </script>
+<script language="javascript" src="PDB_1ALF_PDBconcise_files/srs_ajax.js"> </script>
+<script language="javascript" src="PDB_1ALF_PDBconcise_files/slider.js"></script>
+<script language="javascript" src="PDB_1ALF_PDBconcise_files/export.js"></script>
+<script language="javascript" src="PDB_1ALF_PDBconcise_files/entryviews.js"></script>
+<script language="javascript">
+  collapsibleSections="";
+  function resetHiddenFields() {
+	  document.getElementById('action').value = '';
+      document.getElementById('appToExport').value = '';
+      document.getElementById('viewForExport').value = '';
+      document.getElementById('queryString').value = document.getElementById('queryString_backup').value;
+      document.forms['primaryForm'].target = '';
+  }
+</script>
+
+</head><body onload="initiate();moveBack();setHighlightTerms();evaluateSections(collapsibleSections);">
+<form id="quickSearchBarForm" name="quickSearchForm" action="quickSearchToolBar.do" method="post">
+<div style="margin-left: 5px;"> 
+<table class="navBg" border="0" cellpadding="0" cellspacing="0" width="954">
+  <tbody><tr>
+    <td class="navBottomLeft" colspan="2" halign="right" rowspan="2" valign="top" width="80"><a href="http://srs.embl.de/srs/frontpage.do"><img halign="right" src="PDB_1ALF_PDBconcise_files/logo.gif" title="Click here to go to the front page" border="0"></a>&nbsp;</td>
+    <td width="614"><table border="0" cellpadding="0" cellspacing="0" width="600">
+                <tbody><tr>
+                  <td width="28">&nbsp;&nbsp;&nbsp;Find&nbsp;</td>
+                  <td width="274"><input name="queryStrTextBoxHeader" onkeypress="return Qcodes(event, 'quicksearch')" id="queryStrTextBoxHeader" size="40" type="text"></td>
+				  <td id="toolBar_Synonyms" width="60">
+					<a href="javascript:getFinders('quickSearchForm',%20'queryStrTextBoxHeader_div',%20'queryStrTextBoxHeader');">
+                  <img id="synonymImage_queryStrTextBoxHeader_div" src="PDB_1ALF_PDBconcise_files/synonym_select.gif" title="Find Synonyms" border="0">
+				  </a>
+                  </td>
+                  <td width="23">&nbsp;in&nbsp;</td>
+                  <td width="115">
+						  <table border="0" cellpadding="0" cellspacing="0" width="115">
+							<tbody><tr>
+							  <td valign="bottom">
+								  <div id="conceptSelected">Results Overview</div>
+								</td>
+							  <td align="left"><a href="#"><img id="dropdownboxarrow" src="PDB_1ALF_PDBconcise_files/dropdownboxarrow.gif" style="position: relative;" align="top" border="0"></a></td>
+							</tr>
+							<tr><td align="left"><div id="quickSearchBarMenu" class="quickSearchBarMenu">
+							<table border="0" cellpadding="0" cellspacing="0">
+							<tbody><tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="all" onmousedown="selectedConcept('all','Results Overview');" href="#">Results Overview</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="nucleicAcidSeq" onmousedown="selectedConcept('nucleicAcidSeq REFSEQ EMBL GENBANK','Nucleic Acid Sequence');" href="#">Nucleic Acid Sequence<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ REFSEQ EMBL GENBANK&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="proteinSeq" onmousedown="selectedConcept('proteinSeq UNIPROT','Protein Sequence');" href="#">Protein Sequence<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ UNIPROT&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="proteinFamily" onmousedown="selectedConcept('proteinFamily INTERPRO','Protein Family/Domain');" href="#">Protein Family/Domain<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ INTERPRO&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="disease" onmousedown="selectedConcept('disease OMIM','Disease');" href="#">Disease<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ OMIM&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="enzyme" onmousedown="selectedConcept('enzyme ENZYME','Enzyme');" href="#">Enzyme<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ ENZYME&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="proteinFunction" onmousedown="selectedConcept('proteinFunction GO','Protein Function');" href="#">Protein Function<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ GO&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="genomicLocation" onmousedown="selectedConcept('genomicLocation ENTREZGENE','Genomic Location');" href="#">Genomic Location<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ ENTREZGENE&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="biologicalPathway" onmousedown="selectedConcept('biologicalPathway PATHWAY LREACTION LCOMPOUND LENZYME LGLYCAN REACTOME','Biological Pathway');" href="#">Biological Pathway<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ PATHWAY LREACTION LCOMPOUND LENZYME LGLYCAN REACTOME&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="threeDStructure" onmousedown="selectedConcept('threeDStructure PDB HSSP PSSH','Macromolecular Structure');" href="#">Macromolecular Structure<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ PDB HSSP PSSH&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="srsql" onmousedown="selectedConcept('srsql','SRS Query Language');" href="#">SRS Query Language</a>
+								</td>
+								</tr>
+								
+		                    <tr><td>&nbsp;</td></tr>
+								<tr>
+								<td align="right">
+								<a href="http://srs.embl.de/srs/userConcepts.do">Customize...</a>
+								</td>
+								</tr>
+							</tbody></table>
+							</div></td></tr>
+						  </tbody></table>					  
+				  <input name="menu_PreferredConcepts" id="menu_PreferredConcepts" value="all" type="hidden">
+				  <input name="menu_PreferredConceptsDisplay" id="menu_PreferredConceptsDisplay" value="all" type="hidden">
+					</td>
+                  <td width="100"><a name="link_searchBar_go_button" id="link_searchBar_go_button" href="javascript:quickSearchBarSubmit();"><img name="img_searchBar_go_button" id="img_searchBar_go_button" src="PDB_1ALF_PDBconcise_files/btn_go_off.gif" onmouseover="swapImage(this, 'images/biowisdom/btn_go_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_go_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_go_on.gif');" border="0"></a> </td>
+     </tr>
+              </tbody></table>
+			  <script language="javascript">
+			  	document.getElementById('queryStrTextBoxHeader').value = "";
+			  </script>
+			  </td>
+    <td class="navTopRight" height="55"></td>
+  </tr>
+  <tr>
+    <!-- <td width="37" height="30" align="left"><img src="images/biowisdom/nav/bottom_left.gif" width="37" height="30"></td>
+	<td></td> -->
+    <td valign="bottom"><table border="0" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+          <td><a href="http://srs.embl.de/srs/quicksearches.do"><img style="cursor: pointer;" id="nav_mysrs" src="PDB_1ALF_PDBconcise_files/nav_mysrs_off.gif" onmouseover="swapImage(this, 'images/biowisdom/nav/nav_mysrs_on.gif');" onmouseout="swapImage(this, 'images/biowisdom/nav/nav_mysrs_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/nav/nav_mysrs_on.gif');" border="0"></a><a href="http://srs.embl.de/srs/querybuilder.do"><img style="cursor: pointer;" id="nav_querybuilder" src="PDB_1ALF_PDBconcise_files/nav_querybuilder_off.gif" onmouseover="swapImage(this, 'images/biowisdom/nav/nav_querybuilder_on.gif');" onmouseout="swapImage(this, 'images/biowisdom/nav/nav_querybuilder_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/nav/nav_querybuilder_on.gif');" border="0"></a><a href="http://srs.embl.de/srs/analysisTools.do"><img style="cursor: pointer;" id="nav_analysistools" src="PDB_1ALF_PDBconcise_files/nav_analysistools_off.gif" onmouseover="swapImage(this, 'images/biowisdom/nav/nav_analysistools_on.gif');" onmouseout="swapImage(this, 'images/biowisdom/nav/nav_analysistools_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/nav/nav_analysistools_on.gif');" border="0"></a></td>
+          <td><table border="0" cellpadding="0" cellspacing="0"><tbody><tr>
+		  <td id="batchQueue"><img src="PDB_1ALF_PDBconcise_files/null.gif" height="20" width="20"></td>
+			<td onmouseover="changehighlight('queryHistory', 'navTopOn');" onmouseout="changehighlight('queryHistory', 'navTopOff');" id="queryHistory" class="navTopOff"><a id="nav_queryHistory" href="http://srs.embl.de/srs/queryHistory.do">history</a></td><td>&nbsp;-&nbsp;</td>
+			<td onmouseover="changehighlight('customView', 'navTopOn');" onmouseout="changehighlight('customView', 'navTopOff');" id="customView" class="navTopOff" height="20"><a id="nav_customView" href="http://srs.embl.de/srs/customview.do">manage views</a></td><td>&nbsp;-&nbsp;</td>
+			<td onmouseover="changehighlight('databankInfo', 'navTopOn');" onmouseout="changehighlight('databankInfo', 'navTopOff');" id="databankInfo" class="navTopOff"><a id="nav_databankInfo" href="javascript:goToDatabankInfo();">databank list</a></td><td>&nbsp;-&nbsp;</td>
+			<td class="navHelp"><a id="nav_help" href="http://srs.embl.de/srs/docpage.do?page=doc/srsbooks/srs_user_guide/9_1.html" target="docPage">Help?</a></td>
+		  </tr></tbody></table></td>
+        </tr>
+      </tbody></table></td>
+    <td class="navlogin" align="right">
+	    <a href="http://srs.embl.de/srs/login?redirecturl=quicksearches.do">Log In</a>&nbsp;
+				</td>
+  </tr>
+</tbody></table>
+</div>
+<script language="javascript">
+function goToDatabankInfo(){
+	var cookieValue = getCookie("toolFilterCookie");
+	var cookieSortValue = getCookie("sortCookie");
+	var cookieReverseValue = getCookie("reverseCookie");
+    document.location = 'databanklist.do?filterTools='+cookieValue+'&sort='+cookieSortValue+'&reverse='+cookieReverseValue+'';
+}
+var thisIsFrontPage = false;
+</script>
+
+<script language="javascript" src="PDB_1ALF_PDBconcise_files/synonyms.js"></script>
+<script language="javascript">createSynonymDivs('queryStrTextBoxHeader_div');</script><input id="hidden_previous_synonym_queryStrTextBoxHeader_div" name="hidden_synonym_queryStrTextBoxHeader_div" value="" type="hidden"><input id="synonymsSelected_queryStrTextBoxHeader_div" name="synonymsSelected_queryStrTextBoxHeader_div" value="" type="hidden"><div id="queryStrTextBoxHeader_div" class="synonymsContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td class="sectionHeading">Add Synonyms for :<div style="display: inline;" id="queryStrTextBoxHeader_div_searchTerm"></div></td><td><div id="queryStrTextBoxHeader_div_synonymsFindersContainerLaunch" class="synonymsFindersContainerLaunch"><a href="javascript:showFinders('queryStrTextBoxHeader_div')">Show Finders</a></div></td></tr></tbody></table><p></p><div class="synonymsMainArea"><div id="queryStrTextBoxHeader_div_synonymsFinderContainer" class="synonymsFinderContainer">Loading...</div><div id="queryStrTextBoxHeader_div_synonymsResultsContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td></td></tr><tr><td>&nbsp;<strong>Your results are :</strong><p></p></td><td>&nbsp;</td></tr><tr><td colspan="2"><div id="queryStrTextBoxHeader_div_synonymsResults" class="synonymsResultsContainer">Loading ....</div></td></tr></tbody></table></div></div><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td><p>&nbsp;<a href="javascript:hideSynonymPopup('queryStrTextBoxHeader_div','synonymImage_queryStrTextBoxHeader_div');%20hideFinders('queryStrTextBoxHeader_div');hideFreeze();"><img src="PDB_1ALF_PDBconcise_files/btn_close_off.gif" id="synonymSearch" onmouseover="swapImage(this, 'images/biowisdom/btn_close_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_close_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_close_on.gif');" border="0"></a></p></td></tr></tbody></table></div>
+<script language="javascript">
+function showStopOption(type) {
+
+   // update the cookie with the ticket id in the model
+   setCookie('SRSACCESS_TICKET_ID', 'null|F44A79168EA1DB4F836C2BA973206137/20532');
+
+   document.getElementById('freezepage').style.display = "block";
+   document.getElementById('freezepage').style.visibility = "visible";
+   if (type == "annotations"){
+   	   document.getElementById('displayText').innerHTML = "SRS is processing...";
+   	   document.getElementById('stopOption').style.display = "block";
+   	   document.getElementById('stopOption').style.visibility = "visible";   
+   } else if (type == "freezeOnly"){
+   	   document.getElementById('stopOption').style.visibility = "hidden";
+	   document.getElementById('stopOption').style.display = "none";
+   }else{
+	   document.getElementById('stopOption').style.display = "block";
+   	   document.getElementById('stopOption').style.visibility = "visible";
+   }
+   updateWindowSizes();
+}
+
+function hideFreeze(){
+   document.getElementById('freezepage').style.visibility = "hidden";
+   document.getElementById('freezepage').style.display = "none";
+   document.getElementById('stopOption').style.visibility = "hidden";
+   document.getElementById('stopOption').style.display = "none";
+}
+
+function updateWindowSizes() {
+   var windowWidth = 0;
+   var windowHeight = 0;
+   var stopperWidth = 300;
+   var stopperHeight = 80;
+   if (document.all) {
+     windowWidth = document.documentElement.clientWidth;
+     windowHeight = document.documentElement.clientHeight;
+     if (windowWidth == 0) {
+       windowWidth = document.body.clientWidth;
+       windowHeight = document.body.clientHeight;
+     }
+   } else {
+     windowWidth = window.innerWidth;
+     windowHeight = window.innerHeight;
+   }
+   if (windowWidth < 300) {
+     windowWidth = 300;
+   }
+   if (windowHeight < 80) {
+     windowHeight = 80;
+   }
+   document.getElementById('freezepage').style.width = windowWidth + 'px';
+   document.getElementById('freezepage').style.height = windowHeight + 'px';
+   document.getElementById('stopOption').style.left = ((windowWidth - 300)/2) + 'px';
+   document.getElementById('stopOption').style.top = ((windowHeight - 80)/2) + 'px';
+}
+</script>  
+<style type="text/css">
+.freezepage{
+	background-image:url(images/shared/translucent_lightgrey.gif);
+	position:absolute;
+	top:expression((ignoreVar = document.documentElement.scrollTop) + "px");
+	left:expression((ignoreVar2 = document.documentElement.scrollLeft) + "px");
+	visibility:hidden;
+	z-index:101;
+}
+html[xmlns] .freezepage { 
+	background-image:url(images/shared/translucent_lightgrey.gif);
+    position: fixed;
+    top: 1px;
+	left:1px;
+	visibility:hidden;
+	z-index:101;
+} 
+html>body .freezepage { 
+	background-image:url(images/shared/translucent_lightgrey.gif);
+    position: fixed;
+    top: 1px;
+	left:1px;
+	visibility:hidden;
+	z-index:101;
+}
+.stopper{
+	background-color:#FFFFFF;
+	height: 80px;
+	width: 300px;
+	top: 800px;
+	position:absolute;
+	border:1px solid black;
+	z-index:999;
+	visibility:hidden;
+	display:none;
+}
+</style>
+<div id="freezepage" class="freezepage">
+<div id="stopOption" class="stopper">
+<table border="0" cellpadding="0" cellspacing="0" width="300">
+  <tbody><tr>
+    <td>
+	  <div align="center">
+<script language="JavaScript" type="text/javascript">
+	
+var requiredVersion = 7;   // Version the user needs to view site (max 9, min 2)
+var useRedirect = false;    // Flag indicating whether or not to load a separate page
+
+var flash2Installed = false;    // boolean. true if flash 2 is installed
+var flash3Installed = false;    // boolean. true if flash 3 is installed
+var flash4Installed = false;    // boolean. true if flash 4 is installed
+var flash5Installed = false;    // boolean. true if flash 5 is installed
+var flash6Installed = false;    // boolean. true if flash 6 is installed
+var flash7Installed = false;    // boolean. true if flash 7 is installed
+var flash8Installed = false;    // boolean. true if flash 8 is installed
+var flash9Installed = false;    // boolean. true if flash 9 is installed
+var maxVersion = 9;             // highest version we can actually detect
+var actualVersion = 0;          // version the user really has
+var hasRightVersion = false;    // boolean. true if it's safe to embed the flash movie in the page
+var jsVersion = 1.0;            // the version of javascript supported
+
+// Check the browser...we're looking for ie/win
+var isIE  = (navigator.appVersion.indexOf("MSIE") != -1) ? true : false;    // true if we're on ie
+var isWin = (navigator.appVersion.toLowerCase().indexOf("win") != -1) ? true : false; // true if we're on windows
+jsVersion = 1.1;
+
+if(isIE && isWin){
+  document.write('<SCR' + 'IPT LANGUAGE=VBScript\> \n');
+  document.write('on error resume next \n');
+  document.write('flash2Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.2"))) \n');
+  document.write('flash3Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.3"))) \n');
+  document.write('flash4Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.4"))) \n');
+  document.write('flash5Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.5"))) \n');  
+  document.write('flash6Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.6"))) \n');  
+  document.write('flash7Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.7"))) \n');
+  document.write('flash8Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.8"))) \n');
+  document.write('flash9Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.9"))) \n');
+  document.write('<\/SCR' + 'IPT\> \n'); // break up end tag so it doesn't end our script
+}
+
+function detectFlash() {  
+  // If navigator.plugins exists...
+  if (navigator.plugins) {
+    // ...then check for flash 2 or flash 3+.
+    if (navigator.plugins["Shockwave Flash 2.0"]
+        || navigator.plugins["Shockwave Flash"]) {
+
+      var isVersion2 = navigator.plugins["Shockwave Flash 2.0"] ? " 2.0" : "";
+      var flashDescription = navigator.plugins["Shockwave Flash" + isVersion2].description;
+
+      var flashVersion = parseInt(flashDescription.substring(16));
+
+      flash2Installed = flashVersion == 2;    
+      flash3Installed = flashVersion == 3;
+      flash4Installed = flashVersion == 4;
+      flash5Installed = flashVersion == 5;
+      flash6Installed = flashVersion == 6;
+      flash7Installed = flashVersion == 7;
+      flash8Installed = flashVersion == 8;
+      flash9Installed = flashVersion >= 9;
+    }
+  }
+  
+  for (var i = 2; i <= maxVersion; i++) {  
+    if (eval("flash" + i + "Installed") == true) actualVersion = i;
+  }
+  if(navigator.userAgent.indexOf("WebTV") != -1) actualVersion = 4;  
+  if (actualVersion >= requiredVersion) {
+    if (useRedirect) {
+      if(jsVersion > 1.0) {
+        window.location.replace(flashPage);  
+      } else {
+        window.location = flashPage;
+      }
+    }
+
+    hasRightVersion = true;                
+  } else {  
+    if (useRedirect) {
+       if(jsVersion > 1.0) {
+        window.location.replace((actualVersion >= 2) ? upgradePage : noFlashPage);
+      } else {
+        window.location = (actualVersion >= 2) ? upgradePage : noFlashPage;
+      }
+    }
+  }
+}
+
+detectFlash();  // call detector now that it's safely loaded. 
+
+	if (!useRedirect) {    // if dynamic embedding is turned on
+  if(hasRightVersion) {  // if we've detected an acceptable version
+    var oeTags = '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="80" height="30">'
++'<param name="movie" value="images/shared/helixv4.swf">'
++'<param name="quality" value="high">'
++'<embed src="images/shared/helixv4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="80" height="30"></embed>'
++'</object>';
+
+  document.write(oeTags);   
+  } else {  // flash is too old or we can't detect the plugin
+    // NOTE: height, width are required!
+    var alternateContent = '<IMG SRC="images/shared/helixv4.gif" HEIGHT="30" WIDTH="80">';
+     
+    document.write(alternateContent);  // insert non-flash content
+  }
+}
+</script><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" height="30" width="80"><param name="movie" value="images/shared/helixv4.swf"><param name="quality" value="high"><embed src="PDB_1ALF_PDBconcise_files/helixv4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" height="30" width="80"></object>
+      </div>
+	  </td></tr><tr>
+    <td><div align="center">
+		<span id="displayText">SRS is searching...</span>
+		<p>
+        <a href="http://srs.embl.de/srs/cancelServices.do?ticketid=null%7CF44A79168EA1DB4F836C2BA973206137/20532">Click here to cancel</a></p></div></td>
+  </tr>
+</tbody></table>
+</div>
+</div></form>
+<p class="pageTitle">
+<span id="bookmark">
+		<a href="javascript:addBookmark('SRS%20Entry%20View%20-%20PDB:1ALF',%20'http://srs.embl.de:80/srs/showEntryView.do?entryId=PDB:1ALF&amp;entryView=PDBentry3D');">
+			<img src="PDB_1ALF_PDBconcise_files/bookmark.gif" border="0">
+		</a>
+	</span>
+Entry view - PDB:1ALF</p>
+<iframe id="quickSearchBarMenuiFrame" style="width: 390px; height: 160px; position: absolute; top: 1px; left: 1px; display: none; z-index: 25;" marginwidth="0" src="" marginheight="0" frameborder="0" scrolling="no"></iframe>
+<iframe id="synonymLaunchiFrame" style="width: 700px; height: 500px; position: absolute; top: 100px; left: 100px; display: none;" marginwidth="0" src="" marginheight="0" frameborder="0" scrolling="no"></iframe>
+<div class="mainPageAreaEntryViews">
+  <div id="deleteConfirmX" class="alertingTip"></div>
+
+<form method="post" name="primaryForm" action="updateEntryView.do">
+<!-- option panel -->
+<!-- Top Menu -->
+
+<input name="queryString" id="queryString" value="[PDB:1ALF]" type="hidden">
+<input name="appToExport" id="appToExport" value="" type="hidden">
+<input name="viewForExport" id="viewForExport" value="" type="hidden">
+<input name="action" id="action" value="" type="hidden">
+<input name="entryId" id="entryId" value="PDB:1ALF" type="hidden">
+<input name="entryView" id="entryView" value="PDBentry3D" type="hidden">
+
+<!-- summary sheet special -->
+<input name="input" id="input" value="PDB:1ALF" type="hidden">
+
+<!-- fields used for dependency with query result page -->
+<input id="currentSearchSortField" name="currentSearchSortField" value="" type="hidden">
+<input id="currentSearchSortDirection" name="currentSearchSortDirection" value="" type="hidden">
+<input id="currentSearchSelectedViewName" name="currentSearchSelectedViewName" value="" type="hidden">
+<input id="currentSearchFilteredDatabank" name="currentSearchFilteredDatabank" value="" type="hidden">
+<input id="currentSearchStart" name="currentSearchStart" value="" type="hidden">
+<input id="currentSearchSize" name="currentSearchSize" value="" type="hidden">
+<input id="selectedConceptName" name="selectedConceptName" value="" type="hidden">
+<input id="selectedConceptType" name="selectedConceptType" value="" type="hidden">
+<input id="primarySearchQueryName" name="primarySearchQueryName" value="" type="hidden">
+<input id="primarySearchParentQueryName" name="primarySearchParentQueryName" value="" type="hidden">
+<input id="parentConceptNames" name="parentConceptNames" value="" type="hidden">
+
+<!-- keeping a track of the parent entry position including when an annotation has been added -->
+<input id="entryPositionInSet" name="entryPositionInSet" value="" type="hidden">
+<input id="totalEntriesInSet" name="totalEntriesInSet" value="" type="hidden">
+<!-- Backup -->
+<input name="queryString_backup" id="queryString_backup" value="[PDB:1ALF]" type="hidden">
+<!--  for back links with annotations  -->
+
+<input name="referEntryId" id="referEntryId" value="" type="hidden">
+<div id="displayOptionsContainer">
+	<!-- round corners  -->
+	<span class="topLeftImage"></span>
+	<span class="topRightImage"></span>
+
+  <table border="0" cellpadding="0" cellspacing="0">
+    <tbody><tr>
+      <td><img src="PDB_1ALF_PDBconcise_files/null.gif" height="5"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;&nbsp;&nbsp;<strong>Options:</strong>&nbsp;</td>
+	  <td>
+		<div class="displayOptionsButton" id="actionsMenuButton" onmouseover="showMenu('actionsMenu')" onmouseout="hideMenu('actionsMenu');">
+			Actions <img class="arrowIcon" src="PDB_1ALF_PDBconcise_files/options_tab_arrow.gif" title="Menu">
+		</div>
+  	  	<div id="actionsMenu" onmouseover="showMenu('actionsMenu')" onmouseout="hideMenu('actionsMenu');">
+		<a href="http://srs.embl.de/srs/showResults.do?query=%5BPDB:1ALF%5D">Set As Primary Search</a><br>
+		</div>
+	  </td>
+      <td>
+		<div class="displayOptionsButton" id="viewsMenuButton" onmouseover="showMenu('viewsMenuEntry')" onmouseout="hideMenu('viewsMenuEntry');">
+			View <img class="arrowIcon" src="PDB_1ALF_PDBconcise_files/options_tab_arrow.gif" title="Menu">
+		</div>
+  	  	<div id="viewsMenuEntry" onmouseover="showMenu('viewsMenuEntry')" onmouseout="hideMenu('viewsMenuEntry');">
+	  <a onclick="showStopOption('full');" href="http://srs.embl.de/srs/showEntryView.do?entryId=PDB:1ALF&amp;pQ=&amp;ppQ=&amp;num=&amp;total=&amp;sF=&amp;sD=&amp;pV=&amp;pDB=&amp;pC=&amp;pCT=&amp;pSt=&amp;pSz=&amp;pCN=&amp;entryView=PDBText">
+					Text Entry</a><br>
+			<a onclick="showStopOption('full');" href="http://srs.embl.de/srs/showEntryView.do?entryId=PDB:1ALF&amp;pQ=&amp;ppQ=&amp;num=&amp;total=&amp;sF=&amp;sD=&amp;pV=&amp;pDB=&amp;pC=&amp;pCT=&amp;pSt=&amp;pSz=&amp;pCN=&amp;entryView=PDBEntry">
+					PDBEntry</a><br>
+			<strong>PDBentry3D</strong><br>
+			<a onclick="showStopOption('full');" href="http://srs.embl.de/srs/showEntryView.do?entryId=PDB:1ALF&amp;pQ=&amp;ppQ=&amp;num=&amp;total=&amp;sF=&amp;sD=&amp;pV=&amp;pDB=&amp;pC=&amp;pCT=&amp;pSt=&amp;pSz=&amp;pCN=&amp;entryView=PDBswiss3D">
+					PDBswiss3D</a><br>
+			<a onclick="showStopOption('full');" href="http://srs.embl.de/srs/showEntryView.do?entryId=PDB:1ALF&amp;pQ=&amp;ppQ=&amp;num=&amp;total=&amp;sF=&amp;sD=&amp;pV=&amp;pDB=&amp;pC=&amp;pCT=&amp;pSt=&amp;pSz=&amp;pCN=&amp;entryView=PDBdetails3D">
+					PDBdetails3D</a><br>
+			</div>
+	  </td>
+	<td style="padding-left: 20px; white-space: nowrap;">
+	<strong>View Summary Sheet:</strong>
+</td>	  
+<td>
+	<a onclick="showStopOption('full');" href="http://srs.embl.de/srs/showEntryView.do?entryId=PDB:1ALF&amp;pQ=&amp;num=&amp;total=&amp;sF=&amp;sD=&amp;pV=&amp;pDB=&amp;pC=&amp;pCT=&amp;pSt=&amp;pSz=&amp;pCN=&amp;entryView=summarySheetView">
+		<img src="PDB_1ALF_PDBconcise_files/icon_summarysheet.gif">
+	</a>
+</td>
+<td style="padding-left: 20px; white-space: nowrap;">
+	<strong>Get PDF version:</strong>
+</td>
+<td>
+	<a href="http://srs.embl.de/srs/showEntryViewAsPdf.do?entryId=PDB:1ALF&amp;entryView=PDBentry3D"><img class="pdf" src="PDB_1ALF_PDBconcise_files/pdf_icon.gif"></a>
+</td>
+<td style="padding-left: 20px; white-space: nowrap;">
+	<strong>View Databank:</strong>
+</td>
+<td>
+	<a href="http://srs.embl.de/srs/databankinfo.do?dbName=PDB"><img class="pdf" src="PDB_1ALF_PDBconcise_files/icon_db.gif"></a>
+</td>
+</tr>
+  </tbody></table>
+</div>
+<div id="basessm" style="visibility: hidden; position: absolute; left: -2px; top: 169px; z-index: 20; width: 240px;">
+    <div id="thessm" style="position: absolute; left: -200px; top: 0px; z-index: 21; visibility: visible;">
+    <script type="text/javascript">
+function confirmDeleteEntry(divId, toolName) {
+	var ht = '<table><tr><td colspan="2" align="center">Do you wish to remove PDB:1ALF from your sequence database?</td></tr>';
+	ht = ht + '<tr><td align="right"><a id="' + divId + 'rename" href="javascript:hideDivSection(\'' + divId + '\');launchTool(\'' + toolName + '\');showStopOption(\'annotations\');">';
+	ht = ht + '<img border="0" src="images/biowisdom/btn_accept_off.gif" onmouseover="swapImage(this, \'images/biowisdom/btn_accept_hover.gif\');" onmouseout="swapImage(this, \'images/biowisdom/btn_accept_off.gif\');"/></a></td>';
+	ht = ht + '<td align="left"><a id="' + divId + 'cancelAlerting" href="javascript:hideDivSection(\'' + divId + '\');hideFreeze()">';
+	ht = ht + '<img border="0" src="images/biowisdom/btn_cancel_off.gif" onmouseover="swapImage(this, \'images/biowisdom/btn_cancel_hover.gif\');" onmouseout="swapImage(this, \'images/biowisdom/btn_cancel_off.gif\');"/></a></td></tr></table>';
+
+	document.getElementById(divId).innerHTML = ht
+	showDivSection(divId);
+	centerDivPosition(divId);
+	showStopOption('freezeOnly');
+}
+</script>
+    
+      <table border="0" cellpadding="0" cellspacing="0" width="216">
+        <tbody><tr>
+          <td class="toolsMainArea" valign="top" width="200"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+              <tbody><tr>
+                <td class="toolsHeading">Analysis Tools</td>
+              </tr>
+              <tr>
+                <td class="toolsContent"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tbody><tr>
+                      <td class="toolsContent2" align="left" valign="top" width="100%"><table border="0" cellpadding="2" cellspacing="2">
+                          <tbody><tr>
+                            <td valign="top"><a href="http://srs.embl.de/srs/analysisTools.do?queryString=%5BPDB:1ALF%5D&amp;query=q18&amp;databanks=PDB">Go to Tools Page</a> </td>
+                          </tr>
+                          <tr>
+                                <td valign="top">No tools available for the current results</td>
+                              </tr>
+                        </tbody></table>
+                       </td>
+                    </tr>
+                  </tbody></table></td>
+              </tr>
+              
+              <tr>
+                <td class="toolsHeading">Save/Export</td>
+              </tr>
+              <tr>
+                <td class="toolsContent">
+                <table id="exportApplications" border="0" cellpadding="2" cellspacing="2">
+		                  <tbody><tr>
+		                        <td><a href="javascript:exportTo('txtXml','txt-xml');resetHiddenFields();">XML or Text format</a></td>
+		                        <td align="center"><img src="PDB_1ALF_PDBconcise_files/txt_icon.gif"></td>
+		                      </tr>
+		                      <tr>
+		                        <td><a href="javascript:exportTo('pdf','');resetHiddenFields();">Acrobat PDF</a></td>
+		                        <td align="center"><img src="PDB_1ALF_PDBconcise_files/pdf_icon.gif"></td>
+		                      </tr>
+		                      </tbody></table>
+	                </td>
+              </tr>
+              <tr>
+                <td class="toolsHeading">Link</td>
+              </tr>
+              <tr>
+                <td class="toolsContent"><p>
+                <a href="http://srs.embl.de/srs/updatelinkUniverse.do?fromQueryString=%5BPDB:1ALF%5D&amp;fromQuery=q18&amp;fromDatabank=PDB&amp;mode=text&amp;action=redirect">
+                Link to...
+                </a><br>
+				</p></td>
+              </tr>
+              <tr>
+                <td class="toolsHeading">Term Highlighting</td>
+              </tr>
+              <tr>
+                <td class="toolsContent"><p>
+				</p><div id="highlightTermsTrigger"><a href="#" onclick="highlightTerms('false');">Switch Off</a></div>
+				
+                <br>
+                </td>
+              </tr>
+              
+            </tbody></table></td>
+          <td valign="top" width="16"><table border="0" cellpadding="0" cellspacing="0" width="16">
+              <tbody><tr>
+                <td class="toolsTab" onclick="movementDecider();" align="center" valign="top">&nbsp; T o o l s &nbsp;</td>
+              </tr>
+              <tr>
+                <td onclick="javascript:clickthrough();" onmouseover="this.style.cursor='hand'" onmouseout="this.style.cursor='pointer'" height="100" valign="top">&nbsp;</td>
+              </tr>
+            </tbody></table></td>
+        </tr>
+      </tbody></table>
+    </div>
+  </div>
+</form>
+<br>
+
+<form method="post" name="viewForm" action="updateEntryView.do">
+<table border="0" cellpadding="3" cellspacing="2">
+<tbody><tr>
+</tr>
+<tr>
+<td bgcolor="#003399" valign="top"><font color="#ffffff" face="verdana,helvetica,arial,sans-serif"><b><b><a href="http://srs.embl.de/g/data_titan/srs_devel/srs/data/pdb/pdb1alf.ent"><font color="white">PDB:1ALF</font></a></b></b></font></td>
+<td colspan="3" bgcolor="#003399" valign="top"><font color="#ffffff" face="verdana,helvetica,arial,sans-serif"><b>Apolipoprotein                           <img src="PDB_1ALF_PDBconcise_files/null.html" border="0" height="1" width="40">Crystal Structure (Resolution&nbsp;0.00&nbsp;Å)<img src="PDB_1ALF_PDBconcise_files/null.html" border="0" height="1" width="40">20--0</b></font></td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" nowrap="nowrap" valign="top">Title</td>
+<td colspan="4" bgcolor="#ffffff" valign="top">Conformation of two peptides corresponding to human         
+ apolipoprotein c-i residues 7-24 and 35-53 in the presence 
+ of sodium dodecylsulfate by cd and nmr spectroscopy        
+</td>
+</tr>
+<tr>
+<td colspan="4" valign="top"><a href="http://srs.embl.de/srs/tmp/PDB_1ALF_simple_p_-id+PERM4eKZ9f26vr4xUnKp+.jnlp"><img src="PDB_1ALF_PDBconcise_files/traces.jpg"></a>
+</td>
+</tr>
+<tr>
+<td colspan="4" bgcolor="#003399" valign="top"><font color="#ffffff" face="verdana,helvetica,arial,sans-serif"><b>Citation and Keywords</b></font></td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top">Citation</td>
+<td colspan="3" valign="top">ROZEK,A.; BUCHKO,G.W.; CUSHLEY,R.J.;
+(1995) conformation of two peptides corresponding to human
+apolipoprotein c-i residues 7-24 and 35-53 in the presence of sodium
+dodecyl sulfate by cd and nmr spectroscopy. <a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=search&amp;db=pubmed&amp;term=BIOCHEMISTRY%5BJOUR%5D+AND+34%5BVOL%5D+AND+7401%5BPAGE%5D&amp;doptcmdl=Abstract" target="_blank"><i>BIOCHEMISTRY</i> <b>34</b>, 7401.</a></td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top">Keywords</td>
+<td colspan="3" valign="top">apolipoprotein                                              
+</td>
+</tr>
+<tr>
+<td colspan="4" bgcolor="#003399" valign="top"><font color="#ffffff" face="verdana,helvetica,arial,sans-serif"><b>Links to Related Sequences and Structures</b></font></td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top">&nbsp;</td>
+<td bgcolor="#efeeee" valign="top">Molecule</td>
+<td bgcolor="#efeeee" valign="top">Proteins with <br> same sequence</td>
+<td bgcolor="#efeeee" valign="top">Proteins with <br> similar sequence</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top">Chain 'A'</td>
+<td bgcolor="#efeeee" valign="top">APOLIPOPROTEIN C-I PRECURSOR</td>
+<td bgcolor="#efeeee" valign="top"><a href="http://srs.embl.de/srs/srs?-id+PERM4eKZ9f26vr4xUnKp+-view+SwissEntry+%5BUNIPROT-acc:P02654%5D+-e"></a><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Buniprot-AccNumber:P02654%5D">APOC1_HUMAN</a> &nbsp; <a href="http://srs.embl.de/srs/srs?-id+PERM4eKZ9f26vr4xUnKp+-view+SwissEntry+%5BUNIPROT-acc:P02654%5D+-e"><img src="PDB_1ALF_PDBconcise_files/prot_seq.gif" alt="Sequence" border="0"></a> &nbsp; <a href="http://srs.embl.de/srs/srs?-id+PERM4eKZ9f26vr4xUnKp+-page+qResult+-view+PDBconcise+%5BUNIPROT-acc:P02654%5D%3Epdb%7C%5Bpdb-dr:UNP:P02654%5D"><img src="PDB_1ALF_PDBconcise_files/3D-structure.gif" alt="3D structures" border="0"></a></td>
+<td bgcolor="#efeeee" valign="top"><a href="http://srs.embl.de/srs/srs?-id+PERM4eKZ9f26vr4xUnKp+-page+qResult+-view+HSSPchain+%5BHSSPchain:1ALF-A%5D%7C%28%5BHSSPchain:1ALF*%5D_AMP_%5BHSSPchain-idc:%27A%27%5D%29"><img src="PDB_1ALF_PDBconcise_files/prot_seq.gif" alt="Sequences" border="0"></a> &nbsp; <a href="http://srs.embl.de/srs/srs?-id+PERM4eKZ9f26vr4xUnKp+-page+qResult+-view+PSSH+%5BPSSH:P02654%5D"><img src="PDB_1ALF_PDBconcise_files/3D-structure.gif" alt="3D structures" border="0"></a></td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top">UniProt features</td>
+<td colspan="3" valign="top"><a href="http://srs.embl.de/srs/srs?-id+PERM4eKZ9f26vr4xUnKp+-view+PDBswiss3D+%5BPDB:1ALF%5D+-e">Map UniProt features onto this PDB entry.</a></td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top">Proteins with<br>similar folds</td>
+<td colspan="3" valign="top"><a href="http://srs.embl.de/srs/srs?-id+PERM4eKZ9f26vr4xUnKp+-page+qResult+-view+PDBconcise+%28%28%5Bpdb:1ALF%5D%3EFSSPmatches%29_AMP_%5BFSSPmatches-zscore_HASH_8:9999%5D%29%3EPDB">Structures</a> &nbsp; <a href="http://srs.embl.de/srs/srs?-id+PERM4eKZ9f26vr4xUnKp+-e+%5Bpdb:1ALF%5D%3EFSSP">FSSP</a></td>
+</tr>
+<tr>
+<td colspan="4" bgcolor="#003399" valign="top"><a name="Description"></a>
+<font color="#ffffff" face="verdana,helvetica,arial,sans-serif"><b>Molecule Information</b></font></td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top">Compound</td>
+<td colspan="3" valign="top"><pre>mol_id: 1;                                                  
+ molecule: apolipoprotein c-i precursor;                    
+ chain: a;                                                  
+ engineered: yes                                            
+</pre></td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top">Source</td>
+<td colspan="3" valign="top"><pre>mol_id: 1;                                                  
+ organism_scientific: homo sapiens;                         
+ organism_common: human;                                    
+ organism_taxid: 9606                                       
+</pre></td>
+</tr>
+</tbody></table>
+<div id="confirmDelete" class="tip2">
+<table align="center">
+<tbody><tr><td colspan="2">Are you sure you want to delete this annotation?</td></tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr><td align="right">
+<a href="javascript:confirmAnnotationDeleteAction('deleteAnnotation.do?referEntryId=PDB:1ALF&amp;pQ=&amp;sF=&amp;num=&amp;total=&amp;sD=&amp;pV=PDBconcise&amp;pDB=&amp;pC=&amp;pCT=&amp;pSt=&amp;pSz=&amp;pCN=');">
+<img src="PDB_1ALF_PDBconcise_files/btn_delete_off.gif" onmouseover="swapImage(this, 'images/biowisdom/btn_delete_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_delete_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_delete_on.gif');" border="0"></a></td>
+<td align="left"><a href="javascript:hideDivSection('confirmDelete');hideFreeze();">
+<img src="PDB_1ALF_PDBconcise_files/btn_cancel_off.gif" onmouseover="swapImage(this, 'images/biowisdom/btn_cancel_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_cancel_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_cancel_on.gif');" border="0"></a></td>
+</tr>	
+</tbody></table>
+</div>
+
+
+
+
+</form>
+
+</div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr>
+<td align="center"><img src="PDB_1ALF_PDBconcise_files/null.gif" border="0" height="50" width="10"></td>
+</tr>
+<tr>
+<td align="center"><img class="navBg" src="PDB_1ALF_PDBconcise_files/null.gif" height="1" width="600"></td>
+</tr>
+<tr>
+<td align="center">
+<p class="copy">SRS Release 8.3
+<a class="small" href="javascript:void(window.open('copyright.do','footerinfo','menubar=no,%20status=yes,%20toolbar=no,%20resizable=yes,%20scrollbars=yes,%20height=400,%20width=510'))">Copyright</a> © 2007 BioWisdom SRS Ltd. All Rights Reserved.
+<a class="small" href="javascript:void(window.open('termsofuse.do','footerinfo','menubar=no,%20status=yes,%20toolbar=no,%20resizable=yes,%20scrollbars=yes,%20height=400,%20width=510'))">Terms of Use</a>&nbsp;<a class="small" href="javascript:void(window.open('feedback.do','footerinfo','menubar=no,%20status=yes,%20toolbar=no,%20resizable=yes,%20scrollbars=yes,%20height=400,%20width=510'))">Feedback</a></p>
+</td></tr></tbody></table>
+<div id="popupInfo">Loading ...</div>
+<!-- This iFrame is required to display hidden DIV above select menus in IE -->
+<iframe id="frame" src="PDB_1ALF_PDBconcise_files/a.html" style="border: 0pt none ; position: absolute; display: block; z-index: 0; visibility: hidden;" frameborder="0" height="0" scrolling="no" width="0"></iframe>
+<div id="annotationDeleted" class="tip2">
+<table align="center" border="0">
+<tbody><tr><td align="center">Annotation deleted successfully !</td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td align="center">
+<a href="javascript:hideDivSection('annotationDeleted');">
+<img src="PDB_1ALF_PDBconcise_files/btn_close_off.gif" onmouseover="swapImage(this, 'images/biowisdom/btn_close_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_close_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_close_on.gif');" align="center" border="0"></a>
+</td></tr>
+
+</tbody></table>
+</div>
+</body></html>

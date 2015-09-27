@@ -1,0 +1,202 @@
+CLUSTAL W 2.1 multiple sequence alignment
+
+
+gi|57013009|sp|Q9H3D4.1|P63_HU      MNFETSRCATLQYCPDPYIQRFVETPAHFSWKESYYRSTMSQSTQT-NEF
+gi|57012997|sp|O88898.1|P63_MO      MNFETSRCATLQYCPDPYIQRFIETPAHFSWKESYYRSAMSQSTQT-SEF
+gi|8928244|sp|O15350.1|P73_HUM      MAQST----------------------------------------A-TSP
+gi|81906671|sp|Q9JJP2.1|P73_MO      MAQTS----------------------------------------S-S--
+gi|2829677|sp|P79734.1|P53_DAN      MAQND---------------------------------------------
+gi|129368|sp|P10360.1|P53_CHIC      MAEEM-------------------------------------EP-LL---
+gi|205829174|sp|P04637.3|P53_H      MEEPQ-------------------------------------SDPSVEPP
+gi|172047304|sp|P02340.3|P53_M      MEESQ-------------------------------------SDISLELP
+                                    *                                                 
+
+gi|57013009|sp|Q9H3D4.1|P63_HU      LSPEVFQHIWDFLEQPICS-VQPIDLNFVDEPSEDGATNKIEIS-MDCIR
+gi|57012997|sp|O88898.1|P63_MO      LSPEVFQHIWDFLEQPICS-VQPIELNFVDEPSENGATNKIEIS-MDCIR
+gi|8928244|sp|O15350.1|P73_HUM      DGGTTFEHLWSSLEPDSTYFDLPQSS-----------RGNNEVVGGT---
+gi|81906671|sp|Q9JJP2.1|P73_MO      -SSSTFEHLWSSLEPDSTYFDLPQPS-----------QGTSEAS-GS---
+gi|2829677|sp|P79734.1|P53_DAN      --SQEFAELWE---KNLIIQP-PG-----------GGSCWDIIN-D--EE
+gi|129368|sp|P10360.1|P53_CHIC      EPTEVFMDLWSMLPYSMQQLPLP---------------------------
+gi|205829174|sp|P04637.3|P53_H      LSQETFSDLWKLLPENNVLSPLPSQ-----------AMDDLMLS------
+gi|172047304|sp|P02340.3|P53_M      LSQETFSGLWKLLPPEDIL-PSPH------------CMDDL-LL------
+                                         *  :*.           *                           
+
+gi|57013009|sp|Q9H3D4.1|P63_HU      MQDSDLSDPMWPQYTNLGLLN----S-MDQQIQNG------SSSTS-PYN
+gi|57012997|sp|O88898.1|P63_MO      MQDSDLSDPMWPQYTNLGLLN----S-MDQQIQNG------SSSTS-PYN
+gi|8928244|sp|O15350.1|P73_HUM      -DS-SMDV---------FHLEGMTTSVMAQF-NLLSSTMDQMSSRA-ASA
+gi|81906671|sp|Q9JJP2.1|P73_MO      -EESNMDV---------FHLQ----G-MAQF-NLLSSAMDQMGSRA-APA
+gi|2829677|sp|P79734.1|P53_DAN      Y------LPG--------------------------------------SF
+gi|129368|sp|P10360.1|P53_CHIC      ---------E---------------D-HSNWQEL--SPLEPSDPPP-PPP
+gi|205829174|sp|P04637.3|P53_H      --------PD---------------D-IEQWFTE--DP-GPDEAPRMPEA
+gi|172047304|sp|P02340.3|P53_M      --------PQ---------------D-VEEFFE---GP---SEALRVS-G
+                                                                                      
+
+gi|57013009|sp|Q9H3D4.1|P63_HU      TDHAQ-NSVTAPS---PYAQPSSTFDALSPSPAIPSNTDYPGPHSFDVSF
+gi|57012997|sp|O88898.1|P63_MO      TDHAQ-NSVTAPS---PYAQPSSTFDALSPSPAIPSNTDYPGPHSFDVSF
+gi|8928244|sp|O15350.1|P73_HUM      SPYTP-EHAASVPTHSPYAQPSSTFDTMSPAPVIPSNTDYPGPHHFEVTF
+gi|81906671|sp|Q9JJP2.1|P73_MO      SPYTP-EHAASAPTHSPYAQPSSTFDTMSPAPVIPSNTDYPGPHHFEVTF
+gi|2829677|sp|P79734.1|P53_DAN      DPNFFENVLEE-------Q-PQPS--TLPPTSTVPETSDYPGDHGFRLRF
+gi|129368|sp|P10360.1|P53_CHIC      PPPLP-LAAAAPP---PLNPPTPP--RAAPSPVVPSTEDYGGDFDFRVGF
+gi|205829174|sp|P04637.3|P53_H      APRVA-PAPAAPT---PAAPAPAP--SWPLSSSVPSQKTYQGSYGFRLGF
+gi|172047304|sp|P02340.3|P53_M      APAAQDPVTETPG---PVAPAPAT--PWPLSSFVPSQKTYQGNYGFHLGF
+                                                        . ..    . :. :*.   * * . * : *
+
+gi|57013009|sp|Q9H3D4.1|P63_HU      QQSSTAKSATWTYSTELKKLYCQIAKTCPIQIKVMTPPPQGAVIRAMPVY
+gi|57012997|sp|O88898.1|P63_MO      QQSSTAKSATWTYSTELKKLYCQIAKTCPIQIKVMTPPPQGAVIRAMPVY
+gi|8928244|sp|O15350.1|P73_HUM      QQSSTAKSATWTYSPLLKKLYCQIAKTCPIQIKVSTPPPPGTAIRAMPVY
+gi|81906671|sp|Q9JJP2.1|P73_MO      QQSSTAKSATWTYSPLLKKLYCQIAKTCPIQIKVSTPPPPGTAIRAMPVY
+gi|2829677|sp|P79734.1|P53_DAN      PQSGTAKSVTCTYSPDLNKLFCQLAKTCPVQMVVDVAPPQGSVVRATAIY
+gi|129368|sp|P10360.1|P53_CHIC      VEAGTAKSVTCTYSPVLNKVYCRLAKPCPVQVRVGVAPPPGSSLRAVAVY
+gi|205829174|sp|P04637.3|P53_H      LHSGTAKSVTCTYSPALNKMFCQLAKTCPVQLWVDSTPPPGTRVRAMAIY
+gi|172047304|sp|P02340.3|P53_M      LQSGTAKSVMCTYSPPLNKLFCQLAKTCPVQLWVSATPPAGSRVRAMAIY
+                                     .:.****.  ***. *:*::*::**.**:*: *  .** *: :** .:*
+
+gi|57013009|sp|Q9H3D4.1|P63_HU      KKAEHVTEVVKRCPNHELSREFNEGQIAPPSHLIRVEGNSHAQYVEDPIT
+gi|57012997|sp|O88898.1|P63_MO      KKAEHVTEVVKRCPNHELSREFNEGQIAPPSHLIRVEGNSHAQYVEDPIT
+gi|8928244|sp|O15350.1|P73_HUM      KKAEHVTDVVKRCPNHELGRDFNEGQSAPASHLIRVEGNNLSQYVDDPVT
+gi|81906671|sp|Q9JJP2.1|P73_MO      KKAEHVTDIVKRCPNHELGRDFNEGQSAPASHLIRVEGNNLAQYVDDPVT
+gi|2829677|sp|P79734.1|P53_DAN      KKSEHVAEVVRRCPHHERTPDG-DN-LAPAGHLIRVEGNQRANYREDNIT
+gi|129368|sp|P10360.1|P53_CHIC      KKSEHVAEVVRRCPHHERCGGGTDG-LAPAQHLIRVEGNPQARYHDDETT
+gi|205829174|sp|P04637.3|P53_H      KQSQHMTEVVRRCPHHERCSDS-DG-LAPPQHLIRVEGNLRVEYLDDRNT
+gi|172047304|sp|P02340.3|P53_M      KKSQHMTEVVRRCPHHERCSDG-DG-LAPPQHLIRVEGNLYPEYLEDRQT
+                                    *:::*::::*:***:**      :.  **. ********   .* :*  *
+
+gi|57013009|sp|Q9H3D4.1|P63_HU      GRQSVLVPYEPPQVGTEFTTVLYNFMCNSSCVGGMNRRPILIIVTLETRD
+gi|57012997|sp|O88898.1|P63_MO      GRQSVLVPYEPPQVGTEFTTVLYNFMCNSSCVGGMNRRPILIIVTLETRD
+gi|8928244|sp|O15350.1|P73_HUM      GRQSVVVPYEPPQVGTEFTTILYNFMCNSSCVGGMNRRPILIIITLEMRD
+gi|81906671|sp|Q9JJP2.1|P73_MO      GRQSVVVPYEPPQVGTEFTTILYNFMCNSSCVGGMNRRPILVIITLETRD
+gi|2829677|sp|P79734.1|P53_DAN      LRHSVFVPYEAPQLGAEWTTVLLNYMCNSSCMGGMNRRPILTIITLETQE
+gi|129368|sp|P10360.1|P53_CHIC      KRHSVVVPYEPPEVGSDCTTVLYNFMCNSSCMGGMNRRPILTILTLEGPG
+gi|205829174|sp|P04637.3|P53_H      FRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSS
+gi|172047304|sp|P02340.3|P53_M      FRHSVVVPYEPPEAGSEYTTIHYKYMCNSSCMGGMNRRPILTIITLEDSS
+                                     *:**.****.*: *:: **:  ::******:********* *:***   
+
+gi|57013009|sp|Q9H3D4.1|P63_HU      GQVLGRRCFEARICACPGRDRKADEDSIRKQQVSDS--TKNGDGTKRPFR
+gi|57012997|sp|O88898.1|P63_MO      GQVLGRRCFEARICACPGRDRKADEDSIRKQQVSDS--AKNGDGTKRPFR
+gi|8928244|sp|O15350.1|P73_HUM      GQVLGRRSFEGRICACPGRDRKADEDHYREQQALNESSAKNGAASKRAFK
+gi|81906671|sp|Q9JJP2.1|P73_MO      GQVLGRRSFEGRICACPGRDRKADEDHYREQQALNESTTKNGAASKRAFK
+gi|2829677|sp|P79734.1|P53_DAN      GQLLGRRSFEVRVCACPGRDRKTEESNFKKDQETKTM-AKTTTGTKRSLV
+gi|129368|sp|P10360.1|P53_CHIC      GQLLGRRCFEVRVCACPGRDRKIEEENFRKRGG-------AGGVAKRAMS
+gi|205829174|sp|P04637.3|P53_H      GNLLGRNSFEVRVCACPGRDRRTEEENLRKKGEPHH--ELPPGSTKRALP
+gi|172047304|sp|P02340.3|P53_M      GNLLGRDSFEVRVCACPGRDRRTEEENFRKKEVLCP--ELPPGSAKRALP
+                                    *::*** .** *:********: :*.  ::              :**.: 
+
+gi|57013009|sp|Q9H3D4.1|P63_HU      QNTHGI-QM--TSIK-KRRSPDDELLYLPVRGRETYEMLLKIKESLELMQ
+gi|57012997|sp|O88898.1|P63_MO      QNTHGI-QM--TSIK-KRRSPDDELLYLPVRGRETYEMLLKIKESLELMQ
+gi|8928244|sp|O15350.1|P73_HUM      QSPPAV-PALGAGVK-KRRHGDEDTYYLQVRGRENFEILMKLKESLELME
+gi|81906671|sp|Q9JJP2.1|P73_MO      QSPPAI-PALGTNVK-KRRHGDEDMFYMHVRGRENFEILMKVKESLELME
+gi|2829677|sp|P79734.1|P53_DAN      KESSSATLRPEGSKKAKGSSSDEEIFTLQVRGRERYEILKKLNDSLELSD
+gi|129368|sp|P10360.1|P53_CHIC      PPTEAP-E---PPKK-RVLNPDNEIFYLQVRGRRRYEMLKEINEALQLAE
+gi|205829174|sp|P04637.3|P53_H      NNTSSS-P---QPKK-K--PLDGEYFTLQIRGRERFEMFRELNEALELKD
+gi|172047304|sp|P02340.3|P53_M      TCTSAS-P---PQKK-K--PLDGEYFTLKIRGRKRFEMFRELNEALELKD
+                                      . .         * :    * :   : :***. :*:: :::::*:* :
+
+gi|57013009|sp|Q9H3D4.1|P63_HU      YLPQHTIETYRQQQQQQHQHLLQKQTSIQSPSS-----------------
+gi|57012997|sp|O88898.1|P63_MO      YLPQHTIETYRQQQQQQHQHLLQKQTSMQSQSS-----------------
+gi|8928244|sp|O15350.1|P73_HUM      LVPQPL--------------------VDS---YRQQQQLLQRPSHLQPPS
+gi|81906671|sp|Q9JJP2.1|P73_MO      LVPQPL------------------VDSYR---QQQQQQLLQRPSHLQPPS
+gi|2829677|sp|P79734.1|P53_DAN      VVPASDAE------------------------------------------
+gi|129368|sp|P10360.1|P53_CHIC      GGSAPRPS------------------------------------------
+gi|205829174|sp|P04637.3|P53_H      AQAGKEPG------------------------------------------
+gi|172047304|sp|P02340.3|P53_M      AHATEESG------------------------------------------
+                                      .                                               
+
+gi|57013009|sp|Q9H3D4.1|P63_HU      -----------YGNSSPPLNKMNSMNKLPSVSQLINPQQRNALTPTTIPD
+gi|57012997|sp|O88898.1|P63_MO      -----------YGNSSPPLNKMNSMNKLPSVSQLINPQQRNALTPTTMPE
+gi|8928244|sp|O15350.1|P73_HUM      YGPVLSPMNKVHGGMNK---------------------------------
+gi|81906671|sp|Q9JJP2.1|P73_MO      YGPVLSPMNKVHGGVNK---------------------------------
+gi|2829677|sp|P79734.1|P53_DAN      ------------KYRQK---------------------------------
+gi|129368|sp|P10360.1|P53_CHIC      ------------KGRR----------------------------------
+gi|205829174|sp|P04637.3|P53_H      ------------GSRAH---------------------------------
+gi|172047304|sp|P02340.3|P53_M      ------------DSRAH---------------------------------
+                                                                                      
+
+gi|57013009|sp|Q9H3D4.1|P63_HU      GMGANIPMMGTHMPMAGDMNGLSPTQALPPPLSMPSTSHCTPPPPYPTDC
+gi|57012997|sp|O88898.1|P63_MO      GMGANIPMMGTHMPMAGDMNGLSPTQALPPPLSMPSTSHCTPPPPYPTDC
+gi|8928244|sp|O15350.1|P73_HUM      -----LPSVNQLVGQPP---------------------------------
+gi|81906671|sp|Q9JJP2.1|P73_MO      -----LPSVNQLVGQPP---------------------------------
+gi|2829677|sp|P79734.1|P53_DAN      -----F--------------------------------------------
+gi|129368|sp|P10360.1|P53_CHIC      --------------------------------------------------
+gi|205829174|sp|P04637.3|P53_H      -----S--------------------------------------------
+gi|172047304|sp|P02340.3|P53_M      -----S--------------------------------------------
+                                                                                      
+
+gi|57013009|sp|Q9H3D4.1|P63_HU      SIVSFLARLGCSSCLDYFTTQGLTTIYQIEHYSMDDLASLKIPEQFRHAI
+gi|57012997|sp|O88898.1|P63_MO      SIVSFLARLGCSSCLDYFTTQGLTTIYQIEHYSMDDLASLKIPEQFRHAI
+gi|8928244|sp|O15350.1|P73_HUM      --------------------------------------------------
+gi|81906671|sp|Q9JJP2.1|P73_MO      --------------------------------------------------
+gi|2829677|sp|P79734.1|P53_DAN      --------------------------------------------------
+gi|129368|sp|P10360.1|P53_CHIC      --------------------------------------------------
+gi|205829174|sp|P04637.3|P53_H      --------------------------------------------------
+gi|172047304|sp|P02340.3|P53_M      --------------------------------------------------
+                                                                                      
+
+gi|57013009|sp|Q9H3D4.1|P63_HU      WKGILDHRQLHEFSSPS-------------------HLLRTPS-----SA
+gi|57012997|sp|O88898.1|P63_MO      WKGILDHRQLHDFSSPP-------------------HLLRTPS-----GA
+gi|8928244|sp|O15350.1|P73_HUM      --------------PHSSAATPNLGPVGPGMLNNHGHAVPANGEMSSSHS
+gi|81906671|sp|Q9JJP2.1|P73_MO      --------------PHSSAAGPNLGPMGSGMLNSHGHSMPANGEMNGGHS
+gi|2829677|sp|P79734.1|P53_DAN      ------------------------------------MTKNKKE-----N-
+gi|129368|sp|P10360.1|P53_CHIC      ---------------------------------------VKVE-------
+gi|205829174|sp|P04637.3|P53_H      ------------------------------------SHLKSKK-------
+gi|172047304|sp|P02340.3|P53_M      ------------------------------------SYLKTKK-------
+                                                                                      
+
+gi|57013009|sp|Q9H3D4.1|P63_HU      STV-SV--------------------------------------------
+gi|57012997|sp|O88898.1|P63_MO      STV-SV--------------------------------------------
+gi|8928244|sp|O15350.1|P73_HUM      AQSMVSGS------------------------------------------
+gi|81906671|sp|Q9JJP2.1|P73_MO      SQTMVSGSHCTPPPPYHADPSLVSFLTGLGCPNCIECFTSQGLQSIYHLQ
+gi|2829677|sp|P79734.1|P53_DAN      ----RE--------------------------------------------
+gi|129368|sp|P10360.1|P53_CHIC      --------------------------------------------------
+gi|205829174|sp|P04637.3|P53_H      --------------------------------------------------
+gi|172047304|sp|P02340.3|P53_M      --------------------------------------------------
+                                                                                      
+
+gi|57013009|sp|Q9H3D4.1|P63_HU      --------------------------------------------------
+gi|57012997|sp|O88898.1|P63_MO      --------------------------------------------------
+gi|8928244|sp|O15350.1|P73_HUM      -----------------------------HCTPPPPYHADPSLVSFLTGL
+gi|81906671|sp|Q9JJP2.1|P73_MO      NLTIEDLGALKVPDQYRMTIWRGLQDLKQS--------------------
+gi|2829677|sp|P79734.1|P53_DAN      --------------------------------------------------
+gi|129368|sp|P10360.1|P53_CHIC      --------------------------------------------------
+gi|205829174|sp|P04637.3|P53_H      --------------------------------------------------
+gi|172047304|sp|P02340.3|P53_M      --------------------------------------------------
+                                                                                      
+
+gi|57013009|sp|Q9H3D4.1|P63_HU      --------------------------------------------------
+gi|57012997|sp|O88898.1|P63_MO      --------------------------------------------------
+gi|8928244|sp|O15350.1|P73_HUM      GCPNCIEYFTSQGLQSIYHLQNLTIEDLGALKIPEQYRMTIWRGLQDLKQ
+gi|81906671|sp|Q9JJP2.1|P73_MO      --HDC--------------------------------------GQQLLRS
+gi|2829677|sp|P79734.1|P53_DAN      --------------------------------------------------
+gi|129368|sp|P10360.1|P53_CHIC      --------------------------------------------------
+gi|205829174|sp|P04637.3|P53_H      --------------------------------------------------
+gi|172047304|sp|P02340.3|P53_M      --------------------------------------------------
+                                                                                      
+
+gi|57013009|sp|Q9H3D4.1|P63_HU      GSSE-----------------------TRGERVIDAVRFTLRQTISFPPR
+gi|57012997|sp|O88898.1|P63_MO      GSSE-----------------------TRGERVIDAVRFTLRQTISFPPR
+gi|8928244|sp|O15350.1|P73_HUM      GHDY-----------------------STAQQLLRSSNAATISIGGSGEL
+gi|81906671|sp|Q9JJP2.1|P73_MO      SSNAATISIGGSGELQRQRVMEAVHFRV----------------------
+gi|2829677|sp|P79734.1|P53_DAN      SSE-----------------------------------------------
+gi|129368|sp|P10360.1|P53_CHIC      GPQ-----------------------------------------------
+gi|205829174|sp|P04637.3|P53_H      GQS-----------------------------------------------
+gi|172047304|sp|P02340.3|P53_M      GQS-----------------------------------------------
+                                    . .                                               
+
+gi|57013009|sp|Q9H3D4.1|P63_HU      DEWNDFNFDMDARRNKQQR-------------------------------
+gi|57012997|sp|O88898.1|P63_MO      DEWNDFNFDMDSRRNKQQR-------------------------------
+gi|8928244|sp|O15350.1|P73_HUM      QRQRVMEAVHFRVRHTITIPNR------GGPGGGPDEWADFGFDLPDCKA
+gi|81906671|sp|Q9JJP2.1|P73_MO      -------------RHTITIPNRGGAGAVTGPD----EWADFGFDLPDCKS
+gi|2829677|sp|P79734.1|P53_DAN      -----------PKQGKKLM-------------------------------
+gi|129368|sp|P10360.1|P53_CHIC      -----------PSCGKKLL-------------------------------
+gi|205829174|sp|P04637.3|P53_H      -----------TSRHKKLM-------------------------------
+gi|172047304|sp|P02340.3|P53_M      -----------TSRHKKTM-------------------------------
+                                                   .                                  
+
+gi|57013009|sp|Q9H3D4.1|P63_HU      ---------IK----EEGE
+gi|57012997|sp|O88898.1|P63_MO      ---------IK----EEGE
+gi|8928244|sp|O15350.1|P73_HUM      RKQPIKEEFTE----AEIH
+gi|81906671|sp|Q9JJP2.1|P73_MO      RKQPIKEEFTE----TESH
+gi|2829677|sp|P79734.1|P53_DAN      ---------VKDEGRSDSD
+gi|129368|sp|P10360.1|P53_CHIC      ---------QK-----GSD
+gi|205829174|sp|P04637.3|P53_H      ---------FKTEG-PDSD
+gi|172047304|sp|P02340.3|P53_M      ---------VKKVG-PDSD
+                                              :       .

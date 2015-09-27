@@ -1,0 +1,87 @@
+ENTRY       G00261                      Glycan
+COMPOSITION (Gal)1 (GalNAc)1 (Neu5Ac)1
+MASS        674.6
+CLASS       Glycoprotein
+            Glycoprotein; Glycosaminoglycan
+            Glycoprotein; N-Glycan
+            Glycoprotein; O-Glycan
+            Glycoprotein; Others
+REFERENCE   1  [PMID:7757427]
+            Sueyoshi S, Sawada R, Fukuda M.
+            Carbohydrate structures of recombinant soluble lamp-1 and
+            leukosialin containing sialyl Le(x) terminus.
+            Bioorg. Med. Chem. 2 (1994) 1331-8.
+            2  [PMID:9405387]
+            Capon C, Wieruszeski JM, Lemoine J, Byrd JC, Leffler H, Kim YS.
+            Sulfated lewis X determinants as a major structural motif in glycans
+            from LS174T-HM7 human colon carcinoma mucin.
+            J. Biol. Chem. 272 (1997) 31957-68.
+            3  [PMID:11294842]
+            Garner B, Merry AH, Royle L, Harvey DJ, Rudd PM, Thillet J.
+            Structural elucidation of the N- and O-glycans of human
+            apolipoprotein(a): role of o-glycans in conferring protease
+            resistance.
+            J. Biol. Chem. 276 (2001) 22200-8.
+            4  [PMID:11459848]
+            Wuttke M, Muller S, Nitsche DP, Paulsson M, Hanisch FG, Maurer P.
+            Structural characterization of human recombinant and bone-derived
+            bone sialoprotein. Functional implications for cell attachment and
+            hydroxyapatite binding.
+            J. Biol. Chem. 276 (2001) 36839-48.
+            5  [PMID:12015815]
+            Schulz BL, Oxley D, Packer NH, Karlsson NG.
+            Identification of two highly sialylated human tear-fluid DMBT1
+            isoforms: the major high-molecular-mass glycoproteins in human
+            tears.
+            Biochem. J. 366 (2002) 511-20.
+            6  [PMID:12950230]
+            Backstrom M, Link T, Olson FJ, Karlsson H, Graham R, Picco G,
+            Burchell J, Taylor-Papadimitriou J, Noll T, Hansson GC.
+            Recombinant MUC1 mucin with a breast cancer-like O-glycosylation
+            produced in large amounts in Chinese-hamster ovary cells.
+            Biochem. J. 376 (2003) 677-86.
+            7  [PMID:3242812]
+            Krotkiewski H, Lisowska E, Angel AS, Nilsson B.
+            Structural analysis by fast-atom-bombardment mass spectrometry of
+            the mixture of alditols derived from the O-linked oligosaccharides
+            of murine glycophorins.
+            Carbohydr. Res. 184 (1988) 27-38.
+            8  [PMID:3371361]
+            Van Pelt J, Van Bilsen DG, Kamerling JP, Vliegenthart JF.
+            Structural analysis of O-glycosidic type of
+            sialyloligosaccharide-alditols derived from urinary glycopeptides of
+            a sialidosis patient.
+            Eur. J. Biochem. 174 (1988) 183-7.
+            9  [PMID:3801456]
+            Edge AS, Van Langenhove A, Reinhold V, Weber P.
+            Characterization of O-glycosidically linked oligosaccharides of rat
+            erythrocyte membrane sialoglycoproteins.
+            Biochemistry. 25 (1986) 8017-24.
+            10 [PMID:7737204]
+            Hokke CH, Bergwerff AA, Van Dedem GW, Kamerling JP, Vliegenthart JF.
+            Structural analysis of the sialylated N- and O-linked carbohydrate
+            chains of recombinant human erythropoietin expressed in Chinese
+            hamster ovary cells. Sialylation patterns and branch location of
+            dimeric N-acetyllactosamine units.
+            Eur. J. Biochem. 228 (1995) 981-1008.
+DBLINKS     CCSD: 219 220 221 222 223 224 225 226 227 228 229 230 232 2396 2400
+                  3035 3036 3371 3558 4036 4037 5119 5121 5122 5123 5125 5126
+                  5127 5128 5129 7013 7862 7863 7864 7865 7866 7867 7868 7869
+                  7870 7871 7872 7873 7875 7876 7877 7878 7881 7882 7884 7885
+                  7886 7888 7891 7892 7893 7894 7896 7898 7899 7918 7947 8308
+                  9846 10203 11723 11842 12032 12522 12756 13242 13565 14522
+                  14962 15235 15237 19450 19451 21052 21532 21663 22650 22752
+                  23173 24051 24090 24418 25674 26253 26408 27311 27493 27568
+                  27578 28860 29009 29383 30064 30911 31132 31303 31310 31346
+                  31650 31741 32460 32461 32494 33530 34611 34612 35011 36035
+                  37976 38656 39434 40464 40567 41454 41455 41658 41779 42728
+                  44367 45005 45094 45098 45104 46451 46496 47646 49340 50933
+NODE        3
+            1   GalNAc     10     0
+            2   Gal         0     0
+            3   Neu5Ac    -10     0
+EDGE        2
+            1     2:b1    1:3
+            2     3:a2    2:3
+///
+

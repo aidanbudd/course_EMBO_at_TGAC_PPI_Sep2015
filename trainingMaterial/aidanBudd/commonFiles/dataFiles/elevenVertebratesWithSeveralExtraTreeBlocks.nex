@@ -1,0 +1,568 @@
+#NEXUS
+[written Tue Feb 03 13:35:51 CET 2009 by Mesquite  version 2.01 (build j28) at mac-gibson17.EMBL-Heidelberg.DE/10.1.106.116]
+
+BEGIN TAXA;
+	TITLE SelectedVertebrates;
+	DIMENSIONS NTAX=11;
+	TAXLABELS
+		human mouse opposum chicken frog shark lamprey lungFish zebrafish garfish goldfish 
+	;
+
+END;
+
+
+BEGIN TREES;
+	Title VertebrateTrees;
+	LINK Taxa = SelectedVertebrates;
+	TRANSLATE
+		1 human,
+		2 mouse,
+		3 opposum,
+		4 chicken,
+		5 frog,
+		6 shark,
+		7 lamprey,
+		8 lungFish,
+		9 zebrafish,
+		10 garfish,
+		11 goldfish;
+	TREE VertSpeciesTree = ((((((((1:1.0,2:1.0):1.0,3:1.7647058823529411):1.0,4:2.2162162162162162):0.4594594594594595,5:2.4166666666666665):0.14285714285714285,8:3.1555555555555554):1.0,(9:2.875,10:1.0):1.9130434782608696):1.0,6:5.419354838709677):1.0,7:5.530612244897959):1.0;
+
+END;
+
+
+BEGIN TREES;
+	Title AllPossibleRerootingsOfVertebrateTree;
+	LINK Taxa = SelectedVertebrates;
+[!Parameters: Modifying trees from: Tree(s) used from Tree Window 1 showing Stored Trees. Last tree used: VertSpeciesTree  [tree: ((((((((1:1.0,2:1.0):1.0,3:1.7647058823529411):1.0,4:2.2162162162162162):0.4594594594594595,5:2.4166666666666665):0.14285714285714285,8:3.1555555555555554):1.0,(9:2.875,10:1.0):1.9130434782608696):1.0,6:5.419354838709677):1.0,7:5.530612244897959):1.0;] ]
+	TRANSLATE
+		1 human,
+		2 mouse,
+		3 opposum,
+		4 chicken,
+		5 frog,
+		6 shark,
+		7 lamprey,
+		8 lungFish,
+		9 zebrafish,
+		10 garfish,
+		11 goldfish;
+	TREE 'Modified from VertSpeciesTree (#1)' = (((((((1:1.0,2:1.0):1.0,3:1.7647058823529411):1.0,4:2.2162162162162162):0.4594594594594595,5:2.4166666666666665):0.14285714285714285,8:3.1555555555555554):1.0,(9:2.875,10:1.0):1.9130434782608696):0.5,(6:5.419354838709677,7:6.530612244897959):0.5):1.0;
+	TREE 'Modified from VertSpeciesTree (#2)' = ((((((1:1.0,2:1.0):1.0,3:1.7647058823529411):1.0,4:2.2162162162162162):0.4594594594594595,5:2.4166666666666665):0.14285714285714285,8:3.1555555555555554):0.5,((9:2.875,10:1.0):1.9130434782608696,(6:5.419354838709677,7:6.530612244897959):1.0):0.5):1.0;
+	TREE 'Modified from VertSpeciesTree (#3)' = (((((1:1.0,2:1.0):1.0,3:1.7647058823529411):1.0,4:2.2162162162162162):0.4594594594594595,5:2.4166666666666665):0.07142857142857142,(8:3.1555555555555554,((9:2.875,10:1.0):1.9130434782608696,(6:5.419354838709677,7:6.530612244897959):1.0):1.0):0.07142857142857142):1.0;
+	TREE 'Modified from VertSpeciesTree (#4)' = ((((1:1.0,2:1.0):1.0,3:1.7647058823529411):1.0,4:2.2162162162162162):0.22972972972972974,(5:2.4166666666666665,(8:3.1555555555555554,((9:2.875,10:1.0):1.9130434782608696,(6:5.419354838709677,7:6.530612244897959):1.0):1.0):0.14285714285714285):0.22972972972972974):1.0;
+	TREE 'Modified from VertSpeciesTree (#5)' = (((1:1.0,2:1.0):1.0,3:1.7647058823529411):0.5,(4:2.2162162162162162,(5:2.4166666666666665,(8:3.1555555555555554,((9:2.875,10:1.0):1.9130434782608696,(6:5.419354838709677,7:6.530612244897959):1.0):1.0):0.14285714285714285):0.4594594594594595):0.5):1.0;
+	TREE 'Modified from VertSpeciesTree (#6)' = ((1:1.0,2:1.0):0.5,(3:1.7647058823529411,(4:2.2162162162162162,(5:2.4166666666666665,(8:3.1555555555555554,((9:2.875,10:1.0):1.9130434782608696,(6:5.419354838709677,7:6.530612244897959):1.0):1.0):0.14285714285714285):0.4594594594594595):1.0):0.5):1.0;
+	TREE 'Modified from VertSpeciesTree (#7)' = ((2:1.0,(3:1.7647058823529411,(4:2.2162162162162162,(5:2.4166666666666665,(8:3.1555555555555554,((9:2.875,10:1.0):1.9130434782608696,(6:5.419354838709677,7:6.530612244897959):1.0):1.0):0.14285714285714285):0.4594594594594595):1.0):1.0):0.5,1:0.5):1.0;
+	TREE 'Modified from VertSpeciesTree (#8)' = ((1:1.0,(3:1.7647058823529411,(4:2.2162162162162162,(5:2.4166666666666665,(8:3.1555555555555554,((9:2.875,10:1.0):1.9130434782608696,(6:5.419354838709677,7:6.530612244897959):1.0):1.0):0.14285714285714285):0.4594594594594595):1.0):1.0):0.5,2:0.5):1.0;
+	TREE 'Modified from VertSpeciesTree (#9)' = (((1:1.0,2:1.0):1.0,(4:2.2162162162162162,(5:2.4166666666666665,(8:3.1555555555555554,((9:2.875,10:1.0):1.9130434782608696,(6:5.419354838709677,7:6.530612244897959):1.0):1.0):0.14285714285714285):0.4594594594594595):1.0):0.8823529411764706,3:0.8823529411764706):1.0;
+	TREE 'Modified from VertSpeciesTree (#10)' = ((((1:1.0,2:1.0):1.0,3:1.7647058823529411):1.0,(5:2.4166666666666665,(8:3.1555555555555554,((9:2.875,10:1.0):1.9130434782608696,(6:5.419354838709677,7:6.530612244897959):1.0):1.0):0.14285714285714285):0.4594594594594595):1.1081081081081081,4:1.1081081081081081):1.0;
+	TREE 'Modified from VertSpeciesTree (#11)' = (((((1:1.0,2:1.0):1.0,3:1.7647058823529411):1.0,4:2.2162162162162162):0.4594594594594595,(8:3.1555555555555554,((9:2.875,10:1.0):1.9130434782608696,(6:5.419354838709677,7:6.530612244897959):1.0):1.0):0.14285714285714285):1.2083333333333333,5:1.2083333333333333):1.0;
+	TREE 'Modified from VertSpeciesTree (#12)' = ((((((1:1.0,2:1.0):1.0,3:1.7647058823529411):1.0,4:2.2162162162162162):0.4594594594594595,5:2.4166666666666665):0.14285714285714285,((9:2.875,10:1.0):1.9130434782608696,(6:5.419354838709677,7:6.530612244897959):1.0):1.0):1.5777777777777777,8:1.5777777777777777):1.0;
+	TREE 'Modified from VertSpeciesTree (#13)' = (((((((1:1.0,2:1.0):1.0,3:1.7647058823529411):1.0,4:2.2162162162162162):0.4594594594594595,5:2.4166666666666665):0.14285714285714285,8:3.1555555555555554):1.0,(6:5.419354838709677,7:6.530612244897959):1.0):0.9565217391304348,(9:2.875,10:1.0):0.9565217391304348):1.0;
+	TREE 'Modified from VertSpeciesTree (#14)' = ((10:1.0,((((((1:1.0,2:1.0):1.0,3:1.7647058823529411):1.0,4:2.2162162162162162):0.4594594594594595,5:2.4166666666666665):0.14285714285714285,8:3.1555555555555554):1.0,(6:5.419354838709677,7:6.530612244897959):1.0):1.9130434782608696):1.4375,9:1.4375):1.0;
+	TREE 'Modified from VertSpeciesTree (#15)' = ((9:2.875,((((((1:1.0,2:1.0):1.0,3:1.7647058823529411):1.0,4:2.2162162162162162):0.4594594594594595,5:2.4166666666666665):0.14285714285714285,8:3.1555555555555554):1.0,(6:5.419354838709677,7:6.530612244897959):1.0):1.9130434782608696):0.5,10:0.5):1.0;
+	TREE 'Modified from VertSpeciesTree (#16)' = ((((((((1:1.0,2:1.0):1.0,3:1.7647058823529411):1.0,4:2.2162162162162162):0.4594594594594595,5:2.4166666666666665):0.14285714285714285,8:3.1555555555555554):1.0,(9:2.875,10:1.0):1.9130434782608696):1.0,7:6.530612244897959):2.7096774193548385,6:2.7096774193548385):1.0;
+	TREE 'Modified from VertSpeciesTree (#17)' = ((((((((1:1.0,2:1.0):1.0,3:1.7647058823529411):1.0,4:2.2162162162162162):0.4594594594594595,5:2.4166666666666665):0.14285714285714285,8:3.1555555555555554):1.0,(9:2.875,10:1.0):1.9130434782608696):1.0,6:5.419354838709677):1.0,7:5.530612244897959):1.0;
+
+END;
+
+
+BEGIN TREES;
+	Title tenRandomModificationsOfVertTreeTwoMoves;
+	LINK Taxa = SelectedVertebrates;
+[!Parameters: Randomly modifying tree from: Tree(s) used from Tree Window 1 showing Stored Trees. Last tree used: VertSpeciesTree  [tree: ((((((((1:1.0,2:1.0):1.0,3:1.7647058823529411):1.0,4:2.2162162162162162):0.4594594594594595,5:2.4166666666666665):0.14285714285714285,8:3.1555555555555554):1.0,(9:2.875,10:1.0):1.9130434782608696):1.0,6:5.419354838709677):1.0,7:5.530612244897959):1.0;] . [seed: 1233663872965]]
+	TRANSLATE
+		1 human,
+		2 mouse,
+		3 opposum,
+		4 chicken,
+		5 frog,
+		6 shark,
+		7 lamprey,
+		8 lungFish,
+		9 zebrafish,
+		10 garfish,
+		11 goldfish;
+	TREE 'Randomly modified from VertSpeciesTree (#0)' = ((((((((1:1.0,2:1.0):1.0,3:1.7647058823529411):0.5,5:2.4166666666666665[%color = 5 ]):0.5,4:2.2162162162162162):0.6023166023166023,8:3.1555555555555554):1.0,(9:2.875,10:1.0):1.9130434782608696):0.5,7:5.530612244897959[%color = 5 ]):0.5,6:5.419354838709677):2.0[% ] [%test = 0.2 ];
+	TREE 'Randomly modified from VertSpeciesTree (#1)' = ((((1:1.0,2:1.0):0.5,((((4:2.675675675675676,5:2.4166666666666665):0.14285714285714285,8:3.1555555555555554):1.0,(9:2.875,10:1.0):1.9130434782608696):1.0,6:5.419354838709677):1.0[%color = 5 ]):0.5,3:1.7647058823529411):1.0[%color = 5 ],7:2.7653061224489797):3.7653061224489797[% ] [%test = 0.2 ];
+	TREE 'Randomly modified from VertSpeciesTree (#2)' = ((((8:4.155555555555555,(9:2.875,(((1:1.0,2:1.0):1.0,3:1.7647058823529411):1.0[%color = 5 ],10:0.5):0.5):1.9130434782608696):1.0,6:5.419354838709677):0.5,(4:2.675675675675676,5:2.4166666666666665):0.14285714285714285[%color = 5 ]):0.5,7:5.530612244897959):1.0[% ] [%test = 0.2 ];
+	TREE 'Randomly modified from VertSpeciesTree (#3)' = (((8:4.155555555555555,9:4.788043478260869):1.0,6:5.419354838709677):1.0,((((((1:1.0,2:1.0):1.0,3:1.7647058823529411):1.0,4:2.2162162162162162):0.22972972972972974,10:1.0[%color = 5 ]):0.22972972972972974,5:2.4166666666666665):0.14285714285714285[%color = 5 ],7:2.7653061224489797):2.7653061224489797):1.0[% ] [%test = 0.2 ];
+	TREE 'Randomly modified from VertSpeciesTree (#4)' = (((((((2:2.0,3:1.7647058823529411):1.0,4:2.2162162162162162):0.22972972972972974,1:1.0[%color = 5 ]):0.22972972972972974,5:2.4166666666666665):0.14285714285714285,8:3.1555555555555554):1.0,(7:5.530612244897959[%color = 5 ],(9:2.875,10:1.0):0.9565217391304348):0.9565217391304348):1.0,6:5.419354838709677):2.0[% ] [%test = 0.2 ];
+	TREE 'Randomly modified from VertSpeciesTree (#5)' = ((((((((2:2.0,3:1.7647058823529411):1.0,4:2.2162162162162162):0.4594594594594595,5:2.4166666666666665):0.14285714285714285,8:3.1555555555555554):1.0,10:2.9130434782608696):1.0,(1:1.0[%color = 5 ],6:2.7096774193548385):2.7096774193548385):1.0,7:5.530612244897959):0.5,9:2.875[%color = 5 ]):0.5[% ] [%test = 0.2 ];
+	TREE 'Randomly modified from VertSpeciesTree (#6)' = (((((((1:1.0,2:1.0):1.0,3:1.7647058823529411):1.4594594594594594,5:2.4166666666666665):0.14285714285714285,8:3.1555555555555554):0.5,(6:5.419354838709677[%color = 5 ],4:1.1081081081081081[%color = 5 ]):1.1081081081081081):0.5,(9:2.875,10:1.0):1.9130434782608696):2.0,7:5.530612244897959):1.0[% ] [%test = 0.2 ];
+	TREE 'Randomly modified from VertSpeciesTree (#7)' = (((9:2.875,10:1.0):2.9130434782608696,((((((1:1.0,2:1.0):1.0,3:1.7647058823529411):0.5,8:3.1555555555555554[%color = 5 ]):0.5,4:2.2162162162162162):0.4594594594594595,5:2.4166666666666665):1.1428571428571428[%color = 5 ],6:2.7096774193548385):2.7096774193548385):1.0,7:5.530612244897959):1.0[% ] [%test = 0.2 ];
+	TREE 'Randomly modified from VertSpeciesTree (#8)' = ((((((((1:2.0,3:1.7647058823529411):1.0,4:2.2162162162162162):0.4594594594594595,5:2.4166666666666665):0.14285714285714285,8:3.1555555555555554):0.5,2:1.0[%color = 5 ]):0.5,9:4.788043478260869):1.0,(10:1.0[%color = 5 ],6:2.7096774193548385):2.7096774193548385):1.0,7:5.530612244897959):1.0[% ] [%test = 0.2 ];
+	TREE 'Randomly modified from VertSpeciesTree (#9)' = ((((5:2.5595238095238093,(((1:1.0,2:1.0):1.0,3:1.7647058823529411):1.0[%color = 5 ],8:1.5777777777777777):1.5777777777777777):1.0,(9:2.875,10:1.0):1.9130434782608696):1.0,6:5.419354838709677):1.0,(4:2.675675675675676,7:2.7653061224489797):2.7653061224489797):1.0[% ] [%test = 0.2 ];
+
+END;
+
+
+BEGIN TREES;
+	Title RerootingsOfAminoteClade;
+	LINK Taxa = SelectedVertebrates;
+	TRANSLATE
+		1 human,
+		2 mouse,
+		3 opposum,
+		4 chicken,
+		5 frog,
+		6 shark,
+		7 lamprey,
+		8 lungFish,
+		9 zebrafish,
+		10 garfish,
+		11 goldfish;
+	TREE original = ((((((((1:1.0,2:1.0):1.0,3:1.7647058823529411):1.0,4:2.2162162162162162):0.4594594594594595,5:2.4166666666666665):0.14285714285714285,8:3.1555555555555554):1.0,(9:2.875,10:1.0):1.9130434782608696):1.0,6:5.419354838709677):1.0,7:5.530612244897959):1.0;
+	TREE 'Rooting 2+' = (((((((1:1.0,2:1.0):0.5,(3:1.7647058823529411,4:3.2162162162162162):0.5):0.4594594594594595,5:2.4166666666666665):0.14285714285714285,8:3.1555555555555554):1.0,(9:2.875,10:1.0):1.9130434782608696):1.0,6:5.419354838709677):1.0,7:5.530612244897959):1.0;
+	TREE 'Rooting 3+' = (((((((2:1.0,(3:1.7647058823529411,4:3.2162162162162162):1.0):0.5,1:0.5):0.4594594594594595,5:2.4166666666666665):0.14285714285714285,8:3.1555555555555554):1.0,(9:2.875,10:1.0):1.9130434782608696):1.0,6:5.419354838709677):1.0,7:5.530612244897959):1.0;
+	TREE 'Rooting 4+' = (((((((1:1.0,(3:1.7647058823529411,4:3.2162162162162162):1.0):0.5,2:0.5):0.4594594594594595,5:2.4166666666666665):0.14285714285714285,8:3.1555555555555554):1.0,(9:2.875,10:1.0):1.9130434782608696):1.0,6:5.419354838709677):1.0,7:5.530612244897959):1.0;
+	TREE 'Rooting 5+' = ((((((((1:1.0,2:1.0):1.0,4:3.2162162162162162):0.8823529411764706,3:0.8823529411764706):0.4594594594594595,5:2.4166666666666665):0.14285714285714285,8:3.1555555555555554):1.0,(9:2.875,10:1.0):1.9130434782608696):1.0,6:5.419354838709677):1.0,7:5.530612244897959):1.0;
+
+END;
+
+
+BEGIN TREES;
+	Title tenRandomModificationsOfVertTreeAddNoiseToLengths;
+	LINK Taxa = SelectedVertebrates;
+[!Parameters: Randomly modifying tree from: Tree(s) used from Tree Window 1 showing Stored Trees. Last tree used: VertSpeciesTree  [tree: ((((((((1:1.0,2:1.0):1.0,3:1.7647058823529411):1.0,4:2.2162162162162162):0.4594594594594595,5:2.4166666666666665):0.14285714285714285,8:3.1555555555555554):1.0,(9:2.875,10:1.0):1.9130434782608696):1.0,6:5.419354838709677):1.0,7:5.530612244897959):1.0;] . [seed: 1233664224159]]
+	TRANSLATE
+		1 human,
+		2 mouse,
+		3 opposum,
+		4 chicken,
+		5 frog,
+		6 shark,
+		7 lamprey,
+		8 lungFish,
+		9 zebrafish,
+		10 garfish,
+		11 goldfish;
+	TREE 'Randomly modified from VertSpeciesTree (#0)' = ((((((((1:0.9127869785841906,2:1.2565091765102645):0.993553756249634,3:2.0909349803825608):0.7960437671801254,4:1.8133493854029576):0.19786197199709965,5:2.618119294226197):0.17291483529312116,8:0.901116030326353):0.8810332599368705,(9:1.510723336185167,10:1.2722820021844328):2.25095281593357):0.6477321823954378,6:5.484330756750951):0.7094905307145716,7:5.457192662153565):1.1441313379619913[% ] [%test = 0.2 ];
+	TREE 'Randomly modified from VertSpeciesTree (#1)' = ((((((((1:0.23201094087873397,2:0.7953740228026418):1.2529978055496165,3:2.1315510213419615):0.7222873086696435,4:1.6822236203770429):0.5163345690980868,5:2.0452451007418175):0.16167960207750076,8:1.964977979658062):1.0186360714478284,(9:4.264504597410349,10:0.5701825326873675):2.341542143266449):0.7914083794287122,6:7.820673313777375):0.37218258307292296,7:7.535572269888201):1.1912663015543183[% ] [%test = 0.2 ];
+	TREE 'Randomly modified from VertSpeciesTree (#2)' = ((((((((1:1.0814138010028094,2:1.0874747943144216):1.337493978938706,3:0.9951007571257213):0.9747187554022363,4:1.6365296329266956):0.5632453101501285,5:2.095282243556939):0.20811358872270058,8:3.5968048561313735):0.5633942532999021,(9:2.8023178406227225,10:0.5753084585456416):1.691086395662609):0.8195250148879337,6:5.819299291018637):1.3932987258299159,7:6.537215104112455):0.42511320599821434[% ] [%test = 0.2 ];
+	TREE 'Randomly modified from VertSpeciesTree (#3)' = ((((((((1:1.2204265744972862,2:1.0850383257699092):0.37692407114361837,3:2.7856892194776686):1.1907192318260946,4:1.3850256963304344):0.5851603220221169,5:2.709084174290755):0.11853862183057907,8:2.6860225788584264):0.5441629368334471,(9:4.145625081739034,10:0.9976415968966714):2.731473228282957):0.9103179859037449,6:3.802948353058261):0.6417631917129385,7:7.041259788715024):0.9779823139319341[% ] [%test = 0.2 ];
+	TREE 'Randomly modified from VertSpeciesTree (#4)' = ((((((((1:0.6602772958748547,2:1.0178018726850155):0.7261837564895046,3:2.409620047724576):1.1385129334715387,4:1.3953452668623956):0.45874954106344995,5:2.907064904621008):0.12299960780954368,8:2.1658703718696835):0.36367614556243255,(9:3.748264655490477,10:1.4707174517398018):2.2008402113527934):0.3400267181043293,6:7.779334544576736):1.676835418116352,7:5.801684721219394):0.8176191963052057[% ] [%test = 0.2 ];
+	TREE 'Randomly modified from VertSpeciesTree (#5)' = ((((((((1:0.43557882414052984,2:1.233234377884753):1.010139670172289,3:1.3947456130752516):0.9099317218510887,4:3.396289545469572):0.5107929245647729,5:3.4114576951900806):0.14497390632245077,8:2.0917830093786938):0.786652539763581,(9:3.65243617488872,10:0.6491081878517577):1.7242400126270994):1.3709896784210993,6:7.7248736539816605):0.6549471037541542,7:5.027967347033613):1.0029272215080356[% ] [%test = 0.2 ];
+	TREE 'Randomly modified from VertSpeciesTree (#6)' = ((((((((1:0.6375085770824557,2:1.1188492679125897):0.5659738441904416,3:1.6708407791566862):0.9075386466854882,4:1.1822919727156496):0.5410838098988969,5:1.7144941479055078):0.16015569318611342,8:4.305903580464495):0.9280200089182407,(9:4.388931239828282,10:1.4812991788246557):2.1087960155941303):1.605818573108494,6:6.989226408009824):0.8810467468631895,7:4.747084645516705):0.6645567898226324[% ] [%test = 0.2 ];
+	TREE 'Randomly modified from VertSpeciesTree (#7)' = ((((((((1:0.9544351001301735,2:1.431075350079913):0.7768486887069614,3:2.102208964814362):0.8063285373539884,4:3.3276845951902887):0.5628461924687926,5:3.3308755227091744):0.21297688640116602,8:2.544039876217112):1.1629819614940378,(9:2.0537274457394155,10:0.49477602363589546):1.7075355151752936):1.066099345258588,6:5.461875902990327):1.1353997115041583,7:5.258995438941735):0.8289723349840947[% ] [%test = 0.2 ];
+	TREE 'Randomly modified from VertSpeciesTree (#8)' = ((((((((1:1.183541069018028,2:0.7105819721195037):1.101013851044426,3:2.4940565644254216):0.7069430978599598,4:1.8094245721186983):0.19919285200287684,5:1.025218017372112):0.17731248163327779,8:2.769793837089746):1.0981862433176903,(9:2.6941093637141185,10:1.0109186353405675):2.604461109007407):0.9856595984227439,6:5.569310830510523):1.017430319602564,7:6.3870346383799355):1.062085524450162[% ] [%test = 0.2 ];
+	TREE 'Randomly modified from VertSpeciesTree (#9)' = ((((((((1:1.417733050197305,2:1.302648935476948):1.0881922008782792,3:1.8194153112237292):1.2233663154440735,4:2.8111345477424283):0.4322601621570398,5:2.5557632917253037):0.12522797658030152,8:5.854904855609455):1.135724985279913,(9:1.834302629762163,10:1.364664034023602):2.242497271071155):0.8410372335675149,6:8.268669925916743):1.1655077914826828,7:1.9897482995606688):1.1023231768042727[% ] [%test = 0.2 ];
+
+END;
+
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 752860857236405500;
+		endTell;
+		getEmployee  #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord;
+		tell It;
+			makeTreeWindow #752860857236405500  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTreeBlock 1;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 731.1233659226625.4055113868110888321;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 992 478;
+					setLocation 18 22;
+					setFont SanSerif;
+					setFontSize 14;
+					getToolPalette;
+					tell It;
+						setTool mesquite.treefarm.MakeRerootings.AllRerootToolExtra.allRerootings;
+					endTell;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.SquareTree.SquareTree;
+					tell It;
+						setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							stretchToggle on;
+							branchLengthsToggle on;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter on;
+							toggleEven on;
+							namesAngle ?;
+						endTell;
+						setEdgeWidth 6;
+						orientRight;
+						toggleCorners off;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setColor Black;
+						toggleColorPartition on;
+						toggleShadePartition off;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+					endTell;
+				endTell;
+					setTreeNumber 1;
+					useSuggestedSize on;
+					toggleTextOnTree off;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+			endTell;
+			makeTreeWindow #752860857236405500  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTreeBlock 2;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 796.1233663779047.6668410380028277297;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 992 478;
+					setLocation 18 22;
+					setFont SanSerif;
+					setFontSize 14;
+					getToolPalette;
+					tell It;
+					endTell;
+					setActive;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.DiagonalDrawTree.DiagonalDrawTree;
+					tell It;
+						setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							stretchToggle off;
+							branchLengthsToggle off;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter off;
+							toggleEven off;
+							namesAngle ?;
+						endTell;
+						setEdgeWidth 12;
+						orientUp;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setColor Black;
+						toggleColorPartition on;
+						toggleShadePartition off;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+					endTell;
+				endTell;
+					setTreeNumber 1;
+					useSuggestedSize on;
+					toggleTextOnTree off;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+			endTell;
+			makeTreeWindow #752860857236405500  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTreeBlock 3;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 824.1233663898508.3528816860024157956;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 992 478;
+					setLocation 18 22;
+					setFont SanSerif;
+					setFontSize 14;
+					getToolPalette;
+					tell It;
+					endTell;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.DiagonalDrawTree.DiagonalDrawTree;
+					tell It;
+						setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							stretchToggle off;
+							branchLengthsToggle off;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter off;
+							toggleEven off;
+							namesAngle ?;
+						endTell;
+						setEdgeWidth 12;
+						orientUp;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setColor Black;
+						toggleColorPartition on;
+						toggleShadePartition off;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+					endTell;
+				endTell;
+					setTreeNumber 1;
+					useSuggestedSize on;
+					toggleTextOnTree off;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+			endTell;
+			makeTreeWindow #752860857236405500  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTreeBlock 4;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 856.1233664001249.8460442497481585991;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 992 478;
+					setLocation 18 22;
+					setFont SanSerif;
+					setFontSize 14;
+					getToolPalette;
+					tell It;
+					endTell;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.DiagonalDrawTree.DiagonalDrawTree;
+					tell It;
+						setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							stretchToggle off;
+							branchLengthsToggle off;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter off;
+							toggleEven off;
+							namesAngle ?;
+						endTell;
+						setEdgeWidth 12;
+						orientUp;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setColor Black;
+						toggleColorPartition on;
+						toggleShadePartition off;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+					endTell;
+				endTell;
+					setTreeNumber 1;
+					useSuggestedSize on;
+					toggleTextOnTree off;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+			endTell;
+			makeTreeWindow #752860857236405500  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTreeBlock 5;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 884.1233664273180.1627897354293100319;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 992 478;
+					setLocation 18 22;
+					setFont SanSerif;
+					setFontSize 14;
+					getToolPalette;
+					tell It;
+					endTell;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.SquareTree.SquareTree;
+					tell It;
+						setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							stretchToggle off;
+							branchLengthsToggle on;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter on;
+							toggleEven on;
+							namesAngle ?;
+						endTell;
+						setEdgeWidth 6;
+						orientRight;
+						toggleCorners off;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setColor Black;
+						toggleColorPartition on;
+						toggleShadePartition off;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+					endTell;
+				endTell;
+					setTreeNumber 10;
+					useSuggestedSize on;
+					toggleTextOnTree off;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+end;
+
+

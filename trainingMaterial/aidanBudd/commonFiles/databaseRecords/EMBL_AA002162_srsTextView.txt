@@ -1,0 +1,83 @@
+ID   AA002162; SV 1; linear; mRNA; EST; HUM; 502 BP.
+XX
+AC   AA002162;
+XX
+DT   25-JUL-1996 (Rel. 48, Created)
+DT   31-AUG-2006 (Rel. 89, Last updated, Version 5)
+XX
+DE   zh81c07.s1 Soares_fetal_liver_spleen_1NFLS_S1 Homo sapiens cDNA clone
+DE   IMAGE:427692 3' similar to gb:X06290 APOLIPOPROTEIN(A) PRECURSOR (HUMAN);,
+DE   mRNA sequence.
+XX
+KW   EST.
+XX
+OS   Homo sapiens (human)
+OC   Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia;
+OC   Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae;
+OC   Homo.
+XX
+RN   [1]
+RP   1-502
+RX   PUBMED; 8889549.
+RA   Hillier L.D., Lennon G., Becker M., Bonaldo M.F., Chiapelli B., Chissoe S.,
+RA   Dietrich N., DuBuque T., Favello A., Gish W., Hawkins M., Hultman M.,
+RA   Kucaba T., Lacy M., Le M., Le N., Mardis E., Moore B., Morris M.,
+RA   Parsons J., Prange C., Rifkin L., Rohlfing T., Schellenberg K.,
+RA   Soares M.B., Tan F., Thierry-Meg J., Trevaskis E., Underwood K.,
+RA   Wohldman P., Waterston R., Wilson R., Marra M.;
+RT   "Generation and analysis of 280,000 human expressed sequence tags";
+RL   Genome Res. 6(9):807-828(1996).
+XX
+DR   GDB; 4486757.
+DR   ImaGenes; IMAGp998B131004Q.
+DR   UNILIB; 108; 452.
+XX
+CC   On Sep 21, 1992 this sequence version replaced gi:279294.
+CC   Contact: Wilson RK
+CC   Washington University School of Medicine
+CC   4444 Forest Park Parkway, Box 8501, St. Louis, MO 63108
+CC   Tel: 314 286 1800
+CC   Fax: 314 286 1810
+CC   Email: est@watson.wustl.edu
+CC   This clone is available royalty-free through LLNL ; contact the
+CC   IMAGE Consortium (info@image.llnl.gov) for further information.
+CC   Insert Length: 1520   Std Error: 0.00
+CC   Seq primer: mob.REGA+ET
+CC   High quality sequence stop: 380.
+XX
+FH   Key             Location/Qualifiers
+FH
+FT   source          1..502
+FT                   /organism="Homo sapiens"
+FT                   /lab_host="DH10B (ampicillin resistant)"
+FT                   /mol_type="mRNA"
+FT                   /sex="male"
+FT                   /dev_stage="20 week-post conception fetus"
+FT                   /clone_lib="Soares_fetal_liver_spleen_1NFLS_S1"
+FT                   /clone="IMAGE:427692"
+FT                   /note="Organ: Liver and Spleen; Vector: pT7T3D (Pharmacia)
+FT                   with a modified polylinker; Site_1: Pac I; Site_2: Eco RI;
+FT                   This is a subtracted version of the original Soares fetal
+FT                   liver spleen 1NFLS library.   1st strand cDNA was primed
+FT                   with a Pac I - oligo(dT) primer [5'
+FT                   AACTGGAAGAATTAATTAAAGATCTTTTTTTTTTTTTTTTTTT 3'],
+FT                   double-stranded cDNA was ligated to Eco RI adaptors
+FT                   (Pharmacia), digested with Pac I and cloned into the Pac I
+FT                   and Eco RI sites of the modified pT7T3 vector.  Library
+FT                   went through one round of normalization. Library
+FT                   constructed by Bento Soares and M.Fatima Bonaldo."
+FT                   /db_xref="taxon:9606"
+FT                   /db_xref="UNILIB:108"
+XX
+SQ   Sequence 502 BP; 145 A; 111 C; 117 G; 129 T; 0 other;
+     gcaaatccat atgaaggaag cagtttcctt accaaaacag aaggcaactt accacagaga        60
+     gggatatcac agtagtcaaa aagttttctt ggattcactc tgtagcacca gggaccattg       120
+     atgtcaccat cagggttacg gcagtactga aaacaagcag gcatgtaagc tccagctcac       180
+     gtggggcaag agagggagaa ggtgttccaa ggcacacatg tttcacatct attcttagag       240
+     acataaagga gtgtttcttc ttcctttctt tctattatta ttaagatatt tttcgcaaac       300
+     ttattttttg tatgctctaa agccatcagt catgtgttcc agttcaaaag aagctatgag       360
+     gccacaccct gaccaaaggg gtggtgaccc tgaagggtct ttgggagaat gggcctcttc       420
+     tccagaaacc cgacccagtg gaggtcctag agccagagcc ccagagaaca gtggaacatc       480
+     attgatgagc tttgtccctt gg                                                502
+//
+

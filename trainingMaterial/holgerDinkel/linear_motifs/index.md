@@ -6,10 +6,8 @@ author: Holger Dinkel
 
 Objective: Get familiar with the [Phospho.ELM](http://phospho.elm.eu.org) resource.
 
-<!---
-<file:Phospho.ELM.DinkelHolger.pdf>
-<file:Short_Linear_Motifs.DinkelHolger.pdf>
--->
+<!-- <file:Phospho.ELM.DinkelHolger.pdf> -->
+<!-- <file:Short_Linear_Motifs.DinkelHolger.pdf> -->
 
 ## Searching via protein id
 
@@ -43,17 +41,13 @@ Recently, you've learned about the protein 'EPSIN' and you are curious to know i
 2.  Start the Jalview Plugin and look at the conservation of the sequence (You're looking for high conservation in non-structured regions).
     1.  Can you spot any? <!--- Multiple DPWs, Watchout for conserved UIM region(s) -->
 
-<!---
-% ---- 
-% 
-% == Inspecting sequence conservation == 
-% 
-% \# Go to [UniProt](http://uniprot.org) and have a look at the sequence O14746 (TERT_HUMAN). 
-% \#\# How many isoforms of this sequence are known? 
-% \#\# What are the low throughput phosphorylation sites reported for the isoform 1? Compare the Uniprot data with the information for the same sequence in Phospho.ELM. 
-% \#\# Are the phosphosites equally conserved in the different isoforms? 
-% \#\# What can be the biological relevance of this conservation pattern?
--->
+<!-- == Inspecting sequence conservation ==  -->
+<!--  -->
+<!-- \# Go to [UniProt](http://uniprot.org) and have a look at the sequence O14746 (TERT_HUMAN).  -->
+<!-- \#\# How many isoforms of this sequence are known?  -->
+<!-- \#\# What are the low throughput phosphorylation sites reported for the isoform 1? Compare the Uniprot data with the information for the same sequence in Phospho.ELM.  -->
+<!-- \#\# Are the phosphosites equally conserved in the different isoforms?  -->
+<!-- \#\# What can be the biological relevance of this conservation pattern? -->
 
 * * * * *
 
@@ -83,110 +77,84 @@ Recently, you've learned about the protein 'EPSIN' and you are curious to know i
     3.  Rerun the analysis of Paxillin (P49023) at [DisPhos](http://www.dabi.temple.edu/disphos/), this time instead of 'Default Predictor' select 'H. sapiens' as __organism__
 
 
-<!---% 
-% \# Search [Phospho.ELM](http://phospho.elm.eu.org) for P46844 (BIEA_RAT) 
-% \#\# How many phosphorylation sites are annotated for this protein? 
-% \# Try to run [DisPhos](http://www.dabi.temple.edu/disphos/) on the [sequence](http://uniprot.org/uniprot/P46844.fasta) of this protein (P46844). 
-% \# Next, submit the sequence to [PhosphoBlast](http://phospho.elm.eu.org/pELMBlastSearch.html) 
-% \#\# How many phosphorylations sites in homologous proteins do get? 
-% \#\# In which / how many proteins? 
-% \#\# Compare the findings of PhosphoBlast with the predictions of DisPhos 
-% \#\# (Optional) later during this course, when you've learned to use a 3D-viewer, use it to visualize the structure of ([2H63](http://www.rcsb.org/pdb/explore/explore.do?structureId=2h63)) and try to highlight the individual phosphorylatable residues and investigate their surface accessibility.
--->
+<!-- \# Search [Phospho.ELM](http://phospho.elm.eu.org) for P46844 (BIEA_RAT) -->
+<!-- \#\# How many phosphorylation sites are annotated for this protein? -->
+<!-- \# Try to run [DisPhos](http://www.dabi.temple.edu/disphos/) on the [sequence](http://uniprot.org/uniprot/P46844.fasta) of this protein (P46844). -->
+<!-- \# Next, submit the sequence to [PhosphoBlast](http://phospho.elm.eu.org/pELMBlastSearch.html) -->
+<!-- \#\# How many phosphorylations sites in homologous proteins do get? -->
+<!-- \#\# In which / how many proteins? -->
+<!-- \#\# Compare the findings of PhosphoBlast with the predictions of DisPhos -->
+<!-- \#\# (Optional) later during this course, when you've learned to use a 3D-viewer, use it to visualize the structure of ([2H63](http://www.rcsb.org/pdb/explore/explore.do?structureId=2h63)) and try to highlight the individual phosphorylatable residues and investigate their surface accessibility.-->
 
 
-<!---% 
-% \# Search Phospho.ELM for gene name KLF4 
-% 
-% \#\# How many phosphorylation sites are annotated for this protein? 
-% 
-% \#\# Can you retrieve more information by using Phospho.Blast? 
-% 
-% \# Retrieve information about phosphorylation of protein SRC_HUMAN (accession P12931) 
-% \# How many phosphorylation sites are annotated for this protein? 
-% \# Limit this information to residue 530 (of the same protein) 
-% 
-%{TODO} Mention Rest queries 
-% 
-%(see chapter : *REST queries*) 
-% \# (OPTIONAL) Try to get the same information in CSV (comma separated values) format 
-% (see <http://phospho.elm.eu.org/help.html>) 
-% \# Start JalView to see the conservation of phosphorylation sites 
-% 
-% 
-% 
-% 
-% 
-% 
-% Phosphorylation of S62 in the SH3-binding motif of Myc proto-oncogene protein (MYC) by GSK-3 subfamily disrupts its interaction with Myc box-dependent-interacting protein 1 (BIN1). 
-% <http://switches.elm.eu.org/switch.php?switch=SWTI000182> 
-% 
-% 
-% Phosphorylation of LIG_SH2_SRC in DAB1 mediates binding to SRC 
-% <http://switches.elm.eu.org/switch.php?switch=SWTI000623> 
-% 
-% 
-% \#\#\#PTN3_HUMAN\#\#\# 
-% Lots of features, annotated elms in structural region, phospho-dependant motif (14-3-3) 
-% 
-% \#\#\#AMPH_HUMAN\#\#\# 
-% False Positive 
-% 
-% \#\#\#TNR11_MOUSE\#\#\# 
-% TP\#FP 
-% 
-% 
-%
--->
+<!-- \# Search Phospho.ELM for gene name KLF4 -->
+<!-- \#\# How many phosphorylation sites are annotated for this protein? -->
+
+<!-- \#\# Can you retrieve more information by using Phospho.Blast? -->
+
+<!-- \# Retrieve information about phosphorylation of protein SRC_HUMAN (accession P12931) -->
+<!-- \# How many phosphorylation sites are annotated for this protein? -->
+<!-- \# Limit this information to residue 530 (of the same protein) -->
+
+<!--{TODO} Mention Rest queries -->
+
+<!--(see chapter : *REST queries*) -->
+<!-- \# (OPTIONAL) Try to get the same information in CSV (comma separated values) format -->
+<!-- (see <http://phospho.elm.eu.org/help.html>) -->
+<!-- \# Start JalView to see the conservation of phosphorylation sites -->
 
 
-<!---% Maybe: 
-% IGF1-R (Receptor tyrosine kinase) 
-% Seq-ID: P08069 [Homo sapiens] 
-% 
-% ZAP70_HUMAN 
-% 
-% 
-% ---- 
-% 
-% 
-% P18608|HMGN1_MOUSE 
-% 
-% Compare the annotations with the prediction results from DisPHos 
-% 
-% [DisPhos](http://www.dabi.temple.edu/disphos/) 
-% 
-% Compare with Phospho.BLAST results 
-% 
-% 
-% Maybe: P36507 
-% 
-% 
-% ---- 
-% 
-%
--->
+
+<!-- Phosphorylation of S62 in the SH3-binding motif of Myc proto-oncogene protein (MYC) by GSK-3 subfamily disrupts its interaction with Myc box-dependent-interacting protein 1 (BIN1). -->
+<!-- <http://switches.elm.eu.org/switch.php?switch=SWTI000182> -->
+
+<!-- Phosphorylation of LIG_SH2_SRC in DAB1 mediates binding to SRC -->
+<!-- <http://switches.elm.eu.org/switch.php?switch=SWTI000623> -->
+
+<!-- \#\#\#PTN3_HUMAN\#\#\# -->
+<!-- Lots of features, annotated elms in structural region, phospho-dependant motif (14-3-3) -->
+
+<!-- \#\#\#AMPH_HUMAN\#\#\# -->
+<!-- False Positive -->
+
+<!-- \#\#\#TNR11_MOUSE\#\#\# -->
+<!-- TP\#FP -->
+
+
+<!---% Maybe: -->
+<!-- IGF1-R (Receptor tyrosine kinase) -->
+<!-- Seq-ID: P08069 [Homo sapiens] -->
+
+<!-- ZAP70_HUMAN -->
+
+<!-- P18608|HMGN1_MOUSE -->
+
+<!-- Compare the annotations with the prediction results from DisPHos -->
+
+<!-- [DisPhos](http://www.dabi.temple.edu/disphos/) -->
+
+<!-- Compare with Phospho.BLAST results -->
+
+<!-- Maybe: P36507 -->
 
 # Objective: Get familiar with ELM 
 
 [ELM](http://elm.eu.org)  (Eukaryotic Linear Motif)
 __prediction tool__.
 
-<!---
-<file:ELM_Eukaryotic_Linear_Motif_Resource.DinkelHolger.pdf>
--->
+<!--- <file:ELM_Eukaryotic_Linear_Motif_Resource.DinkelHolger.pdf> -->
 
 <!--- TODO: Check for cross-usage with phosphoelm -->
 
 1.  Search protein SRC_HUMAN (accession P12931) for ELMs using the following parameters:
-    -   Cell Compartment: \*\*Not specified\*\*
-    -   Motif Probability Cutoff: \*\*100\*\*
+    -   Cell Compartment: **Not specified**
+    -   Motif Probability Cutoff: **100**
     -   Context information: (leave blank)
     1.  How many instances do you find?
 <!---% \#\# How many elm classes (not instances) have been completely filtered (all their instances have been filtered)? -->
     1.  Redo the search (again accession P12931) now using these parameters:
-    -   Cell Compartment: \*\*cytosol\*\*
-    -   Motif Probability Cutoff: \*\*0.01\*\*
+    -   Cell Compartment: **cytosol**
+    -   Motif Probability Cutoff: **0.01**
     -   Context information: Homo sapiens
     1.  How many instances do you find now?
 <!--- \#\# How many elm classes (not instances) have been completely filtered (all their instances have been filtered)? -->
@@ -223,11 +191,7 @@ __prediction tool__.
     15. JUN_HUMAN <!--- lot of annotated instances -->
 
 
-<!---% 
-% ---- 
-% \# Search elm.eu.org using the protein name 'CASP9_HUMAN' and look for the 
-%
--->
+<!---% \# Search elm.eu.org using the protein name 'CASP9_HUMAN' and look for the % -->
 
 1.  Search elm.eu.org using the protein name 'MDM4_HUMAN' and look for the 'USP binding motif' DOC_USP7_1.
     1.  How many such motif instances are found in this protein sequence? <!--- 6 -->
@@ -244,27 +208,22 @@ __prediction tool__.
 1.  (OPTIONAL) Search for linear motifs in the protein sequence SMAD3_HUMAN.
     1.  (OPTIONAL) Which annotated instances can you see?
     2.  (OPTIONAL) Click on one of the annotated docking motifs to read about a switching mechanism involving these motifs. How does this switch work?
-<!---% 
-% - @switches <http://switches.elm.eu.org/switch.php?switch=SWTI000279> CDK8/9 phosphorylates Mothers against decapentaplegic homolog 3 (SMAD3) at T179 and S208. 
-% Phosphorylation of T179 creates a binding site for the WW domain of Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1 (PIN1), while phosphorylation of S20 
-% 
-% ---- 
-% 
-% == Conservation == 
-% Go to UniProt and get the fasta sequences of: AMPH_HUMAN and BIN1_HUMAN, two members of the BAR adaptor protein family. Use each sequence as input for the Conscore. 
-% 
-% Start the two Jalview interfaces and focus on the multiple sequence alignments: why are the sets of homologous sequences not equal? 
-% Have a look at the list of top ranked instances (CS = 1.0) and make a quick assessment of the main differences in terms of conserved ELM classes. Remember to consider only the instances located outside the BAR and SH3 domains (positions 270 to 500 in BIN1_HUMAN and 240 to 600 in AMPH_HUMAN). Are such discrepancies bigger/smaller than expected given the dissimilar alignments? Why? 
-% 
-% - Use the curated alignment of the BAR adaptor protein family as input for the Conscore taking AMPH_HUMAN as the leading sequence (do not close this result page, we will be using it again for exercise 4). 
-% 
-% Observe the output. Describe the scenarios where the multiple sequence alignment input should be preferred. 
-% 
-% 
-% ---- 
-% 
-% CASP9_HUMAN -\> cleavage site?
--->
+
+<!--- @switches <http://switches.elm.eu.org/switch.php?switch=SWTI000279> CDK8/9 phosphorylates Mothers against decapentaplegic homolog 3 (SMAD3) at T179 and S208. -->
+<!-- Phosphorylation of T179 creates a binding site for the WW domain of Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1 (PIN1), while phosphorylation of S20 -->
+
+<!-- == Conservation == -->
+<!-- Go to UniProt and get the fasta sequences of: AMPH_HUMAN and BIN1_HUMAN, two members of the BAR adaptor protein family. Use each sequence as input for the Conscore. -->
+
+<!-- Start the two Jalview interfaces and focus on the multiple sequence alignments: why are the sets of homologous sequences not equal? -->
+<!-- Have a look at the list of top ranked instances (CS = 1.0) and make a quick assessment of the main differences in terms of conserved ELM classes. Remember to consider only the instances located outside the BAR and SH3 domains (positions 270 to 500 in BIN1_HUMAN and 240 to 600 in AMPH_HUMAN). Are such discrepancies bigger/smaller than expected given the dissimilar alignments? Why? -->
+
+<!-- - Use the curated alignment of the BAR adaptor protein family as input for the Conscore taking AMPH_HUMAN as the leading sequence (do not close this result page, we will be using it again for exercise 4). -->
+
+<!-- Observe the output. Describe the scenarios where the multiple sequence alignment input should be preferred. -->
+
+<!--- CASP9_HUMAN cleavage site? -->
+
 1.  (OPTIONAL) Caspase 9 is mainly globular protein. Focus on the carboxyterminal globular domain (CASc Caspase, interleukin-1 beta converting enzyme) and try to assess which modification sites (MOD\_) are surface accessible (Hint: Mouse-over to find high accessibility scores with low p-values)
 
 
@@ -306,25 +265,34 @@ the [ELM (Eukaryotic Linear Motif)](http://elm.eu.org) __database__.
 
 * * * * *
 
-<!---
-% == Interactions == 
-% 
-% ---- 
-% 
-% 
-% BIN1_HUMAN 
-% 
-% 
-% 
-% 
-% = switches.elm.eu.org = 
-% 
-% 
-% \# Search [Phospho.ELM](http://phospho.elm.eu.org) for protein 'CD3 zeta' (id P20963). 
-% \#\# Which of these annotated phosphorylation sites are involved in switching mechanisms annotated at [Switches.ELM](http://switches.elm.eu.org)? 
-% Phosphorylation sites 72,83 111,123 142,153 in P20963 CD3 zeta (T-cell surface glycoprotein CD3 zeta chain precursor) is annotated in switches 344, 347, 348 
-% \#\# What types of switches are these? What do the phosphorylations effect?
--->
+<!---  -->
+<!-- == Interactions ==  -->
+<!-- BIN1_HUMAN  -->
+
+# PhosphoSitePlus:
+
+1.
+
+* * * * *
+
+# switches.elm.eu.org:
+
+ 
+1. Search [Phospho.ELM](http://phospho.elm.eu.org) for protein 'CD3 zeta' (id P20963). 
+1. Which of these annotated phosphorylation sites are involved in switching mechanisms annotated at [Switches.ELM](http://switches.elm.eu.org)? 
+<!-- Phosphorylation sites 72,83 111,123 142,153 in P20963 CD3 zeta (T-cell surface glycoprotein CD3 zeta chain precursor) is annotated in switches 344, 347, 348 -->
+1. What types of switches are these? What do the phosphorylations effect?
+
+<!-- TODO: use the exploratory features of switches.elm -->
+<!-- 1. submit protein ID XXXX to switches.elm prediction -->
+<!-- 1. highlight positions XXX as region of interest to you -->
+<!-- 1. click submit -->
+<!-- 1. investigate the resulting -->
+  <!-- 1. pay particular attention to conservation, overlapping motifs etc.-->
+
+
+
+
 
 # References:
 
@@ -334,6 +302,5 @@ the [ELM (Eukaryotic Linear Motif)](http://elm.eu.org) __database__.
 1. Davey NE, Travé G and Gibson TJ (2011), **"How viruses hijack cell regulation"**, Trends Biochem Sci., Mar, 2011. Vol. 36, pp. 159-169. [[DOI](http://dx.doi.org/10.1016/j.tibs.2010.10.002)] [[URL]([http://dx.doi.org/10.1016/j.tibs.2010.10.002)] 
 1. Dinkel H, Chica C, Via A, Gould CM, Jensen LJ, Gibson TJ and Diella F (2011), **"Phospho.ELM: a database of phosphorylation sites--update 2011."**, Nucleic Acids Res., Jan, 2011. Vol. 39(Database issue), pp. D261-D267. [<span style="line-height: 1.5;">[[DOI](http://dx.doi.org/10.1093/nar/gkq1104)<span style="line-height: 1.5;">] [<span style="line-height: 1.5;">[[URL](http://dx.doi.org/10.1093/nar/gkq1104)<span style="line-height: 1.5;">] 
 1. Dyson HJ and Wright PE (2005), **"Intrinsically unstructured proteins and their functions"**, Nat Rev Mol Cell Biol., Mar, 2005. Vol. 6, pp. 197-208. [[DOI]([http://dx.doi.org/10.1038/nrm1589)] [[URL]([http://dx.doi.org/10.1038/nrm1589)] 
-<!--- #. Van Roey K, Orchard S, Kerrien S, Dumousseau M, Ricard-Blum S, Hermjakob H and Gibson TJ (2013), **"Capturing cooperative interactions with the PSI-MI format"**, Database (Oxford). Vol. 2013, pp. bat066. [[DOI]([http://dx.doi.org/10.1093/database/bat066)] [[URL]([http://dx.doi.org/10.1093/database/bat066)]  -->
 
 * * * * *

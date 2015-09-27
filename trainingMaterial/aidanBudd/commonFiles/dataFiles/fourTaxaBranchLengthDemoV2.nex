@@ -1,0 +1,818 @@
+#NEXUS
+[written Wed Apr 21 07:43:44 CEST 2010 by Mesquite  version 2.72 (build 528) at pd954b983.dip.t-dialin.net/169.254.30.177]
+
+BEGIN TAXA;
+	TITLE Untitled_Taxa_Block;
+	DIMENSIONS NTAX=4;
+	TAXLABELS
+		taxonA taxonB taxonC taxonD 
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	TITLE  allBranches1.0_100_positions;
+[! Simulated Matrices on Current Tree:  Matrix #1; Simulator: Evolve DNA Characters; most recent tree: allBranches1.0 [seed for matrix sim. 1271827960364]
+     Evolve DNA Characters:  Simulated evolution using model Jukes-Cantor with the following parameters:
+        Root states model (Equal Frequencies): Equal Frequencies
+        Equilibrium states model (Equal Frequencies): Equal Frequencies
+        Character rates model (Equal Rates): Equal Rates
+        Rate matrix model (Single Rate): single rate
+
+         Stored Probability Model for Simulation:  Current model "Jukes-Cantor":         Root states model (Equal Frequencies): Equal Frequencies
+        Equilibrium states model (Equal Frequencies): Equal Frequencies
+        Character rates model (Equal Rates): Equal Rates
+        Rate matrix model (Single Rate): single rate
+
+         Stored Matrices:  Character Matrices from file: Project of "fourTaxaBranchLengthDemoV2.nex"
+     Tree of context:  Tree(s) used from Tree Window 2 showing Stored Trees. Last tree used: allBranches1.0  [tree: ((1:1.0,2:1.0):0.5,(3:1.0,4:1.0):0.5):1.0;] 
+]
+	DIMENSIONS  NCHAR=100;
+	FORMAT DATATYPE = DNA GAP = - MISSING = ?;
+	MATRIX
+	taxonA  ATCGCACAAACGAATATTGGATGGAGGCCGACAGTCCGATTTTTGAGGTCGATGCAGCGATTAAAGTCGTTTCAGTTCCTGTGGGGGAGTTCCAGTCCGT
+	taxonB  AGAGGTGTCACGCCAATTAGAGTCTAAGCGTCCAGTTCGTTCCGGGTTGCTATAGAAGCCTTATTGTCGCGTGTGTAAAACTAACTGAGTAACGCTATAT
+	taxonC  ATCTTCGCGCTGAGAGCTAGCACCTGAGAAATCTTGCGCGTTTGCAGCGAATTTATGAGCCCCTCCATGTCCTGGTGCCTGTGGTGCCAGCACAGCTGTC
+	taxonD  AGCCGGGCATCGAGCACCCCCCGATCTCACCGCCAGGGTTGGCCCGTCGCATTAAATAAATCCTCATAACCGATGCTCCTATACTAGTGATAAGTATCCT
+
+;
+
+
+
+END;
+
+BEGIN CHARACTERS;
+	TITLE  allBranches0.1_100_positions;
+[! Simulated Matrices on Current Tree:  Matrix #1; Simulator: Evolve DNA Characters; most recent tree: allBranches0.1 [seed for matrix sim. 1271828110756]
+     Evolve DNA Characters:  Simulated evolution using model Jukes-Cantor with the following parameters:
+        Root states model (Equal Frequencies): Equal Frequencies
+        Equilibrium states model (Equal Frequencies): Equal Frequencies
+        Character rates model (Equal Rates): Equal Rates
+        Rate matrix model (Single Rate): single rate
+
+         Stored Probability Model for Simulation:  Current model "Jukes-Cantor":         Root states model (Equal Frequencies): Equal Frequencies
+        Equilibrium states model (Equal Frequencies): Equal Frequencies
+        Character rates model (Equal Rates): Equal Rates
+        Rate matrix model (Single Rate): single rate
+
+         Stored Matrices:  Character Matrices from file: Project of "fourTaxaBranchLengthDemoV2.nex"
+     Tree of context:  Tree(s) used from Tree Window 2 showing Stored Trees. Last tree used: allBranches0.1  [tree: ((1:0.1,2:0.1):0.05,(3:0.1,4:0.1):0.05):0.1;] 
+]
+	DIMENSIONS  NCHAR=100;
+	FORMAT DATATYPE = DNA GAP = - MISSING = ?;
+	MATRIX
+	taxonA  TCTTATTACATTGCAGTCACTGCTGTAATTATATGTCATGTCTCAGACGAACCAGCAAGTAATCTACTATACAGCAAAAATTATATTGTCCTGTCTAGAC
+	taxonB  TCTGATTACATTGCAGATTCTGCTCCGATTATATGTCATGTCTCAGAGGAACCTGTAAGTAAACTACTATATAGCAAAATTTATGTTGTGCTGTCTATAC
+	taxonC  TCTTATTACATTGTAGTCTCTGCTCTGACTATATGTCATGTCTCAGACGGACCAGTTCTTAAAGCACTATACAGCAAAATTTATATTGTCCTGTCTAGAC
+	taxonD  TCTTATTACATTGCAGTCTCTGCCCTGACTATATGTCATGTCTCAAACGAACCTGTACTTAAACGACTATACAGCAAAATTTATATTGTCCGGTATAAAC
+
+;
+
+
+
+END;
+
+BEGIN CHARACTERS;
+	TITLE  threeTimesLongerInternalBranchExtBranch0.1_100_positions;
+[! Simulated Matrices on Current Tree:  Matrix #1; Simulator: Evolve DNA Characters; most recent tree: threeTimesLongerInternalBranchExtBranch0.1 [seed for matrix sim. 1271828460361]
+     Evolve DNA Characters:  Simulated evolution using model Jukes-Cantor with the following parameters:
+        Root states model (Equal Frequencies): Equal Frequencies
+        Equilibrium states model (Equal Frequencies): Equal Frequencies
+        Character rates model (Equal Rates): Equal Rates
+        Rate matrix model (Single Rate): single rate
+
+         Stored Probability Model for Simulation:  Current model "Jukes-Cantor":         Root states model (Equal Frequencies): Equal Frequencies
+        Equilibrium states model (Equal Frequencies): Equal Frequencies
+        Character rates model (Equal Rates): Equal Rates
+        Rate matrix model (Single Rate): single rate
+
+         Stored Matrices:  Character Matrices from file: Project of "fourTaxaBranchLengthDemoV2.nex"
+     Tree of context:  Tree(s) used from Tree Window 2 showing Stored Trees. Last tree used: threeTimesLongerInternalBranchExtBranch0.1  [tree: ((1:0.1,2:0.1):0.05,(3:0.1,4:0.1):0.25):0.1;] 
+]
+	DIMENSIONS  NCHAR=100;
+	FORMAT DATATYPE = DNA GAP = - MISSING = ?;
+	MATRIX
+	taxonA  TGACTGACCTGTCGAAGTTTTGAGATTGCACGCGCTCAGCGGGAGACATCTCAAGGGGACCCGCTAGGGCTACGTTCGGCTAGGATCCACATTAAGCCAT
+	taxonB  TAACTGACCTGTAGAAGAGTTGAGATTGGACGCGCTCAGCTGGAGACAACTCAAGGGCACCCGCTAGGGCTACGTTCGGCTAGGATCCATACTAAGCTAC
+	taxonC  TAACAGACCCGCCGTAGGTGTGACATGGCGGGCGATCCACGGGAGAAACCTCTAATGCACCAACTAGGGCTACGTAGGGCTAAGATACAAACAAAGCTCT
+	taxonD  TAGCAGACCTGACGGAGGTGTGCGATGGCGGGCGAGTCACTGGAGAAATCTCTAATGCACAAACTAGGGCTAAGTAGGGCTAGGATGCAAACAAAGCTAT
+
+;
+
+
+
+END;
+
+BEGIN CHARACTERS;
+	TITLE  extBranches0.2IntBranch0.6_100_positions;
+[! Simulated Matrices on Current Tree:  Matrix #1; Simulator: Evolve DNA Characters; most recent tree: extBranches0.2IntBranch0.6 [seed for matrix sim. 1271828548033]
+     Evolve DNA Characters:  Simulated evolution using model Jukes-Cantor with the following parameters:
+        Root states model (Equal Frequencies): Equal Frequencies
+        Equilibrium states model (Equal Frequencies): Equal Frequencies
+        Character rates model (Equal Rates): Equal Rates
+        Rate matrix model (Single Rate): single rate
+
+         Stored Probability Model for Simulation:  Current model "Jukes-Cantor":         Root states model (Equal Frequencies): Equal Frequencies
+        Equilibrium states model (Equal Frequencies): Equal Frequencies
+        Character rates model (Equal Rates): Equal Rates
+        Rate matrix model (Single Rate): single rate
+
+         Stored Matrices:  Character Matrices from file: Project of "fourTaxaBranchLengthDemoV2.nex"
+     Tree of context:  Tree(s) used from Tree Window 2 showing Stored Trees. Last tree used: extBranches0.2IntBranch0.6  [tree: ((1:0.2,2:0.2):0.1,(3:0.2,4:0.2):0.5):0.2;] 
+]
+	DIMENSIONS  NCHAR=100;
+	FORMAT DATATYPE = DNA GAP = - MISSING = ?;
+	MATRIX
+	taxonA  ACCGCCCCGATCAGACGAATTTTAAAGCACTACTAGGCACTGTGAGTAACCACTTGTTGTCCTCCGATGACTGAAAGTTAGGTCACAGAACCCGTGATTA
+	taxonB  ACCGCCCCGATAAGACGAAGTTTAATTCGCCACTAGGCACTGTGAACAGCCAATCCTTGTCCTTCGATGAGTGAAAGTTAGTTCACTGAACCCGGCCTTA
+	taxonC  AGAGTCCTCGTAGGACGGCTTTAGTGTACGGTCAAGGCATTGTCTGAAGAGAACCTTTGTCTTACGATGAGTTTATGCTAGGCATAGGAACGGCCTGTTA
+	taxonD  AGAGTCCTGGAAGGAGGACTTGAGAGTAAGGTCCAGGCACTGTCAGAATTGAATAGTTGTCTTACGAAGATTAAAAGCCAGGCATAAGAACCCACTGTTA
+
+;
+
+
+
+END;
+
+BEGIN CHARACTERS;
+	TITLE  ext0.8Int2.4_100_positions;
+[! Simulated Matrices on Current Tree:  Matrix #1; Simulator: Evolve DNA Characters; most recent tree: ext0.8Int2.4 [seed for matrix sim. 1271828584723]
+     Evolve DNA Characters:  Simulated evolution using model Jukes-Cantor with the following parameters:
+        Root states model (Equal Frequencies): Equal Frequencies
+        Equilibrium states model (Equal Frequencies): Equal Frequencies
+        Character rates model (Equal Rates): Equal Rates
+        Rate matrix model (Single Rate): single rate
+
+         Stored Probability Model for Simulation:  Current model "Jukes-Cantor":         Root states model (Equal Frequencies): Equal Frequencies
+        Equilibrium states model (Equal Frequencies): Equal Frequencies
+        Character rates model (Equal Rates): Equal Rates
+        Rate matrix model (Single Rate): single rate
+
+         Stored Matrices:  Character Matrices from file: Project of "fourTaxaBranchLengthDemoV2.nex"
+     Tree of context:  Tree(s) used from Tree Window 2 showing Stored Trees. Last tree used: ext0.8Int2.4  [tree: ((1:0.8,2:0.8):0.4,(3:0.8,4:0.8):2.0):0.8;] 
+]
+	DIMENSIONS  NCHAR=100;
+	FORMAT DATATYPE = DNA GAP = - MISSING = ?;
+	MATRIX
+	taxonA  TGTCCTCCAATCACGCCAACATCCCACAGGACTCCGGCAATTCGATAGTTCGAGTAAAGGATCGGCGGACACGACTCAGTAGAACTAATTGTCCCTAAAC
+	taxonB  ATGCAAGAGCTCAACCTGTCCCAACCCGGGACTGCGGCCACCCAATACTAAGAAAATTTATGCAATATTGCAGATAGACAAACAAAAGATTTTGCAGGCG
+	taxonC  GGCCATAGAACAGGCAGTGATGTTGCTCTGATGTATCGGTGGAGGATGTCCGACTTCCAAGTGTCTTGATGAGTCTTATCATTGAGTGTAACCCGGTTCC
+	taxonD  GTCCACGAAGAACCGGGCACTGTTGTTTAGATCGACCGTCCGCACCCTTCCGGCTAGGTATCCTCTCTAGGACCGTTGCCCTGTCGAATATCGGTGGTCA
+
+;
+
+
+
+END;
+
+BEGIN TREES;
+	Title simulationTrees;
+	LINK Taxa = Untitled_Taxa_Block;
+	TRANSLATE
+		1 taxonA,
+		2 taxonB,
+		3 taxonC,
+		4 taxonD;
+	TREE allBranches1.0 = ((1:1.0,2:1.0):0.5,(3:1.0,4:1.0):0.5):1.0;
+	TREE allBranches0.1 = ((1:0.1,2:0.1):0.05,(3:0.1,4:0.1):0.05):0.1;
+	TREE threeTimesLongerInternalBranchExtBranch0.1 = ((1:0.1,2:0.1):0.05,(3:0.1,4:0.1):0.25):0.1;
+	TREE extBranches0.2IntBranch0.6 = ((1:0.2,2:0.2):0.1,(3:0.2,4:0.2):0.5):0.2;
+	TREE ext0.8Int2.4 = ((1:0.8,2:0.8):0.4,(3:0.8,4:0.8):2.0):0.8;
+
+END;
+
+
+BEGIN CODONS;
+	CODESET * UNTITLED  (CHARACTERS = allBranches1.0_100_positions)  =  universal:  1 -  100;
+	CODESET * UNTITLED  (CHARACTERS = allBranches0.1_100_positions)  =  universal:  1 -  100;
+	CODESET * UNTITLED  (CHARACTERS = threeTimesLongerInternalBranchExtBranch0.1_100_positions)  =  universal:  1 -  100;
+	CODESET * UNTITLED  (CHARACTERS = extBranches0.2IntBranch0.6_100_positions)  =  universal:  1 -  100;
+	CODESET * UNTITLED  (CHARACTERS = ext0.8Int2.4_100_positions)  =  universal:  1 -  100;
+
+
+END;
+
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED  (CHARACTERS = allBranches1.0_100_positions)  =  unord:  1 -  100;
+TYPESET * UNTITLED  (CHARACTERS = allBranches0.1_100_positions)  =  unord:  1 -  100;
+TYPESET * UNTITLED  (CHARACTERS = threeTimesLongerInternalBranchExtBranch0.1_100_positions)  =  unord:  1 -  100;
+TYPESET * UNTITLED  (CHARACTERS = extBranches0.2IntBranch0.6_100_positions)  =  unord:  1 -  100;
+TYPESET * UNTITLED  (CHARACTERS = ext0.8Int2.4_100_positions)  =  unord:  1 -  100;
+
+END;
+
+BEGIN MESQUITECHARMODELS;
+	ProbModelSet * UNTITLED  (CHARACTERS = allBranches1.0_100_positions)  =  'Jukes-Cantor':  1 -  100;
+ProbModelSet * UNTITLED  (CHARACTERS = allBranches0.1_100_positions)  =  'Jukes-Cantor':  1 -  100;
+ProbModelSet * UNTITLED  (CHARACTERS = threeTimesLongerInternalBranchExtBranch0.1_100_positions)  =  'Jukes-Cantor':  1 -  100;
+ProbModelSet * UNTITLED  (CHARACTERS = extBranches0.2IntBranch0.6_100_positions)  =  'Jukes-Cantor':  1 -  100;
+ProbModelSet * UNTITLED  (CHARACTERS = ext0.8Int2.4_100_positions)  =  'Jukes-Cantor':  1 -  100;
+END;
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1271828624999;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 2304910549831129530;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 2360583090663266232;
+			checksumv 0 2 3081782607 null  getNumChars 100 numChars 100 getNumTaxa 4 numTaxa 4   short true   bits 15   states 15   sumSquaresStatesOnly 8788.0 sumSquares 8788.0   NumFiles 1 NumMatrices 5;
+			setID 1 2219722208120285442;
+			checksumv 1 2 3371440578 null  getNumChars 100 numChars 100 getNumTaxa 4 numTaxa 4   short true   bits 15   states 15   sumSquaresStatesOnly 10231.0 sumSquares 10231.0   NumFiles 1 NumMatrices 5;
+			setID 2 1755981188231063492;
+			checksumv 2 2 3230035580 null  getNumChars 100 numChars 100 getNumTaxa 4 numTaxa 4   short true   bits 15   states 15   sumSquaresStatesOnly 7216.0 sumSquares 7216.0   NumFiles 1 NumMatrices 5;
+			setID 3 7970514792810206263;
+			checksumv 3 2 3956256744 null  getNumChars 100 numChars 100 getNumTaxa 4 numTaxa 4   short true   bits 15   states 15   sumSquaresStatesOnly 8374.0 sumSquares 8374.0   NumFiles 1 NumMatrices 5;
+			setID 4 2874313267939747033;
+			checksumv 4 2 2526454244 null  getNumChars 100 numChars 100 getNumTaxa 4 numTaxa 4   short true   bits 15   states 15   sumSquaresStatesOnly 8065.0 sumSquares 8065.0   NumFiles 1 NumMatrices 5;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState false false 363;
+			setPopoutState 400;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 1134 495;
+			setLocation 40 55;
+			setFont SanSerif;
+			setFontSize 14;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		getEmployee  #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			showTaxa #2304910549831129530 #mesquite.lists.TaxonList.TaxonList;
+			tell It;
+				setTaxa #2304910549831129530;
+				getWindow;
+				tell It;
+					newAssistant  #mesquite.lists.DefaultTaxaOrder.DefaultTaxaOrder;
+					newAssistant  #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 771 428;
+					setLocation 40 55;
+					setFont SanSerif;
+					setFontSize 14;
+					getToolPalette;
+					tell It;
+						setTool mesquite.lists.TaxonList.TaxonListWindow.ibeam;
+					endTell;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.lists.ColorTaxon.ColorTaxon;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.trees.ManageTrees.ManageTrees;
+		tell It;
+			showTrees 0 #mesquite.lists.TreesList.TreesList;
+			tell It;
+				setTreeBlock 1;
+				getWindow;
+				tell It;
+					newAssistant  #mesquite.lists.NumForTreeList.NumForTreeList;
+				tell It;
+					suppress;
+					setValueTask  #mesquite.trees.NumberOfTaxa.NumberOfTaxa;
+					desuppress;
+				endTell;
+					newAssistant  #mesquite.lists.TreeListRooted.TreeListRooted;
+					newAssistant  #mesquite.lists.TreeListPolys.TreeListPolys;
+					newAssistant  #mesquite.lists.TreeListPolyAssumption.TreeListPolyAssumption;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 771 428;
+					setLocation 40 55;
+					setFont SanSerif;
+					setFontSize 14;
+					getToolPalette;
+					tell It;
+						setTool mesquite.lists.TreesList.TreesListWindow.ibeam;
+					endTell;
+				endTell;
+				showWindow;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord;
+		tell It;
+			makeTreeWindow #2304910549831129530  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				suppressEPCResponse;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTreeBlock 1;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 1062.1271826551849.6657034781580429247;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 771 428;
+					setLocation 40 55;
+					setFont SanSerif;
+					setFontSize 14;
+					getToolPalette;
+					tell It;
+					endTell;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.SquareTree.SquareTree;
+					tell It;
+						setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							branchLengthsToggle on;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter on;
+							toggleEven on;
+						endTell;
+						setEdgeWidth 6;
+						orientUp;
+						setCornerMode Right_Angle  50;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setColor Black;
+						toggleColorPartition on;
+						toggleShadePartition off;
+						toggleShowFootnotes on;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+						namesAngle ?;
+					endTell;
+				endTell;
+					setTreeNumber 5;
+					setDrawingSizeMode 0;
+					toggleLegendFloat on;
+					scale 0;
+					toggleTextOnTree off;
+					showWindow;
+				endTell;
+				desuppressEPCResponse;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles;
+				tell It;
+					setOn on;
+					toggleShow consensusFrequency;
+					setDigits 4;
+					writeAsPercentage off;
+					toggleCentred on;
+					toggleHorizontal on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord;
+		tell It;
+			showDataWindow #2360583090663266232 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 771 428;
+					setLocation 40 55;
+					setFont SanSerif;
+					setFontSize 14;
+					getToolPalette;
+					tell It;
+					endTell;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
+					colorCells  #mesquite.charMatrices.ColorByState.ColorByState;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges off;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames off;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleAllowAutosize off;
+					toggleColorsPanel off;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.align.AlignToDropped.AlignToDropped;
+				tell It;
+					gapCosts 8 3 2 2;
+					subCosts  10 5 10 10 10 5 5 10 10 10 5 10;
+				endTell;
+				getEmployee #mesquite.molec.ColorByAA.ColorByAA;
+				tell It;
+					emphasizeDegeneracy off;
+				endTell;
+				getEmployee #mesquite.molec.SequenceInfoEditor.SequenceInfoEditor;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+			showDataWindow #2219722208120285442 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 771 428;
+					setLocation 40 55;
+					setFont SanSerif;
+					setFontSize 14;
+					getToolPalette;
+					tell It;
+					endTell;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
+					colorCells  #mesquite.charMatrices.ColorByState.ColorByState;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges off;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames off;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleAllowAutosize off;
+					toggleColorsPanel off;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.align.AlignToDropped.AlignToDropped;
+				tell It;
+					gapCosts 8 3 2 2;
+					subCosts  10 5 10 10 10 5 5 10 10 10 5 10;
+				endTell;
+				getEmployee #mesquite.molec.ColorByAA.ColorByAA;
+				tell It;
+					emphasizeDegeneracy off;
+				endTell;
+				getEmployee #mesquite.molec.SequenceInfoEditor.SequenceInfoEditor;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+			showDataWindow #1755981188231063492 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 771 428;
+					setLocation 40 55;
+					setFont SanSerif;
+					setFontSize 14;
+					getToolPalette;
+					tell It;
+					endTell;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
+					colorCells  #mesquite.charMatrices.ColorByState.ColorByState;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges off;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames off;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleAllowAutosize off;
+					toggleColorsPanel off;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.align.AlignToDropped.AlignToDropped;
+				tell It;
+					gapCosts 8 3 2 2;
+					subCosts  10 5 10 10 10 5 5 10 10 10 5 10;
+				endTell;
+				getEmployee #mesquite.molec.ColorByAA.ColorByAA;
+				tell It;
+					emphasizeDegeneracy off;
+				endTell;
+				getEmployee #mesquite.molec.SequenceInfoEditor.SequenceInfoEditor;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+			showDataWindow #7970514792810206263 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 771 428;
+					setLocation 40 55;
+					setFont SanSerif;
+					setFontSize 14;
+					getToolPalette;
+					tell It;
+					endTell;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
+					colorCells  #mesquite.charMatrices.ColorByState.ColorByState;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges off;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames off;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleAllowAutosize off;
+					toggleColorsPanel off;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.align.AlignToDropped.AlignToDropped;
+				tell It;
+					gapCosts 8 3 2 2;
+					subCosts  10 5 10 10 10 5 5 10 10 10 5 10;
+				endTell;
+				getEmployee #mesquite.molec.ColorByAA.ColorByAA;
+				tell It;
+					emphasizeDegeneracy off;
+				endTell;
+				getEmployee #mesquite.molec.SequenceInfoEditor.SequenceInfoEditor;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+			showDataWindow #2874313267939747033 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 771 428;
+					setLocation 40 55;
+					setFont SanSerif;
+					setFontSize 14;
+					getToolPalette;
+					tell It;
+					endTell;
+					setActive;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
+					colorCells  #mesquite.charMatrices.ColorByState.ColorByState;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges off;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames off;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleAllowAutosize off;
+					toggleColorsPanel off;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.align.AlignToDropped.AlignToDropped;
+				tell It;
+					gapCosts 8 3 2 2;
+					subCosts  10 5 10 10 10 5 5 10 10 10 5 10;
+				endTell;
+				getEmployee #mesquite.molec.ColorByAA.ColorByAA;
+				tell It;
+					emphasizeDegeneracy off;
+				endTell;
+				getEmployee #mesquite.molec.SequenceInfoEditor.SequenceInfoEditor;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+end;
+
+

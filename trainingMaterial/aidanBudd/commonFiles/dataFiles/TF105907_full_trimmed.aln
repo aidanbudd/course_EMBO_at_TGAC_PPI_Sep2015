@@ -1,0 +1,200 @@
+CLUSTAL W 2.1 multiple sequence alignment
+
+
+NP_001073956_ORYLA                  --------------------------------------------------
+NP_001073956_GASAC                  --------------------------------------------------
+Smp_007630.1_SCHMA                  --------------------------------------------------
+Smp_007630.2_SCHMA                  -------------------------------------------MSDYVLD
+LOC563183_BRARE                     --------------------------------------------------
+NP_001073956_CHICK                  --------------------------------------------------
+NP_001073956_ORNAN                  -----------------------------------------------MWF
+LOC516682_BOVIN                     -----------------------------------------------MWP
+NP_001073956_HUMAN                  -----------------------------------------------MWP
+Pabpnl1_MOUSE                       -----------------------------------------------MEP
+pabpn1_XENTR                        --------------------------------------------------
+pabpn1_BRARE                        -------------------------------------------MAEFGNG
+PABPN1_ORYLA                        -------------------------------------------MAEFGNG
+PABPN1_F2_GASAC                     -------------------------------------------MAEFGNG
+GSTENG00009634001_TETNG             -------------------------------------------MAEFGNG
+PABPN1_FUGRU                        -------------------------------------------MAEFGNG
+Q6NVP7_XENTR                        ------------------MAAVSSAASLRGADYENGLRGGAGPSGGGQDP
+PABP2_F2_BOVIN                      MAAAAAAAAAAGAAGGRGSGPGRRRHLVPGAGGEAGEGAPGG-AGDYGNG
+PABPN1_HUMAN                        MAAAAAAAAAAGAAGGRGSGPGRRRHLVPGAGGEAGEGAPGG-AGDYGNG
+Pabpn1_MOUSE                        MAAAAAAAAAAGAAGGRGSGPGRRRHLVPGAGGEAGEGDPGG-AGDYGNG
+                                                                                      
+
+NP_001073956_ORYLA                  --------------------------------------------------
+NP_001073956_GASAC                  ----------------------------------------------MAED
+Smp_007630.1_SCHMA                  -MSDYVLDGDHDVHEDEF---------------------------GDENG
+Smp_007630.2_SCHMA                  GDHDVHEDEF-----------------------------------GDENG
+LOC563183_BRARE                     MLKTSVDPTVWKIAL-----------------------------------
+NP_001073956_CHICK                  --------------------------------------------------
+NP_001073956_ORNAN                  STSNSLFPAPSEAWLQRVPKQQEDLGWGGEGGEEQMPLSCLEKQDGDEDE
+LOC516682_BOVIN                     FLSRTLFPPPTEAWLQRASSDPEAQGWGAWSPAEKTHLDPGAGGEEEETG
+NP_001073956_HUMAN                  FPSRSLFPPPTQAWLQTVSSDPEAQGWGAWNETKEILGPEGGEGKEEKEE
+Pabpnl1_MOUSE                       YLSNELFPPPTEAWLQTVSSDPEAQGWGAWGRTEKTSLVPRAGSRAGSDK
+pabpn1_XENTR                        -MSERVSEEP-----------------------------------SLDKG
+pabpn1_BRARE                        LAEESLLDSD----------------------------PGHSELEDPGVG
+PABPN1_ORYLA                        LADESLLDSD----------------------------SGHPELEDPGVG
+PABPN1_F2_GASAC                     LTEESLLDSD----------------------------PGHPELEDPGVG
+GSTENG00009634001_TETNG             LAEESLLDSD----------------------------PGHPELEDAGVG
+PABPN1_FUGRU                        LAEESLLDSD----------------------------PGHPELEDPGVG
+Q6NVP7_XENTR                        GEDDPMGRGTLDLDLELLGQGRRSRRVGGRTAPGRRSGGRGGSGGGGAGG
+PABP2_F2_BOVIN                      LESEELEPEE-LLLEPEPEPEPEEEPPRPRAPPGAPGPGPGSGAPGNQEE
+PABPN1_HUMAN                        LESEELEPEE-LLLEPEPEPEPEEEPPRPRAPPGAPGPGPGSGAPGSQEE
+Pabpn1_MOUSE                        LESEELEPGE-----LLPEPEPEEEPPRPRAPPGAPGPGPGSGAPGSQEE
+                                                                                      
+
+NP_001073956_ORYLA                  -----------------------MSGHIN-----EDPELMAIKARVQELE
+NP_001073956_GASAC                  HLE-----------------YGYLEGESVGAHFAEDPELAAIKARVQEME
+Smp_007630.1_SCHMA                  KED------------------VSVTDEMH-----FDAELEAIKERFKEI-
+Smp_007630.2_SCHMA                  KED------------------VSVTDEMH-----FDAELEAIKERFKEI-
+LOC563183_BRARE                     ----------------------------------FLQELDAVQACVLEM-
+NP_001073956_CHICK                  -------------------------------------ELEAIKARVREM-
+NP_001073956_ORNAN                  ENF-------PLSLLERD----FLEDSPE-----AELELEAIKIKIWEL-
+LOC516682_BOVIN                     EAE--EDNEEDAGFLLSLLEREGLAECPV-----PDQELEAIKLKLWAM-
+NP_001073956_HUMAN                  EEDAEEDQDGDAGFLLSLLEQENLAECPL-----PDQELEAIKMKVCAM-
+Pabpnl1_MOUSE                       EAEENEDASFLLSLLEPE----NLAKSPV-----FNQELEAIKLKLWAM-
+pabpn1_XENTR                        D---------------------GAEECDL-----DDPELKAIRMRVREM-
+pabpn1_BRARE                        DEE--------PGL--------DEGEAAI-----EDPELEAIKARVREM-
+PABPN1_ORYLA                        DEE--------PGL--------EEGEAAI-----EDPELEAIKARVREM-
+PABPN1_F2_GASAC                     DEE--------PGL--------EDGEAAI-----EDPELEAIKARVREM-
+GSTENG00009634001_TETNG             DEE--------PGL--------EEGEAAI-----EDPELEAIKARVREM-
+PABPN1_FUGRU                        DEE--------PGL--------EEGEAAI-----EDPELEAIKARVREM-
+Q6NVP7_XENTR                        LEE------LEDEELEE-----EEPGELTGDQTIEDPELEAIKARVREM-
+PABP2_F2_BOVIN                      EEE--------SGLVEG-----DPGDGAI-----EDPELEAIKARVREM-
+PABPN1_HUMAN                        EEE--------PGLVEG-----DPGDGAI-----EDPELEAIKARVREM-
+Pabpn1_MOUSE                        EEE--------PGLVEA-----DPGDGAI-----EDPELEAIKARVREM-
+                                                                         ** *::  .  : 
+
+NP_001073956_ORYLA                  MEEQTE-----RLKEEERC--------------DAEEMLSSPQP------
+NP_001073956_GASAC                  MEEESE-----RMRQEEERFDA-----------VDMQLLNSSPRLGETTT
+Smp_007630.1_SCHMA                  -EADAN-----KLHDLRR---------------VIDKSPISTFRNLFSAA
+Smp_007630.2_SCHMA                  -EADAN-----KLHDLRRV--------------IDKSPISK---------
+LOC563183_BRARE                     -DE----------SDMQYE--------------VERQFPYSPEA------
+NP_001073956_CHICK                  -EEEDK-----RLKELQLE--------------AESCLLMGSE-------
+NP_001073956_ORNAN                  -EKAHE-----RMKACEEAAV------------VTDSFFLSTDA------
+LOC516682_BOVIN                     -EQAQG-PEPPRVQNLDEG--------------EEAAGALLARQL-----
+NP_001073956_HUMAN                  -EQAEGTPRPPGVQQQAEEEEG-----------TAAGQLLSPETV-----
+Pabpnl1_MOUSE                       -EHAEAQPEPPCVQRKATEEER-----------AEVRQLLSPETV-----
+pabpn1_XENTR                        -EEEAE-----RLKGLSGEDKSIGVSSRPCMKLIHSKMTAGAYTE-----
+pabpn1_BRARE                        -EEEAE-----KLKELQNE--------------VEKQMNLSPPP------
+PABPN1_ORYLA                        -EEEAE-----KLKELQNE--------------VEKQMNLSPPP------
+PABPN1_F2_GASAC                     -EEEAE-----KLKELQNE--------------VEKQMNLSPPP------
+GSTENG00009634001_TETNG             -EEEAE-----KLKELQNE--------------VEKQMNMSPPP------
+PABPN1_FUGRU                        -EEEAE-----KLKELQNE--------------VEKQMNMSPPP------
+Q6NVP7_XENTR                        -EEEAE-----KLKELQNE--------------VEKQMNMSPPPGN----
+PABP2_F2_BOVIN                      -EEEAE-----KLKELQNE--------------VEKQMNMSPPPGN----
+PABPN1_HUMAN                        -EEEAE-----KLKELQNE--------------VEKQMNMSPPPGN----
+Pabpn1_MOUSE                        -EEEAE-----KLKELQNE--------------VEKQMNMSPPPGN----
+                                     :                                                
+
+NP_001073956_ORYLA                  -GPFYNMTPEERMDADNRSVYVGNVDYGATADELEIHFNGCGPVNRVTIL
+NP_001073956_GASAC                  RGPFYNMTPEERIDADNRSVYVGNVDYGATADELEIHFNSCGPVNRVTIL
+Smp_007630.1_SCHMA                  ESNNSNLSDEDKTEVDLRSVYVGNVDYGSTADELEAHFRGCGPINRVTIL
+Smp_007630.2_SCHMA                  -SNNSNLSDEDKTEVDLRSVYVGNVDYGSTADELEAHFRGCGPINRVTIL
+LOC563183_BRARE                     -ELFFDMTHEERIDSDRRSIYVGNVDYGATADELEMYFNSCGHVNRVTIP
+NP_001073956_CHICK                  -AGLFQRMTEGKVEADQRSIYVGNVDYGGTAEELESHFNICGRINRVTIL
+NP_001073956_ORNAN                  -GALFPGTPKEKMEADNRSVYVGNVDYGGTAEELESHFNSCGEINRVTIL
+LOC516682_BOVIN                     -LSPETDSPLEKAEADHRSIYVGNVDYGGTAQELEAYFNHCGEIHRVTIL
+NP_001073956_HUMAN                  -GCPLSGTPEEKVEADHRSVYVGNVDYGGSAEELEAHFSRCGEVHRVTIL
+Pabpnl1_MOUSE                       -DCFFSRTSKENVEADHRSVFVGNVDYGGSAAELEAYFSPCGEIHRVTIL
+pabpn1_XENTR                        -GPPRPLSAEEKKEIDKRSVYVGNVDYGGTAQDLEAHFSSCGSINRITIL
+pabpn1_BRARE                        -AGPVIMSIEEKIEADGRSIYVGNVDYGATAEELEAHFHGCGSVNRVTIL
+PABPN1_ORYLA                        -VGPVIMSIEEKMEADGRSIYVGNVDYGATAEELEAHFHGCGSVNRVTIL
+PABPN1_F2_GASAC                     -VGPVIMSIEEKMEADGRSIYVGNVDYGATAEELEAHFHGCGSVNRVTIL
+GSTENG00009634001_TETNG             -VGPVIMSIEEKMEADARSIYVGNVDYGATAEELEAHFHGCGSVNRVTIL
+PABPN1_FUGRU                        -VGPVIMSFEEKMEADARSIYVGNVDYGATAEELEAHFHGCGSVNRVTIL
+Q6NVP7_XENTR                        -AGPVIMSIEEKMEADARSIYVGNVDYGATAEELEAHFHGCGSVNRVTIL
+PABP2_F2_BOVIN                      -AGPVIMSIEEKMEADARSIYVGNVDYGATAEELEAHFHGCGSVNRVTIL
+PABPN1_HUMAN                        -AGPVIMSIEEKMEADARSIYVGNVDYGATAEELEAHFHGCGSVNRVTIL
+Pabpn1_MOUSE                        -AGPVIMSLEEKMEADARSIYVGNVDYGATAEELEAHFHGCGSVNRVTIL
+                                               . : * **::*******.:* :** :*  ** ::*:** 
+
+NP_001073956_ORYLA                  CDRFSGHPKGFAYIEFSDRSAAQSAVGLHETMFRGRVLKVLPKRTNMPGI
+NP_001073956_GASAC                  CDRFSGHPKGFAYIEFSDPDSVHSAMGLHETMFRGRVLKVMPKRTNMPGI
+Smp_007630.1_SCHMA                  CNKFTGHPKGFAYIEFDTRDAVEAAIALDDSSFRSRQLKVLPKRTNVPGM
+Smp_007630.2_SCHMA                  CNKFTGHPKGFAYIEFDTRDAVEAAIALDDSSFRSRQLKVLPKRTNVPGM
+LOC563183_BRARE                     YNRFTGHPKGFAYIEFSDRESVRTAMALDETLFRGRVIKVSPKRTNIPGF
+NP_001073956_CHICK                  CDKFSGHPKGYAYIEFEQKSSVKAAVELDESIFRGRVIKVLPKRTNMPGI
+NP_001073956_ORNAN                  CDKFSGHPKGYAYIEFASESSVKAAVDLDESTFRGRIIKVLPKRTNMPGI
+LOC516682_BOVIN                     CDKFSGHPKGYAYIEFATESSAQAAVELDKSIFRGRVIKVLPKRTNLPGI
+NP_001073956_HUMAN                  CDKFSGHPKGYAYIEFATKGSVQAAVELDQSLFRGRVIKVLPKRTNFPGI
+Pabpnl1_MOUSE                       CDKFSGHPKGYAYIEFASHRSVKAAVGLDESTFRGRVIKVLPKRTNFPGI
+pabpn1_XENTR                        CDKFSGHPKGYAYIEFAERNSVDVAVAMDETVFRGRTIKVLPKRTNMPGI
+pabpn1_BRARE                        CDKFTGHPKGFAYIEFADKESVRTAMALDESLFRGRQIKVGAKRTNRPGI
+PABPN1_ORYLA                        CDKYTGHPKGFAYIEFADKESVRTAMALDESLFRGRQIKVGAKRTNRPGI
+PABPN1_F2_GASAC                     CDKYTGHPKGFAYIEFADKESVRTAMALDESLFRGRQIKVGAKRTNRPGI
+GSTENG00009634001_TETNG             CDKYTGHPKGFAYIEFADKESVRTAMALDESLFRGRQIKVVAKRTNRPGI
+PABPN1_FUGRU                        CDKYTGHPKGFAYIEFADKESVRTAMALDESLFRGRQIKVVAKRTNRPGI
+Q6NVP7_XENTR                        CDKYTGHPKGFAYIEFSDKESVRTSLALDESLFRGRQIKVVPKRTNRPGI
+PABP2_F2_BOVIN                      CDKFSGHPKGFAYIEFSDKESVRTSLALDESLFRGRQIKVIPKRTNRPGI
+PABPN1_HUMAN                        CDKFSGHPKGFAYIEFSDKESVRTSLALDESLFRGRQIKVIPKRTNRPGI
+Pabpn1_MOUSE                        CDKFSGHPKGFAYIEFSDKESVRTSLALDESLFRGRQIKVIPKRTNRPGI
+                                     ::::*****:*****    :.  :: :..: **.* :** .**** **:
+
+NP_001073956_ORYLA                  STTDRGGHRGSHSRGRGSGHRPPRYQN-------------------GFRG
+NP_001073956_GASAC                  STTDRGGHRGGQTRGRGRGYRPPRYQNSSRGRFRYQSVRPQHQMPHPYYG
+Smp_007630.1_SCHMA                  SMTNRPPFVRGRARGRGMSI-GFRPAYAG-----------------RMRF
+Smp_007630.2_SCHMA                  SMTNRPPFVRGRARGRGMSI--------------------------GFRP
+LOC563183_BRARE                     STTDV-YLRGGWSRGRGVR-----ASRFN-----------------PFRG
+NP_001073956_CHICK                  SSTDR-GGRRGHFQARGGL--IPRWGYYG-----------------GQPV
+NP_001073956_ORNAN                  SSTDR-GGLRGHCIGRGAL--SHRATFHG-----------------GSRS
+LOC516682_BOVIN                     SSTDR-GGLRGHPGARVGS--FPYGGLQG-----------------GARF
+NP_001073956_HUMAN                  SSTDR-GGLRGHPGSRGAP--FPHSGLQG-----------------RPRL
+Pabpnl1_MOUSE                       SSTDR-GGLRTHSGNRAA---FLHGSLHR-----------------KARL
+pabpn1_XENTR                        STTDR-GGFRGRPRGNRGN----------------------------YQR
+pabpn1_BRARE                        STTDR-GFPRARFRSRGGNF-SSRARYYS-----------------GYTP
+PABPN1_ORYLA                        STTDR-GFPRARFRSRGGNF-SSRARYYS-----------------GYTP
+PABPN1_F2_GASAC                     STTDR-GFPRARFRSRSF---SSRARYYS-----------------GYTP
+GSTENG00009634001_TETNG             STTDR-GFPRARFRSRGGSF-SSRARYYS-----------------GYTP
+PABPN1_FUGRU                        STTDR-GFPRARFRSRGGSF-SSRARYYS-----------------GYTP
+Q6NVP7_XENTR                        STTDR-GFPRARYRARASSY-SSRSRFYS-----------------GYTP
+PABP2_F2_BOVIN                      STTDR-GFPRARYRARTTNYNSSRSRFYS-----------------GFNS
+PABPN1_HUMAN                        STTDR-GFPRARYRARTTNYNSSRSRFYS-----------------GFNS
+Pabpn1_MOUSE                        STTDR-GFPRSRYRARTTNYNSSRSRFYS-----------------GFNS
+                                    * *:           .                                  
+
+NP_001073956_ORYLA                  RFR-----------------------------------------------
+NP_001073956_GASAC                  GPAVGKRPW-----------------------------------------
+Smp_007630.1_SCHMA                  PR------YR----------------------------------------
+Smp_007630.2_SCHMA                  AYAGRMRFPR----------------------------------------
+LOC563183_BRARE                     CRFIREN-------------------------------------------
+NP_001073956_CHICK                  RL--RGRTYR----------------------------------------
+NP_001073956_ORNAN                  RP--RGRIYR----------------------------------------
+LOC516682_BOVIN                     RPRGRSR-------------------------------------------
+NP_001073956_HUMAN                  RPQGQNR-------------------------------------------
+Pabpnl1_MOUSE                       RAHGRSRGHG----------------------------------------
+pabpn1_XENTR                        GQRPRGRPFR----------------------------------------
+pabpn1_BRARE                        PRG-RGRAFRFQDQWRLTTPPPVAAAPPTVSAASLSLSAPAMHTHPILSV
+PABPN1_ORYLA                        PRG-RGRAFRXXXXXXXXXXXTVPPDSSICSSTSLEILSLCAPTMHTHPI
+PABPN1_F2_GASAC                     PRG-RGRAFRFQDQWRLTTPPQVAQAPPTVSAASLSLSAPAMHTHPILSV
+GSTENG00009634001_TETNG             PR------------------------------------------------
+PABPN1_FUGRU                        PRG-RGRAFRFQDQWRLTTPPQVAPAPPTVSAASLSLSAPAMHTHPILSV
+Q6NVP7_XENTR                        RP--RGRVYR----------------------------------------
+PABP2_F2_BOVIN                      RP--RGRVYR----------------------------------------
+PABPN1_HUMAN                        RP--RGRVYR----------------------------------------
+Pabpn1_MOUSE                        RP--RGRIYR----------------------------------------
+                                                                                      
+
+NP_001073956_ORYLA                  --------------------------------------------------
+NP_001073956_GASAC                  --------G---XXXXXXXXXXXXPCLLLITPPSEELGAGASGQHYPQQR
+Smp_007630.1_SCHMA                  --------R---RGSY-----YFSPY------------------------
+Smp_007630.2_SCHMA                  --------Y---RRRGSY---YFSPY------------------------
+LOC563183_BRARE                     --------G---RAHP-----WVDSF------------------------
+NP_001073956_CHICK                  --------G---RARLLP---WYFPY------------------------
+NP_001073956_ORNAN                  --------G---RGRFSP---WYSPY------------------------
+LOC516682_BOVIN                     --------G---RGRFSP---WFSPY------------------------
+NP_001073956_HUMAN                  --------A---RGKFSP---WFSPY------------------------
+Pabpnl1_MOUSE                       --------G---APQ------WFSPY------------------------
+pabpn1_XENTR                        --------G---RGRPGP---LNNPY------------------------
+pabpn1_BRARE                        WGGGGGGQG---DHRPTAGGIYYNNKR-----------------------
+PABPN1_ORYLA                        LSVWGGGGGGQSDHRPAAGGIYYNSKR-----------------------
+PABPN1_F2_GASAC                     WGGGGGGQG---DHRPAAGGIYYNSKR-----------------------
+GSTENG00009634001_TETNG             --------G---RGRAFR--------------------------------
+PABPN1_FUGRU                        WGGGGGGQG---DHRSAAGGIYYNSKR-----------------------
+Q6NVP7_XENTR                        --------G---RARVTS---WYTPY------------------------
+PABP2_F2_BOVIN                      --------G---RARATS---WYSPY------------------------
+PABPN1_HUMAN                        --------G---RARATS---WYSPY------------------------
+Pabpn1_MOUSE                        --------G---RARATS---WYSPY------------------------
+                                                                                      

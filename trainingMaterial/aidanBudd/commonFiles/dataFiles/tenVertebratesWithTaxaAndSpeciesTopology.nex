@@ -1,0 +1,156 @@
+#NEXUS
+[written Mon Feb 02 18:25:06 CET 2009 by Mesquite  version 2.01 (build j28) at mac-gibson17.EMBL-Heidelberg.DE/10.1.106.116]
+
+BEGIN TAXA;
+	TITLE SelectedVertebrates;
+	DIMENSIONS NTAX=10;
+	TAXLABELS
+		human mouse opposum chicken frog shark lamprey lungFish zebrafish goldfish 
+	;
+
+END;
+
+
+BEGIN TREES;
+	Title VertebrateTrees;
+	LINK Taxa = SelectedVertebrates;
+	TRANSLATE
+		1 human,
+		2 mouse,
+		3 opposum,
+		4 chicken,
+		5 frog,
+		6 shark,
+		7 lamprey,
+		8 lungFish,
+		9 zebrafish,
+		10 goldfish;
+	TREE VertSpeciesTree = ((((((((1:1.0,2:1.0):1.0,3:1.7647058823529411):1.0,4:2.2162162162162162):0.4594594594594595,5:2.4166666666666665):0.14285714285714285,8:3.1555555555555554):1.0,(9:2.875,10:1.0):1.9130434782608696):1.0,6:5.419354838709677):1.0,7:5.530612244897959):1.0;
+
+END;
+
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 752860857236405500;
+		endTell;
+		getEmployee  #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			showTaxa #752860857236405500 #mesquite.lists.TaxonList.TaxonList;
+			tell It;
+				setTaxa #752860857236405500;
+				getWindow;
+				tell It;
+					newAssistant  #mesquite.lists.DefaultTaxaOrder.DefaultTaxaOrder;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 731 435;
+					setLocation 45 23;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.lists.TaxonList.TaxonListWindow.ibeam;
+					endTell;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord;
+		tell It;
+			makeTreeWindow #752860857236405500  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTreeBlock 1;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 785.1233594359165.5411321559856577488;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 731 435;
+					setLocation 45 23;
+					setFont SanSerif;
+					setFontSize 14;
+					getToolPalette;
+					tell It;
+					endTell;
+					setActive;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.SquareTree.SquareTree;
+					tell It;
+						setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							stretchToggle off;
+							branchLengthsToggle on;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter on;
+							toggleEven on;
+							namesAngle ?;
+						endTell;
+						setEdgeWidth 6;
+						orientRight;
+						toggleCorners off;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setColor Black;
+						toggleColorPartition on;
+						toggleShadePartition off;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+					endTell;
+				endTell;
+					setTreeNumber 1;
+					useSuggestedSize on;
+					toggleTextOnTree off;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+end;
+
+

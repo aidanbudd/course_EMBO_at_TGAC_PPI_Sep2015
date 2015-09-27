@@ -1,0 +1,1759 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+
+
+<title>Entry view - UNIPROT:Q9NQ94</title>
+<link href="UNIPROT_Q9NQ94_srs_files/styles.css" rel="stylesheet" type="text/css">
+<link href="UNIPROT_Q9NQ94_srs_files/entryviews.css" rel="stylesheet" type="text/css">
+<link href="UNIPROT_Q9NQ94_srs_files/queryresults.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="http://srs.embl.de/srs/images/bwfavicon.ico" type="image/x-icon">    
+<script language="javascript" src="UNIPROT_Q9NQ94_srs_files/srs_standard.js"></script>
+<script language="javascript" src="UNIPROT_Q9NQ94_srs_files/AjaxServices.txt"> </script>
+<script language="javascript" src="UNIPROT_Q9NQ94_srs_files/engine.js"> </script>
+<script language="javascript" src="UNIPROT_Q9NQ94_srs_files/srs_ajax.js"> </script>
+<script language="javascript" src="UNIPROT_Q9NQ94_srs_files/slider.js"></script>
+<script language="javascript" src="UNIPROT_Q9NQ94_srs_files/export.js"></script>
+<script language="javascript" src="UNIPROT_Q9NQ94_srs_files/entryviews.js"></script>
+<script language="javascript">
+  collapsibleSections="";
+  function resetHiddenFields() {
+	  document.getElementById('action').value = '';
+      document.getElementById('appToExport').value = '';
+      document.getElementById('viewForExport').value = '';
+      document.getElementById('queryString').value = document.getElementById('queryString_backup').value;
+      document.forms['primaryForm'].target = '';
+  }
+</script>
+
+</head><body onload="initiate();moveBack();setHighlightTerms();evaluateSections(collapsibleSections);">
+<form id="quickSearchBarForm" name="quickSearchForm" action="quickSearchToolBar.do" method="post">
+<div style="margin-left: 5px;"> 
+<table class="navBg" border="0" cellpadding="0" cellspacing="0" width="954">
+  <tbody><tr>
+    <td class="navBottomLeft" colspan="2" halign="right" rowspan="2" valign="top" width="80"><a href="http://srs.embl.de/srs/frontpage.do"><img halign="right" src="UNIPROT_Q9NQ94_srs_files/logo.gif" title="Click here to go to the front page" border="0"></a>&nbsp;</td>
+    <td width="614"><table border="0" cellpadding="0" cellspacing="0" width="600">
+                <tbody><tr>
+                  <td width="28">&nbsp;&nbsp;&nbsp;Find&nbsp;</td>
+                  <td width="274"><input name="queryStrTextBoxHeader" onkeypress="return Qcodes(event, 'quicksearch')" id="queryStrTextBoxHeader" size="40" type="text"></td>
+				  <td id="toolBar_Synonyms" width="60">
+					<a href="javascript:getFinders('quickSearchForm',%20'queryStrTextBoxHeader_div',%20'queryStrTextBoxHeader');">
+                  <img id="synonymImage_queryStrTextBoxHeader_div" src="UNIPROT_Q9NQ94_srs_files/synonym_select.gif" title="Find Synonyms" border="0">
+				  </a>
+                  </td>
+                  <td width="23">&nbsp;in&nbsp;</td>
+                  <td width="115">
+						  <table border="0" cellpadding="0" cellspacing="0" width="115">
+							<tbody><tr>
+							  <td valign="bottom">
+								  <div id="conceptSelected">Results Overview</div>
+								</td>
+							  <td align="left"><a href="#"><img id="dropdownboxarrow" src="UNIPROT_Q9NQ94_srs_files/dropdownboxarrow.gif" style="position: relative;" align="top" border="0"></a></td>
+							</tr>
+							<tr><td align="left"><div id="quickSearchBarMenu" class="quickSearchBarMenu">
+							<table border="0" cellpadding="0" cellspacing="0">
+							<tbody><tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="all" onmousedown="selectedConcept('all','Results Overview');" href="#">Results Overview</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="nucleicAcidSeq" onmousedown="selectedConcept('nucleicAcidSeq REFSEQ EMBL GENBANK','Nucleic Acid Sequence');" href="#">Nucleic Acid Sequence<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ REFSEQ EMBL GENBANK&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="proteinSeq" onmousedown="selectedConcept('proteinSeq UNIPROT','Protein Sequence');" href="#">Protein Sequence<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ UNIPROT&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="proteinFamily" onmousedown="selectedConcept('proteinFamily INTERPRO','Protein Family/Domain');" href="#">Protein Family/Domain<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ INTERPRO&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="disease" onmousedown="selectedConcept('disease OMIM','Disease');" href="#">Disease<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ OMIM&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="enzyme" onmousedown="selectedConcept('enzyme ENZYME','Enzyme');" href="#">Enzyme<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ ENZYME&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="proteinFunction" onmousedown="selectedConcept('proteinFunction GO','Protein Function');" href="#">Protein Function<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ GO&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="genomicLocation" onmousedown="selectedConcept('genomicLocation ENTREZGENE','Genomic Location');" href="#">Genomic Location<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ ENTREZGENE&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="biologicalPathway" onmousedown="selectedConcept('biologicalPathway PATHWAY LREACTION LCOMPOUND LENZYME LGLYCAN REACTOME','Biological Pathway');" href="#">Biological Pathway<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ PATHWAY LREACTION LCOMPOUND LENZYME LGLYCAN REACTOME&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="threeDStructure" onmousedown="selectedConcept('threeDStructure PDB HSSP PSSH','Macromolecular Structure');" href="#">Macromolecular Structure<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ PDB HSSP PSSH&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="srsql" onmousedown="selectedConcept('srsql','SRS Query Language');" href="#">SRS Query Language</a>
+								</td>
+								</tr>
+								
+		                    <tr><td>&nbsp;</td></tr>
+								<tr>
+								<td align="right">
+								<a href="http://srs.embl.de/srs/userConcepts.do">Customize...</a>
+								</td>
+								</tr>
+							</tbody></table>
+							</div></td></tr>
+						  </tbody></table>					  
+				  <input name="menu_PreferredConcepts" id="menu_PreferredConcepts" value="all" type="hidden">
+				  <input name="menu_PreferredConceptsDisplay" id="menu_PreferredConceptsDisplay" value="all" type="hidden">
+					</td>
+                  <td width="100"><a name="link_searchBar_go_button" id="link_searchBar_go_button" href="javascript:quickSearchBarSubmit();"><img name="img_searchBar_go_button" id="img_searchBar_go_button" src="UNIPROT_Q9NQ94_srs_files/btn_go_off.gif" onmouseover="swapImage(this, 'images/biowisdom/btn_go_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_go_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_go_on.gif');" border="0"></a> </td>
+     </tr>
+              </tbody></table>
+			  <script language="javascript">
+			  	document.getElementById('queryStrTextBoxHeader').value = "";
+			  </script>
+			  </td>
+    <td class="navTopRight" height="55"></td>
+  </tr>
+  <tr>
+    <!-- <td width="37" height="30" align="left"><img src="images/biowisdom/nav/bottom_left.gif" width="37" height="30"></td>
+	<td></td> -->
+    <td valign="bottom"><table border="0" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+          <td><a href="http://srs.embl.de/srs/quicksearches.do"><img style="cursor: pointer;" id="nav_mysrs" src="UNIPROT_Q9NQ94_srs_files/nav_mysrs_off.gif" onmouseover="swapImage(this, 'images/biowisdom/nav/nav_mysrs_on.gif');" onmouseout="swapImage(this, 'images/biowisdom/nav/nav_mysrs_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/nav/nav_mysrs_on.gif');" border="0"></a><a href="http://srs.embl.de/srs/querybuilder.do"><img style="cursor: pointer;" id="nav_querybuilder" src="UNIPROT_Q9NQ94_srs_files/nav_querybuilder_off.gif" onmouseover="swapImage(this, 'images/biowisdom/nav/nav_querybuilder_on.gif');" onmouseout="swapImage(this, 'images/biowisdom/nav/nav_querybuilder_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/nav/nav_querybuilder_on.gif');" border="0"></a><a href="http://srs.embl.de/srs/analysisTools.do"><img style="cursor: pointer;" id="nav_analysistools" src="UNIPROT_Q9NQ94_srs_files/nav_analysistools_off.gif" onmouseover="swapImage(this, 'images/biowisdom/nav/nav_analysistools_on.gif');" onmouseout="swapImage(this, 'images/biowisdom/nav/nav_analysistools_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/nav/nav_analysistools_on.gif');" border="0"></a></td>
+          <td><table border="0" cellpadding="0" cellspacing="0"><tbody><tr>
+		  <td id="batchQueue"><img src="UNIPROT_Q9NQ94_srs_files/null.gif" height="20" width="20"></td>
+			<td onmouseover="changehighlight('queryHistory', 'navTopOn');" onmouseout="changehighlight('queryHistory', 'navTopOff');" id="queryHistory" class="navTopOff"><a id="nav_queryHistory" href="http://srs.embl.de/srs/queryHistory.do">history</a></td><td>&nbsp;-&nbsp;</td>
+			<td onmouseover="changehighlight('customView', 'navTopOn');" onmouseout="changehighlight('customView', 'navTopOff');" id="customView" class="navTopOff" height="20"><a id="nav_customView" href="http://srs.embl.de/srs/customview.do">manage views</a></td><td>&nbsp;-&nbsp;</td>
+			<td onmouseover="changehighlight('databankInfo', 'navTopOn');" onmouseout="changehighlight('databankInfo', 'navTopOff');" id="databankInfo" class="navTopOff"><a id="nav_databankInfo" href="javascript:goToDatabankInfo();">databank list</a></td><td>&nbsp;-&nbsp;</td>
+			<td class="navHelp"><a id="nav_help" href="http://srs.embl.de/srs/docpage.do?page=doc/srsbooks/srs_user_guide/9_1.html" target="docPage">Help?</a></td>
+		  </tr></tbody></table></td>
+        </tr>
+      </tbody></table></td>
+    <td class="navlogin" align="right">
+	    <a href="http://srs.embl.de/srs/login?redirecturl=quicksearches.do">Log In</a>&nbsp;
+				</td>
+  </tr>
+</tbody></table>
+</div>
+<script language="javascript">
+function goToDatabankInfo(){
+	var cookieValue = getCookie("toolFilterCookie");
+	var cookieSortValue = getCookie("sortCookie");
+	var cookieReverseValue = getCookie("reverseCookie");
+    document.location = 'databanklist.do?filterTools='+cookieValue+'&sort='+cookieSortValue+'&reverse='+cookieReverseValue+'';
+}
+var thisIsFrontPage = false;
+</script>
+
+<script language="javascript" src="UNIPROT_Q9NQ94_srs_files/synonyms.js"></script>
+<script language="javascript">createSynonymDivs('queryStrTextBoxHeader_div');</script><input id="hidden_previous_synonym_queryStrTextBoxHeader_div" name="hidden_synonym_queryStrTextBoxHeader_div" value="" type="hidden"><input id="synonymsSelected_queryStrTextBoxHeader_div" name="synonymsSelected_queryStrTextBoxHeader_div" value="" type="hidden"><div id="queryStrTextBoxHeader_div" class="synonymsContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td class="sectionHeading">Add Synonyms for :<div style="display: inline;" id="queryStrTextBoxHeader_div_searchTerm"></div></td><td><div id="queryStrTextBoxHeader_div_synonymsFindersContainerLaunch" class="synonymsFindersContainerLaunch"><a href="javascript:showFinders('queryStrTextBoxHeader_div')">Show Finders</a></div></td></tr></tbody></table><p></p><div class="synonymsMainArea"><div id="queryStrTextBoxHeader_div_synonymsFinderContainer" class="synonymsFinderContainer">Loading...</div><div id="queryStrTextBoxHeader_div_synonymsResultsContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td></td></tr><tr><td>&nbsp;<strong>Your results are :</strong><p></p></td><td>&nbsp;</td></tr><tr><td colspan="2"><div id="queryStrTextBoxHeader_div_synonymsResults" class="synonymsResultsContainer">Loading ....</div></td></tr></tbody></table></div></div><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td><p>&nbsp;<a href="javascript:hideSynonymPopup('queryStrTextBoxHeader_div','synonymImage_queryStrTextBoxHeader_div');%20hideFinders('queryStrTextBoxHeader_div');hideFreeze();"><img src="UNIPROT_Q9NQ94_srs_files/btn_close_off.gif" id="synonymSearch" onmouseover="swapImage(this, 'images/biowisdom/btn_close_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_close_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_close_on.gif');" border="0"></a></p></td></tr></tbody></table></div>
+<script language="javascript">
+function showStopOption(type) {
+
+   // update the cookie with the ticket id in the model
+   setCookie('SRSACCESS_TICKET_ID', 'null|F44A79168EA1DB4F836C2BA973206137/20767');
+
+   document.getElementById('freezepage').style.display = "block";
+   document.getElementById('freezepage').style.visibility = "visible";
+   if (type == "annotations"){
+   	   document.getElementById('displayText').innerHTML = "SRS is processing...";
+   	   document.getElementById('stopOption').style.display = "block";
+   	   document.getElementById('stopOption').style.visibility = "visible";   
+   } else if (type == "freezeOnly"){
+   	   document.getElementById('stopOption').style.visibility = "hidden";
+	   document.getElementById('stopOption').style.display = "none";
+   }else{
+	   document.getElementById('stopOption').style.display = "block";
+   	   document.getElementById('stopOption').style.visibility = "visible";
+   }
+   updateWindowSizes();
+}
+
+function hideFreeze(){
+   document.getElementById('freezepage').style.visibility = "hidden";
+   document.getElementById('freezepage').style.display = "none";
+   document.getElementById('stopOption').style.visibility = "hidden";
+   document.getElementById('stopOption').style.display = "none";
+}
+
+function updateWindowSizes() {
+   var windowWidth = 0;
+   var windowHeight = 0;
+   var stopperWidth = 300;
+   var stopperHeight = 80;
+   if (document.all) {
+     windowWidth = document.documentElement.clientWidth;
+     windowHeight = document.documentElement.clientHeight;
+     if (windowWidth == 0) {
+       windowWidth = document.body.clientWidth;
+       windowHeight = document.body.clientHeight;
+     }
+   } else {
+     windowWidth = window.innerWidth;
+     windowHeight = window.innerHeight;
+   }
+   if (windowWidth < 300) {
+     windowWidth = 300;
+   }
+   if (windowHeight < 80) {
+     windowHeight = 80;
+   }
+   document.getElementById('freezepage').style.width = windowWidth + 'px';
+   document.getElementById('freezepage').style.height = windowHeight + 'px';
+   document.getElementById('stopOption').style.left = ((windowWidth - 300)/2) + 'px';
+   document.getElementById('stopOption').style.top = ((windowHeight - 80)/2) + 'px';
+}
+</script>  
+<style type="text/css">
+.freezepage{
+	background-image:url(images/shared/translucent_lightgrey.gif);
+	position:absolute;
+	top:expression((ignoreVar = document.documentElement.scrollTop) + "px");
+	left:expression((ignoreVar2 = document.documentElement.scrollLeft) + "px");
+	visibility:hidden;
+	z-index:101;
+}
+html[xmlns] .freezepage { 
+	background-image:url(images/shared/translucent_lightgrey.gif);
+    position: fixed;
+    top: 1px;
+	left:1px;
+	visibility:hidden;
+	z-index:101;
+} 
+html>body .freezepage { 
+	background-image:url(images/shared/translucent_lightgrey.gif);
+    position: fixed;
+    top: 1px;
+	left:1px;
+	visibility:hidden;
+	z-index:101;
+}
+.stopper{
+	background-color:#FFFFFF;
+	height: 80px;
+	width: 300px;
+	top: 800px;
+	position:absolute;
+	border:1px solid black;
+	z-index:999;
+	visibility:hidden;
+	display:none;
+}
+</style>
+<div id="freezepage" class="freezepage">
+<div id="stopOption" class="stopper">
+<table border="0" cellpadding="0" cellspacing="0" width="300">
+  <tbody><tr>
+    <td>
+	  <div align="center">
+<script language="JavaScript" type="text/javascript">
+	
+var requiredVersion = 7;   // Version the user needs to view site (max 9, min 2)
+var useRedirect = false;    // Flag indicating whether or not to load a separate page
+
+var flash2Installed = false;    // boolean. true if flash 2 is installed
+var flash3Installed = false;    // boolean. true if flash 3 is installed
+var flash4Installed = false;    // boolean. true if flash 4 is installed
+var flash5Installed = false;    // boolean. true if flash 5 is installed
+var flash6Installed = false;    // boolean. true if flash 6 is installed
+var flash7Installed = false;    // boolean. true if flash 7 is installed
+var flash8Installed = false;    // boolean. true if flash 8 is installed
+var flash9Installed = false;    // boolean. true if flash 9 is installed
+var maxVersion = 9;             // highest version we can actually detect
+var actualVersion = 0;          // version the user really has
+var hasRightVersion = false;    // boolean. true if it's safe to embed the flash movie in the page
+var jsVersion = 1.0;            // the version of javascript supported
+
+// Check the browser...we're looking for ie/win
+var isIE  = (navigator.appVersion.indexOf("MSIE") != -1) ? true : false;    // true if we're on ie
+var isWin = (navigator.appVersion.toLowerCase().indexOf("win") != -1) ? true : false; // true if we're on windows
+jsVersion = 1.1;
+
+if(isIE && isWin){
+  document.write('<SCR' + 'IPT LANGUAGE=VBScript\> \n');
+  document.write('on error resume next \n');
+  document.write('flash2Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.2"))) \n');
+  document.write('flash3Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.3"))) \n');
+  document.write('flash4Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.4"))) \n');
+  document.write('flash5Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.5"))) \n');  
+  document.write('flash6Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.6"))) \n');  
+  document.write('flash7Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.7"))) \n');
+  document.write('flash8Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.8"))) \n');
+  document.write('flash9Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.9"))) \n');
+  document.write('<\/SCR' + 'IPT\> \n'); // break up end tag so it doesn't end our script
+}
+
+function detectFlash() {  
+  // If navigator.plugins exists...
+  if (navigator.plugins) {
+    // ...then check for flash 2 or flash 3+.
+    if (navigator.plugins["Shockwave Flash 2.0"]
+        || navigator.plugins["Shockwave Flash"]) {
+
+      var isVersion2 = navigator.plugins["Shockwave Flash 2.0"] ? " 2.0" : "";
+      var flashDescription = navigator.plugins["Shockwave Flash" + isVersion2].description;
+
+      var flashVersion = parseInt(flashDescription.substring(16));
+
+      flash2Installed = flashVersion == 2;    
+      flash3Installed = flashVersion == 3;
+      flash4Installed = flashVersion == 4;
+      flash5Installed = flashVersion == 5;
+      flash6Installed = flashVersion == 6;
+      flash7Installed = flashVersion == 7;
+      flash8Installed = flashVersion == 8;
+      flash9Installed = flashVersion >= 9;
+    }
+  }
+  
+  for (var i = 2; i <= maxVersion; i++) {  
+    if (eval("flash" + i + "Installed") == true) actualVersion = i;
+  }
+  if(navigator.userAgent.indexOf("WebTV") != -1) actualVersion = 4;  
+  if (actualVersion >= requiredVersion) {
+    if (useRedirect) {
+      if(jsVersion > 1.0) {
+        window.location.replace(flashPage);  
+      } else {
+        window.location = flashPage;
+      }
+    }
+
+    hasRightVersion = true;                
+  } else {  
+    if (useRedirect) {
+       if(jsVersion > 1.0) {
+        window.location.replace((actualVersion >= 2) ? upgradePage : noFlashPage);
+      } else {
+        window.location = (actualVersion >= 2) ? upgradePage : noFlashPage;
+      }
+    }
+  }
+}
+
+detectFlash();  // call detector now that it's safely loaded. 
+
+	if (!useRedirect) {    // if dynamic embedding is turned on
+  if(hasRightVersion) {  // if we've detected an acceptable version
+    var oeTags = '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="80" height="30">'
++'<param name="movie" value="images/shared/helixv4.swf">'
++'<param name="quality" value="high">'
++'<embed src="images/shared/helixv4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="80" height="30"></embed>'
++'</object>';
+
+  document.write(oeTags);   
+  } else {  // flash is too old or we can't detect the plugin
+    // NOTE: height, width are required!
+    var alternateContent = '<IMG SRC="images/shared/helixv4.gif" HEIGHT="30" WIDTH="80">';
+     
+    document.write(alternateContent);  // insert non-flash content
+  }
+}
+</script><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" height="30" width="80"><param name="movie" value="images/shared/helixv4.swf"><param name="quality" value="high"><embed src="UNIPROT_Q9NQ94_srs_files/helixv4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" height="30" width="80"></object>
+      </div>
+	  </td></tr><tr>
+    <td><div align="center">
+		<span id="displayText">SRS is searching...</span>
+		<p>
+        <a href="http://srs.embl.de/srs/cancelServices.do?ticketid=null%7CF44A79168EA1DB4F836C2BA973206137/20767">Click here to cancel</a></p></div></td>
+  </tr>
+</tbody></table>
+</div>
+</div></form>
+<p class="pageTitle">
+<span id="bookmark">
+		<a href="javascript:addBookmark('SRS%20Entry%20View%20-%20UNIPROT:Q9NQ94',%20'http://srs.embl.de:80/srs/showEntryView.do?entryId=UNIPROT:Q9NQ94&amp;entryView=SwissEntry');">
+			<img src="UNIPROT_Q9NQ94_srs_files/bookmark.gif" border="0">
+		</a>
+	</span>
+Entry view - UNIPROT:Q9NQ94</p>
+<iframe id="quickSearchBarMenuiFrame" style="width: 390px; height: 160px; position: absolute; top: 1px; left: 1px; display: none; z-index: 25;" marginwidth="0" src="" marginheight="0" frameborder="0" scrolling="no"></iframe>
+<iframe id="synonymLaunchiFrame" style="width: 700px; height: 500px; position: absolute; top: 100px; left: 100px; display: none;" marginwidth="0" src="" marginheight="0" frameborder="0" scrolling="no"></iframe>
+<div class="mainPageAreaEntryViews">
+  <div id="deleteConfirmX" class="alertingTip"></div>
+
+<form method="post" name="primaryForm" action="updateEntryView.do">
+<!-- option panel -->
+<!-- Top Menu -->
+
+<input name="queryString" id="queryString" value="[UNIPROT:Q9NQ94]" type="hidden">
+<input name="appToExport" id="appToExport" value="" type="hidden">
+<input name="viewForExport" id="viewForExport" value="" type="hidden">
+<input name="action" id="action" value="" type="hidden">
+<input name="entryId" id="entryId" value="UNIPROT:Q9NQ94" type="hidden">
+<input name="entryView" id="entryView" value="SwissEntry" type="hidden">
+
+<!-- summary sheet special -->
+<input name="input" id="input" value="UNIPROT:Q9NQ94" type="hidden">
+
+<!-- fields used for dependency with query result page -->
+<input id="currentSearchSortField" name="currentSearchSortField" value="" type="hidden">
+<input id="currentSearchSortDirection" name="currentSearchSortDirection" value="0" type="hidden">
+<input id="currentSearchSelectedViewName" name="currentSearchSelectedViewName" value="SeqSimple3D" type="hidden">
+<input id="currentSearchFilteredDatabank" name="currentSearchFilteredDatabank" value="" type="hidden">
+<input id="currentSearchStart" name="currentSearchStart" value="1" type="hidden">
+<input id="currentSearchSize" name="currentSearchSize" value="30" type="hidden">
+<input id="selectedConceptName" name="selectedConceptName" value="" type="hidden">
+<input id="selectedConceptType" name="selectedConceptType" value="" type="hidden">
+<input id="primarySearchQueryName" name="primarySearchQueryName" value="q32" type="hidden">
+<input id="primarySearchParentQueryName" name="primarySearchParentQueryName" value="q32" type="hidden">
+<input id="parentConceptNames" name="parentConceptNames" value="" type="hidden">
+
+<!-- keeping a track of the parent entry position including when an annotation has been added -->
+<input id="entryPositionInSet" name="entryPositionInSet" value="1" type="hidden">
+<input id="totalEntriesInSet" name="totalEntriesInSet" value="2957" type="hidden">
+<!-- Backup -->
+<input name="queryString_backup" id="queryString_backup" value="[UNIPROT:Q9NQ94]" type="hidden">
+<!--  for back links with annotations  -->
+
+<input name="referEntryId" id="referEntryId" value="" type="hidden">
+<div id="displayOptionsContainer">
+	<!-- round corners  -->
+	<span class="topLeftImage"></span>
+	<span class="topRightImage"></span>
+
+  <table border="0" cellpadding="0" cellspacing="0">
+    <tbody><tr>
+      <td><img src="UNIPROT_Q9NQ94_srs_files/null.gif" height="5"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;&nbsp;&nbsp;<strong>Options:</strong>&nbsp;</td>
+	  <td>
+		<div class="displayOptionsButton" id="actionsMenuButton" onmouseover="showMenu('actionsMenu')" onmouseout="hideMenu('actionsMenu');">
+			Actions <img class="arrowIcon" src="UNIPROT_Q9NQ94_srs_files/options_tab_arrow.gif" title="Menu">
+		</div>
+  	  	<div id="actionsMenu" onmouseover="showMenu('actionsMenu')" onmouseout="hideMenu('actionsMenu');">
+		<a href="javascript:showStopOption('full');resetHiddenFields();setFormElementById('action','backToResults');document.forms['primaryForm'].submit();">Back to Results</a><br>
+		<a href="http://srs.embl.de/srs/showResults.do?query=%5BUNIPROT:Q9NQ94%5D">Set As Primary Search</a><br>
+		</div>
+	  </td>
+      <td>
+		<div class="displayOptionsButton" id="viewsMenuButton" onmouseover="showMenu('viewsMenuEntry')" onmouseout="hideMenu('viewsMenuEntry');">
+			View <img class="arrowIcon" src="UNIPROT_Q9NQ94_srs_files/options_tab_arrow.gif" title="Menu">
+		</div>
+  	  	<div id="viewsMenuEntry" onmouseover="showMenu('viewsMenuEntry')" onmouseout="hideMenu('viewsMenuEntry');">
+	  <a onclick="showStopOption('full');" href="http://srs.embl.de/srs/showEntryView.do?entryId=UNIPROT:Q9NQ94&amp;pQ=q32&amp;ppQ=q32&amp;num=1&amp;total=2957&amp;sF=&amp;sD=0&amp;pV=&amp;pDB=&amp;pC=&amp;pCT=&amp;pSt=1&amp;pSz=30&amp;pCN=&amp;entryView=CompleteEntry">
+					Text Entry</a><br>
+				
+			<strong>SwissEntry</strong><br>
+			</div>
+	  </td>
+	<td style="padding-left: 20px; white-space: nowrap;">
+	<strong>View Summary Sheet:</strong>
+</td>	  
+<td>
+	<a onclick="showStopOption('full');" href="http://srs.embl.de/srs/showEntryView.do?entryId=UNIPROT:Q9NQ94&amp;pQ=&amp;num=&amp;total=&amp;sF=&amp;sD=&amp;pV=&amp;pDB=&amp;pC=&amp;pCT=&amp;pSt=&amp;pSz=&amp;pCN=&amp;entryView=summarySheetView">
+		<img src="UNIPROT_Q9NQ94_srs_files/icon_summarysheet.gif">
+	</a>
+</td>
+<td style="padding-left: 20px; white-space: nowrap;">
+	<strong>Get PDF version:</strong>
+</td>
+<td>
+	<a href="http://srs.embl.de/srs/showEntryViewAsPdf.do?entryId=UNIPROT:Q9NQ94&amp;entryView=SwissEntry"><img class="pdf" src="UNIPROT_Q9NQ94_srs_files/pdf_icon.gif"></a>
+</td>
+<td style="padding-left: 20px; white-space: nowrap;">
+	<strong>View Databank:</strong>
+</td>
+<td>
+	<a href="http://srs.embl.de/srs/databankinfo.do?dbName=UNIPROT"><img class="pdf" src="UNIPROT_Q9NQ94_srs_files/icon_db.gif"></a>
+</td>
+<td class="resultNav">
+		
+		Page 1 of 2957<a onclick="showStopOption('full');" href="http://srs.embl.de/srs/showEntryView.do?entryId=UNIPROT:Q5YD48&amp;pQ=q32&amp;ppQ=q32&amp;num=2&amp;total=2957&amp;sF=&amp;sD=0&amp;pV=&amp;pDB=&amp;pC=&amp;pCT=&amp;pSt=1&amp;pSz=30&amp;pCN=&amp;entryView=SwissEntry">
+				&gt;
+			</a>
+		</td>
+	</tr>
+  </tbody></table>
+</div>
+<div id="basessm" style="visibility: hidden; position: absolute; left: -2px; top: 169px; z-index: 20; width: 240px;">
+    <div id="thessm" style="position: absolute; left: -200px; top: 0px; z-index: 21; visibility: visible;">
+    <script type="text/javascript">
+function confirmDeleteEntry(divId, toolName) {
+	var ht = '<table><tr><td colspan="2" align="center">Do you wish to remove UNIPROT:Q9NQ94 from your sequence database?</td></tr>';
+	ht = ht + '<tr><td align="right"><a id="' + divId + 'rename" href="javascript:hideDivSection(\'' + divId + '\');launchTool(\'' + toolName + '\');showStopOption(\'annotations\');">';
+	ht = ht + '<img border="0" src="images/biowisdom/btn_accept_off.gif" onmouseover="swapImage(this, \'images/biowisdom/btn_accept_hover.gif\');" onmouseout="swapImage(this, \'images/biowisdom/btn_accept_off.gif\');"/></a></td>';
+	ht = ht + '<td align="left"><a id="' + divId + 'cancelAlerting" href="javascript:hideDivSection(\'' + divId + '\');hideFreeze()">';
+	ht = ht + '<img border="0" src="images/biowisdom/btn_cancel_off.gif" onmouseover="swapImage(this, \'images/biowisdom/btn_cancel_hover.gif\');" onmouseout="swapImage(this, \'images/biowisdom/btn_cancel_off.gif\');"/></a></td></tr></table>';
+
+	document.getElementById(divId).innerHTML = ht
+	showDivSection(divId);
+	centerDivPosition(divId);
+	showStopOption('freezeOnly');
+}
+</script>
+    
+      <table border="0" cellpadding="0" cellspacing="0" width="216">
+        <tbody><tr>
+          <td class="toolsMainArea" valign="top" width="200"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+              <tbody><tr>
+                <td class="toolsHeading">Analysis Tools</td>
+              </tr>
+              <tr>
+                <td class="toolsContent"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tbody><tr>
+                      <td class="toolsContent2" align="left" valign="top" width="100%"><table border="0" cellpadding="2" cellspacing="2">
+                          <tbody><tr>
+                            <td valign="top"><a href="http://srs.embl.de/srs/analysisTools.do?queryString=%5BUNIPROT:Q9NQ94%5D&amp;query=q36&amp;databanks=UNIPROT">Go to Tools Page</a> </td>
+                          </tr>
+                          <tr>
+                            <td valign="top">or Launch specific Tool:&nbsp;</td>
+                          </tr>
+                        </tbody></table>
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                          <tbody><tr>
+                            <td valign="top">
+                            	<select name="menu_toolList" id="menu_toolList">
+							      <option value="BlastP">BlastP</option>
+							      </select>
+            	            </td>
+                          </tr>
+                          <tr>
+                            <td height="3" valign="top"><img src="UNIPROT_Q9NQ94_srs_files/null.gif" align="center" border="0" height="5" width="10"></td>
+                          </tr>
+                          <tr>
+                            <td rowspan="0" colspan="0" align="left" valign="top"><a href="javascript:submitTool();" name="launchTool_link" id="launchTool_link"><img name="launchTool_img" id="launchTool_img" src="UNIPROT_Q9NQ94_srs_files/btn_launch_off.gif" onmouseover="swapImage(this, 'images/biowisdom/btn_launch_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_launch_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_launch_on.gif');" align="bottom" border="0"></a></td>
+                          </tr>
+                        </tbody></table>
+                       </td>
+                    </tr>
+                  </tbody></table></td>
+              </tr>
+              
+              <tr>
+                <td class="toolsHeading">Sequence
+                <input name="addToolName" id="addToolName" value="UserProtein" type="hidden">
+                <input name="addToolPrintName" id="addToolPrintName" value="My Protein Sequences" type="hidden">
+                <input name="addToolNameLaunch" id="addToolNameLaunch" value="" type="hidden">
+                <input name="addToolType" id="addToolType" value="0" type="hidden">
+                </td>
+              </tr>
+              <tr>
+                <td class="toolsContent"><table id="saveSequence" border="0" cellpadding="2" cellspacing="2">
+                    <tbody><tr>
+                      <td id="saveSequenceCell">
+			        	<a href="javascript:launchTool('UserProtein');"><img src="UNIPROT_Q9NQ94_srs_files/addentry.gif" border="0">			
+						 Add to My Protein Sequences</a>
+                      </td>
+                    </tr>
+                  </tbody></table></td>
+              </tr>
+              <tr>
+                <td class="toolsHeading">Save/Export</td>
+              </tr>
+              <tr>
+                <td class="toolsContent">
+                <table id="exportApplications" border="0" cellpadding="2" cellspacing="2">
+		                  <tbody><tr>
+		                        <td><a href="javascript:exportTo('txtXml','txt-xml');resetHiddenFields();">XML or Text format</a></td>
+		                        <td align="center"><img src="UNIPROT_Q9NQ94_srs_files/txt_icon.gif"></td>
+		                      </tr>
+		                      <tr>
+		                        <td><a href="javascript:exportTo('pdf','');resetHiddenFields();">Acrobat PDF</a></td>
+		                        <td align="center"><img src="UNIPROT_Q9NQ94_srs_files/pdf_icon.gif"></td>
+		                      </tr>
+		                      </tbody></table>
+	                </td>
+              </tr>
+              <tr>
+                <td class="toolsHeading">Link</td>
+              </tr>
+              <tr>
+                <td class="toolsContent"><p>
+                <a href="http://srs.embl.de/srs/updatelinkUniverse.do?fromQueryString=%5BUNIPROT:Q9NQ94%5D&amp;fromQuery=q36&amp;fromDatabank=UNIPROT&amp;mode=text&amp;action=redirect">
+                Link to...
+                </a><br>
+				</p></td>
+              </tr>
+              <tr>
+                <td class="toolsHeading">Term Highlighting</td>
+              </tr>
+              <tr>
+                <td class="toolsContent"><p>
+				</p><div id="highlightTermsTrigger"><a href="#" onclick="highlightTerms('false');">Switch Off</a></div>
+				
+                <br>
+                </td>
+              </tr>
+              
+            </tbody></table></td>
+          <td valign="top" width="16"><table border="0" cellpadding="0" cellspacing="0" width="16">
+              <tbody><tr>
+                <td class="toolsTab" onclick="movementDecider();" align="center" valign="top">&nbsp; T o o l s &nbsp;</td>
+              </tr>
+              <tr>
+                <td onclick="javascript:clickthrough();" onmouseover="this.style.cursor='hand'" onmouseout="this.style.cursor='pointer'" height="100" valign="top">&nbsp;</td>
+              </tr>
+            </tbody></table></td>
+        </tr>
+      </tbody></table>
+    </div>
+  </div>
+</form>
+<br>
+
+<form method="post" name="viewForm" action="updateEntryView.do">
+<table border="0" cellpadding="5" cellspacing="0">
+<tbody><tr>
+<td bgcolor="#aad2f5" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>Go To:</b></font></td>
+<td bgcolor="#aad2f5" valign="top"><a href="#swissGeneral">General</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#swissDescription">Description</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#swissReferences">References</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#swissComments">Comments</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#swissLinks">Database Cross-References</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#swissFeatures">Features</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#swissSequence">Sequence</a>
+</td>
+</tr>
+</tbody></table>
+<table border="0" cellpadding="2" cellspacing="2">
+<tbody><tr>
+<td colspan="2" bgcolor="#aad2f5" valign="top" width=""><a class="sectionHead" name="swissGeneral">General Information About The Entry</a></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#a0b8dc" valign="top">Entry Name</td>
+<td colspan="1" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>UNIPROT:Q9NQ94</b></font></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#a0b8dc" valign="top">Identifier</td>
+<td colspan="1" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>A1CF_HUMAN</b></font></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Prim. Accession</td>
+<td colspan="1" valign="top">Q9NQ94</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Sec. Accession</td>
+<td colspan="1" valign="top"> Q5SZQ0 Q9NQ93 Q9NQX8 Q9NQX9 Q9NXC9 Q9NZD3</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Created</td>
+<td colspan="1" valign="top"> 20-DEC-2005</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Last Sequence Update</td>
+<td colspan="1" valign="top">sequence version 1 01-OCT-2000</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Last Annotation Update</td>
+<td colspan="1" valign="top">entry version 69 05-MAY-2009</td>
+<script language="JavaScript">
+ var sectionName='section_swissDescription';
+ if(collapsibleSections == ''){
+  var collapsibleSections=(sectionName);
+ } else {
+  var collapsibleSections=(collapsibleSections + "@" + sectionName);
+ }
+</script>
+
+</tr>
+<tr>
+<td colspan="2" bgcolor="#aad2f5" valign="top" width=""><a href="javascript:toggleRegion('section_swissDescription',0);" id="imgLink_image_section_swissDescription"><img src="UNIPROT_Q9NQ94_srs_files/minus.gif" id="image_section_swissDescription" align="center" border="0"></a>
+<a class="sectionHead" name="swissDescription">Description and Origin of the Protein</a></td>
+</tr></tbody><tbody id="section_swissDescription">
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Name</td>
+<td colspan="1" valign="top">APOBEC1 complementation factor</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Alternative Names</td>
+<td colspan="1" valign="top">APOBEC1-stimulating protein</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Keywords</td>
+<td colspan="1" valign="top">3D-structure; Alternative splicing;
+Cytoplasm; Endoplasmic reticulum; mRNA processing; Nucleus;
+Polymorphism; Repeat; RNA-binding</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Gene names(s)</td>
+<td colspan="1" valign="top">Name=A1CF; Synonyms=ACF, ASP; </td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Evidence</td>
+<td colspan="1" valign="top">1: Evidence at protein level; </td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Organism Source</td>
+<td colspan="1" valign="top">Homo sapiens (Human). </td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Organism Classification</td>
+<td colspan="1" valign="top">Eukaryota; Metazoa; Chordata; Craniata;
+Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires;
+Primates; Haplorrhini; Catarrhini; Hominidae; Homo</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">NCBI Taxonomy ID</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Btaxonomy-ID:9606%5D">9606</a></td>
+</tr></tbody><script language="JavaScript">
+ var sectionName='section_swissReferences';
+ if(collapsibleSections == ''){
+  var collapsibleSections=(sectionName);
+ } else {
+  var collapsibleSections=(collapsibleSections + "@" + sectionName);
+ }
+</script>
+
+
+<tbody><tr>
+<td colspan="2" bgcolor="#aad2f5" valign="top" width=""><a href="javascript:toggleRegion('section_swissReferences',0);" id="imgLink_image_section_swissReferences"><img src="UNIPROT_Q9NQ94_srs_files/minus.gif" id="image_section_swissReferences" align="center" border="0"></a>
+<a class="sectionHead" name="swissReferences">References</a></td>
+</tr></tbody><tbody id="section_swissReferences">
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>1.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top">Lellek,H. Kirsten,R. Diehl,I. Apostel,F. Buck,F. Greeve,J.; <b>"Purification and molecular cloning of a novel essential component of the <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span> B mRNA editing enzyme-complex."; </b>&nbsp;J. Biol. Chem.&nbsp;275:19848-19856 (2000)</td>
+</tr>
+<tr>
+<td align="left" valign="top"><table border="0" cellpadding="3" cellspacing="3">
+<tbody><tr>
+<td colspan="1" bgcolor="#efeff7" valign="top"><a href="http://www.doi.org/">Document&nbsp;Object&nbsp;Id</a></td>
+<td colspan="1" valign="top"><a href="http://dx.doi.org/10.1074/jbc.M001786200" target="_blank">10.1074/jbc.M001786200</a></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Medline (NCBI)</td>
+<td colspan="1" valign="top"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=10781591&amp;query_hl=1&amp;itool=pubmed_docsum" target="_blank">20347895</a></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">PubMed</td>
+<td colspan="1" valign="top"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=10781591&amp;query_hl=1&amp;itool=pubmed_docsum" target="_blank">10781591</a></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Position</td>
+<td colspan="1" valign="top">NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 2), FUNCTION, AND INTERACTION WITH APOBEC1. </td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Comment</td>
+<td colspan="1" valign="top">Liver, and Small intestine</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>2.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top">Mehta,A. Kinter,M.T. Sherman,N.E. Driscoll,D.M.; <b>"Molecular cloning of APOBEC-1 complementation factor, a novel RNA-binding protein involved in the editing of <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span> B mRNA."; </b>&nbsp;Mol. Cell. Biol.&nbsp;20:1846-1854 (2000)</td>
+</tr>
+<tr>
+<td align="left" valign="top"><table border="0" cellpadding="3" cellspacing="3">
+<tbody><tr>
+<td colspan="1" bgcolor="#efeff7" valign="top"><a href="http://www.doi.org/">Document&nbsp;Object&nbsp;Id</a></td>
+<td colspan="1" valign="top"><a href="http://dx.doi.org/10.1128/MCB.20.5.1846-1854.2000" target="_blank">10.1128/MCB.20.5.1846-1854.2000</a></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Medline (NCBI)</td>
+<td colspan="1" valign="top"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=10669759&amp;query_hl=1&amp;itool=pubmed_docsum" target="_blank">20136062</a></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">PubMed</td>
+<td colspan="1" valign="top"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=10669759&amp;query_hl=1&amp;itool=pubmed_docsum" target="_blank">10669759</a></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Position</td>
+<td colspan="1" valign="top">NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2), FUNCTION, INTERACTION WITH APOBEC1, AND TISSUE SPECIFICITY. </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>3.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top">Sowden,M.P. Smith,H.C.;  <b>"Human APOBEC-1 complementation factor related protein."; </b> Submitted (MAY-2000) to the EMBL/GenBank/DDBJ databases. </td>
+</tr>
+<tr>
+<td align="left" valign="top"><table border="0" cellpadding="3" cellspacing="3">
+<tbody><tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Position</td>
+<td colspan="1" valign="top">NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 2 AND 3). </td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Comment</td>
+<td colspan="1" valign="top">Liver</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>4.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top">Ota,T. Suzuki,Y. Nishikawa,T. Otsuki,T.
+Sugiyama,T. Irie,R. Wakamatsu,A. Hayashi,K. Sato,H. Nagai,K. Kimura,K.
+Makita,H. Sekine,M. Obayashi,M. Nishi,T. Shibahara,T. Tanaka,T.
+Ishii,S. Yamamoto,J. Saito,K. Kawai,Y. Isono,Y. Nakamura,Y. Nagahari,K.
+Murakami,K. Yasuda,T. Iwayanagi,T. Wagatsuma,M. Shiratori,A. Sudo,H.
+Hosoiri,T. Kaku,Y. Kodaira,H. Kondo,H. Sugawara,M. Takahashi,M.
+Kanda,K. Yokoi,T. Furuya,T. Kikkawa,E. Omura,Y. Abe,K. Kamihara,K.
+Katsuta,N. Sato,K. Tanikawa,M. Yamazaki,M. Ninomiya,K. Ishibashi,T.
+Yamashita,H. Murakawa,K. Fujimori,K. Tanai,H. Kimata,M. Watanabe,M.
+Hiraoka,S. Chiba,Y. Ishida,S. Ono,Y. Takiguchi,S. Watanabe,S. Yosida,M.
+Hotuta,T. Kusano,J. Kanehori,K. Takahashi-Fujii,A. Hara,H. Tanase,T.-O.
+Nomura,Y. Togiya,S. Komai,F. Hara,R. Takeuchi,K. Arita,M. Imose,N.
+Musashino,K. Yuuki,H. Oshima,A. Sasaki,N. Aotsuka,S. Yoshikawa,Y.
+Matsunawa,H. Ichihara,T. Shiohata,N. Sano,S. Moriya,S. Momiyama,H.
+Satoh,N. Takami,S. Terashima,Y. Suzuki,O. Nakagawa,S. Senoh,A.
+Mizoguchi,H. Goto,Y. Shimizu,F. Wakebe,H. Hishigaki,H. Watanabe,T.
+Sugiyama,A. Takemoto,M. Kawakami,B. Watanabe,K. Kumagai,A. Itakura,S.
+Fukuzumi,Y. Fujimori,Y. Komiyama,M. Tashiro,H. Tanigami,A. Fujiwara,T.
+Ono,T. Yamada,K. Fujii,Y. Ozaki,K. Hirao,M. Ohmori,Y. Kawabata,A.
+Hikiji,T. Kobatake,N. Inagaki,H. Ikema,Y. Okamoto,S. Okitani,R.
+Kawakami,T. Noguchi,S. Itoh,T. Shigeta,K. Senba,T. Matsumura,K.
+Nakajima,Y. Mizuno,T. Morinaga,M. Sasaki,M. Togashi,T. Oyama,M. Hata,H.
+Komatsu,T. Mizushima-Sugano,J. Satoh,T. Shirai,Y. Takahashi,Y.
+Nakagawa,K. Okumura,K. Nagase,T. Nomura,N. Kikuchi,H. Masuho,Y.
+Yamashita,R. Nakai,K. Yada,T. Ohara,O. Isogai,T. Sugano,S.; <b>"Complete sequencing and characterization of 21,243 full-length human cDNAs."; </b>&nbsp;Nat. Genet.&nbsp;36:40-45 (2004)</td>
+</tr>
+<tr>
+<td align="left" valign="top"><table border="0" cellpadding="3" cellspacing="3">
+<tbody><tr>
+<td colspan="1" bgcolor="#efeff7" valign="top"><a href="http://www.doi.org/">Document&nbsp;Object&nbsp;Id</a></td>
+<td colspan="1" valign="top"><a href="http://dx.doi.org/10.1038/ng1285" target="_blank">10.1038/ng1285</a></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">PubMed</td>
+<td colspan="1" valign="top"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=14702039&amp;query_hl=1&amp;itool=pubmed_docsum" target="_blank">14702039</a></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Position</td>
+<td colspan="1" valign="top">NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 4). </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>5.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top">Deloukas,P. Earthrowl,M.E. Grafham,D.V.
+Rubenfield,M. French,L. Steward,C.A. Sims,S.K. Jones,M.C. Searle,S.
+Scott,C. Howe,K. Hunt,S.E. Andrews,T.D. Gilbert,J.G.R. Swarbreck,D.
+Ashurst,J.L. Taylor,A. Battles,J. Bird,C.P. Ainscough,R. Almeida,J.P.
+Ashwell,R.I.S. Ambrose,K.D. Babbage,A.K. Bagguley,C.L. Bailey,J.
+Banerjee,R. Bates,K. Beasley,H. Bray-Allen,S. Brown,A.J. Brown,J.Y.
+Burford,D.C. Burrill,W. Burton,J. Cahill,P. Camire,D. Carter,N.P.
+Chapman,J.C. Clark,S.Y. Clarke,G. Clee,C.M. Clegg,S. Corby,N.
+Coulson,A. Dhami,P. Dutta,I. Dunn,M. Faulkner,L. Frankish,A.
+Frankland,J.A. Garner,P. Garnett,J. Gribble,S. Griffiths,C. Grocock,R.
+Gustafson,E. Hammond,S. Harley,J.L. Hart,E. Heath,P.D. Ho,T.P.
+Hopkins,B. Horne,J. Howden,P.J. Huckle,E. Hynds,C. Johnson,C.
+Johnson,D. Kana,A. Kay,M. Kimberley,A.M. Kershaw,J.K. Kokkinaki,M.
+Laird,G.K. Lawlor,S. Lee,H.M. Leongamornlert,D.A. Laird,G. Lloyd,C.
+Lloyd,D.M. Loveland,J. Lovell,J. McLaren,S. McLay,K.E. McMurray,A.
+Mashreghi-Mohammadi,M. Matthews,L. Milne,S. Nickerson,T. Nguyen,M.
+Overton-Larty,E. Palmer,S.A. Pearce,A.V. Peck,A.I. Pelan,S.
+Phillimore,B. Porter,K. Rice,C.M. Rogosin,A. Ross,M.T. Sarafidou,T.
+Sehra,H.K. Shownkeen,R. Skuce,C.D. Smith,M. Standring,L. Sycamore,N.
+Tester,J. Thorpe,A. Torcasso,W. Tracey,A. Tromans,A. Tsolas,J. Wall,M.
+Walsh,J. Wang,H. Weinstock,K. West,A.P. Willey,D.L. Whitehead,S.L.
+Wilming,L. Wray,P.W. Young,L. Chen,Y. Lovering,R.C. Moschonas,N.K.
+Siebert,R. Fechtel,K. Bentley,D. Durbin,R.M. Hubbard,T.
+Doucette-Stamm,L. Beck,S. Smith,D.R. Rogers,J.; <b>"The DNA sequence and comparative analysis of human chromosome 10."; </b>&nbsp;Nature&nbsp;429:375-381 (2004)</td>
+</tr>
+<tr>
+<td align="left" valign="top"><table border="0" cellpadding="3" cellspacing="3">
+<tbody><tr>
+<td colspan="1" bgcolor="#efeff7" valign="top"><a href="http://www.doi.org/">Document&nbsp;Object&nbsp;Id</a></td>
+<td colspan="1" valign="top"><a href="http://dx.doi.org/10.1038/nature02462" target="_blank">10.1038/nature02462</a></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">PubMed</td>
+<td colspan="1" valign="top"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=15164054&amp;query_hl=1&amp;itool=pubmed_docsum" target="_blank">15164054</a></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Position</td>
+<td colspan="1" valign="top">NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]. </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>6.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top">Henderson,J.O. Blanc,V. Davidson,N.O.; <b>"Isolation, characterization and developmental regulation of the human apobec-1 complementation factor (ACF) gene."; </b>&nbsp;Biochim. Biophys. Acta&nbsp;1522:22-30 (2001)</td>
+</tr>
+<tr>
+<td align="left" valign="top"><table border="0" cellpadding="3" cellspacing="3">
+<tbody><tr>
+<td colspan="1" bgcolor="#efeff7" valign="top"><a href="http://www.doi.org/">Document&nbsp;Object&nbsp;Id</a></td>
+<td colspan="1" valign="top"><a href="http://dx.doi.org/10.1016/S0167-4781%2801%2900295-0" target="_blank">10.1016/S0167-4781(01)00295-0</a></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Medline (NCBI)</td>
+<td colspan="1" valign="top"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=11718896&amp;query_hl=1&amp;itool=pubmed_docsum" target="_blank">21575688</a></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">PubMed</td>
+<td colspan="1" valign="top"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=11718896&amp;query_hl=1&amp;itool=pubmed_docsum" target="_blank">11718896</a></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Position</td>
+<td colspan="1" valign="top">GENE STRUCTURE, AND ALTERNATIVE SPLICING. </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>7.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top">Anant,S. Henderson,J.O. Mukhopadhyay,D. Navaratnam,N. Kennedy,S. Min,J. Davidson,N.O.; <b>"Novel role for RNA-binding protein CUGBP2 in mammalian RNA editing. CUGBP2 modulates C to U editing of <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span> B mRNA by interacting with apobec-1 and ACF, the apobec-1 complementation factor."; </b>&nbsp;J. Biol. Chem.&nbsp;276:47338-47351 (2001)</td>
+</tr>
+<tr>
+<td align="left" valign="top"><table border="0" cellpadding="3" cellspacing="3">
+<tbody><tr>
+<td colspan="1" bgcolor="#efeff7" valign="top"><a href="http://www.doi.org/">Document&nbsp;Object&nbsp;Id</a></td>
+<td colspan="1" valign="top"><a href="http://dx.doi.org/10.1074/jbc.M104911200" target="_blank">10.1074/jbc.M104911200</a></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">PubMed</td>
+<td colspan="1" valign="top"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=11577082&amp;query_hl=1&amp;itool=pubmed_docsum" target="_blank">11577082</a></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Position</td>
+<td colspan="1" valign="top">IDENTIFICATION IN A COMPLEX WITH APOBEC1 AND CUGBP2. </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>8.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top">Mehta,A. Driscoll,D.M.; <b>"Identification of domains in apobec-1 complementation factor required for RNA binding and <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span>-B mRNA editing."; </b>&nbsp;RNA&nbsp;8:69-82 (2002)</td>
+</tr>
+<tr>
+<td align="left" valign="top"><table border="0" cellpadding="3" cellspacing="3">
+<tbody><tr>
+<td colspan="1" bgcolor="#efeff7" valign="top"><a href="http://www.doi.org/">Document&nbsp;Object&nbsp;Id</a></td>
+<td colspan="1" valign="top"><a href="http://dx.doi.org/10.1017/S1355838202015649" target="_blank">10.1017/S1355838202015649</a></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Medline (NCBI)</td>
+<td colspan="1" valign="top"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=11871661&amp;query_hl=1&amp;itool=pubmed_docsum" target="_blank">21860382</a></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">PubMed</td>
+<td colspan="1" valign="top"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=11871661&amp;query_hl=1&amp;itool=pubmed_docsum" target="_blank">11871661</a></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Position</td>
+<td colspan="1" valign="top">RNA-BINDING DOMAIN, AND MUTAGENESIS OF PHE-59; PHE-100; PHE-139; PHE-183; TYR-234 AND PHE-270. </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>9.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top">Chester,A. Somasekaram,A. Tzimina,M. Jarmuz,A. Gisbourne,J. O'Keefe,R. Scott,J. Navaratnam,N.; <b>"The <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span> B mRNA editing complex performs a multifunctional cycle and suppresses nonsense-mediated decay."; </b>&nbsp;EMBO J.&nbsp;22:3971-3982 (2003)</td>
+</tr>
+<tr>
+<td align="left" valign="top"><table border="0" cellpadding="3" cellspacing="3">
+<tbody><tr>
+<td colspan="1" bgcolor="#efeff7" valign="top"><a href="http://www.doi.org/">Document&nbsp;Object&nbsp;Id</a></td>
+<td colspan="1" valign="top"><a href="http://dx.doi.org/10.1093/emboj/cdg369" target="_blank">10.1093/emboj/cdg369</a></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">PubMed</td>
+<td colspan="1" valign="top"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=12881431&amp;query_hl=1&amp;itool=pubmed_docsum" target="_blank">12881431</a></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Position</td>
+<td colspan="1" valign="top">FUNCTION, AND SUBCELLULAR LOCATION. </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>10.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top">Blanc,V. Kennedy,S. Davidson,N.O.; <b>"A
+novel nuclear localization signal in the auxiliary domain of apobec-1
+complementation factor regulates nucleocytoplasmic import and
+shuttling."; </b>&nbsp;J. Biol. Chem.&nbsp;278:41198-41204 (2003)</td>
+</tr>
+<tr>
+<td align="left" valign="top"><table border="0" cellpadding="3" cellspacing="3">
+<tbody><tr>
+<td colspan="1" bgcolor="#efeff7" valign="top"><a href="http://www.doi.org/">Document&nbsp;Object&nbsp;Id</a></td>
+<td colspan="1" valign="top"><a href="http://dx.doi.org/10.1074/jbc.M302951200" target="_blank">10.1074/jbc.M302951200</a></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">PubMed</td>
+<td colspan="1" valign="top"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=12896982&amp;query_hl=1&amp;itool=pubmed_docsum" target="_blank">12896982</a></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Position</td>
+<td colspan="1" valign="top">NUCLEAR LOCALIZATION SIGNAL, AND INTERACTION WITH TNPO2. </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>11.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top">RIKEN structural genomics initiative (RSGI) <b>"Solution structure of the RNA recognition motif of human APOBEC-1 complementation factor, ACF."; </b> Submitted (NOV-2005) to the PDB data bank. </td>
+</tr>
+<tr>
+<td align="left" valign="top"><table border="0" cellpadding="3" cellspacing="3">
+<tbody><tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Consortium</td>
+<td colspan="1" valign="top">RIKEN structural genomics initiative (RSGI)</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Position</td>
+<td colspan="1" valign="top">STRUCTURE BY NMR OF 223-308. </td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr></tbody><script language="JavaScript">
+ var sectionName='section_swissComments';
+ if(collapsibleSections == ''){
+  var collapsibleSections=(sectionName);
+ } else {
+  var collapsibleSections=(collapsibleSections + "@" + sectionName);
+ }
+</script>
+
+
+<tbody><tr>
+<td colspan="2" bgcolor="#aad2f5" valign="top" width=""><a href="javascript:toggleRegion('section_swissComments',0);" id="imgLink_image_section_swissComments"><img src="UNIPROT_Q9NQ94_srs_files/minus.gif" id="image_section_swissComments" align="center" border="0"></a>
+<a class="sectionHead" name="swissComments">Comments</a></td>
+</tr></tbody><tbody id="section_swissComments">
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>FUNCTION</b></font></td>
+<td colspan="1" valign="top"> Essential component of the <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span>
+B mRNA editing enzyme complex which is responsible for the
+postranscriptional editing of a CAA codon for Gln to a UAA codon for
+stop in APOB mRNA. Binds to APOB mRNA and is probably responsible for
+docking the catalytic subunit, APOBEC1, to the mRNA to allow it to
+deaminate its target cytosine. The complex also protects the edited
+APOB mRNA from nonsense-mediated decay. </td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>SUBUNIT</b></font></td>
+<td colspan="1" valign="top"> Part of the <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span>
+B mRNA editing complex with APOBEC1. Found in a complex with APOBEC1
+and CUGBP2. Interacts with KHSRP/KRSP which is not required for APOBEC1
+activity but which may confer stability on the editing complex. Also
+interacts with the nuclear import protein TNPO2/TRN2 which may be
+responsible for its transport into the nucleus. </td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>SUBCELLULAR LOCATION</b></font></td>
+<td colspan="1" valign="top"> Nucleus. Endoplasmic reticulum (By
+similarity). Cytoplasm. Note=Predominantly nuclear where it localizes
+to heterochromatin. Also cytoplasmic where it is found at the outer
+surface of the endoplasmic reticulum (By similarity). Shuttles between
+the nucleus and cytoplasm. May be transported into the nucleus by the
+nuclear import protein TNPO2/TRN2 or by APOBEC1. </td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>ALTERNATIVE PRODUCTS</b></font></td>
+<td colspan="1" valign="top"> Event=Alternative splicing; Named isoforms=6; Name=1; IsoId=<a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Buniprotvarsplice-AccNumber:Q9NQ94-1%5D">Q9NQ94-1</a>; Sequence=Displayed; Name=2; IsoId=<a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Buniprotvarsplice-AccNumber:Q9NQ94-2%5D">Q9NQ94-2</a>; Sequence=VSP_051929; Note=Major isoform found in 66-78% of cDNA clones; Name=3; IsoId=<a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Buniprotvarsplice-AccNumber:Q9NQ94-3%5D">Q9NQ94-3</a>; Sequence=VSP_051926, VSP_051929; Name=4; IsoId=<a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Buniprotvarsplice-AccNumber:Q9NQ94-4%5D">Q9NQ94-4</a>;
+Sequence=VSP_051927, VSP_051929; Note=No experimental confirmation
+available. Does not exhibit APOBEC1 complementation activity; Name=5;
+IsoId=<a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Buniprotvarsplice-AccNumber:Q9NQ94-5%5D">Q9NQ94-5</a>; Sequence=VSP_051925; Note=Does not exhibit APOBEC1 complementation activity; Name=6; IsoId=<a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Buniprotvarsplice-AccNumber:Q9NQ94-6%5D">Q9NQ94-6</a>; Sequence=VSP_051928; Note=Minor isoform found in 2-3% of cDNA clones; </td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>TISSUE SPECIFICITY</b></font></td>
+<td colspan="1" valign="top"> Widely expressed with highest levels in brain, liver, pancreas, colon and spleen. </td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>DOMAIN</b></font></td>
+<td colspan="1" valign="top"> The RRM domains are necessary but not
+sufficient for binding to APOB mRNA. Additional residues in the pre-RRM
+and C-terminal regions are required for RNA-binding and for
+complementing APOBEC1 activity. </td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>SIMILARITY</b></font></td>
+<td colspan="1" valign="top"> Contains 3 RRM (RNA recognition motif) domains. </td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>SEQUENCE CAUTION</b></font></td>
+<td colspan="1" valign="top"> Sequence=BAA91086.1; Type=Frameshift; Positions=148; </td>
+</tr></tbody><script language="JavaScript">
+ var sectionName='section_swissLinks';
+ if(collapsibleSections == ''){
+  var collapsibleSections=(sectionName);
+ } else {
+  var collapsibleSections=(collapsibleSections + "@" + sectionName);
+ }
+</script>
+
+
+<tbody><tr>
+<td colspan="2" bgcolor="#aad2f5" valign="top" width=""><a href="javascript:toggleRegion('section_swissLinks',0);" id="imgLink_image_section_swissLinks"><img src="UNIPROT_Q9NQ94_srs_files/minus.gif" id="image_section_swissLinks" align="center" border="0"></a>
+<a class="sectionHead" name="swissLinks">Database Cross-References</a></td>
+</tr></tbody><tbody id="section_swissLinks">
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">EMBL</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs682=%7Bembl%20genbank%20refseq%7D-AccNumber:AJ272078%5D">AJ272078</a>; <a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs683=%7Bembl%20genbank%20refseq%7D-ProteinID:CAB94754.1%5D%3Eparent">CAB94754.1</a>; -; mRNA.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">EMBL</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs684=%7Bembl%20genbank%20refseq%7D-AccNumber:AJ272079%5D">AJ272079</a>; <a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs685=%7Bembl%20genbank%20refseq%7D-ProteinID:CAB94755.1%5D%3Eparent">CAB94755.1</a>; -; mRNA.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">EMBL</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs686=%7Bembl%20genbank%20refseq%7D-AccNumber:AF209192%5D">AF209192</a>; <a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs687=%7Bembl%20genbank%20refseq%7D-ProteinID:AAF34824.1%5D%3Eparent">AAF34824.1</a>; -; mRNA.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">EMBL</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs688=%7Bembl%20genbank%20refseq%7D-AccNumber:AF271789%5D">AF271789</a>; <a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs689=%7Bembl%20genbank%20refseq%7D-ProteinID:AAF76221.1%5D%3Eparent">AAF76221.1</a>; -; mRNA.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">EMBL</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs690=%7Bembl%20genbank%20refseq%7D-AccNumber:AF271790%5D">AF271790</a>; <a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs691=%7Bembl%20genbank%20refseq%7D-ProteinID:AAF76222.1%5D%3Eparent">AAF76222.1</a>; -; mRNA.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">EMBL</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs692=%7Bembl%20genbank%20refseq%7D-AccNumber:AK000324%5D">AK000324</a>; <a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs693=%7Bembl%20genbank%20refseq%7D-ProteinID:BAA91086.1%5D%3Eparent">BAA91086.1</a>; ALT_FRAME; mRNA.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">EMBL</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs694=%7Bembl%20genbank%20refseq%7D-AccNumber:AL512366%5D">AL512366</a>; <a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs695=%7Bembl%20genbank%20refseq%7D-ProteinID:CAI14233.1%5D%3Eparent">CAI14233.1</a>; -; Genomic_DNA.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">EMBL</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs696=%7Bembl%20genbank%20refseq%7D-AccNumber:AL589794%5D">AL589794</a>; <a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs697=%7Bembl%20genbank%20refseq%7D-ProteinID:CAI14233.1%5D%3Eparent">CAI14233.1</a>; JOINED; Genomic_DNA.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">EMBL</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs698=%7Bembl%20genbank%20refseq%7D-AccNumber:AL512366%5D">AL512366</a>; <a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs699=%7Bembl%20genbank%20refseq%7D-ProteinID:CAI14235.1%5D%3Eparent">CAI14235.1</a>; -; Genomic_DNA.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">EMBL</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs700=%7Bembl%20genbank%20refseq%7D-AccNumber:AL589794%5D">AL589794</a>; <a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs701=%7Bembl%20genbank%20refseq%7D-ProteinID:CAI14235.1%5D%3Eparent">CAI14235.1</a>; JOINED; Genomic_DNA.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">EMBL</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs702=%7Bembl%20genbank%20refseq%7D-AccNumber:AL512366%5D">AL512366</a>; <a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs703=%7Bembl%20genbank%20refseq%7D-ProteinID:CAI14236.1%5D%3Eparent">CAI14236.1</a>; -; Genomic_DNA.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">EMBL</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs704=%7Bembl%20genbank%20refseq%7D-AccNumber:AL589794%5D">AL589794</a>; <a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs705=%7Bembl%20genbank%20refseq%7D-ProteinID:CAI14236.1%5D%3Eparent">CAI14236.1</a>; JOINED; Genomic_DNA.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">EMBL</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs706=%7Bembl%20genbank%20refseq%7D-AccNumber:AL589794%5D">AL589794</a>; <a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs707=%7Bembl%20genbank%20refseq%7D-ProteinID:CAI15762.1%5D%3Eparent">CAI15762.1</a>; -; Genomic_DNA.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">EMBL</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs708=%7Bembl%20genbank%20refseq%7D-AccNumber:AL512366%5D">AL512366</a>; <a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs709=%7Bembl%20genbank%20refseq%7D-ProteinID:CAI15762.1%5D%3Eparent">CAI15762.1</a>; JOINED; Genomic_DNA.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">EMBL</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs710=%7Bembl%20genbank%20refseq%7D-AccNumber:AL589794%5D">AL589794</a>; <a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs711=%7Bembl%20genbank%20refseq%7D-ProteinID:CAI15763.1%5D%3Eparent">CAI15763.1</a>; -; Genomic_DNA.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">EMBL</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs712=%7Bembl%20genbank%20refseq%7D-AccNumber:AL512366%5D">AL512366</a>; <a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs713=%7Bembl%20genbank%20refseq%7D-ProteinID:CAI15763.1%5D%3Eparent">CAI15763.1</a>; JOINED; Genomic_DNA.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">EMBL</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs714=%7Bembl%20genbank%20refseq%7D-AccNumber:AL589794%5D">AL589794</a>; <a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs715=%7Bembl%20genbank%20refseq%7D-ProteinID:CAI15764.1%5D%3Eparent">CAI15764.1</a>; -; Genomic_DNA.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">EMBL</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs716=%7Bembl%20genbank%20refseq%7D-AccNumber:AL512366%5D">AL512366</a>; <a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs717=%7Bembl%20genbank%20refseq%7D-ProteinID:CAI15764.1%5D%3Eparent">CAI15764.1</a>; JOINED; Genomic_DNA.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">IPI</td>
+<td colspan="1" valign="top"><a href="http://www.ebi.ac.uk/cgi-bin/dbfetch?db=IPI&amp;id=IPI00071360" target="_blank">IPI00071360</a>; -.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">IPI</td>
+<td colspan="1" valign="top"><a href="http://www.ebi.ac.uk/cgi-bin/dbfetch?db=IPI&amp;id=IPI00148257" target="_blank">IPI00148257</a>; -.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">IPI</td>
+<td colspan="1" valign="top"><a href="http://www.ebi.ac.uk/cgi-bin/dbfetch?db=IPI&amp;id=IPI00299499" target="_blank">IPI00299499</a>; -.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">IPI</td>
+<td colspan="1" valign="top"><a href="http://www.ebi.ac.uk/cgi-bin/dbfetch?db=IPI&amp;id=IPI00657723" target="_blank">IPI00657723</a>; -.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">IPI</td>
+<td colspan="1" valign="top"><a href="http://www.ebi.ac.uk/cgi-bin/dbfetch?db=IPI&amp;id=IPI00657770" target="_blank">IPI00657770</a>; -.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">IPI</td>
+<td colspan="1" valign="top"><a href="http://www.ebi.ac.uk/cgi-bin/dbfetch?db=IPI&amp;id=IPI00657992" target="_blank">IPI00657992</a>; -.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">RefSeq</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Brefseqp-SeqVersion:NP_055391.2%5D">NP_055391.2</a>; -.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">RefSeq</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Brefseqp-SeqVersion:NP_620310.1%5D">NP_620310.1</a>; -.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">RefSeq</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Brefseqp-SeqVersion:NP_620311.1%5D">NP_620311.1</a>; -.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">UniGene</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Bunigene-ID:Hs.499643%5D">Hs.499643</a>; -.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">PDB</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs718=%7Bpdbmodel%20pdb%7D-ID:2CPD%5D">2CPD</a>; NMR; -; A=223-308.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">PDBsum</td>
+<td colspan="1" valign="top"><a href="http://www.ebi.ac.uk/thornton-srv/databases/cgi-bin/pdbsum/GetPage.pl?pdbcode=2CPD%5D" target="_blank">2CPD</a>; -.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">SMR</td>
+<td colspan="1" valign="top"><a href="http://swissmodel.expasy.org/repository/smr.php?sptr_ac=+Q9NQ94" target="_blank">Q9NQ94</a>; 128-230.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">PhosphoSite</td>
+<td colspan="1" valign="top"><a href="http://www.phosphosite.org/uniprotAccAction.do?id=Q9NQ94" target="_blank">Q9NQ94</a>; -.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">PRIDE</td>
+<td colspan="1" valign="top"><a href="http://www.ebi.ac.uk/pride/searchSummary.do?queryTypeSelected=identification%20accession%20number&amp;identificationAccessionNumber=Q9NQ94" target="_blank">Q9NQ94</a>; -.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Ensembl</td>
+<td colspan="1" valign="top"><a href="http://www.ensembl.org/Homo_sapiens/geneview?gene=ENSG00000148584" target="_blank">ENSG00000148584</a>; Homo sapiens.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">GeneID</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Bentrezgene-ID:29974%5D">29974</a>; -.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">KEGG</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Blibs719=%7Bkegggenes_aa%20kegggenes_na%7D-AccNumber:hsa:29974%5D">hsa:29974</a>; -.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">GeneCards</td>
+<td colspan="1" valign="top"><a href="http://bioinfo.weizmann.ac.il/cards-bin/carddisp?gc_id=GC10M052237" target="_blank">GC10M052237</a>; -.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">H-InvDB</td>
+<td colspan="1" valign="top"><a href="http://www.jbirc.aist.go.jp/hinv/soup/pub_Locus.pl?locus_id=HIX0004173" target="_blank">HIX0004173</a>; -.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">H-InvDB</td>
+<td colspan="1" valign="top"><a href="http://www.jbirc.aist.go.jp/hinv/soup/pub_Locus.pl?locus_id=HIX0008828" target="_blank">HIX0008828</a>; -.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">HGNC</td>
+<td colspan="1" valign="top"><a href="http://www.genenames.org/data/hgnc_data.php?hgnc_id=24086" target="_blank">HGNC:24086</a>; A1CF.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">HOVERGEN</td>
+<td colspan="1" valign="top"><a href="http://pbil.univ-lyon1.fr/cgi-bin/acnuc-ac2tree?query=Q9NQ94&amp;db=HOVERGEN" target="_blank">Q9NQ94</a>; -.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">OMA</td>
+<td colspan="1" valign="top">Q9NQ94; AFPGYAV.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Reactome</td>
+<td colspan="1" valign="top"><a href="http://www.reactome.org/cgi-bin/search?QUERY_CLASS=DatabaseIdentifier&amp;QUERY=UniProt:REACT_1675" target="_blank">REACT_1675</a>; mRNA Processing.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">NextBio</td>
+<td colspan="1" valign="top"><a href="http://www.nextbio.com/b/home/home.nb?id=52719&amp;type=feature" target="_blank">52719</a>; -.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">ArrayExpress</td>
+<td colspan="1" valign="top"><a href="http://www.ebi.ac.uk/aedw/dwd?uniprot=Q9NQ94" target="_blank">Q9NQ94</a>; -.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Bgee</td>
+<td colspan="1" valign="top"><a href="http://bgee.unil.ch/bgee/bgee?uniprot_id=Q9NQ94" target="_blank">Q9NQ94</a>; -.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">CleanEx</td>
+<td colspan="1" valign="top"><a href="http://www.cleanex.isb-sib.ch/cgi-bin/get_doc?db=cleanex&amp;format=nice&amp;entry=HS_A1CF" target="_blank">HS_A1CF</a>; -.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">GermOnline</td>
+<td colspan="1" valign="top"><a href="http://germonline.unibas.ch/gene_page.php?orf_id=ENSG00000148584" target="_blank">ENSG00000148584</a>; Homo sapiens.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">GO</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Bgo-AllIDs:GO:0030895%5D">GO:0030895</a>; C:<span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span> B mRNA editing enzyme complex; IDA:UniProtKB.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">GO</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Bgo-AllIDs:GO:0005783%5D">GO:0005783</a>; C:endoplasmic reticulum; IEA:UniProtKB-KW.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">GO</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Bgo-AllIDs:GO:0000166%5D">GO:0000166</a>; F:nucleotide binding; IEA:InterPro.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">GO</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Bgo-AllIDs:GO:0005515%5D">GO:0005515</a>; F:protein binding; IPI:UniProtKB.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">GO</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Bgo-AllIDs:GO:0003727%5D">GO:0003727</a>; F:single-stranded RNA binding; IDA:UniProtKB.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">GO</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Bgo-AllIDs:GO:0006397%5D">GO:0006397</a>; P:mRNA processing; IEA:UniProtKB-KW.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">GO</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Bgo-AllIDs:GO:0050821%5D">GO:0050821</a>; P:protein stabilization; IDA:UniProtKB.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">InterPro</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Binterpro-AccNumber:IPR012677%5D">IPR012677</a>; a_b_plait_nuc_bd.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">InterPro</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Binterpro-AccNumber:IPR006535%5D">IPR006535</a>; HnRNP_R_Q.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">InterPro</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Binterpro-AccNumber:IPR000504%5D">IPR000504</a>; RRM_RNP1.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Gene3D</td>
+<td colspan="1" valign="top"><a href="http://cathwww.biochem.ucl.ac.uk/latest/class3/30/70/330/index.html" target="_blank">G3DSA:3.30.70.330</a>; a_b_plait_nuc_bd; 3.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Pfam</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Bpfama-AccNumber:PF00076%5D">PF00076</a>; RRM_1; 3.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">SMART</td>
+<td colspan="1" valign="top"><a href="http://smart.embl-heidelberg.de/smart/do_annotation.pl?BLAST=DUMMY&amp;ACC=SM00360" target="_blank">SM00360</a>; RRM; 3.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">TIGRFAMs</td>
+<td colspan="1" valign="top"><a href="http://www.tigr.org/tigr-scripts/CMR2/hmm_report.spl?acc=TIGR01648" target="_blank">TIGR01648</a>; hnRNP-R-Q; 1.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">PROSITE</td>
+<td colspan="1" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Bprosite-AccNumber:PS50102%5D">PS50102</a>; RRM; 3.
+</td>
+</tr></tbody><script language="JavaScript">
+ var sectionName='section_swissFeatures';
+ if(collapsibleSections == ''){
+  var collapsibleSections=(sectionName);
+ } else {
+  var collapsibleSections=(collapsibleSections + "@" + sectionName);
+ }
+</script>
+
+
+<tbody><tr>
+<td colspan="2" bgcolor="#aad2f5" valign="top" width=""><a href="javascript:toggleRegion('section_swissFeatures',0);" id="imgLink_image_section_swissFeatures"><img src="UNIPROT_Q9NQ94_srs_files/minus.gif" id="image_section_swissFeatures" align="center" border="0"></a>
+<a class="sectionHead" name="swissFeatures">Features</a></td>
+</tr></tbody><tbody id="section_swissFeatures">
+<tr>
+<td colspan="5" valign="top"><img src="UNIPROT_Q9NQ94_srs_files/findTempImage.png" usemap="#mapperimmap799930" align="bottom" border="0"><map name="mapperimmap799930"><area shape="rect" coords="1,1,699,4" href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_1%5D" title="CHAIN:1 594, APOBEC1 complementation factor. "><area shape="rect" coords="65,4,156,7" href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_2%5D" title="DOMAIN:56 134, RRM 1. "><area shape="rect" coords="160,7,256,10" href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_3%5D" title="DOMAIN:136 218, RRM 2. "><area shape="rect" coords="272,10,356,13" href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_4%5D" title="DOMAIN:231 303, RRM 3. "><area shape="rect" coords="424,13,481,16" href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_5%5D" title="REGION:360 409, Required for nuclear localization. "><area shape="rect" coords="1,16,98,19" href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_6%5D" title="VAR_SEQ:1 84, Missing (in isoform 5). "><area shape="rect" coords="1,19,38,22" href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_7%5D" title="VAR_SEQ:1 33, MESNHKSGDGLSGTQKEAALRALVQRTGYSLVQ -&gt; MLCS PSFCKLCWKRKK (in isoform 3). "><area shape="rect" coords="1,22,38,25" href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_8%5D" title="VAR_SEQ:1 33, MESNHKSGDGLSGTQKEAALRALVQRTGYSLVQ -&gt; MEAV CLGTCPEPEASMSTAIPGLKKGNNALQSIILQTLLEK (in isoform 4). "><area shape="rect" coords="238,25,301,28" href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_9%5D" title="VAR_SEQ:202 256, Missing (in isoform 6). "><area shape="rect" coords="448,28,456,31" href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_10%5D" title="VAR_SEQ:381 388, Missing (in isoform 2, isoform 3 and isoform 4). "><area shape="rect" coords="654,31,659,34" href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_11%5D" title="VARIANT:555 555, V -&gt; M (in dbSNP:rs9073). "><area shape="rect" coords="69,34,74,37" href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_12%5D" title="MUTAGEN:59 59, F-&gt;A: Greatly reduced RNA binding. "><area shape="rect" coords="117,37,122,40" href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_13%5D" title="MUTAGEN:100 100, F-&gt;A: Greatly reduced RNA binding. "><area shape="rect" coords="163,40,168,43" href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_14%5D" title="MUTAGEN:139 139, F-&gt;A: Greatly reduced RNA binding. "><area shape="rect" coords="215,43,220,46" href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_15%5D" title="MUTAGEN:183 183, F-&gt;A: Greatly reduced RNA binding. "><area shape="rect" coords="275,46,280,49" href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_16%5D" title="MUTAGEN:234 234, Y-&gt;A: Slightly reduced RNA binding. "><area shape="rect" coords="318,49,323,52" href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_17%5D" title="MUTAGEN:270 270, F-&gt;A: Slightly reduced RNA binding. "><area shape="rect" coords="225,52,230,55" href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_18%5D" title="CONFLICT:191 191, A -&gt; T (in Ref. 2; AAF34824). "><area shape="rect" coords="326,55,331,58" href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_19%5D" title="CONFLICT:277 277, E -&gt; K (in Ref. 2 and 3). "></map></td>
+</tr>
+<tr>
+<td colspan="6" align="left" valign="top"><table border="0" cellpadding="2" cellspacing="1" width="500">
+<tbody><tr>
+<td bgcolor="#aad2f5" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>Key</b></font></td>
+<td bgcolor="#aad2f5" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>Begin</b></font></td>
+<td bgcolor="#aad2f5" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>End</b></font></td>
+<td bgcolor="#aad2f5" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>Length</b></font></td>
+<td colspan="2" bgcolor="#aad2f5" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>Description</b></font></td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_1%5D">CHAIN</a>
+</td>
+<td align="right" valign="top">1</td>
+<td align="right" valign="top">594</td>
+<td align="right" bgcolor="#efeff7" valign="top">594</td>
+<td colspan="2" valign="top">APOBEC1 complementation factor. </td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_2%5D">DOMAIN</a>
+</td>
+<td align="right" valign="top">56</td>
+<td align="right" valign="top">134</td>
+<td align="right" bgcolor="#efeff7" valign="top">79</td>
+<td colspan="2" valign="top">RRM 1. </td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_3%5D">DOMAIN</a>
+</td>
+<td align="right" valign="top">136</td>
+<td align="right" valign="top">218</td>
+<td align="right" bgcolor="#efeff7" valign="top">83</td>
+<td colspan="2" valign="top">RRM 2. </td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_4%5D">DOMAIN</a>
+</td>
+<td align="right" valign="top">231</td>
+<td align="right" valign="top">303</td>
+<td align="right" bgcolor="#efeff7" valign="top">73</td>
+<td colspan="2" valign="top">RRM 3. </td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_5%5D">REGION</a>
+</td>
+<td align="right" valign="top">360</td>
+<td align="right" valign="top">409</td>
+<td align="right" bgcolor="#efeff7" valign="top">50</td>
+<td colspan="2" valign="top">Required for nuclear localization. </td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_6%5D">VAR_SEQ</a>
+</td>
+<td align="right" valign="top">1</td>
+<td align="right" valign="top">84</td>
+<td align="right" bgcolor="#efeff7" valign="top">84</td>
+<td colspan="2" valign="top">Missing (in isoform 5). </td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_7%5D">VAR_SEQ</a>
+</td>
+<td align="right" valign="top">1</td>
+<td align="right" valign="top">33</td>
+<td align="right" bgcolor="#efeff7" valign="top">33</td>
+<td colspan="2" valign="top">MESNHKSGDGLSGTQKEAALRALVQRTGYSLVQ -&gt; MLCS PSFCKLCWKRKK (in isoform 3). </td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_8%5D">VAR_SEQ</a>
+</td>
+<td align="right" valign="top">1</td>
+<td align="right" valign="top">33</td>
+<td align="right" bgcolor="#efeff7" valign="top">33</td>
+<td colspan="2" valign="top">MESNHKSGDGLSGTQKEAALRALVQRTGYSLVQ -&gt; MEAV CLGTCPEPEASMSTAIPGLKKGNNALQSIILQTLLEK (in isoform 4). </td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_9%5D">VAR_SEQ</a>
+</td>
+<td align="right" valign="top">202</td>
+<td align="right" valign="top">256</td>
+<td align="right" bgcolor="#efeff7" valign="top">55</td>
+<td colspan="2" valign="top">Missing (in isoform 6). </td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_10%5D">VAR_SEQ</a>
+</td>
+<td align="right" valign="top">381</td>
+<td align="right" valign="top">388</td>
+<td align="right" bgcolor="#efeff7" valign="top">8</td>
+<td colspan="2" valign="top">Missing (in isoform 2, isoform 3 and isoform 4). </td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_11%5D">VARIANT</a>
+</td>
+<td align="right" valign="top">555</td>
+<td align="right" valign="top">555</td>
+<td align="right" bgcolor="#efeff7" valign="top">1</td>
+<td colspan="2" valign="top">V -&gt; M (in dbSNP:rs9073). </td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_12%5D">MUTAGEN</a>
+</td>
+<td align="right" valign="top">59</td>
+<td align="right" valign="top">59</td>
+<td align="right" bgcolor="#efeff7" valign="top">1</td>
+<td colspan="2" valign="top">F-&gt;A: Greatly reduced RNA binding. </td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_13%5D">MUTAGEN</a>
+</td>
+<td align="right" valign="top">100</td>
+<td align="right" valign="top">100</td>
+<td align="right" bgcolor="#efeff7" valign="top">1</td>
+<td colspan="2" valign="top">F-&gt;A: Greatly reduced RNA binding. </td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_14%5D">MUTAGEN</a>
+</td>
+<td align="right" valign="top">139</td>
+<td align="right" valign="top">139</td>
+<td align="right" bgcolor="#efeff7" valign="top">1</td>
+<td colspan="2" valign="top">F-&gt;A: Greatly reduced RNA binding. </td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_15%5D">MUTAGEN</a>
+</td>
+<td align="right" valign="top">183</td>
+<td align="right" valign="top">183</td>
+<td align="right" bgcolor="#efeff7" valign="top">1</td>
+<td colspan="2" valign="top">F-&gt;A: Greatly reduced RNA binding. </td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_16%5D">MUTAGEN</a>
+</td>
+<td align="right" valign="top">234</td>
+<td align="right" valign="top">234</td>
+<td align="right" bgcolor="#efeff7" valign="top">1</td>
+<td colspan="2" valign="top">Y-&gt;A: Slightly reduced RNA binding. </td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_17%5D">MUTAGEN</a>
+</td>
+<td align="right" valign="top">270</td>
+<td align="right" valign="top">270</td>
+<td align="right" bgcolor="#efeff7" valign="top">1</td>
+<td colspan="2" valign="top">F-&gt;A: Slightly reduced RNA binding. </td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_18%5D">CONFLICT</a>
+</td>
+<td align="right" valign="top">191</td>
+<td align="right" valign="top">191</td>
+<td align="right" bgcolor="#efeff7" valign="top">1</td>
+<td colspan="2" valign="top">A -&gt; T (in Ref. 2; AAF34824). </td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?query=%5BUNIPROT_features-pac:Q9NQ94_19%5D">CONFLICT</a>
+</td>
+<td align="right" valign="top">277</td>
+<td align="right" valign="top">277</td>
+<td align="right" bgcolor="#efeff7" valign="top">1</td>
+<td colspan="2" valign="top">E -&gt; K (in Ref. 2 and 3). </td>
+</tr>
+</tbody></table>
+</td>
+</tr></tbody><script language="JavaScript">
+ var sectionName='section_swissSequence';
+ if(collapsibleSections == ''){
+  var collapsibleSections=(sectionName);
+ } else {
+  var collapsibleSections=(collapsibleSections + "@" + sectionName);
+ }
+</script>
+
+
+<tbody><tr>
+<td colspan="2" bgcolor="#aad2f5" valign="top" width=""><a href="javascript:toggleRegion('section_swissSequence',0);" id="imgLink_image_section_swissSequence"><img src="UNIPROT_Q9NQ94_srs_files/minus.gif" id="image_section_swissSequence" align="center" border="0"></a>
+<a class="sectionHead" name="swissSequence">Sequence</a></td>
+</tr></tbody><tbody id="section_swissSequence">
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Characteristics</td>
+<td colspan="1" valign="top">Length : <b>594</b>, molecular weight: <b>65202</b>, CRC64 check sum: <b>AA5EF76BD8815807</b></td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top">Sequence</td>
+<td valign="top"><textarea rows="15" cols="70" name="sequence" readonly="readonly">&gt;UNIPROT:Q9NQ94 RecName: Full=APOBEC1 complementation factor; AltName: Full=...
+MESNHKSGDGLSGTQKEAALRALVQRTGYSLVQENGQRKYGGPPPGWDAAPPERGCEIFI
+GKLPRDLFEDELIPLCEKIGKIYEMRMMMDFNGNNRGYAFVTFSNKVEAKNAIKQLNNYE
+IRNGRLLGVCASVDNCRLFVGGIPKTKKREEILSEMKKVTEGVVDVIVYPSAADKTKNRG
+FAFVEYESHRAAAMARRKLLPGRIQLWGHGIAVDWAEPEVEVDEDTMSSVKILYVRNLML
+STSEEMIEKEFNNIKPGAVERVKKIRDYAFVHFSNREDAVEAMKALNGKVLDGSPIEVTL
+AKPVDKDSYVRYTRGTGGRGTMLQGEYTYSLGQVYDPTTTYLGAPVFYAPQTYAAIPSLH
+FPATKGHLSNRAIIRAPSVREIYMNVPVGAAGVRGLGGRGYLAYTGLGRGYQVKGDKRED
+KLYDILPGMELTPMNPVTLKPQGIKLAPQILEEICQKNNWGQPVYQLHSAIGQDQRQLFL
+YKITIPALASQNPAIHPFTPPKLSAFVDEAKTYAAEYTLQTLGIPTDGGDGTMATAAAAA
+TAFPGYAVPNATAPVSAAQLKQAVTLGQDLAAYTTYEVYPTFAVTARGDGYGTF
+</textarea></td>
+</tr></tbody>
+</table>
+<div id="confirmDelete" class="tip2">
+<table align="center">
+<tbody><tr><td colspan="2">Are you sure you want to delete this annotation?</td></tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr><td align="right">
+<a href="javascript:confirmAnnotationDeleteAction('deleteAnnotation.do?referEntryId=UNIPROT:Q9NQ94&amp;pQ=q32&amp;sF=&amp;num=1&amp;total=2957&amp;sD=0&amp;pV=SeqSimple3D&amp;pDB=&amp;pC=&amp;pCT=&amp;pSt=1&amp;pSz=30&amp;pCN=');">
+<img src="UNIPROT_Q9NQ94_srs_files/btn_delete_off.gif" onmouseover="swapImage(this, 'images/biowisdom/btn_delete_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_delete_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_delete_on.gif');" border="0"></a></td>
+<td align="left"><a href="javascript:hideDivSection('confirmDelete');hideFreeze();">
+<img src="UNIPROT_Q9NQ94_srs_files/btn_cancel_off.gif" onmouseover="swapImage(this, 'images/biowisdom/btn_cancel_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_cancel_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_cancel_on.gif');" border="0"></a></td>
+</tr>	
+</tbody></table>
+</div>
+
+
+
+
+</form>
+
+</div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr>
+<td align="center"><img src="UNIPROT_Q9NQ94_srs_files/null.gif" border="0" height="50" width="10"></td>
+</tr>
+<tr>
+<td align="center"><img class="navBg" src="UNIPROT_Q9NQ94_srs_files/null.gif" height="1" width="600"></td>
+</tr>
+<tr>
+<td align="center">
+<p class="copy">SRS Release 8.3
+<a class="small" href="javascript:void(window.open('copyright.do','footerinfo','menubar=no,%20status=yes,%20toolbar=no,%20resizable=yes,%20scrollbars=yes,%20height=400,%20width=510'))">Copyright</a> © 2007 BioWisdom SRS Ltd. All Rights Reserved.
+<a class="small" href="javascript:void(window.open('termsofuse.do','footerinfo','menubar=no,%20status=yes,%20toolbar=no,%20resizable=yes,%20scrollbars=yes,%20height=400,%20width=510'))">Terms of Use</a>&nbsp;<a class="small" href="javascript:void(window.open('feedback.do','footerinfo','menubar=no,%20status=yes,%20toolbar=no,%20resizable=yes,%20scrollbars=yes,%20height=400,%20width=510'))">Feedback</a></p>
+</td></tr></tbody></table>
+<div id="popupInfo">Loading ...</div>
+<!-- This iFrame is required to display hidden DIV above select menus in IE -->
+<iframe id="frame" src="UNIPROT_Q9NQ94_srs_files/a.html" style="border: 0pt none ; position: absolute; display: block; z-index: 0; visibility: hidden;" frameborder="0" height="0" scrolling="no" width="0"></iframe>
+<div id="annotationDeleted" class="tip2">
+<table align="center" border="0">
+<tbody><tr><td align="center">Annotation deleted successfully !</td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td align="center">
+<a href="javascript:hideDivSection('annotationDeleted');">
+<img src="UNIPROT_Q9NQ94_srs_files/btn_close_off.gif" onmouseover="swapImage(this, 'images/biowisdom/btn_close_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_close_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_close_on.gif');" align="center" border="0"></a>
+</td></tr>
+
+</tbody></table>
+</div>
+</body></html>
