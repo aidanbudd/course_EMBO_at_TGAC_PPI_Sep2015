@@ -1,0 +1,937 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+
+
+<title>Entry view - LGLYCAN:G00261</title>
+<link href="LGLYCAN_G00261_textViewSrs_files/styles.css" rel="stylesheet" type="text/css">
+<link href="LGLYCAN_G00261_textViewSrs_files/entryviews.css" rel="stylesheet" type="text/css">
+<link href="LGLYCAN_G00261_textViewSrs_files/queryresults.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="http://srs.embl.de/srs/images/bwfavicon.ico" type="image/x-icon">    
+<script language="javascript" src="LGLYCAN_G00261_textViewSrs_files/srs_standard.js"></script>
+<script language="javascript" src="LGLYCAN_G00261_textViewSrs_files/AjaxServices.txt"> </script>
+<script language="javascript" src="LGLYCAN_G00261_textViewSrs_files/engine.js"> </script>
+<script language="javascript" src="LGLYCAN_G00261_textViewSrs_files/srs_ajax.js"> </script>
+<script language="javascript" src="LGLYCAN_G00261_textViewSrs_files/slider.js"></script>
+<script language="javascript" src="LGLYCAN_G00261_textViewSrs_files/export.js"></script>
+<script language="javascript" src="LGLYCAN_G00261_textViewSrs_files/entryviews.js"></script>
+<script language="javascript">
+  collapsibleSections="";
+  function resetHiddenFields() {
+	  document.getElementById('action').value = '';
+      document.getElementById('appToExport').value = '';
+      document.getElementById('viewForExport').value = '';
+      document.getElementById('queryString').value = document.getElementById('queryString_backup').value;
+      document.forms['primaryForm'].target = '';
+  }
+</script>
+
+</head><body onload="initiate();moveBack();setHighlightTerms();evaluateSections(collapsibleSections);">
+<form id="quickSearchBarForm" name="quickSearchForm" action="quickSearchToolBar.do" method="post">
+<div style="margin-left: 5px;"> 
+<table class="navBg" border="0" cellpadding="0" cellspacing="0" width="954">
+  <tbody><tr>
+    <td class="navBottomLeft" colspan="2" halign="right" rowspan="2" valign="top" width="80"><a href="http://srs.embl.de/srs/frontpage.do"><img halign="right" src="LGLYCAN_G00261_textViewSrs_files/logo.gif" title="Click here to go to the front page" border="0"></a>&nbsp;</td>
+    <td width="614"><table border="0" cellpadding="0" cellspacing="0" width="600">
+                <tbody><tr>
+                  <td width="28">&nbsp;&nbsp;&nbsp;Find&nbsp;</td>
+                  <td width="274"><input name="queryStrTextBoxHeader" onkeypress="return Qcodes(event, 'quicksearch')" id="queryStrTextBoxHeader" size="40" type="text"></td>
+				  <td id="toolBar_Synonyms" width="60">
+					<a href="javascript:getFinders('quickSearchForm',%20'queryStrTextBoxHeader_div',%20'queryStrTextBoxHeader');">
+                  <img id="synonymImage_queryStrTextBoxHeader_div" src="LGLYCAN_G00261_textViewSrs_files/synonym_select.gif" title="Find Synonyms" border="0">
+				  </a>
+                  </td>
+                  <td width="23">&nbsp;in&nbsp;</td>
+                  <td width="115">
+						  <table border="0" cellpadding="0" cellspacing="0" width="115">
+							<tbody><tr>
+							  <td valign="bottom">
+								  <div id="conceptSelected">Results Overview</div>
+								</td>
+							  <td align="left"><a href="#"><img id="dropdownboxarrow" src="LGLYCAN_G00261_textViewSrs_files/dropdownboxarrow.gif" style="position: relative;" align="top" border="0"></a></td>
+							</tr>
+							<tr><td align="left"><div id="quickSearchBarMenu" class="quickSearchBarMenu">
+							<table border="0" cellpadding="0" cellspacing="0">
+							<tbody><tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="all" onmousedown="selectedConcept('all','Results Overview');" href="#">Results Overview</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="nucleicAcidSeq" onmousedown="selectedConcept('nucleicAcidSeq REFSEQ EMBL GENBANK','Nucleic Acid Sequence');" href="#">Nucleic Acid Sequence<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ REFSEQ EMBL GENBANK&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="proteinSeq" onmousedown="selectedConcept('proteinSeq UNIPROT','Protein Sequence');" href="#">Protein Sequence<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ UNIPROT&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="proteinFamily" onmousedown="selectedConcept('proteinFamily INTERPRO','Protein Family/Domain');" href="#">Protein Family/Domain<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ INTERPRO&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="disease" onmousedown="selectedConcept('disease OMIM','Disease');" href="#">Disease<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ OMIM&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="enzyme" onmousedown="selectedConcept('enzyme ENZYME','Enzyme');" href="#">Enzyme<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ ENZYME&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="proteinFunction" onmousedown="selectedConcept('proteinFunction GO','Protein Function');" href="#">Protein Function<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ GO&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="genomicLocation" onmousedown="selectedConcept('genomicLocation ENTREZGENE','Genomic Location');" href="#">Genomic Location<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ ENTREZGENE&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="biologicalPathway" onmousedown="selectedConcept('biologicalPathway PATHWAY LREACTION LCOMPOUND LENZYME LGLYCAN REACTOME','Biological Pathway');" href="#">Biological Pathway<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ PATHWAY LREACTION LCOMPOUND LENZYME LGLYCAN REACTOME&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="threeDStructure" onmousedown="selectedConcept('threeDStructure PDB HSSP PSSH','Macromolecular Structure');" href="#">Macromolecular Structure<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ PDB HSSP PSSH&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="srsql" onmousedown="selectedConcept('srsql','SRS Query Language');" href="#">SRS Query Language</a>
+								</td>
+								</tr>
+								
+		                    <tr><td>&nbsp;</td></tr>
+								<tr>
+								<td align="right">
+								<a href="http://srs.embl.de/srs/userConcepts.do">Customize...</a>
+								</td>
+								</tr>
+							</tbody></table>
+							</div></td></tr>
+						  </tbody></table>					  
+				  <input name="menu_PreferredConcepts" id="menu_PreferredConcepts" value="all" type="hidden">
+				  <input name="menu_PreferredConceptsDisplay" id="menu_PreferredConceptsDisplay" value="all" type="hidden">
+					</td>
+                  <td width="100"><a name="link_searchBar_go_button" id="link_searchBar_go_button" href="javascript:quickSearchBarSubmit();"><img name="img_searchBar_go_button" id="img_searchBar_go_button" src="LGLYCAN_G00261_textViewSrs_files/btn_go_off.gif" onmouseover="swapImage(this, 'images/biowisdom/btn_go_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_go_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_go_on.gif');" border="0"></a> </td>
+     </tr>
+              </tbody></table>
+			  <script language="javascript">
+			  	document.getElementById('queryStrTextBoxHeader').value = "";
+			  </script>
+			  </td>
+    <td class="navTopRight" height="55"></td>
+  </tr>
+  <tr>
+    <!-- <td width="37" height="30" align="left"><img src="images/biowisdom/nav/bottom_left.gif" width="37" height="30"></td>
+	<td></td> -->
+    <td valign="bottom"><table border="0" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+          <td><a href="http://srs.embl.de/srs/quicksearches.do"><img style="cursor: pointer;" id="nav_mysrs" src="LGLYCAN_G00261_textViewSrs_files/nav_mysrs_off.gif" onmouseover="swapImage(this, 'images/biowisdom/nav/nav_mysrs_on.gif');" onmouseout="swapImage(this, 'images/biowisdom/nav/nav_mysrs_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/nav/nav_mysrs_on.gif');" border="0"></a><a href="http://srs.embl.de/srs/querybuilder.do"><img style="cursor: pointer;" id="nav_querybuilder" src="LGLYCAN_G00261_textViewSrs_files/nav_querybuilder_off.gif" onmouseover="swapImage(this, 'images/biowisdom/nav/nav_querybuilder_on.gif');" onmouseout="swapImage(this, 'images/biowisdom/nav/nav_querybuilder_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/nav/nav_querybuilder_on.gif');" border="0"></a><a href="http://srs.embl.de/srs/analysisTools.do"><img style="cursor: pointer;" id="nav_analysistools" src="LGLYCAN_G00261_textViewSrs_files/nav_analysistools_off.gif" onmouseover="swapImage(this, 'images/biowisdom/nav/nav_analysistools_on.gif');" onmouseout="swapImage(this, 'images/biowisdom/nav/nav_analysistools_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/nav/nav_analysistools_on.gif');" border="0"></a></td>
+          <td><table border="0" cellpadding="0" cellspacing="0"><tbody><tr>
+		  <td id="batchQueue"><img src="LGLYCAN_G00261_textViewSrs_files/null.gif" height="20" width="20"></td>
+			<td onmouseover="changehighlight('queryHistory', 'navTopOn');" onmouseout="changehighlight('queryHistory', 'navTopOff');" id="queryHistory" class="navTopOff"><a id="nav_queryHistory" href="http://srs.embl.de/srs/queryHistory.do">history</a></td><td>&nbsp;-&nbsp;</td>
+			<td onmouseover="changehighlight('customView', 'navTopOn');" onmouseout="changehighlight('customView', 'navTopOff');" id="customView" class="navTopOff" height="20"><a id="nav_customView" href="http://srs.embl.de/srs/customview.do">manage views</a></td><td>&nbsp;-&nbsp;</td>
+			<td onmouseover="changehighlight('databankInfo', 'navTopOn');" onmouseout="changehighlight('databankInfo', 'navTopOff');" id="databankInfo" class="navTopOff"><a id="nav_databankInfo" href="javascript:goToDatabankInfo();">databank list</a></td><td>&nbsp;-&nbsp;</td>
+			<td class="navHelp"><a id="nav_help" href="http://srs.embl.de/srs/docpage.do?page=doc/srsbooks/srs_user_guide/9_1.html" target="docPage">Help?</a></td>
+		  </tr></tbody></table></td>
+        </tr>
+      </tbody></table></td>
+    <td class="navlogin" align="right">
+	    <a href="http://srs.embl.de/srs/login?redirecturl=quicksearches.do">Log In</a>&nbsp;
+				</td>
+  </tr>
+</tbody></table>
+</div>
+<script language="javascript">
+function goToDatabankInfo(){
+	var cookieValue = getCookie("toolFilterCookie");
+	var cookieSortValue = getCookie("sortCookie");
+	var cookieReverseValue = getCookie("reverseCookie");
+    document.location = 'databanklist.do?filterTools='+cookieValue+'&sort='+cookieSortValue+'&reverse='+cookieReverseValue+'';
+}
+var thisIsFrontPage = false;
+</script>
+
+<script language="javascript" src="LGLYCAN_G00261_textViewSrs_files/synonyms.js"></script>
+<script language="javascript">createSynonymDivs('queryStrTextBoxHeader_div');</script><input id="hidden_previous_synonym_queryStrTextBoxHeader_div" name="hidden_synonym_queryStrTextBoxHeader_div" value="" type="hidden"><input id="synonymsSelected_queryStrTextBoxHeader_div" name="synonymsSelected_queryStrTextBoxHeader_div" value="" type="hidden"><div id="queryStrTextBoxHeader_div" class="synonymsContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td class="sectionHeading">Add Synonyms for :<div style="display: inline;" id="queryStrTextBoxHeader_div_searchTerm"></div></td><td><div id="queryStrTextBoxHeader_div_synonymsFindersContainerLaunch" class="synonymsFindersContainerLaunch"><a href="javascript:showFinders('queryStrTextBoxHeader_div')">Show Finders</a></div></td></tr></tbody></table><p></p><div class="synonymsMainArea"><div id="queryStrTextBoxHeader_div_synonymsFinderContainer" class="synonymsFinderContainer">Loading...</div><div id="queryStrTextBoxHeader_div_synonymsResultsContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td></td></tr><tr><td>&nbsp;<strong>Your results are :</strong><p></p></td><td>&nbsp;</td></tr><tr><td colspan="2"><div id="queryStrTextBoxHeader_div_synonymsResults" class="synonymsResultsContainer">Loading ....</div></td></tr></tbody></table></div></div><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td><p>&nbsp;<a href="javascript:hideSynonymPopup('queryStrTextBoxHeader_div','synonymImage_queryStrTextBoxHeader_div');%20hideFinders('queryStrTextBoxHeader_div');hideFreeze();"><img src="LGLYCAN_G00261_textViewSrs_files/btn_close_off.gif" id="synonymSearch" onmouseover="swapImage(this, 'images/biowisdom/btn_close_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_close_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_close_on.gif');" border="0"></a></p></td></tr></tbody></table></div>
+<script language="javascript">
+function showStopOption(type) {
+
+   // update the cookie with the ticket id in the model
+   setCookie('SRSACCESS_TICKET_ID', 'null|F44A79168EA1DB4F836C2BA973206137/20427');
+
+   document.getElementById('freezepage').style.display = "block";
+   document.getElementById('freezepage').style.visibility = "visible";
+   if (type == "annotations"){
+   	   document.getElementById('displayText').innerHTML = "SRS is processing...";
+   	   document.getElementById('stopOption').style.display = "block";
+   	   document.getElementById('stopOption').style.visibility = "visible";   
+   } else if (type == "freezeOnly"){
+   	   document.getElementById('stopOption').style.visibility = "hidden";
+	   document.getElementById('stopOption').style.display = "none";
+   }else{
+	   document.getElementById('stopOption').style.display = "block";
+   	   document.getElementById('stopOption').style.visibility = "visible";
+   }
+   updateWindowSizes();
+}
+
+function hideFreeze(){
+   document.getElementById('freezepage').style.visibility = "hidden";
+   document.getElementById('freezepage').style.display = "none";
+   document.getElementById('stopOption').style.visibility = "hidden";
+   document.getElementById('stopOption').style.display = "none";
+}
+
+function updateWindowSizes() {
+   var windowWidth = 0;
+   var windowHeight = 0;
+   var stopperWidth = 300;
+   var stopperHeight = 80;
+   if (document.all) {
+     windowWidth = document.documentElement.clientWidth;
+     windowHeight = document.documentElement.clientHeight;
+     if (windowWidth == 0) {
+       windowWidth = document.body.clientWidth;
+       windowHeight = document.body.clientHeight;
+     }
+   } else {
+     windowWidth = window.innerWidth;
+     windowHeight = window.innerHeight;
+   }
+   if (windowWidth < 300) {
+     windowWidth = 300;
+   }
+   if (windowHeight < 80) {
+     windowHeight = 80;
+   }
+   document.getElementById('freezepage').style.width = windowWidth + 'px';
+   document.getElementById('freezepage').style.height = windowHeight + 'px';
+   document.getElementById('stopOption').style.left = ((windowWidth - 300)/2) + 'px';
+   document.getElementById('stopOption').style.top = ((windowHeight - 80)/2) + 'px';
+}
+</script>  
+<style type="text/css">
+.freezepage{
+	background-image:url(images/shared/translucent_lightgrey.gif);
+	position:absolute;
+	top:expression((ignoreVar = document.documentElement.scrollTop) + "px");
+	left:expression((ignoreVar2 = document.documentElement.scrollLeft) + "px");
+	visibility:hidden;
+	z-index:101;
+}
+html[xmlns] .freezepage { 
+	background-image:url(images/shared/translucent_lightgrey.gif);
+    position: fixed;
+    top: 1px;
+	left:1px;
+	visibility:hidden;
+	z-index:101;
+} 
+html>body .freezepage { 
+	background-image:url(images/shared/translucent_lightgrey.gif);
+    position: fixed;
+    top: 1px;
+	left:1px;
+	visibility:hidden;
+	z-index:101;
+}
+.stopper{
+	background-color:#FFFFFF;
+	height: 80px;
+	width: 300px;
+	top: 800px;
+	position:absolute;
+	border:1px solid black;
+	z-index:999;
+	visibility:hidden;
+	display:none;
+}
+</style>
+<div id="freezepage" class="freezepage">
+<div id="stopOption" class="stopper">
+<table border="0" cellpadding="0" cellspacing="0" width="300">
+  <tbody><tr>
+    <td>
+	  <div align="center">
+<script language="JavaScript" type="text/javascript">
+	
+var requiredVersion = 7;   // Version the user needs to view site (max 9, min 2)
+var useRedirect = false;    // Flag indicating whether or not to load a separate page
+
+var flash2Installed = false;    // boolean. true if flash 2 is installed
+var flash3Installed = false;    // boolean. true if flash 3 is installed
+var flash4Installed = false;    // boolean. true if flash 4 is installed
+var flash5Installed = false;    // boolean. true if flash 5 is installed
+var flash6Installed = false;    // boolean. true if flash 6 is installed
+var flash7Installed = false;    // boolean. true if flash 7 is installed
+var flash8Installed = false;    // boolean. true if flash 8 is installed
+var flash9Installed = false;    // boolean. true if flash 9 is installed
+var maxVersion = 9;             // highest version we can actually detect
+var actualVersion = 0;          // version the user really has
+var hasRightVersion = false;    // boolean. true if it's safe to embed the flash movie in the page
+var jsVersion = 1.0;            // the version of javascript supported
+
+// Check the browser...we're looking for ie/win
+var isIE  = (navigator.appVersion.indexOf("MSIE") != -1) ? true : false;    // true if we're on ie
+var isWin = (navigator.appVersion.toLowerCase().indexOf("win") != -1) ? true : false; // true if we're on windows
+jsVersion = 1.1;
+
+if(isIE && isWin){
+  document.write('<SCR' + 'IPT LANGUAGE=VBScript\> \n');
+  document.write('on error resume next \n');
+  document.write('flash2Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.2"))) \n');
+  document.write('flash3Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.3"))) \n');
+  document.write('flash4Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.4"))) \n');
+  document.write('flash5Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.5"))) \n');  
+  document.write('flash6Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.6"))) \n');  
+  document.write('flash7Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.7"))) \n');
+  document.write('flash8Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.8"))) \n');
+  document.write('flash9Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.9"))) \n');
+  document.write('<\/SCR' + 'IPT\> \n'); // break up end tag so it doesn't end our script
+}
+
+function detectFlash() {  
+  // If navigator.plugins exists...
+  if (navigator.plugins) {
+    // ...then check for flash 2 or flash 3+.
+    if (navigator.plugins["Shockwave Flash 2.0"]
+        || navigator.plugins["Shockwave Flash"]) {
+
+      var isVersion2 = navigator.plugins["Shockwave Flash 2.0"] ? " 2.0" : "";
+      var flashDescription = navigator.plugins["Shockwave Flash" + isVersion2].description;
+
+      var flashVersion = parseInt(flashDescription.substring(16));
+
+      flash2Installed = flashVersion == 2;    
+      flash3Installed = flashVersion == 3;
+      flash4Installed = flashVersion == 4;
+      flash5Installed = flashVersion == 5;
+      flash6Installed = flashVersion == 6;
+      flash7Installed = flashVersion == 7;
+      flash8Installed = flashVersion == 8;
+      flash9Installed = flashVersion >= 9;
+    }
+  }
+  
+  for (var i = 2; i <= maxVersion; i++) {  
+    if (eval("flash" + i + "Installed") == true) actualVersion = i;
+  }
+  if(navigator.userAgent.indexOf("WebTV") != -1) actualVersion = 4;  
+  if (actualVersion >= requiredVersion) {
+    if (useRedirect) {
+      if(jsVersion > 1.0) {
+        window.location.replace(flashPage);  
+      } else {
+        window.location = flashPage;
+      }
+    }
+
+    hasRightVersion = true;                
+  } else {  
+    if (useRedirect) {
+       if(jsVersion > 1.0) {
+        window.location.replace((actualVersion >= 2) ? upgradePage : noFlashPage);
+      } else {
+        window.location = (actualVersion >= 2) ? upgradePage : noFlashPage;
+      }
+    }
+  }
+}
+
+detectFlash();  // call detector now that it's safely loaded. 
+
+	if (!useRedirect) {    // if dynamic embedding is turned on
+  if(hasRightVersion) {  // if we've detected an acceptable version
+    var oeTags = '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="80" height="30">'
++'<param name="movie" value="images/shared/helixv4.swf">'
++'<param name="quality" value="high">'
++'<embed src="images/shared/helixv4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="80" height="30"></embed>'
++'</object>';
+
+  document.write(oeTags);   
+  } else {  // flash is too old or we can't detect the plugin
+    // NOTE: height, width are required!
+    var alternateContent = '<IMG SRC="images/shared/helixv4.gif" HEIGHT="30" WIDTH="80">';
+     
+    document.write(alternateContent);  // insert non-flash content
+  }
+}
+</script><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" height="30" width="80"><param name="movie" value="images/shared/helixv4.swf"><param name="quality" value="high"><embed src="LGLYCAN_G00261_textViewSrs_files/helixv4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" height="30" width="80"></object>
+      </div>
+	  </td></tr><tr>
+    <td><div align="center">
+		<span id="displayText">SRS is searching...</span>
+		<p>
+        <a href="http://srs.embl.de/srs/cancelServices.do?ticketid=null%7CF44A79168EA1DB4F836C2BA973206137/20427">Click here to cancel</a></p></div></td>
+  </tr>
+</tbody></table>
+</div>
+</div></form>
+<p class="pageTitle">
+<span id="bookmark">
+		<a href="javascript:addBookmark('SRS%20Entry%20View%20-%20LGLYCAN:G00261',%20'http://srs.embl.de:80/srs/showEntryView.do?entryId=LGLYCAN:G00261&amp;entryView=LGLYCAN_Entry_View');">
+			<img src="LGLYCAN_G00261_textViewSrs_files/bookmark.gif" border="0">
+		</a>
+	</span>
+Entry view - LGLYCAN:G00261</p>
+<iframe id="quickSearchBarMenuiFrame" style="width: 390px; height: 160px; position: absolute; top: 1px; left: 1px; display: none; z-index: 25;" marginwidth="0" src="" marginheight="0" frameborder="0" scrolling="no"></iframe>
+<iframe id="synonymLaunchiFrame" style="width: 700px; height: 500px; position: absolute; top: 100px; left: 100px; display: none;" marginwidth="0" src="" marginheight="0" frameborder="0" scrolling="no"></iframe>
+<div class="mainPageAreaEntryViews">
+  <div id="deleteConfirmX" class="alertingTip"></div>
+
+<form method="post" name="primaryForm" action="updateEntryView.do">
+<!-- option panel -->
+<!-- Top Menu -->
+
+<input name="queryString" id="queryString" value="[LGLYCAN:G00261]" type="hidden">
+<input name="appToExport" id="appToExport" value="" type="hidden">
+<input name="viewForExport" id="viewForExport" value="" type="hidden">
+<input name="action" id="action" value="" type="hidden">
+<input name="entryId" id="entryId" value="LGLYCAN:G00261" type="hidden">
+<input name="entryView" id="entryView" value="LGLYCAN_Entry_View" type="hidden">
+
+<!-- summary sheet special -->
+<input name="input" id="input" value="LGLYCAN:G00261" type="hidden">
+
+<!-- fields used for dependency with query result page -->
+<input id="currentSearchSortField" name="currentSearchSortField" value="" type="hidden">
+<input id="currentSearchSortDirection" name="currentSearchSortDirection" value="0" type="hidden">
+<input id="currentSearchSelectedViewName" name="currentSearchSelectedViewName" value="LGLYCAN_Result_View" type="hidden">
+<input id="currentSearchFilteredDatabank" name="currentSearchFilteredDatabank" value="" type="hidden">
+<input id="currentSearchStart" name="currentSearchStart" value="1" type="hidden">
+<input id="currentSearchSize" name="currentSearchSize" value="30" type="hidden">
+<input id="selectedConceptName" name="selectedConceptName" value="" type="hidden">
+<input id="selectedConceptType" name="selectedConceptType" value="" type="hidden">
+<input id="primarySearchQueryName" name="primarySearchQueryName" value="q4" type="hidden">
+<input id="primarySearchParentQueryName" name="primarySearchParentQueryName" value="q4" type="hidden">
+<input id="parentConceptNames" name="parentConceptNames" value="" type="hidden">
+
+<!-- keeping a track of the parent entry position including when an annotation has been added -->
+<input id="entryPositionInSet" name="entryPositionInSet" value="2" type="hidden">
+<input id="totalEntriesInSet" name="totalEntriesInSet" value="6" type="hidden">
+<!-- Backup -->
+<input name="queryString_backup" id="queryString_backup" value="[LGLYCAN:G00261]" type="hidden">
+<!--  for back links with annotations  -->
+
+<input name="referEntryId" id="referEntryId" value="" type="hidden">
+<div id="displayOptionsContainer">
+	<!-- round corners  -->
+	<span class="topLeftImage"></span>
+	<span class="topRightImage"></span>
+
+  <table border="0" cellpadding="0" cellspacing="0">
+    <tbody><tr>
+      <td><img src="LGLYCAN_G00261_textViewSrs_files/null.gif" height="5"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;&nbsp;&nbsp;<strong>Options:</strong>&nbsp;</td>
+	  <td>
+		<div class="displayOptionsButton" id="actionsMenuButton" onmouseover="showMenu('actionsMenu')" onmouseout="hideMenu('actionsMenu');">
+			Actions <img class="arrowIcon" src="LGLYCAN_G00261_textViewSrs_files/options_tab_arrow.gif" title="Menu">
+		</div>
+  	  	<div id="actionsMenu" onmouseover="showMenu('actionsMenu')" onmouseout="hideMenu('actionsMenu');">
+		<a href="javascript:showStopOption('full');resetHiddenFields();setFormElementById('action','backToResults');document.forms['primaryForm'].submit();">Back to Results</a><br>
+		<a href="http://srs.embl.de/srs/showResults.do?query=%5BLGLYCAN:G00261%5D">Set As Primary Search</a><br>
+		</div>
+	  </td>
+      <td>
+		<div class="displayOptionsButton" id="viewsMenuButton" onmouseover="showMenu('viewsMenuEntry')" onmouseout="hideMenu('viewsMenuEntry');">
+			View <img class="arrowIcon" src="LGLYCAN_G00261_textViewSrs_files/options_tab_arrow.gif" title="Menu">
+		</div>
+  	  	<div style="visibility: hidden;" id="viewsMenuEntry" onmouseover="showMenu('viewsMenuEntry')" onmouseout="hideMenu('viewsMenuEntry');">
+	  <strong>LGlycan Entry</strong><br>
+			<a onclick="showStopOption('full');" href="http://srs.embl.de/srs/showEntryView.do?entryId=LGLYCAN:G00261&amp;pQ=q4&amp;ppQ=q4&amp;num=2&amp;total=6&amp;sF=&amp;sD=0&amp;pV=&amp;pDB=&amp;pC=&amp;pCT=&amp;pSt=1&amp;pSz=30&amp;pCN=&amp;entryView=CompleteEntry">
+					Text Entry</a><br>
+				
+			</div>
+	  </td>
+	<td style="padding-left: 20px; white-space: nowrap;">
+	<strong>View Summary Sheet:</strong>
+</td>	  
+<td>
+	<a onclick="showStopOption('full');" href="http://srs.embl.de/srs/showEntryView.do?entryId=LGLYCAN:G00261&amp;pQ=&amp;num=&amp;total=&amp;sF=&amp;sD=&amp;pV=&amp;pDB=&amp;pC=&amp;pCT=&amp;pSt=&amp;pSz=&amp;pCN=&amp;entryView=summarySheetView">
+		<img src="LGLYCAN_G00261_textViewSrs_files/icon_summarysheet.gif">
+	</a>
+</td>
+<td style="padding-left: 20px; white-space: nowrap;">
+	<strong>Get PDF version:</strong>
+</td>
+<td>
+	<a href="http://srs.embl.de/srs/showEntryViewAsPdf.do?entryId=LGLYCAN:G00261&amp;entryView=LGLYCAN_Entry_View"><img class="pdf" src="LGLYCAN_G00261_textViewSrs_files/pdf_icon.gif"></a>
+</td>
+<td style="padding-left: 20px; white-space: nowrap;">
+	<strong>View Databank:</strong>
+</td>
+<td>
+	<a href="http://srs.embl.de/srs/databankinfo.do?dbName=LGLYCAN"><img class="pdf" src="LGLYCAN_G00261_textViewSrs_files/icon_db.gif"></a>
+</td>
+<td class="resultNav">
+		<a onclick="showStopOption('full');" href="http://srs.embl.de/srs/showEntryView.do?entryId=LGLYCAN:G00207&amp;pQ=q4&amp;ppQ=q4&amp;num=1&amp;total=6&amp;sF=&amp;sD=0&amp;pV=&amp;pDB=&amp;pC=&amp;pCT=&amp;pSt=1&amp;pSz=30&amp;pCN=&amp;entryView=LGLYCAN_Entry_View">
+				&lt;
+			</a>
+		
+		
+		Page 2 of 6<a onclick="showStopOption('full');" href="http://srs.embl.de/srs/showEntryView.do?entryId=LGLYCAN:G00269&amp;pQ=q4&amp;ppQ=q4&amp;num=3&amp;total=6&amp;sF=&amp;sD=0&amp;pV=&amp;pDB=&amp;pC=&amp;pCT=&amp;pSt=1&amp;pSz=30&amp;pCN=&amp;entryView=LGLYCAN_Entry_View">
+				&gt;
+			</a>
+		</td>
+	</tr>
+  </tbody></table>
+</div>
+<div id="basessm" style="visibility: hidden; position: absolute; left: -2px; top: 169px; z-index: 20; width: 240px;">
+    <div id="thessm" style="position: absolute; left: -200px; top: 0px; z-index: 21; visibility: visible;">
+    <script type="text/javascript">
+function confirmDeleteEntry(divId, toolName) {
+	var ht = '<table><tr><td colspan="2" align="center">Do you wish to remove LGLYCAN:G00261 from your sequence database?</td></tr>';
+	ht = ht + '<tr><td align="right"><a id="' + divId + 'rename" href="javascript:hideDivSection(\'' + divId + '\');launchTool(\'' + toolName + '\');showStopOption(\'annotations\');">';
+	ht = ht + '<img border="0" src="images/biowisdom/btn_accept_off.gif" onmouseover="swapImage(this, \'images/biowisdom/btn_accept_hover.gif\');" onmouseout="swapImage(this, \'images/biowisdom/btn_accept_off.gif\');"/></a></td>';
+	ht = ht + '<td align="left"><a id="' + divId + 'cancelAlerting" href="javascript:hideDivSection(\'' + divId + '\');hideFreeze()">';
+	ht = ht + '<img border="0" src="images/biowisdom/btn_cancel_off.gif" onmouseover="swapImage(this, \'images/biowisdom/btn_cancel_hover.gif\');" onmouseout="swapImage(this, \'images/biowisdom/btn_cancel_off.gif\');"/></a></td></tr></table>';
+
+	document.getElementById(divId).innerHTML = ht
+	showDivSection(divId);
+	centerDivPosition(divId);
+	showStopOption('freezeOnly');
+}
+</script>
+    
+      <table border="0" cellpadding="0" cellspacing="0" width="216">
+        <tbody><tr>
+          <td class="toolsMainArea" valign="top" width="200"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+              <tbody><tr>
+                <td class="toolsHeading">Analysis Tools</td>
+              </tr>
+              <tr>
+                <td class="toolsContent"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tbody><tr>
+                      <td class="toolsContent2" align="left" valign="top" width="100%"><table border="0" cellpadding="2" cellspacing="2">
+                          <tbody><tr>
+                            <td valign="top"><a href="http://srs.embl.de/srs/analysisTools.do?queryString=%5BLGLYCAN:G00261%5D&amp;query=q16&amp;databanks=LGLYCAN">Go to Tools Page</a> </td>
+                          </tr>
+                          <tr>
+                                <td valign="top">No tools available for the current results</td>
+                              </tr>
+                        </tbody></table>
+                       </td>
+                    </tr>
+                  </tbody></table></td>
+              </tr>
+              
+              <tr>
+                <td class="toolsHeading">Save/Export</td>
+              </tr>
+              <tr>
+                <td class="toolsContent">
+                <table id="exportApplications" border="0" cellpadding="2" cellspacing="2">
+		                  <tbody><tr>
+		                        <td><a href="javascript:exportTo('txtXml','txt-xml');resetHiddenFields();">XML or Text format</a></td>
+		                        <td align="center"><img src="LGLYCAN_G00261_textViewSrs_files/txt_icon.gif"></td>
+		                      </tr>
+		                      <tr>
+		                        <td><a href="javascript:exportTo('pdf','');resetHiddenFields();">Acrobat PDF</a></td>
+		                        <td align="center"><img src="LGLYCAN_G00261_textViewSrs_files/pdf_icon.gif"></td>
+		                      </tr>
+		                      </tbody></table>
+	                </td>
+              </tr>
+              <tr>
+                <td class="toolsHeading">Link</td>
+              </tr>
+              <tr>
+                <td class="toolsContent"><p>
+                <a href="http://srs.embl.de/srs/updatelinkUniverse.do?fromQueryString=%5BLGLYCAN:G00261%5D&amp;fromQuery=q16&amp;fromDatabank=LGLYCAN&amp;mode=text&amp;action=redirect">
+                Link to...
+                </a><br>
+				</p></td>
+              </tr>
+              <tr>
+                <td class="toolsHeading">Term Highlighting</td>
+              </tr>
+              <tr>
+                <td class="toolsContent"><p>
+				</p><div id="highlightTermsTrigger"><a href="#" onclick="highlightTerms('false');">Switch Off</a></div>
+				
+                <br>
+                </td>
+              </tr>
+              
+            </tbody></table></td>
+          <td valign="top" width="16"><table border="0" cellpadding="0" cellspacing="0" width="16">
+              <tbody><tr>
+                <td class="toolsTab" onclick="movementDecider();" align="center" valign="top">&nbsp; T o o l s &nbsp;</td>
+              </tr>
+              <tr>
+                <td onclick="javascript:clickthrough();" onmouseover="this.style.cursor='hand'" onmouseout="this.style.cursor='pointer'" height="100" valign="top">&nbsp;</td>
+              </tr>
+            </tbody></table></td>
+        </tr>
+      </tbody></table>
+    </div>
+  </div>
+</form>
+<br>
+
+<form method="post" name="viewForm" action="updateEntryView.do">
+<table border="0" cellpadding="5" cellspacing="0">
+<tbody><tr>
+<td bgcolor="#aad2f5" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>Go To:</b></font></td>
+<td bgcolor="#aad2f5" valign="top"><a href="#lglycanGeneral">General</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#lglycanReferences">References</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#lglycanLinks">Cross-References</a>
+</td>
+</tr>
+</tbody></table>
+<table border="0" cellpadding="3" cellspacing="2" width="100%">
+<tbody><tr>
+<td colspan="2" bgcolor="#aad2f5" valign="top" width=""><a class="sectionHead" name="lglycanGeneral">General Information About The Entry</a></td>
+</tr>
+<tr>
+<td bgcolor="#a0b8dc" valign="top" width="85">ID</td>
+<td valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>G00261</b></font></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Structure</td>
+<td colspan="1" valign="top"><img src="LGLYCAN_G00261_textViewSrs_files/findTempImage.gif"></td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top">Composition</td>
+<td valign="top">(Gal)<sub>1</sub> (GalNAc)<sub>1</sub> (Neu<sub>5</sub>Ac)<sub>1</sub> </td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top">Class</td>
+<td valign="top">Glycoprotein Glycoprotein; Glycosaminoglycan Glycoprotein; N-Glycan Glycoprotein; O-Glycan Glycoprotein; Others </td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top">Mass</td>
+<td valign="top">674.6</td>
+<script language="JavaScript">
+ var sectionName='section_lglycanReferences';
+ if(collapsibleSections == ''){
+  var collapsibleSections=(sectionName);
+ } else {
+  var collapsibleSections=(collapsibleSections + "@" + sectionName);
+ }
+</script>
+
+</tr>
+<tr>
+<td colspan="2" bgcolor="#aad2f5" valign="top" width=""><a href="javascript:toggleRegion('section_lglycanReferences',0);" id="imgLink_image_section_lglycanReferences"><img src="LGLYCAN_G00261_textViewSrs_files/minus.gif" id="image_section_lglycanReferences" align="center" border="0"></a>
+<a class="sectionHead" name="lglycanReferences">References</a></td>
+</tr></tbody><tbody id="section_lglycanReferences">
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>1.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top">Sueyoshi,S. Sawada,R. Fukuda,M.; <b>"Carbohydrate structures of recombinant soluble lamp-1 and leukosialin containing sialyl Le(x) terminus."; </b>&nbsp;Bioorg. Med. Chem.&nbsp;2:1331-8 (1994)</td>
+</tr>
+<tr>
+<td align="left" valign="top"><table border="0" cellpadding="3" cellspacing="3">
+<tbody><tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">PubMed</td>
+<td colspan="1" valign="top"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&amp;cmd=Retrieve&amp;list_uids=7757427&amp;dopt=Abstract" target="_blank">7757427</a></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>2.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top">Capon,C. Wieruszeski,J.M. Lemoine,J. Byrd,J.C. Leffler,H. Kim,Y.S.; <b>"Sulfated lewis X determinants as a major structural motif in glycans from LS174T-HM7 human colon carcinoma mucin."; </b>&nbsp;J. Biol. Chem.&nbsp;272:31957-68 (1997)</td>
+</tr>
+<tr>
+<td align="left" valign="top"><table border="0" cellpadding="3" cellspacing="3">
+<tbody><tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">PubMed</td>
+<td colspan="1" valign="top"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&amp;cmd=Retrieve&amp;list_uids=9405387&amp;dopt=Abstract" target="_blank">9405387</a></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>3.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top">Garner,B. Merry,A.H. Royle,L. Harvey,D.J. Rudd,P.M. Thillet,J.; <b>"Structural elucidation of the N- and O-glycans of human <span class="termHighlight"><span class="termHighlight">apolipoprotein</span></span>(a): role of o-glycans in conferring protease resistance."; </b>&nbsp;J. Biol. Chem.&nbsp;276:22200-8 (2001)</td>
+</tr>
+<tr>
+<td align="left" valign="top"><table border="0" cellpadding="3" cellspacing="3">
+<tbody><tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">PubMed</td>
+<td colspan="1" valign="top"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&amp;cmd=Retrieve&amp;list_uids=11294842&amp;dopt=Abstract" target="_blank">11294842</a></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>4.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top">Wuttke,M. Muller,S. Nitsche,D.P. Paulsson,M. Hanisch,F.G. Maurer,P.; <b>"Structural
+characterization of human recombinant and bone-derived bone
+sialoprotein. Functional implications for cell attachment and
+hydroxyapatite binding."; </b>&nbsp;J. Biol. Chem.&nbsp;276:36839-48 (2001)</td>
+</tr>
+<tr>
+<td align="left" valign="top"><table border="0" cellpadding="3" cellspacing="3">
+<tbody><tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">PubMed</td>
+<td colspan="1" valign="top"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&amp;cmd=Retrieve&amp;list_uids=11459848&amp;dopt=Abstract" target="_blank">11459848</a></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>5.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top">Schulz,B.L. Oxley,D. Packer,N.H. Karlsson,N.G.; <b>"Identification
+of two highly sialylated human tear-fluid DMBT1 isoforms: the major
+high-molecular-mass glycoproteins in human tears."; </b>&nbsp;Biochem. J.&nbsp;366:511-20 (2002)</td>
+</tr>
+<tr>
+<td align="left" valign="top"><table border="0" cellpadding="3" cellspacing="3">
+<tbody><tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">PubMed</td>
+<td colspan="1" valign="top"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&amp;cmd=Retrieve&amp;list_uids=12015815&amp;dopt=Abstract" target="_blank">12015815</a></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>6.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top">Backstrom,M. Link,T. Olson,F.J. Karlsson,H. Graham,R. Picco,G. Burchell,J. Taylor-Papadimitriou,J. Noll,T. Hansson,G.C.; <b>"Recombinant MUC1 mucin with a breast cancer-like O-glycosylation produced in large amounts in Chinese-hamster ovary cells."; </b>&nbsp;Biochem. J.&nbsp;376:677-86 (2003)</td>
+</tr>
+<tr>
+<td align="left" valign="top"><table border="0" cellpadding="3" cellspacing="3">
+<tbody><tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">PubMed</td>
+<td colspan="1" valign="top"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&amp;cmd=Retrieve&amp;list_uids=12950230&amp;dopt=Abstract" target="_blank">12950230</a></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>7.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top">Krotkiewski,H. Lisowska,E. Angel,A.S. Nilsson,B.; <b>"Structural
+analysis by fast-atom-bombardment mass spectrometry of the mixture of
+alditols derived from the O-linked oligosaccharides of murine
+glycophorins."; </b>&nbsp;Carbohydr. Res.&nbsp;184:27-38 (1988)</td>
+</tr>
+<tr>
+<td align="left" valign="top"><table border="0" cellpadding="3" cellspacing="3">
+<tbody><tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">PubMed</td>
+<td colspan="1" valign="top"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&amp;cmd=Retrieve&amp;list_uids=3242812&amp;dopt=Abstract" target="_blank">3242812</a></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>8.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top">Van,P. Van,B. Kamerling,J.P. Vliegenthart,J.F.; <b>"Structural
+analysis of O-glycosidic type of sialyloligosaccharide-alditols derived
+from urinary glycopeptides of a sialidosis patient."; </b>&nbsp;Eur. J. Biochem.&nbsp;174:183-7 (1988)</td>
+</tr>
+<tr>
+<td align="left" valign="top"><table border="0" cellpadding="3" cellspacing="3">
+<tbody><tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">PubMed</td>
+<td colspan="1" valign="top"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&amp;cmd=Retrieve&amp;list_uids=3371361&amp;dopt=Abstract" target="_blank">3371361</a></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>9.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top">Edge,A.S. Van,L. Reinhold,V. Weber,P.; <b>"Characterization of O-glycosidically linked oligosaccharides of rat erythrocyte membrane sialoglycoproteins."; </b>&nbsp;Biochemistry.&nbsp;25:8017-24 (1986)</td>
+</tr>
+<tr>
+<td align="left" valign="top"><table border="0" cellpadding="3" cellspacing="3">
+<tbody><tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">PubMed</td>
+<td colspan="1" valign="top"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&amp;cmd=Retrieve&amp;list_uids=3801456&amp;dopt=Abstract" target="_blank">3801456</a></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>10.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top">Hokke,C.H. Bergwerff,A.A. Van,D. Kamerling,J.P. Vliegenthart,J.F.; <b>"Structural
+analysis of the sialylated N- and O-linked carbohydrate chains of
+recombinant human erythropoietin expressed in Chinese hamster ovary
+cells. Sialylation patterns and branch location of dimeric
+N-acetyllactosamine units."; </b>&nbsp;Eur. J. Biochem.&nbsp;228:981-1008 (1995)</td>
+</tr>
+<tr>
+<td align="left" valign="top"><table border="0" cellpadding="3" cellspacing="3">
+<tbody><tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">PubMed</td>
+<td colspan="1" valign="top"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&amp;cmd=Retrieve&amp;list_uids=7737204&amp;dopt=Abstract" target="_blank">7737204</a></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr></tbody><script language="JavaScript">
+ var sectionName='section_lglycanLinks';
+ if(collapsibleSections == ''){
+  var collapsibleSections=(sectionName);
+ } else {
+  var collapsibleSections=(collapsibleSections + "@" + sectionName);
+ }
+</script>
+
+
+<tbody><tr>
+<td colspan="2" bgcolor="#aad2f5" valign="top" width=""><a href="javascript:toggleRegion('section_lglycanLinks',0);" id="imgLink_image_section_lglycanLinks"><img src="LGLYCAN_G00261_textViewSrs_files/minus.gif" id="image_section_lglycanLinks" align="center" border="0"></a>
+<a class="sectionHead" name="lglycanLinks">Database Cross-References</a></td>
+</tr></tbody><tbody id="section_lglycanLinks">
+<tr>
+<td bgcolor="#efeff7" valign="top">DB Links</td>
+<td colspan="5" valign="top"><table border="0" cellpadding="2" cellspacing="2">
+<tbody><tr>
+<td valign="top">CCSD:</td>
+<td valign="top"><a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:219" target="_blank">219</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:220" target="_blank">220</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:221" target="_blank">221</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:222" target="_blank">222</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:223" target="_blank">223</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:224" target="_blank">224</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:225" target="_blank">225</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:226" target="_blank">226</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:227" target="_blank">227</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:228" target="_blank">228</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:229" target="_blank">229</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:230" target="_blank">230</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:232" target="_blank">232</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:2396" target="_blank">2396</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:2400" target="_blank">2400</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:3035" target="_blank">3035</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:3036" target="_blank">3036</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:3371" target="_blank">3371</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:3558" target="_blank">3558</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:4036" target="_blank">4036</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:4037" target="_blank">4037</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:5119" target="_blank">5119</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:5121" target="_blank">5121</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:5122" target="_blank">5122</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:5123" target="_blank">5123</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:5125" target="_blank">5125</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:5126" target="_blank">5126</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:5127" target="_blank">5127</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:5128" target="_blank">5128</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:5129" target="_blank">5129</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7013" target="_blank">7013</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7862" target="_blank">7862</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7863" target="_blank">7863</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7864" target="_blank">7864</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7865" target="_blank">7865</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7866" target="_blank">7866</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7867" target="_blank">7867</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7868" target="_blank">7868</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7869" target="_blank">7869</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7870" target="_blank">7870</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7871" target="_blank">7871</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7872" target="_blank">7872</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7873" target="_blank">7873</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7875" target="_blank">7875</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7876" target="_blank">7876</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7877" target="_blank">7877</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7878" target="_blank">7878</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7881" target="_blank">7881</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7882" target="_blank">7882</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7884" target="_blank">7884</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7885" target="_blank">7885</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7886" target="_blank">7886</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7888" target="_blank">7888</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7891" target="_blank">7891</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7892" target="_blank">7892</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7893" target="_blank">7893</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7894" target="_blank">7894</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7896" target="_blank">7896</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7898" target="_blank">7898</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7899" target="_blank">7899</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7918" target="_blank">7918</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:7947" target="_blank">7947</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:8308" target="_blank">8308</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:9846" target="_blank">9846</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:10203" target="_blank">10203</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:11723" target="_blank">11723</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:11842" target="_blank">11842</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:12032" target="_blank">12032</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:12522" target="_blank">12522</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:12756" target="_blank">12756</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:13242" target="_blank">13242</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:13565" target="_blank">13565</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:14522" target="_blank">14522</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:14962" target="_blank">14962</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:15235" target="_blank">15235</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:15237" target="_blank">15237</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:19450" target="_blank">19450</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:19451" target="_blank">19451</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:21052" target="_blank">21052</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:21532" target="_blank">21532</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:21663" target="_blank">21663</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:22650" target="_blank">22650</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:22752" target="_blank">22752</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:23173" target="_blank">23173</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:24051" target="_blank">24051</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:24090" target="_blank">24090</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:24418" target="_blank">24418</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:25674" target="_blank">25674</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:26253" target="_blank">26253</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:26408" target="_blank">26408</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:27311" target="_blank">27311</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:27493" target="_blank">27493</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:27568" target="_blank">27568</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:27578" target="_blank">27578</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:28860" target="_blank">28860</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:29009" target="_blank">29009</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:29383" target="_blank">29383</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:30064" target="_blank">30064</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:30911" target="_blank">30911</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:31132" target="_blank">31132</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:31303" target="_blank">31303</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:31310" target="_blank">31310</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:31346" target="_blank">31346</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:31650" target="_blank">31650</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:31741" target="_blank">31741</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:32460" target="_blank">32460</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:32461" target="_blank">32461</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:32494" target="_blank">32494</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:33530" target="_blank">33530</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:34611" target="_blank">34611</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:34612" target="_blank">34612</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:35011" target="_blank">35011</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:36035" target="_blank">36035</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:37976" target="_blank">37976</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:38656" target="_blank">38656</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:39434" target="_blank">39434</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:40464" target="_blank">40464</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:40567" target="_blank">40567</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:41454" target="_blank">41454</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:41455" target="_blank">41455</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:41658" target="_blank">41658</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:41779" target="_blank">41779</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:42728" target="_blank">42728</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:44367" target="_blank">44367</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:45005" target="_blank">45005</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:45094" target="_blank">45094</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:45098" target="_blank">45098</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:45104" target="_blank">45104</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:46451" target="_blank">46451</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:46496" target="_blank">46496</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:47646" target="_blank">47646</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:49340" target="_blank">49340</a> <a href="http://www.genome.ad.jp/dbget-bin/www_bget?CCSD:50933" target="_blank">50933</a> </td>
+</tr>
+</tbody></table>
+</td>
+</tr></tbody>
+</table>
+<table border="0" cellpadding="5" cellspacing="0">
+<tbody><tr>
+<td bgcolor="#aad2f5" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>Go To:</b></font></td>
+<td bgcolor="#aad2f5" valign="top"><a href="#lglycanGeneral">General</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#lglycanReferences">References</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#lglycanLinks">Cross-References</a>
+</td>
+</tr>
+</tbody></table>
+<div id="confirmDelete" class="tip2">
+<table align="center">
+<tbody><tr><td colspan="2">Are you sure you want to delete this annotation?</td></tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr><td align="right">
+<a href="javascript:confirmAnnotationDeleteAction('deleteAnnotation.do?referEntryId=LGLYCAN:G00261&amp;pQ=q4&amp;sF=&amp;num=2&amp;total=6&amp;sD=0&amp;pV=LGLYCAN_Result_View&amp;pDB=&amp;pC=&amp;pCT=&amp;pSt=1&amp;pSz=30&amp;pCN=');">
+<img src="LGLYCAN_G00261_textViewSrs_files/btn_delete_off.gif" onmouseover="swapImage(this, 'images/biowisdom/btn_delete_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_delete_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_delete_on.gif');" border="0"></a></td>
+<td align="left"><a href="javascript:hideDivSection('confirmDelete');hideFreeze();">
+<img src="LGLYCAN_G00261_textViewSrs_files/btn_cancel_off.gif" onmouseover="swapImage(this, 'images/biowisdom/btn_cancel_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_cancel_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_cancel_on.gif');" border="0"></a></td>
+</tr>	
+</tbody></table>
+</div>
+
+
+
+
+</form>
+
+</div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr>
+<td align="center"><img src="LGLYCAN_G00261_textViewSrs_files/null.gif" border="0" height="50" width="10"></td>
+</tr>
+<tr>
+<td align="center"><img class="navBg" src="LGLYCAN_G00261_textViewSrs_files/null.gif" height="1" width="600"></td>
+</tr>
+<tr>
+<td align="center">
+<p class="copy">SRS Release 8.3
+<a class="small" href="javascript:void(window.open('copyright.do','footerinfo','menubar=no,%20status=yes,%20toolbar=no,%20resizable=yes,%20scrollbars=yes,%20height=400,%20width=510'))">Copyright</a> © 2007 BioWisdom SRS Ltd. All Rights Reserved.
+<a class="small" href="javascript:void(window.open('termsofuse.do','footerinfo','menubar=no,%20status=yes,%20toolbar=no,%20resizable=yes,%20scrollbars=yes,%20height=400,%20width=510'))">Terms of Use</a>&nbsp;<a class="small" href="javascript:void(window.open('feedback.do','footerinfo','menubar=no,%20status=yes,%20toolbar=no,%20resizable=yes,%20scrollbars=yes,%20height=400,%20width=510'))">Feedback</a></p>
+</td></tr></tbody></table>
+<div id="popupInfo">Loading ...</div>
+<!-- This iFrame is required to display hidden DIV above select menus in IE -->
+<iframe id="frame" src="LGLYCAN_G00261_textViewSrs_files/a.html" style="border: 0pt none ; position: absolute; display: block; z-index: 0; visibility: hidden;" frameborder="0" height="0" scrolling="no" width="0"></iframe>
+<div id="annotationDeleted" class="tip2">
+<table align="center" border="0">
+<tbody><tr><td align="center">Annotation deleted successfully !</td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td align="center">
+<a href="javascript:hideDivSection('annotationDeleted');">
+<img src="LGLYCAN_G00261_textViewSrs_files/btn_close_off.gif" onmouseover="swapImage(this, 'images/biowisdom/btn_close_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_close_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_close_on.gif');" align="center" border="0"></a>
+</td></tr>
+
+</tbody></table>
+</div>
+</body></html>

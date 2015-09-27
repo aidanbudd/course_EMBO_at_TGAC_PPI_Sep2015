@@ -1,0 +1,110 @@
+/*
+Document   : Reflect.css
+Created on : Jan 4, 2008, 6:32:35 PM
+Author     : pafilis
+Description:
+*/
+
+/* ---------------- tagged entity styles ---------------- */
+/* ------------------------------------------------------ */
+a.reflect_ambiguous {
+      background-color: #cc99cc;
+}
+
+a.reflect_protein {
+      background-color: #99dddd;
+}
+
+a.reflect_chemical {
+      background-color: #ffcc99;
+}
+
+a.reflect_organism {
+      background-color: #ccffcc;
+}
+
+
+a.reflect_close_link {
+        color: #003399;
+        border-bottom: none; 
+        font-weight: normal; 
+        text-decoration: none; 	
+}
+
+
+a.reflect_close_link:visited, :visited:focus {  		  /* visited */
+        color: #666699;
+        border-bottom: none; 
+        font-weight: normal; 
+}
+
+a.reflect_close_link :hover, :visited:hover {		  /* hover  */
+        color: #FE880C;
+}
+
+a.reflect_close_link :active, :visited:active {		  /* active (i.e. just after clicking)  */
+        color: #666699;
+}
+
+
+.reflect_grey {
+       background-color: #cccccc;
+}
+
+
+.reflect_white {
+       background-color: #ffffff;
+}
+
+
+
+table.reflect {
+       border: 0;
+       margin: 0px;
+       vertical-align: middle;	
+/*       color: grey; */
+       
+ }
+
+table.reflect_exterior {
+        border: 2px groove;
+
+}
+
+table.reflect_full_width {
+        width: 100%;
+}
+
+td.reflect {
+        border: none;
+        margin: 0px;
+        padding: 0px;
+        
+        height: 16px;
+        width: 100%;
+        
+        vertical-align: middle;
+}
+
+
+tr.reflect {
+        border: none;
+        margin: 0px;
+        padding: 0px;
+        height: 16px;
+        vertical-align: middle;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

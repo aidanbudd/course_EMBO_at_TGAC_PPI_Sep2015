@@ -1,0 +1,50 @@
+########################################
+# Program: needle
+# Rundate: Mon 13 Dec 2010 13:31:52
+# Commandline: needle
+#    [-asequence] /ebi/extserv/old-work/needle-20101213-1331517643.input.1
+#    [-bsequence] /ebi/extserv/old-work/needle-20101213-1331517643.input.2
+#    -outfile /ebi/extserv/old-work/needle-20101213-1331517643.output
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -datafile EBLOSUM62
+#    -sprotein1
+#    -sprotein2
+#    -auto
+# Align_format: srspair
+# Report_file: /ebi/extserv/old-work/needle-20101213-1331517643.output
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: HBA_HUMAN
+# 2: 1SHRB
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 148
+# Identity:      63/148 (42.6%)
+# Similarity:    88/148 (59.5%)
+# Gaps:           8/148 ( 5.4%)
+# Score: 288.5
+# 
+#
+#=======================================
+
+HBA_HUMAN          1 MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DL     49
+                     :.|:|.:||.|.|.||||...|  .|.|||.|:.:.:|.|:.:|..| ||
+1SHRB              1 VHLTPEEKTAVNALWGKVNVDA--VGGEALGRLLVVYPWTQRFFESFGDL     48
+
+HBA_HUMAN         50 SH-----GSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRV     94
+                     |.     |:.:||.|||||..|.::.:||:|::....|.||:||..||.|
+1SHRB             49 SSPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFSQLSELHCDKLHV     98
+
+HBA_HUMAN         95 DPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR    142
+                     ||.||:||.:.|:..||.:...||||.:.|:..|.:|.|:..|..||.
+1SHRB             99 DPENFRLLGNVLVCVLARNFGKEFTPQMQAAYQKVVAGVANALAHKYH    146
+
+
+#---------------------------------------
+#---------------------------------------

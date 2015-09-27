@@ -1,0 +1,636 @@
+BODY {  /* This is where you set the default font colour and size for general content */
+	/* font-family : Verdana, Arial, helvetica, sans-serif; */
+        font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	background: white;
+	font-size: 9pt;
+	color: #000063;
+	margin-left:0px;
+	margin-top:0px;
+}
+
+TABLE,DIV{
+	font-family : Verdana, Arial, helvetica, sans-serif; 
+	font-size: 9pt;
+	color: #000063;
+}
+a {
+	color:#000063;
+}
+
+a:hover {
+	color:#5679b3;
+}
+
+.rightAlignedColumn{
+	text-align:right;
+}
+.centerAlignedColumn{
+	text-align:center;
+}
+.lightBackground{
+	background-color:#e7edf6;
+}
+.midBackground{
+	background-color:#AAD2F5;
+}
+.darkBackground{
+	background-color:#000066;
+}
+
+.bold{
+	font-weight:bold;
+}
+.rssTitle{
+	font-size:15px;
+	font-weight:bolder;
+}
+
+.boldItalic{
+	font-weight:bold;
+	font-style:italic;
+}
+
+.boxContainer {
+	width:200px;
+	border: 1px #5b85c2 solid;
+	background-color:#e7edf6;
+}
+
+.boxHeading{
+	background-color:#aad2f5;
+	height:30px;
+	color:#000063;
+	font-weight:bold;
+	font-size:15px;
+	text-align:center;
+}
+
+.section{
+	background-color:#e7edf6;
+	height:30px;
+	vertical-align:middle;
+}
+.section a{
+	color:#000063;
+}
+.section a:hover{
+	color:#5685c2;
+}
+
+.sectionHeading{
+	background-color:#aad2f5;
+	height:30px;
+	color:#000063;
+	font-weight:bold;
+	font-size:15px;
+	text-align:left;
+	text-indent:10px;
+}
+
+.sectionHeadingSmall{
+	background-color:#aad2f5;
+	height:20px;
+	color:#000063;
+	font-weight:bold;
+	font-size:12px;
+	text-align:left;
+	text-indent:10px;
+}
+
+.dividingLine{
+	background-color:#5b85c2;
+}
+
+.dividingLine2{
+	background-color:#aad2f5;
+}
+
+.footerLinkUnselected{
+	text-align:center;
+}
+
+.footerLinkSelected{
+	text-align:center;
+}
+
+.footerLinkSelected a{	
+	color:#000063;
+	font-weight:bold;
+}
+
+.footerLinkSelected a:hover{
+	color:#000063;
+	font-weight:bold;
+}
+
+.footerLinkUnselected a{
+	color:#aad2f5;
+	font-weight:bold;
+}
+
+.footerLinkUnselected a:hover{
+	color:#000063;
+	font-weight:bold;
+}
+
+.mainPageArea{
+	margin-left:10px;
+	z-index:-2;
+}
+.mainPageAreaEntryViews{
+	margin-left:20px;
+	z-index:-2;
+}
+
+#popupInfo{
+	position:absolute;
+	left:400px;
+	top:400px;
+	visibility:hidden;
+	display:none;
+	background-color:#e4ffae;
+	border:2px solid #000066;
+	z-index:30;
+	font-size:9px;
+	padding:10px;
+	width:410px;
+}
+
+.copy  {  /* Class for use to show copy text. This is used in footers and copyrights and terms of use */
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; 
+	color: #000063;
+}
+
+.small  {  /* class called to decrease text size */
+	font-family:    Verdana, Arial, Helvetica;
+	font-size: 8pt;
+	color: #000063;    
+}
+
+.pageTitle{  /* class used for the page title text */
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px; font-weight: bolder; color:#000063;
+	padding-top:10px;
+	padding-left:10px;
+	margin:0px;
+	margin-bottom:10px;
+	width:940px;
+}
+
+.pageTitlePopup{  /* class used for the page title text */
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px; font-weight: bolder; color:#000063;
+	padding-top:10px;
+	padding-left:10px;
+	margin:0px;
+	margin-bottom:10px;
+}
+
+#quickSearchBarForm {
+	margin:0px;
+}
+
+#bookmark{ /* Bookmark link available from the header */
+	float: right;
+	vertical-align: middle;
+}
+
+.navBottomLeft {
+	background-image: url("../../images/biowisdom/nav/bottom_left.gif");
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 40px;
+}
+
+.navTopRight {
+	background-image: url("../../images/biowisdom/nav/top_right.gif");
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+.navTopOff{
+	background-color:#aad2f5;
+	padding: 3px;
+	text-align:center;
+	cursor:pointer;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+}
+.navTopOn{
+	background-color:#ffffff;
+	padding: 3px;
+	text-align:center;
+	cursor:pointer;
+	color:#000066;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+}
+
+.frontPagenavTopOff a{
+	background-color:#ffffff;
+	padding: 3px;
+	text-align:center;
+	cursor:pointer;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.frontPagenavTopOff a:hover{
+	background-color:#6e96d7; 
+	color:#ffffff;
+	text-decoration:none; 
+	font-size:10px;
+}
+
+.navlogin{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000066;
+}
+.navlogin a{
+	color: #000066;font-size:10px;
+}
+
+.paging a:hover{
+	color:#000066;
+}
+
+.navHelp{
+	color: #000063;
+	background-color:#e4ffae;
+	padding: 2px;
+	text-align:center;
+	font-weight:bold;
+}
+
+.navHelp a:visited{
+	color:#000063;
+}
+.navTopOn a{
+	text-decoration:none; 
+	color: #000066;
+	font-size:10px;
+}
+
+.navTopOff a{
+	text-decoration:none;
+	color: #000066;
+	font-size:10px;
+}
+
+.navHelp a{
+	text-decoration:none;
+	font-size:10px;
+}
+
+.navBg{
+	background-color:#aad2f5;
+	margin:5px;
+	text-align:center;
+}
+.frontPageNavBg{
+	background-color:#aad2f5;
+	text-align:center;
+}
+
+.quicksearchBarDropdown{
+	width:50px;
+}
+
+/*  The following are used to set the style for the slider options area  */
+.toolsTab{
+	background-color:#aad2f5;
+	color:#000063;
+	padding-left:11px;
+	padding-right:4px;
+	font-family: Arial, Helvetica, sans-serif;
+	border-top: 2px solid #5b85c2;
+	border-right: 2px solid #5b85c2;
+	border-bottom: 2px solid #5b85c2;
+	border-left: 2px none #5b85c2;
+	font-weight: bold;
+	cursor:pointer;
+}
+.toolsMainArea{
+	background-color:#ffffff;
+	color:#000063;
+	font-family: Arial, Helvetica, sans-serif;
+	border-top: 2px solid #5b85c2;
+	border-right: 2px solid #5b85c2;
+	border-bottom: 0px solid #5b85c2;
+	border-left: 2px solid #5b85c2;
+}
+.toolsHeading{
+	background-color: #aad2f5;
+	border-bottom: 2px solid #5B85C2;
+	color:#000063;
+	padding:2px;
+	font-weight: bold;
+	text-align: center;
+}
+.toolsContent{
+	border-bottom: 2px solid #5B85C2;
+	padding:5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.toolsContent2{
+	padding:5px;
+}
+/* Slider styles end here */
+
+
+/* Synonym styles start here */
+.scrollerSynonyms2Col {  /* class used for 2-column synonym display */
+	color: #000063;
+	border: 1px solid #5b85c2;
+	line-height: 150%;
+	width: 375px;
+	height: 310px;
+	scrollbar-face-color: #5b85c2;
+	scrollbar-arrow-color: #DEE7F7;
+	scrollbar-track-color: #DEE7F7;
+	overflow: auto;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+
+.synonymWrapper2Col {  /* class used for 2-column synonym display */
+	width: 375px;
+	height: 320px;
+}
+
+.scrollerSynonyms3Col {  /* class used for 3-column synonym display */
+	color: #000063;
+	border: 1px solid #5b85c2;
+	line-height: 150%;
+	width: 250px;
+	height: 310px;
+	scrollbar-face-color: #5b85c2;
+	scrollbar-arrow-color: #DEE7F7;
+	scrollbar-track-color: #DEE7F7;
+	overflow: auto;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+
+.synonymWrapper3Col {  /* class used for 3-column synonym display */
+	width: 250px;
+	height: 320px;
+}
+
+.popupSynonymHelp {  /* class used for synonym help display */
+	visibility:hidden;
+	Position : Absolute;
+	Z-Index : 20;
+	width:760px;
+	background-color: #FFFFFF;
+	height: 100px;
+	overflow: hidden;
+	padding:5px;
+	border-top: 2px solid #5b85c2;
+	border-right: 2px solid #5b85c2;
+	border-bottom: 2px solid #5b85c2;
+	border-left: 2px solid #5b85c2;
+}
+
+.synonymsContainer{
+	visibility:hidden;
+	display:none;
+	width:550px;
+	height:310px;
+	position:absolute;
+	top:800px;
+	left:0px;
+	z-index:999;
+	background-color:#ffffff;
+	border:2px solid #5b85c2;
+}
+.synonymsMainArea{
+	overflow:auto;
+	height:220px;
+}
+
+.synonymsFindersContainerLaunch{
+	background-color:#aad2f5;
+	height:30px;
+	color:#000063;
+	font-weight:bold;
+	font-size:12px;
+	text-align:right;
+	text-decoration:underline;
+	padding-top:10px;
+	padding-right:10px;
+}
+
+.synonymsFindersContainerLaunch a:hover{
+	color:#000063;
+}
+
+.synonymsResultsContainer{
+	visibility:hidden;
+	display:none;
+	width:480px;
+	height:180px;
+	overflow:auto;
+	border: 1px solid #5b85c2;
+	margin-left:5px;
+	padding-left:5px;
+}
+
+.synonymsFinderContainer{
+	visibility:hidden;
+	display:none;
+	width:480px;
+}
+
+.synonymsFinderContainer a:hover{
+	cursor:pointer;
+}
+
+.synonymsResults{
+	padding-left:20px;
+	visibility:hidden;
+	display:none;
+	width:480px;
+	height:200px;
+	overflow:auto;
+}
+
+.synonymLaunchiFrame{
+	visibility:hidden;
+	display:none;
+	width:500px;
+	height:300px;
+	position:absolute;
+	top:800px;
+	left:0px;
+	z-index:98;
+}
+/* Synonym styles end here */
+
+
+/************
+	Tips
+************/
+.tip{
+	font-size:8pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align:justify;
+	color: #000066;
+	background-color: #E4FFAE;
+	border: 2px solid #000066;
+	position: absolute;
+	visibility: hidden;
+	font-weight:normal;
+	width: 300px;
+	margin: 5px;
+	padding: 10px;
+	z-index:50;
+}
+
+.tip2{
+	font-size:8pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align:justify;
+	color: #000066;
+	background-color: #e7edf6;
+	border: 2px solid #000066;
+	position: absolute;
+	visibility: hidden;
+	display:none;
+	width: 350px;
+	margin: 5px;
+	padding: 10px;
+	z-index:50;
+}
+
+.alertingTip{
+	font-size:8pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align:justify;
+	color: #000066;
+	background-color: #e7edf6;
+	border: 2px solid #000066;
+	position: absolute;
+	visibility: hidden;
+	display:none;
+	width: 350px;
+	margin: 5px;
+	padding: 10px;
+	z-index:150;
+}
+
+.qsb_dropdown{
+	width:344px;
+}
+/************
+	The following are to control style and layout of quicksearchbar dropdown
+************/
+.quickSearchBarMenu{
+	visibility:visible;
+	display:none;
+	position: absolute;
+	width:370px;
+	height:130px;
+	border:1px solid #000066;
+	padding:10px;
+	background-color:#FFFFFF;
+	overflow:auto;
+	z-index:30;
+}
+#conceptSelected {  /* sets colours for the concepts area on lib select */
+	font-family: Verdana, Arial, Helvetica;
+	text-indent:2px;
+	background-color: #ffffff;
+	padding: 3px;
+	width: 160px;
+	border-top: 1px solid #5B85C2;
+	border-right: 1px solid #5B85C2;
+	border-bottom: 1px solid #5B85C2;
+	border-left: 1px solid #5B85C2;
+	text-align:left;
+	overflow:hidden;
+	white-space:nowrap;
+
+	font-size: 10pt !important;  /*Firefox will prioritse on this one*/
+	font-size: 8pt;				/*IE will replace the above one with this one*/
+
+	height:12px;
+	vertical-align:middle;
+	line-height:12px;
+}
+.dropdown{
+	text-decoration:none;
+	cursor:pointer;
+}
+.dropdown a{
+	text-decoration:none;
+	cursor:pointer;
+}
+.dropdown a:hover{
+	text-decoration:none;
+	cursor:pointer;
+}
+.dropdown_highlight{
+	background-color:#fee6c0;
+	text-decoration:none;
+	color:#000066;
+}
+.dropdown_highlight a:hover{
+	cursor:pointer;
+	color:#000066;
+}
+.dropdownsmall{
+	font-size:9px;
+	color:#5B85C2;
+}
+
+/** 
+ * basic infrastructure using divs
+ */
+.containerBlock {
+	width: 943px;
+}
+
+.containerBlockHeader {
+	background-color:#AAD2F5;
+}
+
+.containerBlockHeaderLeftCorner {
+	float: left;
+	width: 12px;
+	height: 7px;
+	background-image:url(../../images/biowisdom/actionbar_topleft.gif);
+	background-position:top left;
+	background-repeat: no-repeat;
+}
+
+.containerBlockHeaderRightCorner {
+	float: right;
+	width: 12px;
+	height: 7px;
+	background-image:url(../../images/biowisdom/actionbar_topright.gif);
+	background-position:top right;
+	background-repeat: no-repeat;
+}
+
+.containerBlockHeaderText {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 15px;
+	font-weight: bold;
+	font-size:15px;
+}
+
+.containerBlockContent {
+	background-color: #E7EDF6;
+	padding: 10px;
+}

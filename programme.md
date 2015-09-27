@@ -8,6 +8,11 @@ tr:nth-child(even) {
 };
 </style>
 
+## Other relevant links
+
+- General notes on [using the IT infrastructure during the course](softwareNotes.html)
+- EMBO-hosted [webpage for the course](http://events.embo.org/15-protein-protein/)
+- Twitter search results for for [#EMBOPPI](https://twitter.com/search?q=%23EMBOPPI&src=typd&lang=en-gb) and [Course tweeters list](https://twitter.com/AidanBudd/lists/embo-2015-ppi-tweeps)
 
 DAY 1 - Monday 28 September 2015
 --------------------------------

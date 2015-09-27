@@ -1,0 +1,154 @@
+/* default Style */
+.SG_default{	font: 12px arial, helvetica, sans-serif; 
+			border:1px solid black;
+			background-color:white;
+			cursor:default;
+			overflow:hidden;
+			-moz-box-sizing:border-box; 
+		  }
+.SG_default .item{  	border:0px solid #F3F3F3;
+					text-overflow : ellipsis; 
+					overflow : hidden;
+					width:100%;
+					color:black;
+					padding:1px,1px,1px,1px;
+					cursor:pointer;
+					cursor:hand;
+					-moz-box-sizing:border-box;
+					-moz-user-select:none;
+				  }
+.SG_default .item_selected{ background-color:#0A246A; color:white; }
+
+/* gensat Style */
+.SG_gensat{	font: 12px arial, helvetica, sans-serif; 
+			border:1px solid #94A8BB;
+			background-color:#F1F7F7;
+			cursor:default;
+			overflow:hidden;
+			-moz-box-sizing:border-box; 
+			}
+.SG_gensat .item{	border:1px solid white;
+					text-overflow : ellipsis; 
+					overflow : hidden;
+					width:100%;
+					color:#27475C;
+					padding:2px;
+					cursor:pointer;
+					cursor:hand;
+					-moz-box-sizing:border-box;
+					-moz-user-select:none;
+				}
+.SG_gensat .item_selected{ background-color:#336699; color:white; }
+.SG_gensat .fbold{ color:#FF6D30; }
+
+/* Black and White Style */
+.SG_black{	font: 12px arial, helvetica, sans-serif; 
+				border:1px solid black;
+				background-color:white;
+				cursor:default;
+				overflow:hidden;
+				-moz-box-sizing:border-box;
+				}
+.SG_black .item{	border:0px solid #F3F3F3;
+					text-overflow : ellipsis; 
+					overflow : hidden;
+					width:100%;
+					color:black;
+					padding:2px;
+					cursor:pointer;
+					cursor:hand;
+					-moz-box-sizing:border-box;
+					-moz-user-select:none;
+				  }
+.SG_black .item_selected{ background-color:#4D5F5F; color:white; }
+
+/* Green Style */
+.SG_greencompact{	font: 12px arial, helvetica, sans-serif; 
+				border:1px solid #32787A;
+				background-color:#F7FCFB;
+				cursor:default;
+				overflow:hidden;
+				-moz-box-sizing:border-box;
+				}
+.SG_greencompact .item{	border:0px solid white;
+					text-overflow : ellipsis; 
+					overflow : hidden;
+					width:100%;
+					color:#000080;
+					padding:1px,1px,1px,1px;
+					cursor:pointer;
+					cursor:hand;
+					-moz-box-sizing:border-box;
+					-moz-user-select:none;
+				  }
+.SG_greencompact .item_selected{ background-color:#4E7E87; color:white; }
+.SG_greencompact .fbold{ color:#FF6D30; }
+
+
+/* Green Style */
+.SG_green{	font: 12px arial, helvetica, sans-serif; 
+				border:1px solid #32787A;
+				background-color:#F7FCFB;
+				cursor:default;
+				overflow:hidden;
+				-moz-box-sizing:border-box;
+				}
+.SG_green .item{	border:0px solid white;
+					text-overflow : ellipsis; 
+					overflow : hidden;
+					width:100%;
+					color:#000080;
+					padding:2px;
+					cursor:pointer;
+					cursor:hand;
+					-moz-box-sizing:border-box;
+					-moz-user-select:none;
+				  }
+.SG_green .item_selected{ background-color:#4E7E87; color:white; }
+.SG_green .fbold{ color:#FF6D30; }
+
+/* Blue Compact Style */
+.SG_bluecompact{	font: 12px arial, helvetica, sans-serif; 
+					border:1px solid #336699;
+					background-color:#F6F8FC;
+					cursor:default;
+					overflow:hidden;
+					-moz-box-sizing:border-box;
+				}
+.SG_bluecompact .item{	border:0px solid white;
+					text-overflow : ellipsis; 
+					overflow : hidden;
+					width:100%;
+					color:#000080;
+					padding:1px,1px,1px,1px;
+					cursor:pointer;
+					cursor:hand;
+					-moz-box-sizing:border-box;
+					-moz-user-select:none;
+				  }
+.SG_bluecompact .item_selected{ background-color:#336699; color:white; }
+.SG_bluecompact .fbold{ color:#FF6D30; }
+
+/* Blue Style */
+.SG_blue{	font: 12px arial, helvetica, sans-serif; 
+				border:1px solid #336699;
+				background-color:#F6F8FC;
+				cursor:default;
+				overflow:hidden;
+				-moz-box-sizing:border-box;
+				}
+.SG_blue .item{	border:0px solid white;
+					text-overflow : ellipsis; 
+					overflow : hidden;
+					width:100%;
+					color:#000080;
+					padding:2px;
+					cursor:pointer;
+					cursor:hand;
+					-moz-box-sizing:border-box;
+					-moz-user-select:none;
+				  }
+.SG_blue .item_selected{ background-color:#336699; color:white; }
+.SG_blue .fbold{ color:#FF6D30; }
+
+

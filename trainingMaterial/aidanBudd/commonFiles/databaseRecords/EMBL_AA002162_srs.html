@@ -1,0 +1,986 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+
+
+<title>Entry view - EMBL:AA002162</title>
+<link href="EMBL_AA002162_srs_files/styles.css" rel="stylesheet" type="text/css">
+<link href="EMBL_AA002162_srs_files/entryviews.css" rel="stylesheet" type="text/css">
+<link href="EMBL_AA002162_srs_files/queryresults.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="http://srs.embl.de/srs/images/bwfavicon.ico" type="image/x-icon">    
+<script language="javascript" src="EMBL_AA002162_srs_files/srs_standard.js"></script>
+<script language="javascript" src="EMBL_AA002162_srs_files/AjaxServices.txt"> </script>
+<script language="javascript" src="EMBL_AA002162_srs_files/engine.js"> </script>
+<script language="javascript" src="EMBL_AA002162_srs_files/srs_ajax.js"> </script>
+<script language="javascript" src="EMBL_AA002162_srs_files/slider.js"></script>
+<script language="javascript" src="EMBL_AA002162_srs_files/export.js"></script>
+<script language="javascript" src="EMBL_AA002162_srs_files/entryviews.js"></script>
+<script language="javascript">
+  collapsibleSections="";
+  function resetHiddenFields() {
+	  document.getElementById('action').value = '';
+      document.getElementById('appToExport').value = '';
+      document.getElementById('viewForExport').value = '';
+      document.getElementById('queryString').value = document.getElementById('queryString_backup').value;
+      document.forms['primaryForm'].target = '';
+  }
+</script>
+
+</head><body onload="initiate();moveBack();setHighlightTerms();evaluateSections(collapsibleSections);">
+<form id="quickSearchBarForm" name="quickSearchForm" action="quickSearchToolBar.do" method="post">
+<div style="margin-left: 5px;"> 
+<table class="navBg" border="0" cellpadding="0" cellspacing="0" width="954">
+  <tbody><tr>
+    <td class="navBottomLeft" colspan="2" halign="right" rowspan="2" valign="top" width="80"><a href="http://srs.embl.de/srs/frontpage.do"><img halign="right" src="EMBL_AA002162_srs_files/logo.gif" title="Click here to go to the front page" border="0"></a>&nbsp;</td>
+    <td width="614"><table border="0" cellpadding="0" cellspacing="0" width="600">
+                <tbody><tr>
+                  <td width="28">&nbsp;&nbsp;&nbsp;Find&nbsp;</td>
+                  <td width="274"><input name="queryStrTextBoxHeader" onkeypress="return Qcodes(event, 'quicksearch')" id="queryStrTextBoxHeader" size="40" type="text"></td>
+				  <td id="toolBar_Synonyms" width="60">
+					<a href="javascript:getFinders('quickSearchForm',%20'queryStrTextBoxHeader_div',%20'queryStrTextBoxHeader');">
+                  <img id="synonymImage_queryStrTextBoxHeader_div" src="EMBL_AA002162_srs_files/synonym_select.gif" title="Find Synonyms" border="0">
+				  </a>
+                  </td>
+                  <td width="23">&nbsp;in&nbsp;</td>
+                  <td width="115">
+						  <table border="0" cellpadding="0" cellspacing="0" width="115">
+							<tbody><tr>
+							  <td valign="bottom">
+								  <div id="conceptSelected">Results Overview</div>
+								</td>
+							  <td align="left"><a href="#"><img id="dropdownboxarrow" src="EMBL_AA002162_srs_files/dropdownboxarrow.gif" style="position: relative;" align="top" border="0"></a></td>
+							</tr>
+							<tr><td align="left"><div style="visibility: hidden; display: none;" id="quickSearchBarMenu" class="quickSearchBarMenu">
+							<table border="0" cellpadding="0" cellspacing="0">
+							<tbody><tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="all" onmousedown="selectedConcept('all','Results Overview');" href="#">Results Overview</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="nucleicAcidSeq" onmousedown="selectedConcept('nucleicAcidSeq REFSEQ EMBL GENBANK','Nucleic Acid Sequence');" href="#">Nucleic Acid Sequence<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ REFSEQ EMBL GENBANK&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="proteinSeq" onmousedown="selectedConcept('proteinSeq UNIPROT','Protein Sequence');" href="#">Protein Sequence<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ UNIPROT&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="proteinFamily" onmousedown="selectedConcept('proteinFamily INTERPRO','Protein Family/Domain');" href="#">Protein Family/Domain<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ INTERPRO&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="disease" onmousedown="selectedConcept('disease OMIM','Disease');" href="#">Disease<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ OMIM&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="enzyme" onmousedown="selectedConcept('enzyme ENZYME','Enzyme');" href="#">Enzyme<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ ENZYME&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="proteinFunction" onmousedown="selectedConcept('proteinFunction GO','Protein Function');" href="#">Protein Function<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ GO&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="genomicLocation" onmousedown="selectedConcept('genomicLocation ENTREZGENE','Genomic Location');" href="#">Genomic Location<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ ENTREZGENE&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="biologicalPathway" onmousedown="selectedConcept('biologicalPathway PATHWAY LREACTION LCOMPOUND LENZYME LGLYCAN REACTOME','Biological Pathway');" href="#">Biological Pathway<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ PATHWAY LREACTION LCOMPOUND LENZYME LGLYCAN REACTOME&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="threeDStructure" onmousedown="selectedConcept('threeDStructure PDB HSSP PSSH','Macromolecular Structure');" href="#">Macromolecular Structure<span class="dropdownsmall">&nbsp;&nbsp;&nbsp;[ PDB HSSP PSSH&nbsp;]</span>
+								</a>
+								</td>
+								</tr>
+								
+		                    <tr class="dropdown" onmouseover="this.className='dropdown_highlight'" onmouseout="this.className='dropdown'">
+								<td>
+								<a id="srsql" onmousedown="selectedConcept('srsql','SRS Query Language');" href="#">SRS Query Language</a>
+								</td>
+								</tr>
+								
+		                    <tr><td>&nbsp;</td></tr>
+								<tr>
+								<td align="right">
+								<a href="http://srs.embl.de/srs/userConcepts.do">Customize...</a>
+								</td>
+								</tr>
+							</tbody></table>
+							</div></td></tr>
+						  </tbody></table>					  
+				  <input name="menu_PreferredConcepts" id="menu_PreferredConcepts" value="all" type="hidden">
+				  <input name="menu_PreferredConceptsDisplay" id="menu_PreferredConceptsDisplay" value="all" type="hidden">
+					</td>
+                  <td width="100"><a name="link_searchBar_go_button" id="link_searchBar_go_button" href="javascript:quickSearchBarSubmit();"><img name="img_searchBar_go_button" id="img_searchBar_go_button" src="EMBL_AA002162_srs_files/btn_go_off.gif" onmouseover="swapImage(this, 'images/biowisdom/btn_go_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_go_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_go_on.gif');" border="0"></a> </td>
+     </tr>
+              </tbody></table>
+			  <script language="javascript">
+			  	document.getElementById('queryStrTextBoxHeader').value = "";
+			  </script>
+			  </td>
+    <td class="navTopRight" height="55"></td>
+  </tr>
+  <tr>
+    <!-- <td width="37" height="30" align="left"><img src="images/biowisdom/nav/bottom_left.gif" width="37" height="30"></td>
+	<td></td> -->
+    <td valign="bottom"><table border="0" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+          <td><a href="http://srs.embl.de/srs/quicksearches.do"><img style="cursor: pointer;" id="nav_mysrs" src="EMBL_AA002162_srs_files/nav_mysrs_off.gif" onmouseover="swapImage(this, 'images/biowisdom/nav/nav_mysrs_on.gif');" onmouseout="swapImage(this, 'images/biowisdom/nav/nav_mysrs_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/nav/nav_mysrs_on.gif');" border="0"></a><a href="http://srs.embl.de/srs/querybuilder.do"><img style="cursor: pointer;" id="nav_querybuilder" src="EMBL_AA002162_srs_files/nav_querybuilder_off.gif" onmouseover="swapImage(this, 'images/biowisdom/nav/nav_querybuilder_on.gif');" onmouseout="swapImage(this, 'images/biowisdom/nav/nav_querybuilder_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/nav/nav_querybuilder_on.gif');" border="0"></a><a href="http://srs.embl.de/srs/analysisTools.do"><img style="cursor: pointer;" id="nav_analysistools" src="EMBL_AA002162_srs_files/nav_analysistools_off.gif" onmouseover="swapImage(this, 'images/biowisdom/nav/nav_analysistools_on.gif');" onmouseout="swapImage(this, 'images/biowisdom/nav/nav_analysistools_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/nav/nav_analysistools_on.gif');" border="0"></a></td>
+          <td><table border="0" cellpadding="0" cellspacing="0"><tbody><tr>
+		  <td id="batchQueue"><img src="EMBL_AA002162_srs_files/null.gif" height="20" width="20"></td>
+			<td onmouseover="changehighlight('queryHistory', 'navTopOn');" onmouseout="changehighlight('queryHistory', 'navTopOff');" id="queryHistory" class="navTopOff"><a id="nav_queryHistory" href="http://srs.embl.de/srs/queryHistory.do">history</a></td><td>&nbsp;-&nbsp;</td>
+			<td onmouseover="changehighlight('customView', 'navTopOn');" onmouseout="changehighlight('customView', 'navTopOff');" id="customView" class="navTopOff" height="20"><a id="nav_customView" href="http://srs.embl.de/srs/customview.do">manage views</a></td><td>&nbsp;-&nbsp;</td>
+			<td onmouseover="changehighlight('databankInfo', 'navTopOn');" onmouseout="changehighlight('databankInfo', 'navTopOff');" id="databankInfo" class="navTopOff"><a id="nav_databankInfo" href="javascript:goToDatabankInfo();">databank list</a></td><td>&nbsp;-&nbsp;</td>
+			<td class="navHelp"><a id="nav_help" href="http://srs.embl.de/srs/docpage.do?page=doc/srsbooks/srs_user_guide/9_1.html" target="docPage">Help?</a></td>
+		  </tr></tbody></table></td>
+        </tr>
+      </tbody></table></td>
+    <td class="navlogin" align="right">
+	    <a href="http://srs.embl.de/srs/login?redirecturl=quicksearches.do">Log In</a>&nbsp;
+				</td>
+  </tr>
+</tbody></table>
+</div>
+<script language="javascript">
+function goToDatabankInfo(){
+	var cookieValue = getCookie("toolFilterCookie");
+	var cookieSortValue = getCookie("sortCookie");
+	var cookieReverseValue = getCookie("reverseCookie");
+    document.location = 'databanklist.do?filterTools='+cookieValue+'&sort='+cookieSortValue+'&reverse='+cookieReverseValue+'';
+}
+var thisIsFrontPage = false;
+</script>
+
+<script language="javascript" src="EMBL_AA002162_srs_files/synonyms.js"></script>
+<script language="javascript">createSynonymDivs('queryStrTextBoxHeader_div');</script><input id="hidden_previous_synonym_queryStrTextBoxHeader_div" name="hidden_synonym_queryStrTextBoxHeader_div" value="" type="hidden"><input id="synonymsSelected_queryStrTextBoxHeader_div" name="synonymsSelected_queryStrTextBoxHeader_div" value="" type="hidden"><div id="queryStrTextBoxHeader_div" class="synonymsContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td class="sectionHeading">Add Synonyms for :<div style="display: inline;" id="queryStrTextBoxHeader_div_searchTerm"></div></td><td><div id="queryStrTextBoxHeader_div_synonymsFindersContainerLaunch" class="synonymsFindersContainerLaunch"><a href="javascript:showFinders('queryStrTextBoxHeader_div')">Show Finders</a></div></td></tr></tbody></table><p></p><div class="synonymsMainArea"><div id="queryStrTextBoxHeader_div_synonymsFinderContainer" class="synonymsFinderContainer">Loading...</div><div id="queryStrTextBoxHeader_div_synonymsResultsContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td></td></tr><tr><td>&nbsp;<strong>Your results are :</strong><p></p></td><td>&nbsp;</td></tr><tr><td colspan="2"><div id="queryStrTextBoxHeader_div_synonymsResults" class="synonymsResultsContainer">Loading ....</div></td></tr></tbody></table></div></div><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td><p>&nbsp;<a href="javascript:hideSynonymPopup('queryStrTextBoxHeader_div','synonymImage_queryStrTextBoxHeader_div');%20hideFinders('queryStrTextBoxHeader_div');hideFreeze();"><img src="EMBL_AA002162_srs_files/btn_close_off.gif" id="synonymSearch" onmouseover="swapImage(this, 'images/biowisdom/btn_close_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_close_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_close_on.gif');" border="0"></a></p></td></tr></tbody></table></div>
+<script language="javascript">
+function showStopOption(type) {
+
+   // update the cookie with the ticket id in the model
+   setCookie('SRSACCESS_TICKET_ID', 'null|F44A79168EA1DB4F836C2BA973206137/20766');
+
+   document.getElementById('freezepage').style.display = "block";
+   document.getElementById('freezepage').style.visibility = "visible";
+   if (type == "annotations"){
+   	   document.getElementById('displayText').innerHTML = "SRS is processing...";
+   	   document.getElementById('stopOption').style.display = "block";
+   	   document.getElementById('stopOption').style.visibility = "visible";   
+   } else if (type == "freezeOnly"){
+   	   document.getElementById('stopOption').style.visibility = "hidden";
+	   document.getElementById('stopOption').style.display = "none";
+   }else{
+	   document.getElementById('stopOption').style.display = "block";
+   	   document.getElementById('stopOption').style.visibility = "visible";
+   }
+   updateWindowSizes();
+}
+
+function hideFreeze(){
+   document.getElementById('freezepage').style.visibility = "hidden";
+   document.getElementById('freezepage').style.display = "none";
+   document.getElementById('stopOption').style.visibility = "hidden";
+   document.getElementById('stopOption').style.display = "none";
+}
+
+function updateWindowSizes() {
+   var windowWidth = 0;
+   var windowHeight = 0;
+   var stopperWidth = 300;
+   var stopperHeight = 80;
+   if (document.all) {
+     windowWidth = document.documentElement.clientWidth;
+     windowHeight = document.documentElement.clientHeight;
+     if (windowWidth == 0) {
+       windowWidth = document.body.clientWidth;
+       windowHeight = document.body.clientHeight;
+     }
+   } else {
+     windowWidth = window.innerWidth;
+     windowHeight = window.innerHeight;
+   }
+   if (windowWidth < 300) {
+     windowWidth = 300;
+   }
+   if (windowHeight < 80) {
+     windowHeight = 80;
+   }
+   document.getElementById('freezepage').style.width = windowWidth + 'px';
+   document.getElementById('freezepage').style.height = windowHeight + 'px';
+   document.getElementById('stopOption').style.left = ((windowWidth - 300)/2) + 'px';
+   document.getElementById('stopOption').style.top = ((windowHeight - 80)/2) + 'px';
+}
+</script>  
+<style type="text/css">
+.freezepage{
+	background-image:url(images/shared/translucent_lightgrey.gif);
+	position:absolute;
+	top:expression((ignoreVar = document.documentElement.scrollTop) + "px");
+	left:expression((ignoreVar2 = document.documentElement.scrollLeft) + "px");
+	visibility:hidden;
+	z-index:101;
+}
+html[xmlns] .freezepage { 
+	background-image:url(images/shared/translucent_lightgrey.gif);
+    position: fixed;
+    top: 1px;
+	left:1px;
+	visibility:hidden;
+	z-index:101;
+} 
+html>body .freezepage { 
+	background-image:url(images/shared/translucent_lightgrey.gif);
+    position: fixed;
+    top: 1px;
+	left:1px;
+	visibility:hidden;
+	z-index:101;
+}
+.stopper{
+	background-color:#FFFFFF;
+	height: 80px;
+	width: 300px;
+	top: 800px;
+	position:absolute;
+	border:1px solid black;
+	z-index:999;
+	visibility:hidden;
+	display:none;
+}
+</style>
+<div id="freezepage" class="freezepage">
+<div id="stopOption" class="stopper">
+<table border="0" cellpadding="0" cellspacing="0" width="300">
+  <tbody><tr>
+    <td>
+	  <div align="center">
+<script language="JavaScript" type="text/javascript">
+	
+var requiredVersion = 7;   // Version the user needs to view site (max 9, min 2)
+var useRedirect = false;    // Flag indicating whether or not to load a separate page
+
+var flash2Installed = false;    // boolean. true if flash 2 is installed
+var flash3Installed = false;    // boolean. true if flash 3 is installed
+var flash4Installed = false;    // boolean. true if flash 4 is installed
+var flash5Installed = false;    // boolean. true if flash 5 is installed
+var flash6Installed = false;    // boolean. true if flash 6 is installed
+var flash7Installed = false;    // boolean. true if flash 7 is installed
+var flash8Installed = false;    // boolean. true if flash 8 is installed
+var flash9Installed = false;    // boolean. true if flash 9 is installed
+var maxVersion = 9;             // highest version we can actually detect
+var actualVersion = 0;          // version the user really has
+var hasRightVersion = false;    // boolean. true if it's safe to embed the flash movie in the page
+var jsVersion = 1.0;            // the version of javascript supported
+
+// Check the browser...we're looking for ie/win
+var isIE  = (navigator.appVersion.indexOf("MSIE") != -1) ? true : false;    // true if we're on ie
+var isWin = (navigator.appVersion.toLowerCase().indexOf("win") != -1) ? true : false; // true if we're on windows
+jsVersion = 1.1;
+
+if(isIE && isWin){
+  document.write('<SCR' + 'IPT LANGUAGE=VBScript\> \n');
+  document.write('on error resume next \n');
+  document.write('flash2Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.2"))) \n');
+  document.write('flash3Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.3"))) \n');
+  document.write('flash4Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.4"))) \n');
+  document.write('flash5Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.5"))) \n');  
+  document.write('flash6Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.6"))) \n');  
+  document.write('flash7Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.7"))) \n');
+  document.write('flash8Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.8"))) \n');
+  document.write('flash9Installed = (IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.9"))) \n');
+  document.write('<\/SCR' + 'IPT\> \n'); // break up end tag so it doesn't end our script
+}
+
+function detectFlash() {  
+  // If navigator.plugins exists...
+  if (navigator.plugins) {
+    // ...then check for flash 2 or flash 3+.
+    if (navigator.plugins["Shockwave Flash 2.0"]
+        || navigator.plugins["Shockwave Flash"]) {
+
+      var isVersion2 = navigator.plugins["Shockwave Flash 2.0"] ? " 2.0" : "";
+      var flashDescription = navigator.plugins["Shockwave Flash" + isVersion2].description;
+
+      var flashVersion = parseInt(flashDescription.substring(16));
+
+      flash2Installed = flashVersion == 2;    
+      flash3Installed = flashVersion == 3;
+      flash4Installed = flashVersion == 4;
+      flash5Installed = flashVersion == 5;
+      flash6Installed = flashVersion == 6;
+      flash7Installed = flashVersion == 7;
+      flash8Installed = flashVersion == 8;
+      flash9Installed = flashVersion >= 9;
+    }
+  }
+  
+  for (var i = 2; i <= maxVersion; i++) {  
+    if (eval("flash" + i + "Installed") == true) actualVersion = i;
+  }
+  if(navigator.userAgent.indexOf("WebTV") != -1) actualVersion = 4;  
+  if (actualVersion >= requiredVersion) {
+    if (useRedirect) {
+      if(jsVersion > 1.0) {
+        window.location.replace(flashPage);  
+      } else {
+        window.location = flashPage;
+      }
+    }
+
+    hasRightVersion = true;                
+  } else {  
+    if (useRedirect) {
+       if(jsVersion > 1.0) {
+        window.location.replace((actualVersion >= 2) ? upgradePage : noFlashPage);
+      } else {
+        window.location = (actualVersion >= 2) ? upgradePage : noFlashPage;
+      }
+    }
+  }
+}
+
+detectFlash();  // call detector now that it's safely loaded. 
+
+	if (!useRedirect) {    // if dynamic embedding is turned on
+  if(hasRightVersion) {  // if we've detected an acceptable version
+    var oeTags = '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="80" height="30">'
++'<param name="movie" value="images/shared/helixv4.swf">'
++'<param name="quality" value="high">'
++'<embed src="images/shared/helixv4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="80" height="30"></embed>'
++'</object>';
+
+  document.write(oeTags);   
+  } else {  // flash is too old or we can't detect the plugin
+    // NOTE: height, width are required!
+    var alternateContent = '<IMG SRC="images/shared/helixv4.gif" HEIGHT="30" WIDTH="80">';
+     
+    document.write(alternateContent);  // insert non-flash content
+  }
+}
+</script><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" height="30" width="80"><param name="movie" value="images/shared/helixv4.swf"><param name="quality" value="high"><embed src="EMBL_AA002162_srs_files/helixv4.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" height="30" width="80"></object>
+      </div>
+	  </td></tr><tr>
+    <td><div align="center">
+		<span id="displayText">SRS is searching...</span>
+		<p>
+        <a href="http://srs.embl.de/srs/cancelServices.do?ticketid=null%7CF44A79168EA1DB4F836C2BA973206137/20766">Click here to cancel</a></p></div></td>
+  </tr>
+</tbody></table>
+</div>
+</div></form>
+<p class="pageTitle">
+<span id="bookmark">
+		<a href="javascript:addBookmark('SRS%20Entry%20View%20-%20EMBL:AA002162',%20'http://srs.embl.de:80/srs/showEntryView.do?entryId=EMBL:AA002162&amp;entryView=SeqDB_Entry');">
+			<img src="EMBL_AA002162_srs_files/bookmark.gif" border="0">
+		</a>
+	</span>
+Entry view - EMBL:AA002162</p>
+<iframe id="quickSearchBarMenuiFrame" style="width: 390px; height: 160px; position: absolute; top: 1px; left: 1px; display: none; z-index: 25; visibility: hidden;" marginwidth="0" src="" marginheight="0" frameborder="0" scrolling="no"></iframe>
+<iframe id="synonymLaunchiFrame" style="width: 700px; height: 500px; position: absolute; top: 100px; left: 100px; display: none;" marginwidth="0" src="" marginheight="0" frameborder="0" scrolling="no"></iframe>
+<div class="mainPageAreaEntryViews">
+  <div id="deleteConfirmX" class="alertingTip"></div>
+
+<form method="post" name="primaryForm" action="updateEntryView.do">
+<!-- option panel -->
+<!-- Top Menu -->
+
+<input name="queryString" id="queryString" value="[EMBL:AA002162]" type="hidden">
+<input name="appToExport" id="appToExport" value="" type="hidden">
+<input name="viewForExport" id="viewForExport" value="" type="hidden">
+<input name="action" id="action" value="" type="hidden">
+<input name="entryId" id="entryId" value="EMBL:AA002162" type="hidden">
+<input name="entryView" id="entryView" value="SeqDB_Entry" type="hidden">
+
+<!-- summary sheet special -->
+<input name="input" id="input" value="EMBL:AA002162" type="hidden">
+
+<!-- fields used for dependency with query result page -->
+<input id="currentSearchSortField" name="currentSearchSortField" value="" type="hidden">
+<input id="currentSearchSortDirection" name="currentSearchSortDirection" value="0" type="hidden">
+<input id="currentSearchSelectedViewName" name="currentSearchSelectedViewName" value="SeqSimpleView" type="hidden">
+<input id="currentSearchFilteredDatabank" name="currentSearchFilteredDatabank" value="" type="hidden">
+<input id="currentSearchStart" name="currentSearchStart" value="121" type="hidden">
+<input id="currentSearchSize" name="currentSearchSize" value="30" type="hidden">
+<input id="selectedConceptName" name="selectedConceptName" value="" type="hidden">
+<input id="selectedConceptType" name="selectedConceptType" value="" type="hidden">
+<input id="primarySearchQueryName" name="primarySearchQueryName" value="q30" type="hidden">
+<input id="primarySearchParentQueryName" name="primarySearchParentQueryName" value="q30" type="hidden">
+<input id="parentConceptNames" name="parentConceptNames" value="" type="hidden">
+
+<!-- keeping a track of the parent entry position including when an annotation has been added -->
+<input id="entryPositionInSet" name="entryPositionInSet" value="129" type="hidden">
+<input id="totalEntriesInSet" name="totalEntriesInSet" value="19969" type="hidden">
+<!-- Backup -->
+<input name="queryString_backup" id="queryString_backup" value="[EMBL:AA002162]" type="hidden">
+<!--  for back links with annotations  -->
+
+<input name="referEntryId" id="referEntryId" value="" type="hidden">
+<div id="displayOptionsContainer">
+	<!-- round corners  -->
+	<span class="topLeftImage"></span>
+	<span class="topRightImage"></span>
+
+  <table border="0" cellpadding="0" cellspacing="0">
+    <tbody><tr>
+      <td><img src="EMBL_AA002162_srs_files/null.gif" height="5"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;&nbsp;&nbsp;<strong>Options:</strong>&nbsp;</td>
+	  <td>
+		<div class="displayOptionsButton" id="actionsMenuButton" onmouseover="showMenu('actionsMenu')" onmouseout="hideMenu('actionsMenu');">
+			Actions <img class="arrowIcon" src="EMBL_AA002162_srs_files/options_tab_arrow.gif" title="Menu">
+		</div>
+  	  	<div id="actionsMenu" onmouseover="showMenu('actionsMenu')" onmouseout="hideMenu('actionsMenu');">
+		<a href="javascript:showStopOption('full');resetHiddenFields();setFormElementById('action','backToResults');document.forms['primaryForm'].submit();">Back to Results</a><br>
+		<a href="http://srs.embl.de/srs/showResults.do?query=%5BEMBL:AA002162%5D">Set As Primary Search</a><br>
+		</div>
+	  </td>
+      <td>
+		<div class="displayOptionsButton" id="viewsMenuButton" onmouseover="showMenu('viewsMenuEntry')" onmouseout="hideMenu('viewsMenuEntry');">
+			View <img class="arrowIcon" src="EMBL_AA002162_srs_files/options_tab_arrow.gif" title="Menu">
+		</div>
+  	  	<div id="viewsMenuEntry" onmouseover="showMenu('viewsMenuEntry')" onmouseout="hideMenu('viewsMenuEntry');">
+	  <a onclick="showStopOption('full');" href="http://srs.embl.de/srs/showEntryView.do?entryId=EMBL:AA002162&amp;pQ=q30&amp;ppQ=q30&amp;num=129&amp;total=19969&amp;sF=&amp;sD=0&amp;pV=&amp;pDB=&amp;pC=&amp;pCT=&amp;pSt=121&amp;pSz=30&amp;pCN=&amp;entryView=CompleteEntry">
+					Text Entry</a><br>
+				
+			<strong>SeqDB_Entry</strong><br>
+			</div>
+	  </td>
+	<td style="padding-left: 20px; white-space: nowrap;">
+	<strong>View Summary Sheet:</strong>
+</td>	  
+<td>
+	<a onclick="showStopOption('full');" href="http://srs.embl.de/srs/showEntryView.do?entryId=EMBL:AA002162&amp;pQ=&amp;num=&amp;total=&amp;sF=&amp;sD=&amp;pV=&amp;pDB=&amp;pC=&amp;pCT=&amp;pSt=&amp;pSz=&amp;pCN=&amp;entryView=summarySheetView">
+		<img src="EMBL_AA002162_srs_files/icon_summarysheet.gif">
+	</a>
+</td>
+<td style="padding-left: 20px; white-space: nowrap;">
+	<strong>Get PDF version:</strong>
+</td>
+<td>
+	<a href="http://srs.embl.de/srs/showEntryViewAsPdf.do?entryId=EMBL:AA002162&amp;entryView=SeqDB_Entry"><img class="pdf" src="EMBL_AA002162_srs_files/pdf_icon.gif"></a>
+</td>
+<td style="padding-left: 20px; white-space: nowrap;">
+	<strong>View Databank:</strong>
+</td>
+<td>
+	<a href="http://srs.embl.de/srs/databankinfo.do?dbName=EMBL"><img class="pdf" src="EMBL_AA002162_srs_files/icon_db.gif"></a>
+</td>
+<td class="resultNav">
+		<a onclick="showStopOption('full');" href="http://srs.embl.de/srs/showEntryView.do?entryId=EMBL:CD030452&amp;pQ=q30&amp;ppQ=q30&amp;num=128&amp;total=19969&amp;sF=&amp;sD=0&amp;pV=&amp;pDB=&amp;pC=&amp;pCT=&amp;pSt=121&amp;pSz=30&amp;pCN=&amp;entryView=SeqDB_Entry">
+				&lt;
+			</a>
+		
+		
+		Page 129 of 19969<a onclick="showStopOption('full');" href="http://srs.embl.de/srs/showEntryView.do?entryId=EMBL:AA004529&amp;pQ=q30&amp;ppQ=q30&amp;num=130&amp;total=19969&amp;sF=&amp;sD=0&amp;pV=&amp;pDB=&amp;pC=&amp;pCT=&amp;pSt=121&amp;pSz=30&amp;pCN=&amp;entryView=SeqDB_Entry">
+				&gt;
+			</a>
+		</td>
+	</tr>
+  </tbody></table>
+</div>
+<div id="basessm" style="visibility: hidden; position: absolute; left: -2px; top: 169px; z-index: 20; width: 240px;">
+    <div id="thessm" style="position: absolute; left: -200px; top: 0px; z-index: 21; visibility: visible;">
+    <script type="text/javascript">
+function confirmDeleteEntry(divId, toolName) {
+	var ht = '<table><tr><td colspan="2" align="center">Do you wish to remove EMBL:AA002162 from your sequence database?</td></tr>';
+	ht = ht + '<tr><td align="right"><a id="' + divId + 'rename" href="javascript:hideDivSection(\'' + divId + '\');launchTool(\'' + toolName + '\');showStopOption(\'annotations\');">';
+	ht = ht + '<img border="0" src="images/biowisdom/btn_accept_off.gif" onmouseover="swapImage(this, \'images/biowisdom/btn_accept_hover.gif\');" onmouseout="swapImage(this, \'images/biowisdom/btn_accept_off.gif\');"/></a></td>';
+	ht = ht + '<td align="left"><a id="' + divId + 'cancelAlerting" href="javascript:hideDivSection(\'' + divId + '\');hideFreeze()">';
+	ht = ht + '<img border="0" src="images/biowisdom/btn_cancel_off.gif" onmouseover="swapImage(this, \'images/biowisdom/btn_cancel_hover.gif\');" onmouseout="swapImage(this, \'images/biowisdom/btn_cancel_off.gif\');"/></a></td></tr></table>';
+
+	document.getElementById(divId).innerHTML = ht
+	showDivSection(divId);
+	centerDivPosition(divId);
+	showStopOption('freezeOnly');
+}
+</script>
+    
+      <table border="0" cellpadding="0" cellspacing="0" width="216">
+        <tbody><tr>
+          <td class="toolsMainArea" valign="top" width="200"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+              <tbody><tr>
+                <td class="toolsHeading">Analysis Tools</td>
+              </tr>
+              <tr>
+                <td class="toolsContent"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tbody><tr>
+                      <td class="toolsContent2" align="left" valign="top" width="100%"><table border="0" cellpadding="2" cellspacing="2">
+                          <tbody><tr>
+                            <td valign="top"><a href="http://srs.embl.de/srs/analysisTools.do?queryString=%5BEMBL:AA002162%5D&amp;query=q34&amp;databanks=EMBL">Go to Tools Page</a> </td>
+                          </tr>
+                          <tr>
+                            <td valign="top">or Launch specific Tool:&nbsp;</td>
+                          </tr>
+                        </tbody></table>
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                          <tbody><tr>
+                            <td valign="top">
+                            	<select name="menu_toolList" id="menu_toolList">
+							      <option value="BlastX">BlastX</option>
+							      <option value="TBlastX">TBlastX</option>
+							      </select>
+            	            </td>
+                          </tr>
+                          <tr>
+                            <td height="3" valign="top"><img src="EMBL_AA002162_srs_files/null.gif" align="center" border="0" height="5" width="10"></td>
+                          </tr>
+                          <tr>
+                            <td rowspan="0" colspan="0" align="left" valign="top"><a href="javascript:submitTool();" name="launchTool_link" id="launchTool_link"><img name="launchTool_img" id="launchTool_img" src="EMBL_AA002162_srs_files/btn_launch_off.gif" onmouseover="swapImage(this, 'images/biowisdom/btn_launch_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_launch_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_launch_on.gif');" align="bottom" border="0"></a></td>
+                          </tr>
+                        </tbody></table>
+                       </td>
+                    </tr>
+                  </tbody></table></td>
+              </tr>
+              
+              <tr>
+                <td class="toolsHeading">Sequence
+                <input name="addToolName" id="addToolName" value="UserDNA" type="hidden">
+                <input name="addToolPrintName" id="addToolPrintName" value="My Nucleotide Sequences" type="hidden">
+                <input name="addToolNameLaunch" id="addToolNameLaunch" value="" type="hidden">
+                <input name="addToolType" id="addToolType" value="0" type="hidden">
+                </td>
+              </tr>
+              <tr>
+                <td class="toolsContent"><table id="saveSequence" border="0" cellpadding="2" cellspacing="2">
+                    <tbody><tr>
+                      <td id="saveSequenceCell">
+			        	<a href="javascript:launchTool('UserDNA');"><img src="EMBL_AA002162_srs_files/addentry.gif" border="0">			
+						 Add to My Nucleotide Sequences</a>
+                      </td>
+                    </tr>
+                  </tbody></table></td>
+              </tr>
+              <tr>
+                <td class="toolsHeading">Save/Export</td>
+              </tr>
+              <tr>
+                <td class="toolsContent">
+                <table id="exportApplications" border="0" cellpadding="2" cellspacing="2">
+		                  <tbody><tr>
+		                        <td><a href="javascript:exportTo('txtXml','txt-xml');resetHiddenFields();">XML or Text format</a></td>
+		                        <td align="center"><img src="EMBL_AA002162_srs_files/txt_icon.gif"></td>
+		                      </tr>
+		                      <tr>
+		                        <td><a href="javascript:exportTo('pdf','');resetHiddenFields();">Acrobat PDF</a></td>
+		                        <td align="center"><img src="EMBL_AA002162_srs_files/pdf_icon.gif"></td>
+		                      </tr>
+		                      </tbody></table>
+	                </td>
+              </tr>
+              <tr>
+                <td class="toolsHeading">Link</td>
+              </tr>
+              <tr>
+                <td class="toolsContent"><p>
+                <a href="http://srs.embl.de/srs/updatelinkUniverse.do?fromQueryString=%5BEMBL:AA002162%5D&amp;fromQuery=q34&amp;fromDatabank=EMBL&amp;mode=text&amp;action=redirect">
+                Link to...
+                </a><br>
+				</p></td>
+              </tr>
+              <tr>
+                <td class="toolsHeading">Term Highlighting</td>
+              </tr>
+              <tr>
+                <td class="toolsContent"><p>
+				</p><div id="highlightTermsTrigger"><a href="#" onclick="highlightTerms('false');">Switch Off</a></div>
+				
+                <br>
+                </td>
+              </tr>
+              
+            </tbody></table></td>
+          <td valign="top" width="16"><table border="0" cellpadding="0" cellspacing="0" width="16">
+              <tbody><tr>
+                <td class="toolsTab" onclick="movementDecider();" align="center" valign="top">&nbsp; T o o l s &nbsp;</td>
+              </tr>
+              <tr>
+                <td onclick="javascript:clickthrough();" onmouseover="this.style.cursor='hand'" onmouseout="this.style.cursor='pointer'" height="100" valign="top">&nbsp;</td>
+              </tr>
+            </tbody></table></td>
+        </tr>
+      </tbody></table>
+    </div>
+  </div>
+</form>
+<br>
+
+<form method="post" name="viewForm" action="updateEntryView.do">
+<table border="0" cellpadding="5" cellspacing="0">
+<tbody><tr>
+<td bgcolor="#aad2f5" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>Go To:</b></font></td>
+<td bgcolor="#aad2f5" valign="top"><a href="#dnadbGeneral">General</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#dnadbDescription">Description</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#dnadbReferences">References</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#dnadbCrossReferences">Cross-References</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#dnadbFeatures">Features</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#dnadbSequence">Sequence</a>
+</td>
+</tr>
+</tbody></table>
+<table border="0" cellpadding="2" cellspacing="2">
+<tbody><tr>
+<td colspan="2" bgcolor="#aad2f5" valign="top" width=""><a class="sectionHead" name="dnadbGeneral">General Information About The Entry</a></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#a0b8dc" valign="top">Entry Name</td>
+<td colspan="1" valign="top"><b>EMBL:AA002162</b></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#a0b8dc" valign="top">Identifier</td>
+<td colspan="1" valign="top"><b>AA002162</b></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Accession #</td>
+<td colspan="1" valign="top">AA002162</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Molecule Type</td>
+<td colspan="1" valign="top">linear</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Sequence Length</td>
+<td colspan="1" valign="top">502</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Entry Division</td>
+<td colspan="1" valign="top">EST (Expressed Sequence Tags) / HUM (Human)</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Sequence Version</td>
+<td colspan="1" valign="top">AA002162.1</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Creation Date</td>
+<td colspan="1" valign="top">25-JUL-1996</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Modification Date</td>
+<td colspan="1" valign="top">31-AUG-2006</td>
+<script language="JavaScript">
+ var sectionName='section_dnadbDescription';
+ if(collapsibleSections == ''){
+  var collapsibleSections=(sectionName);
+ } else {
+  var collapsibleSections=(collapsibleSections + "@" + sectionName);
+ }
+</script>
+
+</tr>
+<tr>
+<td colspan="2" bgcolor="#aad2f5" valign="top" width=""><a href="javascript:toggleRegion('section_dnadbDescription',0);" id="imgLink_image_section_dnadbDescription"><img src="EMBL_AA002162_srs_files/minus.gif" id="image_section_dnadbDescription" align="center" border="0"></a>
+<a class="sectionHead" name="dnadbDescription">Description</a></td>
+</tr></tbody><tbody id="section_dnadbDescription">
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Description</td>
+<td colspan="1" valign="top">zh81c07.s1 Soares_fetal_liver_spleen_1NFLS_S1 Homo sapiens cDNA clone IMAGE:427692 3' similar to gb:X06290 <span class="termHighlight"><span class="termHighlight">APOLIPOPROTEIN</span></span>(A) PRECURSOR (HUMAN);, mRNA sequence. </td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Keywords</td>
+<td colspan="1" valign="top">EST</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Organism</td>
+<td colspan="1" valign="top">Homo sapiens (human) </td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Organism Classification</td>
+<td colspan="1" valign="top">Eukaryota; Metazoa; Chordata; Craniata;
+Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires;
+Primates; Haplorrhini; Catarrhini; Hominidae; Homo. </td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Comment</td>
+<td colspan="1" valign="top">On Sep 21, 1992 this sequence version replaced gi:279294.<br>
+Contact: Wilson RK<br>
+Washington University School of Medicine<br>
+4444 Forest Park Parkway, Box 8501, St. Louis, MO 63108<br>
+Tel: 314 286 1800<br>
+Fax: 314 286 1810<br>
+Email: est@watson.wustl.edu<br>
+This clone is available royalty-free through LLNL ; contact the<br>
+IMAGE Consortium (info@image.llnl.gov) for further information.<br>
+Insert Length: 1520   Std Error: 0.00<br>
+Seq primer: mob.REGA+ET<br>
+High quality sequence stop: 380.<br>
+</td>
+</tr></tbody><script language="JavaScript">
+ var sectionName='section_dnadbReferences';
+ if(collapsibleSections == ''){
+  var collapsibleSections=(sectionName);
+ } else {
+  var collapsibleSections=(collapsibleSections + "@" + sectionName);
+ }
+</script>
+
+
+<tbody><tr>
+<td colspan="2" bgcolor="#aad2f5" valign="top" width=""><a href="javascript:toggleRegion('section_dnadbReferences',0);" id="imgLink_image_section_dnadbReferences"><img src="EMBL_AA002162_srs_files/minus.gif" id="image_section_dnadbReferences" align="center" border="0"></a>
+<a class="sectionHead" name="dnadbReferences">References</a></td>
+</tr></tbody><tbody id="section_dnadbReferences">
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>1.
+  </b></font></td>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td colspan="1" valign="top">Hillier,L.D. Lennon,G. Becker,M.
+Bonaldo,M.F. Chiapelli,B. Chissoe,S. Dietrich,N. DuBuque,T. Favello,A.
+Gish,W. Hawkins,M. Hultman,M. Kucaba,T. Lacy,M. Le,M. Le,N. Mardis,E.
+Moore,B. Morris,M. Parsons,J. Prange,C. Rifkin,L. Rohlfing,T.
+Schellenberg,K. Soares,M.B. Tan,F. Thierry-Meg,J. Trevaskis,E.
+Underwood,K. Wohldman,P. Waterston,R. Wilson,R. Marra,M.; <b>"Generation and analysis of 280,000 human expressed sequence tags"</b>&nbsp;Genome Res.&nbsp;6(9):807-828 (1996)</td>
+</tr>
+<tr>
+<td align="left" valign="top"><table border="0" cellpadding="3" cellspacing="3">
+<tbody><tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">PubMed</td>
+<td colspan="1" valign="top"><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids=8889549&amp;query_hl=1&amp;itool=pubmed_docsum" target="_blank">8889549</a></td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Position</td>
+<td colspan="1" valign="top">1-502</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr></tbody><script language="JavaScript">
+ var sectionName='section_dnadbCrossReferences';
+ if(collapsibleSections == ''){
+  var collapsibleSections=(sectionName);
+ } else {
+  var collapsibleSections=(collapsibleSections + "@" + sectionName);
+ }
+</script>
+
+
+<tbody><tr>
+<td colspan="2" bgcolor="#aad2f5" valign="top" width=""><a href="javascript:toggleRegion('section_dnadbCrossReferences',0);" id="imgLink_image_section_dnadbCrossReferences"><img src="EMBL_AA002162_srs_files/minus.gif" id="image_section_dnadbCrossReferences" align="center" border="0"></a>
+<a class="sectionHead" name="dnadbCrossReferences">Database Cross References</a></td>
+</tr></tbody><tbody id="section_dnadbCrossReferences">
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">GDB</td>
+<td colspan="1" valign="top"> <a href="http://www.gdb.org/gdb-bin/genera/accno?accessionNum=gdb:4486757" target="_blank">4486757</a>.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">ImaGenes</td>
+<td colspan="1" valign="top"> IMAGp998B131004Q.
+</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">UNILIB</td>
+<td colspan="1" valign="top"> 108; 452.
+</td>
+</tr></tbody><script language="JavaScript">
+ var sectionName='section_dnadbFeatures';
+ if(collapsibleSections == ''){
+  var collapsibleSections=(sectionName);
+ } else {
+  var collapsibleSections=(collapsibleSections + "@" + sectionName);
+ }
+</script>
+
+
+<tbody><tr>
+<td colspan="2" bgcolor="#aad2f5" valign="top" width=""><a href="javascript:toggleRegion('section_dnadbFeatures',0);" id="imgLink_image_section_dnadbFeatures"><img src="EMBL_AA002162_srs_files/minus.gif" id="image_section_dnadbFeatures" align="center" border="0"></a>
+<a class="sectionHead" name="dnadbFeatures">Features</a></td>
+</tr></tbody><tbody id="section_dnadbFeatures">
+<tr>
+<td colspan="2" valign="top"><table border="0" cellpadding="2" cellspacing="2">
+<tbody><tr>
+<td bgcolor="#a0b8dc" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>Key</b></font></td>
+<td bgcolor="#a0b8dc" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>Location</b></font></td>
+<td bgcolor="#a0b8dc" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>Qualifier</b></font></td>
+<td bgcolor="#a0b8dc" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>Value</b></font></td>
+</tr>
+<tr>
+<td rowspan="10" bgcolor="#efeff7" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?query=%5BEMBL_features-pac:AA002162_1%5D">source</a>
+</td>
+<td rowspan="10" align="left" valign="top">          1..502
+</td>
+<td align="right" bgcolor="#a0b8dc" valign="top">organism</td>
+<td align="left" valign="top">Homo sapiens </td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top">lab_host</td>
+<td align="left" valign="top">DH10B (ampicillin resistant) </td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top">mol_type</td>
+<td align="left" valign="top">mRNA </td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top">sex</td>
+<td align="left" valign="top">male </td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top">dev_stage</td>
+<td align="left" valign="top">20 week-post conception fetus </td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top">clone_lib</td>
+<td align="left" valign="top">Soares_fetal_liver_spleen_1NFLS_S1 </td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top">clone</td>
+<td align="left" valign="top">IMAGE:427692 </td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top">note</td>
+<td align="left" valign="top">Organ: Liver and Spleen; Vector: pT7T3D
+(Pharmacia) with a modified polylinker; Site_1: Pac I; Site_2: Eco RI;
+This is a subtracted version of the original Soares fetal liver spleen
+1NFLS library. 1st strand cDNA was primed with a Pac I - oligo(dT)
+primer [5' AACTGGAAGAATTAATTAAAGATCTTTTTTTTTTTTTTTTTTT 3'],
+double-stranded cDNA was ligated to Eco RI adaptors (Pharmacia),
+digested with Pac I and cloned into the Pac I and Eco RI sites of the
+modified pT7T3 vector. Library went through one round of normalization.
+Library constructed by Bento Soares and M.Fatima Bonaldo. </td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top">db_xref</td>
+<td align="left" valign="top"><a href="http://srs.embl.de/srs/showEntryView.do?Id=4eKZ9f26vr4xUnKp&amp;query=%5Btaxonomy-ID:9606%5D">taxon:9606</a> </td>
+</tr>
+<tr>
+<td align="right" bgcolor="#efeff7" valign="top">db_xref</td>
+<td align="left" valign="top">UNILIB:108 </td>
+</tr>
+</tbody></table>
+</td>
+</tr></tbody><script language="JavaScript">
+ var sectionName='section_dnadbSequence';
+ if(collapsibleSections == ''){
+  var collapsibleSections=(sectionName);
+ } else {
+  var collapsibleSections=(collapsibleSections + "@" + sectionName);
+ }
+</script>
+
+
+<tbody><tr>
+<td colspan="2" bgcolor="#aad2f5" valign="top" width=""><a href="javascript:toggleRegion('section_dnadbSequence',0);" id="imgLink_image_section_dnadbSequence"><img src="EMBL_AA002162_srs_files/minus.gif" id="image_section_dnadbSequence" align="center" border="0"></a>
+<a class="sectionHead" name="dnadbSequence">Sequence</a></td>
+</tr></tbody><tbody id="section_dnadbSequence">
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Characteristics</td>
+<td colspan="1" valign="top">Length:502</td>
+</tr>
+<tr>
+<td colspan="1" bgcolor="#efeff7" valign="top">Base Count</td>
+<td colspan="1" valign="top">A Count:<b>145</b>, C Count:<b>111</b>, G Count:<b>117</b>, T Count:<b>129</b>, Others Count:<b>0</b></td>
+</tr>
+<tr>
+<td bgcolor="#efeff7" valign="top">Sequence</td>
+<td valign="top"><textarea rows="15" cols="70" name="sequence" readonly="readonly">&gt;EMBL:AA002162 zh81c07.s1 Soares_fetal_liver_spleen_1NFLS_S1 Homo sapiens c...
+gcaaatccatatgaaggaagcagtttccttaccaaaacagaaggcaacttaccacagaga
+gggatatcacagtagtcaaaaagttttcttggattcactctgtagcaccagggaccattg
+atgtcaccatcagggttacggcagtactgaaaacaagcaggcatgtaagctccagctcac
+gtggggcaagagagggagaaggtgttccaaggcacacatgtttcacatctattcttagag
+acataaaggagtgtttcttcttcctttctttctattattattaagatatttttcgcaaac
+ttattttttgtatgctctaaagccatcagtcatgtgttccagttcaaaagaagctatgag
+gccacaccctgaccaaaggggtggtgaccctgaagggtctttgggagaatgggcctcttc
+tccagaaacccgacccagtggaggtcctagagccagagccccagagaacagtggaacatc
+attgatgagctttgtcccttgg
+</textarea></td>
+</tr></tbody>
+</table>
+<table border="0" cellpadding="5" cellspacing="0">
+<tbody><tr>
+<td bgcolor="#aad2f5" valign="top"><font face="verdana,helvetica,arial,sans-serif"><b>Go To:</b></font></td>
+<td bgcolor="#aad2f5" valign="top"><a href="#dnadbGeneral">General</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#dnadbDescription">Description</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#dnadbReferences">References</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#dnadbCrossReferences">Cross-References</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#dnadbFeatures">Features</a>
+</td>
+<td bgcolor="#aad2f5" valign="top"><a href="#dnadbSequence">Sequence</a>
+</td>
+</tr>
+</tbody></table>
+<div id="confirmDelete" class="tip2">
+<table align="center">
+<tbody><tr><td colspan="2">Are you sure you want to delete this annotation?</td></tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr><td align="right">
+<a href="javascript:confirmAnnotationDeleteAction('deleteAnnotation.do?referEntryId=EMBL:AA002162&amp;pQ=q30&amp;sF=&amp;num=129&amp;total=19969&amp;sD=0&amp;pV=SeqSimpleView&amp;pDB=&amp;pC=&amp;pCT=&amp;pSt=121&amp;pSz=30&amp;pCN=');">
+<img src="EMBL_AA002162_srs_files/btn_delete_off.gif" onmouseover="swapImage(this, 'images/biowisdom/btn_delete_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_delete_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_delete_on.gif');" border="0"></a></td>
+<td align="left"><a href="javascript:hideDivSection('confirmDelete');hideFreeze();">
+<img src="EMBL_AA002162_srs_files/btn_cancel_off.gif" onmouseover="swapImage(this, 'images/biowisdom/btn_cancel_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_cancel_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_cancel_on.gif');" border="0"></a></td>
+</tr>	
+</tbody></table>
+</div>
+
+
+
+
+</form>
+
+</div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr>
+<td align="center"><img src="EMBL_AA002162_srs_files/null.gif" border="0" height="50" width="10"></td>
+</tr>
+<tr>
+<td align="center"><img class="navBg" src="EMBL_AA002162_srs_files/null.gif" height="1" width="600"></td>
+</tr>
+<tr>
+<td align="center">
+<p class="copy">SRS Release 8.3
+<a class="small" href="javascript:void(window.open('copyright.do','footerinfo','menubar=no,%20status=yes,%20toolbar=no,%20resizable=yes,%20scrollbars=yes,%20height=400,%20width=510'))">Copyright</a> © 2007 BioWisdom SRS Ltd. All Rights Reserved.
+<a class="small" href="javascript:void(window.open('termsofuse.do','footerinfo','menubar=no,%20status=yes,%20toolbar=no,%20resizable=yes,%20scrollbars=yes,%20height=400,%20width=510'))">Terms of Use</a>&nbsp;<a class="small" href="javascript:void(window.open('feedback.do','footerinfo','menubar=no,%20status=yes,%20toolbar=no,%20resizable=yes,%20scrollbars=yes,%20height=400,%20width=510'))">Feedback</a></p>
+</td></tr></tbody></table>
+<div id="popupInfo">Loading ...</div>
+<!-- This iFrame is required to display hidden DIV above select menus in IE -->
+<iframe id="frame" src="EMBL_AA002162_srs_files/a.html" style="border: 0pt none ; position: absolute; display: block; z-index: 0; visibility: hidden;" frameborder="0" height="0" scrolling="no" width="0"></iframe>
+<div id="annotationDeleted" class="tip2">
+<table align="center" border="0">
+<tbody><tr><td align="center">Annotation deleted successfully !</td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td align="center">
+<a href="javascript:hideDivSection('annotationDeleted');">
+<img src="EMBL_AA002162_srs_files/btn_close_off.gif" onmouseover="swapImage(this, 'images/biowisdom/btn_close_hover.gif');" onmouseout="swapImage(this, 'images/biowisdom/btn_close_off.gif');" onmousedown="swapImage(this, 'images/biowisdom/btn_close_on.gif');" align="center" border="0"></a>
+</td></tr>
+
+</tbody></table>
+</div>
+</body></html>

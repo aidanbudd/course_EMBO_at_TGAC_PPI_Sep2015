@@ -1,0 +1,309 @@
+#NEXUS
+[written Wed Feb 11 07:50:25 CET 2009 by Mesquite  version 2.01 (build j28) at mac-gibson17-AidanLaptop.local/172.16.103.155]
+
+BEGIN TAXA;
+	TITLE Untitled_Taxa_Block;
+	DIMENSIONS NTAX=3;
+	TAXLABELS
+		taxon_1 taxon_2 taxon_3 
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	TITLE  simulatedDnaShortTree;
+	DIMENSIONS  NCHAR=100;
+	FORMAT DATATYPE = DNA GAP = - MISSING = ?;
+	MATRIX
+	taxon_1  ATGTTTTCGTCCTACGGTAAATGGCGGTATTAGGCGTATTTCGTGGAGAGTCGTGGTCAACCGAAGAGGGTACCGTTGTGTTCCACAGCTCTTGGACTGC
+
+	taxon_2  ATGTTTTCGTCCTACGGGAAGTGGCGGTCTTAGGCGTATTTCGTGGGGTGTCGTGGTCAACCGAAGAGGGTACCCTTGTGTTCCCCAGCTCTTGGACTGC
+
+	taxon_3  ATATTTTCGTCCTACGGTAAGTGGCGGTCTTAGGCGTATTTCGTGGAGAGTCGTGGTCAACCGAAGAGGGTACCCTTGTGTTCCCCAGCTCTTGGACTGC
+
+
+;
+
+
+
+END;
+
+BEGIN CHARACTERS;
+	TITLE  SimulatedDna100timesLongerTree;
+	DIMENSIONS  NCHAR=100;
+	FORMAT DATATYPE = DNA GAP = - MISSING = ?;
+	MATRIX
+	taxon_1  CACGGAAAATAGTCAGTTTCTATATAGTACGTGGTAATGGATGTTCGTAGAATGACCTTGACCCAGATATACTCGGGGAGATTGTCGCATTGGTTTTTGA
+
+	taxon_2  CCCGACCCCGTCACCCCGTGTCTTGATAGGTGCACTAGTTAGAAACTAACTGCAGACACGCAACTTGGGTCAATTTAGAGGAAACGAAGACAAACCTGCA
+
+	taxon_3  TCGCATGCCGGGACCCCGAATGTTCCGATGCAGACTGAACTGTAAGTCATCGACCAGATGCACATTGGTGACATATGTCAGGCTACTGGGACCTGGTATG
+
+
+;
+
+
+
+END;
+
+BEGIN CODONS;
+CODESET * UNTITLED  (CHARACTERS = simulatedDnaShortTree)  =  universal:  1 -  100;
+CODESET * UNTITLED  (CHARACTERS = SimulatedDna100timesLongerTree)  =  universal:  1 -  100;
+
+
+END;
+
+BEGIN TREES;
+	Title branchlengthDemoTrees;
+	LINK Taxa = Untitled_Taxa_Block;
+	TRANSLATE
+		1 taxon_1,
+		2 taxon_2,
+		3 taxon_3;
+	TREE shortTree = (1:0.1,(2:0.01,3:0.01):0.05);
+	TREE hundredTimesLongerTree = (1:10.0,(2:1.0,3:1.0):5.0);
+
+END;
+
+
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED  (CHARACTERS = simulatedDnaShortTree)  =  unord:  1 -  100;
+TYPESET * UNTITLED  (CHARACTERS = SimulatedDna100timesLongerTree)  =  unord:  1 -  100;
+
+END;
+
+BEGIN MESQUITECHARMODELS;
+	ProbModelSet * UNTITLED  (CHARACTERS = simulatedDnaShortTree)  =  'Jukes-Cantor':  1 -  100;
+ProbModelSet * UNTITLED  (CHARACTERS = SimulatedDna100timesLongerTree)  =  'Jukes-Cantor':  1 -  100;
+END;
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 1486975136265748597;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 1584463433378659630;
+			checksum 0 683764462 null;
+			setID 1 5123454726269500129;
+			checksum 1 3857720998 null;
+		endTell;
+		getEmployee  #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord;
+		tell It;
+			makeTreeWindow #1486975136265748597  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTreeBlock 1;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 1435.1233725832173.2777289607616835031;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 821 356;
+					setLocation 156 227;
+					setFont SanSerif;
+					setFontSize 14;
+					getToolPalette;
+					tell It;
+					endTell;
+					setActive;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.DiagonalDrawTree.DiagonalDrawTree;
+					tell It;
+						setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							stretchToggle off;
+							branchLengthsToggle on;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter off;
+							toggleEven off;
+							namesAngle ?;
+						endTell;
+						setEdgeWidth 12;
+						orientRight;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setColor Black;
+						toggleColorPartition on;
+						toggleShadePartition off;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+					endTell;
+				endTell;
+					setTreeNumber 1;
+					useSuggestedSize on;
+					toggleTextOnTree off;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord;
+		tell It;
+			showDataWindow #1584463433378659630 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 821 356;
+					setLocation 156 227;
+					setFont SanSerif;
+					setFontSize 14;
+					getToolPalette;
+					tell It;
+					endTell;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
+					colorCells  #mesquite.charMatrices.ColorByState.ColorByState;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleShowChanges off;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					setColumnWidth 16;
+					toggleBirdsEye off;
+					toggleColorsPanel off;
+					birdsEyeWidth 2;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.align.AlignToDropped.AlignToDropped;
+				tell It;
+					gapCosts 8 3 2 2;
+					subCosts  10 5 10 10 10 5 5 10 10 10 5 10;
+				endTell;
+			endTell;
+			showDataWindow #5123454726269500129 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 821 356;
+					setLocation 156 227;
+					setFont SanSerif;
+					setFontSize 14;
+					getToolPalette;
+					tell It;
+					endTell;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow;
+					colorCells  #mesquite.charMatrices.ColorByState.ColorByState;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleShowChanges off;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					setColumnWidth 16;
+					toggleBirdsEye off;
+					toggleColorsPanel off;
+					birdsEyeWidth 2;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.align.AlignToDropped.AlignToDropped;
+				tell It;
+					gapCosts 8 3 2 2;
+					subCosts  10 5 10 10 10 5 5 10 10 10 5 10;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+end;
+
+

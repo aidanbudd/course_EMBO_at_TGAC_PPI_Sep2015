@@ -1,0 +1,255 @@
+/*
+	Classes regarding the Display Options display
+*/
+
+#displayOptionsContainer{
+	margin-left:5px;
+	background-color:#AAD2F5;
+	min-width:930px;
+	height:28px;
+	vertical-align:middle;
+}
+
+.topLeftImage {
+	background-image: url("../../images/biowisdom/actionbar_topleft.gif");
+	background-repeat:no-repeat;
+	width:10px;
+	height:10px;
+	float:left;
+}
+
+.topRightImage {
+	background-image:url("../../images/biowisdom/actionbar_topright.gif");
+	background-repeat:no-repeat;
+	width:10px;
+	height:10px;
+	float:right;
+}
+
+.displayOptionsButton{
+	text-decoration:none;
+	padding:2px;
+	font-size:11px;
+	background-color:#FFFFFF;
+	border:1px solid #000066;
+	border-bottom:none;
+	cursor:pointer;
+}
+
+.displayOptionsButton a{	
+	text-decoration:none;
+}
+
+#actionsMenu{
+	visibility:hidden;
+	position:absolute;
+	width:150px;
+	border:1px solid #000066;
+	padding:10px;
+	background-color:#FFFFFF;
+	z-index:20;
+}
+
+#viewsMenuEntry{
+	visibility:hidden;
+	position:absolute;
+	width:200px;
+	border:1px solid #000066;
+	padding:10px;
+	background-color:#FFFFFF;
+	z-index:20;
+}
+
+.resultNav {
+	padding-left: 100px;
+	font-size:12px;
+	white-space: nowrap;
+}
+
+.resultNav a{
+	text-decoration:none;
+}
+
+.pdf {
+	padding-left:2px;
+	border: none;
+}
+.sectionHead   {  /* Used for section headings in entry views, independent to boxHead for maintainability */
+	font-family:    Verdana, Arial, Helvetica;
+	font-size: 10pt;
+	font-weight:bold;
+	color: #000066;    
+}
+#addAnnotation {
+	visibility:hidden;
+	Position : Absolute;
+	Z-Index : 999;
+	width:350px;
+	background-color: #FFFFFF;
+	padding:10px;
+	border-top: 2px solid #5b85c2;
+	border-right: 2px solid #5b85c2;
+	border-bottom: 2px solid #5b85c2;
+	border-left: 2px solid #5b85c2;
+}
+#addEntry {
+	visibility:hidden;
+	Position : Absolute;
+	Z-Index : 999;
+	width:350px;
+	background-color: #FFFFFF;
+	height: 150px;
+	overflow: hidden;
+	padding:10px;
+	border-top: 2px solid #5b85c2;
+	border-right: 2px solid #5b85c2;
+	border-bottom: 2px solid #5b85c2;
+	border-left: 2px solid #5b85c2;
+}
+#entriesChecksumOK {
+	visibility:hidden;
+	Position : Absolute;
+	Z-Index : 999;
+	width:250px;
+	background-color: #FFFFFF;
+	height: 70px;
+	overflow: hidden;
+	padding:10px;
+	border-top: 2px solid #5b85c2;
+	border-right: 2px solid #5b85c2;
+	border-bottom: 2px solid #5b85c2;
+	border-left: 2px solid #5b85c2;
+}
+#addSeqInterval {
+	visibility:hidden;
+	Position : Absolute;
+	Z-Index : 999;
+	width:350px;
+	background-color: #FFFFFF;
+	padding:10px;
+	border-top: 2px solid #5b85c2;
+	border-right: 2px solid #5b85c2;
+	border-bottom: 2px solid #5b85c2;
+	border-left: 2px solid #5b85c2;
+}
+#addUser {
+	visibility:hidden;
+	Position : Absolute;
+	Z-Index : 999;
+	width:350px;
+	background-color: #FFFFFF;
+	padding:10px;
+	border-top: 2px solid #5b85c2;
+	border-right: 2px solid #5b85c2;
+	border-bottom: 2px solid #5b85c2;
+	border-left: 2px solid #5b85c2;
+}
+#addQualifier {
+	visibility:hidden;
+	Position : Absolute;
+	Z-Index : 999;
+	width:350px;
+	background-color: #FFFFFF;
+	padding:10px;
+	border-top: 2px solid #5b85c2;
+	border-right: 2px solid #5b85c2;
+	border-bottom: 2px solid #5b85c2;
+	border-left: 2px solid #5b85c2;
+}
+#addDocument {
+	visibility:hidden;
+	Position : Absolute;
+	Z-Index : 999;
+	width:350px;
+	background-color: #FFFFFF;
+	padding:10px;
+	border-top: 2px solid #5b85c2;
+	border-right: 2px solid #5b85c2;
+	border-bottom: 2px solid #5b85c2;
+	border-left: 2px solid #5b85c2;
+}
+#editChangedEntry {
+	visibility:hidden;
+	Position : Absolute;
+	Z-Index : 999;
+	width:350px;
+	background-color: #FFFFFF;
+	padding:10px;
+	border-top: 2px solid #5b85c2;
+	border-right: 2px solid #5b85c2;
+	border-bottom: 2px solid #5b85c2;
+	border-left: 2px solid #5b85c2;
+}
+#editDeletedEntry {
+	visibility:hidden;
+	Position : Absolute;
+	Z-Index : 999;
+	width:350px;
+	background-color: #FFFFFF;
+	padding:10px;
+	border-top: 2px solid #5b85c2;
+	border-right: 2px solid #5b85c2;
+	border-bottom: 2px solid #5b85c2;
+	border-left: 2px solid #5b85c2;
+}
+#reportErrors {
+	visibility:hidden;
+	Position : Absolute;
+	Z-Index : 999;
+	width:350px;
+	background-color: #FFFFFF;
+	padding:10px;
+	border-top: 2px solid #5b85c2;
+	border-right: 2px solid #5b85c2;
+	border-bottom: 2px solid #5b85c2;
+	border-left: 2px solid #5b85c2;
+}
+
+.tm_medlineTitle {  /* specific sizing for this particular view */
+	font-size:18px;    
+	font-weight:bold;
+}
+/* Used by text mining module */
+.tm_highlight A:hover {
+	background-color:#CCCCCC; 
+	color: #000063;
+}
+
+.tm_link A {
+	font-family:arial;
+	font-size:11;
+}
+
+/* The following 4 are used by text mining */
+#tm-activation, #tm-binding, #tm-geneexpression, #tm-inhibition, #tm-interaction, #tm-localization, #tm-regulation {
+	color: black; 
+	font-weight:bold;
+}
+
+#tm-compound {
+	color: green; 
+	font-weight:bold;
+}
+
+#tm-geneprotein, #tm-proteingene, #tm-gene {
+	color: red; 
+	font-weight:bold;
+}
+
+#tm-disease, #tm-disorder {
+	color: biowisdom; 
+	font-weight:bold;
+}
+
+/* These are used by the collapsible sections in entry views */
+.showsection {
+	display: block; 
+	display: table-row-group;
+}
+.hidesection {
+	display: none;
+}
+
+td img {
+    vertical-align: middle;
+}

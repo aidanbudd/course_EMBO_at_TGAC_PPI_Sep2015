@@ -1,0 +1,296 @@
+
+
+ProtTest - 1.4                          Selection of models of protein evolution
+(c) 2004                          Federico Abascal, Rafael Zardoya, David Posada
+(FA, DP)            Facultad de Biologia, Universidad de Vigo, 36200 Vigo, Spain
+(RZ)                   Museo Nacional de Ciencias Naturales, 28006 Madrid, Spain
+Contact:                                     fabascal@uvigo.es, dposada@uvigo.es
+--------------------------------------------------------------------------------
+
+Sat Feb 07 14:32:19 CET 2009
+OS = Mac OS X (10.5.6)
+
+
+ProtTest options
+----------------
+  Alignment file........... : /Users/budd/Desktop/Training/topicSpecificTrainingContent/phylogenies/analysisFromAtoZ//TF105399_seed_trimmed_HandGblocked_NameEd.phy
+  Tree..................... : BioNJ
+  StrategyMode............. : Fast (optimize branch lengths & model)
+  Candidate models......... : 
+    Matrices............... : WAG JTT 
+    Distributions.......... : +I +G 
+    Observed frequencies... : true
+
+
+**********************************************************
+  Reading alignment...
+    Sequence #1: DRM_CG4107
+    Sequence #2: AEDAE_0452
+    Sequence #3: CIOSA_1192
+    Sequence #4: CIOIN_3167
+    Sequence #5: XENTR_4922
+    Sequence #6: GASAC11546
+    Sequence #7: TETNG22052
+    Sequence #8: FUGRU17779
+    Sequence #9: RAT__55250
+    Sequence #10: CANFA24870
+    Sequence #11: MOUSE_6973
+    Sequence #12: HUMAN22591
+    Sequence #13: XENTR30583
+    Sequence #14: MONDO34106
+    Sequence #15: CHICK18402
+    Sequence #16: BOVIN_0994
+    Sequence #17: HUMAN26375
+    Sequence #18: GASAC_6611
+    Sequence #19: FUGRU15917
+   Alignment contains 19 sequences of length 507
+
+**********************************************************
+Observed number of invariant sites: 207
+Observed aminoacid frequencies:
+ A: 0.036    C: 0.026    D: 0.039    E: 0.078    F: 0.057   
+ G: 0.042    H: 0.027    I: 0.065    K: 0.092    L: 0.100   
+ M: 0.029    N: 0.032    P: 0.046    Q: 0.045    R: 0.067   
+ S: 0.045    T: 0.052    V: 0.059    W: 0.010    Y: 0.053   
+**********************************************************
+
+Model................................ : WAG
+  Number of parameters............... : 35 (0 + 35 branch length estimates)
+ -lnL................................ = 4897.69     (0h0m11s)
+
+Model................................ : WAG+F
+  Number of parameters............... : 54 (19 + 35 branch length estimates)
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 4898.03     (0h0m6s)
+
+Model................................ : WAG+I
+  Number of parameters............... : 36 (1 + 35 branch length estimates)
+    proportion of invariable sites... = 0.299
+ -lnL................................ = 4843.61     (0h0m27s)
+
+Model................................ : WAG+I+F
+  Number of parameters............... : 55 (20 + 35 branch length estimates)
+    proportion of invariable sites... = 0.303
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 4841.89     (0h0m27s)
+
+Model................................ : WAG+G
+  Number of parameters............... : 36 (1 + 35 branch length estimates)
+    gamma shape (4 rate categories).. = 0.984
+ -lnL................................ = 4833.90     (0h1m49s)
+
+Model................................ : WAG+G+F
+  Number of parameters............... : 55 (20 + 35 branch length estimates)
+    gamma shape (4 rate categories).. = 0.945
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 4830.13     (0h1m45s)
+
+Model................................ : JTT
+  Number of parameters............... : 35 (0 + 35 branch length estimates)
+ -lnL................................ = 4835.55     (0h0m8s)
+
+Model................................ : JTT+F
+  Number of parameters............... : 54 (19 + 35 branch length estimates)
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 4833.35     (0h0m7s)
+
+Model................................ : JTT+I
+  Number of parameters............... : 36 (1 + 35 branch length estimates)
+    proportion of invariable sites... = 0.306
+ -lnL................................ = 4776.99     (0h0m27s)
+
+Model................................ : JTT+I+F
+  Number of parameters............... : 55 (20 + 35 branch length estimates)
+    proportion of invariable sites... = 0.307
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 4775.45     (0h0m25s)
+
+Model................................ : JTT+G
+  Number of parameters............... : 36 (1 + 35 branch length estimates)
+    gamma shape (4 rate categories).. = 0.964
+ -lnL................................ = 4770.15     (0h1m47s)
+
+Model................................ : JTT+G+F
+  Number of parameters............... : 55 (20 + 35 branch length estimates)
+    gamma shape (4 rate categories).. = 0.948
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 4766.54     (0h1m55s)
+
+************************************************************
+Date   :  Sat Feb 07 14:42:01 CET 2009
+Runtime:  0h:09:40
+
+
+
+************************************************************
+Akaike Information Chriterion (AIC) framework
+************************************************************
+Best model according to AIC: JTT+G
+************************************************************
+Model          deltaAIC*    AIC          AICw       -lnL    
+------------------------------------------------------------
+JTT+G          0.00         9612.30      1.00       -4770.15
+JTT+I          13.68        9625.98      0.00       -4776.99
+JTT+G+F        30.78        9643.08      0.00       -4766.54
+JTT+I+F        48.60        9660.90      0.00       -4775.45
+WAG+G          127.49       9739.79      0.00       -4833.90
+JTT            128.80       9741.10      0.00       -4835.55
+WAG+I          146.93       9759.23      0.00       -4843.61
+WAG+G+F        157.96       9770.26      0.00       -4830.13
+JTT+F          162.40       9774.70      0.00       -4833.35
+WAG+I+F        181.49       9793.78      0.00       -4841.89
+WAG            253.09       9865.39      0.00       -4897.69
+WAG+F          291.77       9904.07      0.00       -4898.03
+------------------------------------------------------------
+ *: models sorted according to this column
+------------------------------------------------------------
+
+***********************************************
+Relative importance of parameters
+***********************************************
+  alpha       (+G):     1.00
+  p-inv       (+I):     0.00
+  alpha+p-inv (+I+G):   0.00
+  freqs       (+F):     0.00
+
+***********************************************
+Model-averaged estimate of parameters
+***********************************************
+  alpha (+G):           0.96
+  p-inv (+I):           0.31
+  alpha (+I+G):         ?
+  p-inv (+I+G):         ?
+
+
+************************************************************
+Second-order AIC (AICc) framework
+Sample size:  Total number of characters (aligment length)
+           =  507.00
+************************************************************
+Best model according to second-order AIC: JTT+G
+************************************************************
+Model          deltaAICc*   AICc         AICcw      -lnL    
+------------------------------------------------------------
+JTT+G          0.00         9617.97      1.00       -4770.15
+JTT+I          13.68        9631.64      0.00       -4776.99
+JTT+G+F        38.77        9656.73      0.00       -4766.54
+JTT+I+F        56.59        9674.56      0.00       -4775.45
+WAG+G          127.49       9745.46      0.00       -4833.90
+JTT            128.48       9746.45      0.00       -4835.55
+WAG+I          146.93       9764.90      0.00       -4843.61
+WAG+G+F        165.95       9783.92      0.00       -4830.13
+JTT+F          169.87       9787.84      0.00       -4833.35
+WAG+I+F        189.48       9807.44      0.00       -4841.89
+WAG            252.77       9870.74      0.00       -4897.69
+WAG+F          299.24       9917.21      0.00       -4898.03
+------------------------------------------------------------
+ *: models sorted according to this column
+------------------------------------------------------------
+    sample size: 507.00
+------------------------------------------------------------
+
+***********************************************
+Relative importance of parameters
+***********************************************
+  alpha       (+G):     1.00
+  p-inv       (+I):     0.00
+  alpha+p-inv (+I+G):   0.00
+  freqs       (+F):     0.00
+
+***********************************************
+Model-averaged estimate of parameters
+***********************************************
+  alpha (+G):           0.96
+  p-inv (+I):           0.31
+  alpha (+I+G):         ?
+  p-inv (+I+G):         ?
+
+
+************************************************************
+Bayesian Information Chriterion (BIC) framework
+Sample size:  Total number of characters (aligment length)
+           =  507.00
+************************************************************
+Best model according to BIC: JTT+G
+************************************************************
+Model          deltaBIC*    BIC          BICw       -lnL    
+------------------------------------------------------------
+JTT+G          0.00         9764.52      1.00       -4770.15
+JTT+I          13.68        9778.20      0.00       -4776.99
+JTT+G+F        111.12       9875.64      0.00       -4766.54
+JTT            124.57       9889.10      0.00       -4835.55
+WAG+G          127.49       9892.02      0.00       -4833.90
+JTT+I+F        128.94       9893.47      0.00       -4775.45
+WAG+I          146.93       9911.46      0.00       -4843.61
+WAG+G+F        238.30       10002.83     0.00       -4830.13
+JTT+F          238.51       10003.04     0.00       -4833.35
+WAG            248.86       10013.38     0.00       -4897.69
+WAG+I+F        261.83       10026.35     0.00       -4841.89
+WAG+F          367.88       10132.40     0.00       -4898.03
+------------------------------------------------------------
+ *: models sorted according to this column
+------------------------------------------------------------
+    sample size: 507.00
+------------------------------------------------------------
+
+***********************************************
+Relative importance of parameters
+***********************************************
+  alpha       (+G):     1.00
+  p-inv       (+I):     0.00
+  alpha+p-inv (+I+G):   0.00
+  freqs       (+F):     0.00
+
+***********************************************
+Model-averaged estimate of parameters
+***********************************************
+  alpha (+G):           0.96
+  p-inv (+I):           0.31
+  alpha (+I+G):         ?
+  p-inv (+I+G):         ?
+
+
+
+***********************************************************
+  Results succesfully saved to: TF105399_seed_trimmed_HandGblocked_NameEd.phy.prottest
+***********************************************************
+
+----------------------------------------------------------------------------------------------------
+Table: Weights(Ranking) of the candidate models under the different frameworks
+----------------------------------------------------------------------------------------------------
+model          AIC         AICc-1      AICc-2      AICc-3      BIC-1       BIC-2       BIC-3
+JTT+G          1.00(1)     1.00(1)     1.00(1)     1.00(1)     1.00(1)     1.00(1)     1.00(1)     
+JTT+I          0.00(2)     0.00(2)     0.00(2)     0.00(2)     0.00(2)     0.00(2)     0.00(2)     
+JTT+G+F        0.00(3)     0.00(3)     0.00(3)     0.00(3)     0.00(3)     0.00(3)     0.00(4)     
+JTT+I+F        0.00(4)     0.00(4)     0.00(4)     0.00(4)     0.00(6)     0.00(4)     0.00(6)     
+WAG+G          0.00(5)     0.00(5)     0.00(5)     0.00(5)     0.00(5)     0.00(6)     0.00(5)     
+JTT            0.00(6)     0.00(6)     0.00(6)     0.00(6)     0.00(4)     0.00(5)     0.00(3)     
+WAG+I          0.00(7)     0.00(7)     0.00(7)     0.00(7)     0.00(7)     0.00(7)     0.00(7)     
+WAG+G+F        0.00(8)     0.00(8)     0.00(8)     0.00(8)     0.00(8)     0.00(8)     0.00(10)    
+JTT+F          0.00(9)     0.00(9)     0.00(9)     0.00(9)     0.00(9)     0.00(9)     0.00(9)     
+WAG+I+F        0.00(10)    0.00(10)    0.00(10)    0.00(10)    0.00(11)    0.00(11)    0.00(11)    
+WAG            0.00(11)    0.00(11)    0.00(11)    0.00(11)    0.00(10)    0.00(10)    0.00(8)     
+WAG+F          0.00(12)    0.00(12)    0.00(12)    0.00(12)    0.00(12)    0.00(12)    0.00(12)    
+----------------------------------------------------------------------------------------------------
+Relative importance of
+parameters     AIC         AICc-1      AICc-2      AICc-3      BIC-1       BIC-2       BIC-3
++G             1.00        1.00        1.00        1.00        1.00        1.00        1.00        
++I             0.00        0.00        0.00        0.00        0.00        0.00        0.00        
++I+G           0.00        0.00        0.00        0.00        0.00        0.00        0.00        
++F             0.00        0.00        0.00        0.00        0.00        0.00        0.00        
+----------------------------------------------------------------------------------------------------
+Model-averaged estimate of
+parameters     AIC         AICc-1      AICc-2      AICc-3      BIC-1       BIC-2       BIC-3
+alpha (+G)     0.96        0.96        0.96        0.96        0.96        0.96        0.96        
+p-inv (+I)     0.31        0.31        0.31        0.31        0.31        0.31        0.31        
+alpha (+I+G)   ?           ?           ?           ?           ?           ?           ?           
+p-inv (+I+G)   ?           ?           ?           ?           ?           ?           ?           
+----------------------------------------------------------------------------------------------------
+AIC   : Akaike Information Criterion framework.
+AICc-x: Second-Order Akaike framework.
+BIC-x : Bayesian Information Criterion framework.
+AICc/BIC-1: sample size as: number of sites in the alignment                           (507.0)
+AICc/BIC-2: sample size as: Sum of position's Shannon Entropy over the whole alignment (269.1)
+AICc/BIC-3: sample size as: align. length x num sequences x averaged (0-1)Sh. Entropy  (1183.0)
+----------------------------------------------------------------------------------------------------
+

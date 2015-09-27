@@ -1,0 +1,549 @@
+
+
+ProtTest 3.2                        Fast selection of the best-fit models of protein evolution
+(c) 2009-2010   Diego Darriba (1,2), Guillermo Taboada (2), Ram—n Doallo (2), David Posada (1)
+(1)                               Facultad de Biologia, Universidad de Vigo, 36200 Vigo, Spain
+(2)                    Facultade de Inform‡tica, Universidade da Coru–a, 15071 A Coru–a, Spain
+Contact:                                                     ddarriba@udc.es, dposada@uvigo.es
+----------------------------------------------------------------------------------------------
+
+Tue Mar 12 14:40:59 WET 2013
+OS = Mac OS X (10.8.2)
+
+Citation: Darriba D, Taboada GL, Doallo R, Posada D. ProtTest 3: fast selection of best-fit 
+          models of protein evolution. Bioinformatics, 27:1164-1165, 2011
+
+
+********************************************************
+                   ALIGNMENT ANALYSIS
+********************************************************
+
+
+File: /Users/budd/Desktop/toBackUp/Training/my_training_material/topicSpecificTrainingContent/Phylogenies/phylogeneticAnalysisFromAtoZ/northAfricanRabiesSequences/rabiesVirusesFromDogManuallySelectedSmallNumberOfPhosphoproteinSequences.muscle
+Size: 3744
+
+FASTA format detected.MSA read in FASTA format (Taxa = 10, Length =  297).WARNING: ID for sequence "86127TUN_1986_gi|313577484|gb|ADR67362.1|" is longer than 10 characters. ID truncated to "86127TUN_1"WARNING: ID for sequence "86075TUN/1986_gi|313577472|gb|ADR67356.1|" is longer than 10 characters. ID truncated to "86075TUN/1"WARNING: ID for sequence "8676TUN/1986_gi|313577474|gb|ADR67357.1|" is longer than 10 characters. ID truncated to "8676TUN/19"WARNING: ID for sequence "08112MAR_2007_gi|313577524|gb|ADR67382.1|" is longer than 10 characters. ID truncated to "08112MAR_2"WARNING: ID for sequence "08326MAR_2008_gi|313577604|gb|ADR67422.1|" is longer than 10 characters. ID truncated to "08326MAR_2"WARNING: ID for sequence "08314MAR_2008_gi|313577502|gb|ADR67371.1|" is longer than 10 characters. ID truncated to "08314MAR_2"WARNING: ID for sequence "08234ALG_2003_gi|313577924|gb|ADR67582.1|" is longer than 10 characters. ID truncated to "08234ALG_2"WARNING: ID for sequence "08202ALG_2008_gi_313578004_gb_ADR67622.1__phosphoprotein_Rabies_virus" is longer than 10 characters. ID truncated to "08202ALG_2"WARNING: ID for sequence "08216ALG_2001_gi|313577964|gb|ADR67602.1|" is longer than 10 characters. ID truncated to "08216ALG_2"WARNING: ID for sequence "08257ALG_2004_gi_313578042_gb_ADR67641.1_phosphoprotein_Rabies_virus" is longer than 10 characters. ID truncated to "08257ALG_2"MSA successfully converted to PHYLIP format!
+**********************************************************
+  Reading alignment...
+    Sequence #1: 86127TUN_1
+    Sequence #2: 86075TUN/1
+    Sequence #3: 8676TUN/19
+    Sequence #4: 08112MAR_2
+    Sequence #5: 08326MAR_2
+    Sequence #6: 08314MAR_2
+    Sequence #7: 08234ALG_2
+    Sequence #8: 08202ALG_2
+    Sequence #9: 08216ALG_2
+    Sequence #10: 08257ALG_2
+   Alignment contains 10 sequences of length 297
+
+**********************************************************
+
+
+
+Observed Amino-Acid Frequencies
+-------------------------------
+A - 0.07497
+C - 0.00371
+D - 0.06991
+E - 0.09220
+F - 0.03377
+G - 0.05268
+H - 0.01351
+I - 0.04694
+K - 0.06923
+L - 0.08916
+M - 0.03040
+N - 0.05336
+P - 0.04492
+Q - 0.04863
+R - 0.05437
+S - 0.09760
+T - 0.03850
+V - 0.05572
+W - 0.01013
+Y - 0.02026
+
+********************************************************
+                   MODEL OPTIMIZATION
+********************************************************
+
+ProtTest options
+----------------
+  Alignment file........... : /Users/budd/Desktop/toBackUp/Training/my_training_material/topicSpecificTrainingContent/Phylogenies/phylogeneticAnalysisFromAtoZ/northAfricanRabiesSequences/rabiesVirusesFromDogManuallySelectedSmallNumberOfPhosphoproteinSequences.muscle
+  Tree..................... : BioNJ
+  StrategyMode............. : Fixed BIONJ JTT
+  Candidate models......... : 
+    Matrices............... : JTT LG DCMut MtREV MtMam MtArt Dayhoff WAG RtREV CpREV Blosum62 VT HIVb HIVw FLU 
+    Distributions.......... : +G Uniform 
+    Observed frequencies... : true
+
+
+FASTA format detected.MSA read in FASTA format (Taxa = 10, Length =  297).WARNING: ID for sequence "86127TUN_1986_gi|313577484|gb|ADR67362.1|" is longer than 10 characters. ID truncated to "86127TUN_1"WARNING: ID for sequence "86075TUN/1986_gi|313577472|gb|ADR67356.1|" is longer than 10 characters. ID truncated to "86075TUN/1"WARNING: ID for sequence "8676TUN/1986_gi|313577474|gb|ADR67357.1|" is longer than 10 characters. ID truncated to "8676TUN/19"WARNING: ID for sequence "08112MAR_2007_gi|313577524|gb|ADR67382.1|" is longer than 10 characters. ID truncated to "08112MAR_2"WARNING: ID for sequence "08326MAR_2008_gi|313577604|gb|ADR67422.1|" is longer than 10 characters. ID truncated to "08326MAR_2"WARNING: ID for sequence "08314MAR_2008_gi|313577502|gb|ADR67371.1|" is longer than 10 characters. ID truncated to "08314MAR_2"WARNING: ID for sequence "08234ALG_2003_gi|313577924|gb|ADR67582.1|" is longer than 10 characters. ID truncated to "08234ALG_2"WARNING: ID for sequence "08202ALG_2008_gi_313578004_gb_ADR67622.1__phosphoprotein_Rabies_virus" is longer than 10 characters. ID truncated to "08202ALG_2"WARNING: ID for sequence "08216ALG_2001_gi|313577964|gb|ADR67602.1|" is longer than 10 characters. ID truncated to "08216ALG_2"WARNING: ID for sequence "08257ALG_2004_gi_313578042_gb_ADR67641.1_phosphoprotein_Rabies_virus" is longer than 10 characters. ID truncated to "08257ALG_2"MSA successfully converted to PHYLIP format!
+**********************************************************
+Observed number of invariant sites: 280
+Observed aminoacid frequencies:
+ A: 0.075    C: 0.004    D: 0.070    E: 0.092    F: 0.034   
+ G: 0.053    H: 0.014    I: 0.047    K: 0.069    L: 0.089   
+ M: 0.030    N: 0.053    P: 0.045    Q: 0.049    R: 0.054   
+ S: 0.098    T: 0.039    V: 0.056    W: 0.010    Y: 0.020   
+
+**********************************************************
+
+
+
+Model................................ : JTT
+  Number of parameters............... : 17 (0 + 17 branch length estimates)
+ -lnL................................ = 999.43
+     (seconds))
+
+Model................................ : JTT+F
+  Number of parameters............... : 36 (19 + 17 branch length estimates)
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 988.40
+     (seconds))
+
+Model................................ : JTT+G
+  Number of parameters............... : 18 (1 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.029
+ -lnL................................ = 996.68
+     (seconds))
+
+Model................................ : JTT+G+F
+  Number of parameters............... : 37 (20 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.029
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 985.64
+     (seconds))
+
+Model................................ : LG
+  Number of parameters............... : 17 (0 + 17 branch length estimates)
+ -lnL................................ = 1003.21
+     (seconds))
+
+Model................................ : LG+F
+  Number of parameters............... : 36 (19 + 17 branch length estimates)
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 993.96
+     (seconds))
+
+Model................................ : LG+G
+  Number of parameters............... : 18 (1 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.024
+ -lnL................................ = 1000.15
+     (seconds))
+
+Model................................ : LG+G+F
+  Number of parameters............... : 37 (20 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.029
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 991.01
+     (seconds))
+
+Model................................ : DCMut
+  Number of parameters............... : 17 (0 + 17 branch length estimates)
+ -lnL................................ = 1015.83
+     (seconds))
+
+Model................................ : DCMut+F
+  Number of parameters............... : 36 (19 + 17 branch length estimates)
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 995.02
+     (seconds))
+
+Model................................ : DCMut+G
+  Number of parameters............... : 18 (1 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.029
+ -lnL................................ = 1012.83
+     (seconds))
+
+Model................................ : DCMut+G+F
+  Number of parameters............... : 37 (20 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.024
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 991.89
+     (seconds))
+
+Model................................ : MtREV
+  Number of parameters............... : 17 (0 + 17 branch length estimates)
+ -lnL................................ = 1071.37
+     (seconds))
+
+Model................................ : MtREV+F
+  Number of parameters............... : 36 (19 + 17 branch length estimates)
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 993.07
+     (seconds))
+
+Model................................ : MtREV+G
+  Number of parameters............... : 18 (1 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.024
+ -lnL................................ = 1067.83
+     (seconds))
+
+Model................................ : MtREV+G+F
+  Number of parameters............... : 37 (20 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.024
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 989.84
+     (seconds))
+
+Model................................ : MtMam
+  Number of parameters............... : 17 (0 + 17 branch length estimates)
+ -lnL................................ = 1073.46
+     (seconds))
+
+Model................................ : MtMam+F
+  Number of parameters............... : 36 (19 + 17 branch length estimates)
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 991.19
+     (seconds))
+
+Model................................ : MtMam+G
+  Number of parameters............... : 18 (1 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.023
+ -lnL................................ = 1069.29
+     (seconds))
+
+Model................................ : MtMam+G+F
+  Number of parameters............... : 37 (20 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.024
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 987.77
+     (seconds))
+
+Model................................ : MtArt
+  Number of parameters............... : 17 (0 + 17 branch length estimates)
+ -lnL................................ = 1083.65
+     (seconds))
+
+Model................................ : MtArt+F
+  Number of parameters............... : 36 (19 + 17 branch length estimates)
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 1001.95
+     (seconds))
+
+Model................................ : MtArt+G
+  Number of parameters............... : 18 (1 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.023
+ -lnL................................ = 1078.91
+     (seconds))
+
+Model................................ : MtArt+G+F
+  Number of parameters............... : 37 (20 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.023
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 998.06
+     (seconds))
+
+Model................................ : Dayhoff
+  Number of parameters............... : 17 (0 + 17 branch length estimates)
+ -lnL................................ = 1015.80
+     (seconds))
+
+Model................................ : Dayhoff+F
+  Number of parameters............... : 36 (19 + 17 branch length estimates)
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 995.00
+     (seconds))
+
+Model................................ : Dayhoff+G
+  Number of parameters............... : 18 (1 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.029
+ -lnL................................ = 1012.80
+     (seconds))
+
+Model................................ : Dayhoff+G+F
+  Number of parameters............... : 37 (20 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.024
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 991.86
+     (seconds))
+
+Model................................ : WAG
+  Number of parameters............... : 17 (0 + 17 branch length estimates)
+ -lnL................................ = 1008.11
+     (seconds))
+
+Model................................ : WAG+F
+  Number of parameters............... : 36 (19 + 17 branch length estimates)
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 994.38
+     (seconds))
+
+Model................................ : WAG+G
+  Number of parameters............... : 18 (1 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.029
+ -lnL................................ = 1005.12
+     (seconds))
+
+Model................................ : WAG+G+F
+  Number of parameters............... : 37 (20 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.029
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 991.38
+     (seconds))
+
+Model................................ : RtREV
+  Number of parameters............... : 17 (0 + 17 branch length estimates)
+ -lnL................................ = 1015.73
+     (seconds))
+
+Model................................ : RtREV+F
+  Number of parameters............... : 36 (19 + 17 branch length estimates)
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 994.76
+     (seconds))
+
+Model................................ : RtREV+G
+  Number of parameters............... : 18 (1 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.024
+ -lnL................................ = 1012.62
+     (seconds))
+
+Model................................ : RtREV+G+F
+  Number of parameters............... : 37 (20 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.029
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 991.78
+     (seconds))
+
+Model................................ : CpREV
+  Number of parameters............... : 17 (0 + 17 branch length estimates)
+ -lnL................................ = 1014.75
+     (seconds))
+
+Model................................ : CpREV+F
+  Number of parameters............... : 36 (19 + 17 branch length estimates)
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 993.80
+     (seconds))
+
+Model................................ : CpREV+G
+  Number of parameters............... : 18 (1 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.024
+ -lnL................................ = 1011.47
+     (seconds))
+
+Model................................ : CpREV+G+F
+  Number of parameters............... : 37 (20 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.024
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 990.51
+     (seconds))
+
+Model................................ : Blosum62
+  Number of parameters............... : 17 (0 + 17 branch length estimates)
+ -lnL................................ = 1016.75
+     (seconds))
+
+Model................................ : Blosum62+F
+  Number of parameters............... : 36 (19 + 17 branch length estimates)
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 998.88
+     (seconds))
+
+Model................................ : Blosum62+G
+  Number of parameters............... : 18 (1 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.024
+ -lnL................................ = 1013.60
+     (seconds))
+
+Model................................ : Blosum62+G+F
+  Number of parameters............... : 37 (20 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.024
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 995.83
+     (seconds))
+
+Model................................ : VT
+  Number of parameters............... : 17 (0 + 17 branch length estimates)
+ -lnL................................ = 1010.36
+     (seconds))
+
+Model................................ : VT+F
+  Number of parameters............... : 36 (19 + 17 branch length estimates)
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 997.86
+     (seconds))
+
+Model................................ : VT+G
+  Number of parameters............... : 18 (1 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.024
+ -lnL................................ = 1007.09
+     (seconds))
+
+Model................................ : VT+G+F
+  Number of parameters............... : 37 (20 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.024
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 994.71
+     (seconds))
+
+Model................................ : HIVb
+  Number of parameters............... : 17 (0 + 17 branch length estimates)
+ -lnL................................ = 1005.78
+     (seconds))
+
+Model................................ : HIVb+F
+  Number of parameters............... : 36 (19 + 17 branch length estimates)
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 986.29
+     (seconds))
+
+Model................................ : HIVb+G
+  Number of parameters............... : 18 (1 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.029
+ -lnL................................ = 1002.95
+     (seconds))
+
+Model................................ : HIVb+G+F
+  Number of parameters............... : 37 (20 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.029
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 983.49
+     (seconds))
+
+Model................................ : HIVw
+  Number of parameters............... : 17 (0 + 17 branch length estimates)
+ -lnL................................ = 1019.93
+     (seconds))
+
+Model................................ : HIVw+F
+  Number of parameters............... : 36 (19 + 17 branch length estimates)
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 983.61
+     (seconds))
+
+Model................................ : HIVw+G
+  Number of parameters............... : 18 (1 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.029
+ -lnL................................ = 1017.00
+     (seconds))
+
+Model................................ : HIVw+G+F
+  Number of parameters............... : 37 (20 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.029
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 980.72
+     (seconds))
+
+Model................................ : FLU
+  Number of parameters............... : 17 (0 + 17 branch length estimates)
+ -lnL................................ = 1008.49
+     (seconds))
+
+Model................................ : FLU+F
+  Number of parameters............... : 36 (19 + 17 branch length estimates)
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 987.83
+     (seconds))
+
+Model................................ : FLU+G
+  Number of parameters............... : 18 (1 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.024
+ -lnL................................ = 1005.42
+     (seconds))
+
+Model................................ : FLU+G+F
+  Number of parameters............... : 37 (20 + 17 branch length estimates)
+    gamma shape (4 rate categories).. = 0.024
+    aminoacid frequencies............ = observed (see above)
+ -lnL................................ = 984.79
+     (seconds))
+
+************************************************************
+Date   :  Tue Mar 12 14:41:36 WET 2013
+Runtime:  0h:00:09
+
+
+
+
+********************************************************
+              AKAIKE INFORMATION CRITERION
+********************************************************
+
+***************************************************************************
+Best model according to AIC: JTT+G
+Sample Size:         297.0
+Confidence Interval: 100.0
+***************************************************************************
+Model          deltaAIC       AIC            AICw           -lnL           
+---------------------------------------------------------------------------
+JTT+G          0.00           2029.36        0.79           -996.68        
+JTT            3.49           2032.85        0.14           -999.43        
+HIVw+G+F       6.08           2035.44        0.04           -980.72        
+LG+G           6.93           2036.29        0.02           -1000.15       
+HIVw+F         9.85           2039.21        0.01           -983.61        
+LG             11.05          2040.41        0.00           -1003.21       
+HIVb+G+F       11.61          2040.98        0.00           -983.49        
+HIVb+G         12.54          2041.91        0.00           -1002.95       
+FLU+G+F        14.21          2043.58        0.00           -984.79        
+HIVb+F         15.22          2044.58        0.00           -986.29        
+JTT+G+F        15.92          2045.29        0.00           -985.64        
+HIVb           16.19          2045.56        0.00           -1005.78       
+WAG+G          16.88          2046.25        0.00           -1005.12       
+FLU+G          17.48          2046.85        0.00           -1005.42       
+FLU+F          18.30          2047.66        0.00           -987.83        
+JTT+F          19.44          2048.81        0.00           -988.40        
+MtMam+G+F      20.18          2049.55        0.00           -987.77        
+VT+G           20.81          2050.17        0.00           -1007.09       
+WAG            20.86          2050.23        0.00           -1008.11       
+FLU            21.62          2050.98        0.00           -1008.49       
+MtREV+G+F      24.31          2053.67        0.00           -989.84        
+MtMam+F        25.01          2054.38        0.00           -991.19        
+VT             25.35          2054.71        0.00           -1010.36       
+CpREV+G+F      25.66          2055.02        0.00           -990.51        
+LG+G+F         26.65          2056.01        0.00           -991.01        
+WAG+G+F        27.39          2056.75        0.00           -991.38        
+RtREV+G+F      28.19          2057.55        0.00           -991.78        
+Dayhoff+G+F    28.36          2057.73        0.00           -991.86        
+DCMut+G+F      28.42          2057.78        0.00           -991.89        
+MtREV+F        28.79          2058.15        0.00           -993.07        
+CpREV+G        29.57          2058.93        0.00           -1011.47       
+CpREV+F        30.25          2059.61        0.00           -993.80        
+LG+F           30.56          2059.92        0.00           -993.96        
+WAG+F          31.39          2060.75        0.00           -994.38        
+RtREV+G        31.88          2061.24        0.00           -1012.62       
+RtREV+F        32.17          2061.53        0.00           -994.76        
+Dayhoff+G      32.23          2061.60        0.00           -1012.80       
+DCMut+G        32.30          2061.67        0.00           -1012.83       
+Dayhoff+F      32.63          2061.99        0.00           -995.00        
+DCMut+F        32.68          2062.04        0.00           -995.02        
+Blosum62+G     33.83          2063.20        0.00           -1013.60       
+VT+G+F         34.06          2063.43        0.00           -994.71        
+CpREV          34.13          2063.50        0.00           -1014.75       
+RtREV          36.10          2065.46        0.00           -1015.73       
+Dayhoff        36.23          2065.59        0.00           -1015.80       
+Blosum62+G+F   36.29          2065.65        0.00           -995.83        
+DCMut          36.30          2065.66        0.00           -1015.83       
+Blosum62       38.13          2067.49        0.00           -1016.75       
+VT+F           38.35          2067.71        0.00           -997.86        
+Blosum62+F     40.40          2069.77        0.00           -998.88        
+HIVw+G         40.63          2070.00        0.00           -1017.00       
+MtArt+G+F      40.75          2070.11        0.00           -998.06        
+HIVw           44.51          2073.87        0.00           -1019.93       
+MtArt+F        46.53          2075.89        0.00           -1001.95       
+MtREV+G        142.29         2171.65        0.00           -1067.83       
+MtMam+G        145.22         2174.59        0.00           -1069.29       
+MtREV          147.38         2176.74        0.00           -1071.37       
+MtMam          151.56         2180.92        0.00           -1073.46       
+MtArt+G        164.46         2193.82        0.00           -1078.91       
+MtArt          171.93         2201.29        0.00           -1083.65       
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+***********************************************
+Relative importance of parameters
+***********************************************
+  alpha       (+G):     0.853
+  p-inv       (+I):     No +I models
+  alpha+p-inv (+I+G):   No +I+G models
+  freqs       (+F):     0.047
+
+***********************************************
+Model-averaged estimate of parameters
+***********************************************
+  alpha (+G):           0.029
+  p-inv (+I):           No +I models
+  alpha (+I+G):         No +I+G models
+  p-inv (+I+G):         No +I+G models
