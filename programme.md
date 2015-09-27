@@ -10,7 +10,7 @@ tr:nth-child(even) {
 
 ## Other relevant links
 
-- **General notes on [using the IT infrastructure during the course](softwareNotes.html)**
+- General notes on [using the IT infrastructure during the course](softwareNotes.html)
 - EMBO-hosted [webpage for the course](http://events.embo.org/15-protein-protein/)
 
 DAY 1 - Monday 28 September 2015
