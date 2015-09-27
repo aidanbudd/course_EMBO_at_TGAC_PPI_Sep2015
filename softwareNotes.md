@@ -16,6 +16,10 @@ On my (Aidan's) MacBook Pro, I get the list of shortcuts for the Ubuntu VM using
 
 If you maximise a window on the desktop, just click on the top bar of the window, and drag down, to stop it filling the screen.
 
+### Copy and paste
+
+Highlight the text you want to with your pointer, then right-click and choose **copy**. To paste, left-click to place the cursor, then right-click and choose **paste**
+
 ### Running Jalview
 
 Navigate using the "Files" file browser (icon bar, second from top left) to the "Downloads" directory.
