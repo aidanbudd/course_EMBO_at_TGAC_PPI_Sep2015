@@ -26,7 +26,7 @@ To see how easy it is to do this, try the demonstration above, trying to carry i
 
 #### Demonstration
 
-We will demonstrate aligning these [two tublin sequences](../commonFiles/sequences/TBA1A_HUMAN_vs_TBA_ENCCU.fasta) to each other [using JalView](./usingJalview.html). The demonstration will involve
+We will demonstrate aligning these [two tublin sequences](../commonFiles/sequences/TBA1A_HUMAN_vs_TBA_ENCCU.fasta) to each other [using JalView](../toolTaskAndResourceGuides/usingJalview.html). The demonstration will involve
 
 - Loading the sequences into JalView using both
     - File-&gt;Input Alignment-&gt;from File
