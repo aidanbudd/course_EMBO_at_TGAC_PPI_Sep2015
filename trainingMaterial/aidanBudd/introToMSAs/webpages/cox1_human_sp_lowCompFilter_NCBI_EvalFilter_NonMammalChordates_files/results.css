@@ -1,0 +1,514 @@
+#summary {
+font-size:1.2em;
+}
+#summary {
+margin-top:0pt;
+padding-bottom:1em;
+padding-top:0.5em;
+font-family:Verdana,Arial,Sans-Serif;
+font-size:90%;
+
+}
+#summarylists {
+margin:1em 0pt 0pt;
+overflow:hidden;
+}
+#seealso {
+margin-left:2em;
+}
+#querysummary {
+float:left;
+padding:0pt;
+width:49%;
+}
+#dbsummary {
+margin-left:51%;
+padding:0pt;
+}
+#summary dl {
+margin:0pt 0pt 0.5em;
+padding:0pt;
+}
+#summary dt, #summary dd {
+line-height:1.4em;
+}
+#summary dt {
+float:left;
+font-weight:bold;
+text-align:right;
+width:10em;
+margin-top:0;
+}
+#summary dd {
+margin-left:11em;
+white-space:normal !important;
+}
+#summary h3 {
+color:#444444;
+font-style:italic;
+margin-bottom:-0.5em;
+margin-top:0pt;
+text-align:center;
+}
+
+#multipleSeqs {
+font-weight: bold;
+}
+#multipleSeqs a {
+font-size:80%;
+font-weight:normal;
+}
+#breadcrumb {
+background:transparent url(right-arrow.gif) no-repeat scroll left center;
+font-size:93%;
+font-weight:bold;
+margin-top:-5px;
+padding:0pt 6px 0pt 12px;
+}
+#breadcrumb a {
+color:#336699;
+}
+
+#jobTitle
+{
+color:#669;
+/*color:#2A6980;*/
+font-weight:bold;
+margin-bottom:-0.5em;
+}
+
+#type-a #content-wrap {white-space:normal; padding-bottom:2em;}
+
+#statInfo
+{
+    font-size:100%;
+}
+
+
+#resMsg 
+{
+background-color:#FFFFCC;
+font-size:110%;
+/*margin-top:4em;
+padding-left:0.5em;*/
+text-align:center;
+}
+
+#seealso label
+{
+    display:inline;    
+}    
+
+#seealso a 
+{
+    padding: 0,4px;
+}
+
+a.shown 
+{
+    display:inline;
+}
+
+
+table.dbInfo
+{
+    width:50%;
+    border:solid 1px gray;
+    font-size:100%;
+    border-collapse:collapse; 
+    margin-top:1em;    
+}
+table.dbInfo td,
+table.dbInfo th 
+{
+   border:solid 1px gray;   
+   padding: 1px 4px;   
+}
+table.dbInfo th {
+    background-color:#acf;
+    text-align:center;
+}
+#resStat, #dbDetails
+{
+    padding-left:25%;
+}
+
+table.dbInfo td
+{
+    text-align:left;
+}
+
+table#Kappa pre
+{
+    font-size:120%;
+}
+
+
+/****** Mark new rules ************/
+/* override main.css rules */
+#type-a #content {
+margin: 0 2em;
+}
+
+#type-a h1 {
+font-size: 150%;
+margin-bottom: 1em;
+border-top: solid 1px #ccc;
+}
+
+#type-a h2 {
+font-size: 125%;
+color: #666;
+}
+
+#type-a h3 {
+border: none;
+font-size: 110%;
+}
+#graphic {
+text-align: center;
+margin: auto;
+}
+
+#multipleSeqs label {
+width: 9em;
+height: 1em;
+text-align: right;
+margin-right: 0;
+padding: 0 1em;
+float: left;
+}
+#multipleSeqs select {
+margin-right: 1em;
+font-size: 95%;
+}
+#multipleSeqs input {
+font-size: 95%;
+margin-top: -0.25em;
+margin-right: 1em;
+}
+label.other {
+font-size: 110%;
+font-weight: bold;
+}
+form#results
+{
+    display:none;
+}
+
+#hdLink
+{
+    margin-top:-1.2em;
+    float:right;
+}
+
+#hdTitle
+{
+    margin-left:5em;
+}
+.shownInl
+{
+    display:inline;
+}
+
+#psiHd
+{
+    margin-top:1em;
+}
+
+#phiInfo
+{
+    text-align:center;
+    color:Green;    
+    font-size:110%;
+    margin-top:1em;    
+}
+#ht
+{    
+font-weight:bold;
+margin-bottom:-0.9em;
+margin-top:0.2em;
+text-align:center;
+}
+
+.psiThresh
+{
+    text-align:center;
+    color:Green;
+    font-weight:bold;
+}
+
+#psiThreshA span.shown,#psiThreshB span.shown
+{
+    display:inline;
+}
+
+a.resArr
+{
+    color:#666;
+    font-size:120%;
+    font-weight:bold;
+}
+
+
+a.arrowlink.showing 
+{
+    background-image: url(images/down.gif);
+}
+
+#graphic table
+{
+    background-color:White;
+}
+
+#type-a #content
+{
+    background-color:#D3DFF5;
+    border:1px solid #888888;
+    padding:0 0.5em;
+    zoom:1;
+}
+
+.resBox
+{
+    background-color:#eee;
+    margin-right:1em;
+    color:#222;
+    zoom:1;
+}
+
+.resBox1
+{
+    background-color:white;    
+}
+
+#tryNew,.hl
+{
+    color:Red;
+}
+
+/*#tryNew
+{
+    margin-right:20em;
+}*/
+
+
+div#vecSrceen {
+margin-bottom:0pt;
+margin-left:17%;
+margin-top:0pt;
+padding-left:2em;
+white-space:pre;
+width:64%;
+zoom:1;
+}
+
+.psiInp
+{
+    white-space:normal;
+}
+
+.seqlinks label
+{
+    display:inline;
+}
+
+.seqlinks input
+{
+   margin-left:1em;
+}
+.seqlinks a.ln
+{
+   margin-left:2em;
+}
+
+.seqlinks a.lnt
+{
+   margin-left:0.5em;
+}
+
+form.getseq
+{
+    margin:0;
+}
+
+#queryList option.nohits
+{
+    color:Gray;
+}   
+
+#queryList
+{
+    float:left;
+}
+
+p#qb
+{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+#dn
+{
+    margin-left:5em;
+}
+
+#dnf
+{
+    font-size:80%;
+}
+
+/*#FormatForm
+{
+    margin-left:2em;
+}*/
+table.options
+{
+    width:80%;
+    margin-top:0.5em;
+    margin-left:10%;
+}
+
+form.resbox label
+{
+    display:inline;
+}
+
+#onPageReformat
+{
+    position:absolute;
+    right:0.5em;    
+}
+
+table.dwnl
+{
+    width:60%;
+    margin-left:20%;
+    height:3em;
+}
+table.dwnl td
+{
+    padding-right:0.5em;
+}
+/*
+a#showStat
+{
+    margin-left:-0.4em;
+}
+*/
+a.resArrowLinkB:hover,a.resArrowLinkW:hover {text-decoration: underline;}
+a.resArrowLinkB,a.resArrowLinkW{
+   padding-left: 12px;
+   background-image: url(images/rightSmallArrow.gif);
+   background-repeat: no-repeat;   
+   background-position: center left;
+   -moz-outline-style: none;
+   text-decoration: none;
+   text-decoration: underline;
+}
+a.resArrowLinkB.showing 
+{
+    background-image: url(images/downSmallArrow.gif);
+}
+
+a.resArrowLinkW{
+   background-image: url(images/rightSmallWArrow.gif);   
+}
+
+a.resArrowLinkW.showing 
+{
+    background-image: url(images/downSmallWArrow.gif);
+}
+td.dnl
+{
+    border-left:solid 1px gray;
+}
+.dnLinks a
+{
+    margin-left:1em;
+}
+
+.dnLinks
+{
+    text-align:center;
+}
+#tdal
+{
+    width:30em;
+}
+
+.dnHeader
+{
+    font-size:100%;
+    font-weight:bold;   
+    text-align:center;
+}
+#dnHelp
+{
+    display:inline;
+}
+
+table th.frh
+{
+    background-color:#E0E0E0;
+    color:Gray;
+    text-align:center;
+    font-size:105%;
+}
+
+#content a.resLink
+{
+	display:inline;
+}
+
+ul.msg li p.info {
+background: transparent url(images/info.png) no-repeat 6px center;
+}
+
+.blRes
+{
+    background-color:White;
+    border:solid 1px #CCCCCC;
+    padding: 1em;
+    margin:1em;
+    font-size:110%;
+    zoom:1;    
+}
+/* Check this for many results */
+div#content
+{
+    min-width:70em;
+}
+#hitmtImg
+{
+    
+    padding:1em;
+    border:solid 2px gray;
+    padding-bottom:2em;
+}
+#qgr
+{
+    margin-top:-1.8em;
+    /*writing-mode:tb-rl;*/
+}
+#htmb
+{
+    margin-top:-2em;
+    margin-left:11em;
+    border:solid 1px gray;
+}
+
+#hitMatrixView
+{
+    margin-top:1em;
+}
+
+#hitMatrixInfo
+{
+    text-align:center;
+}
+
+#bl2ovrInfo
+{
+    text-align:left;
+}
