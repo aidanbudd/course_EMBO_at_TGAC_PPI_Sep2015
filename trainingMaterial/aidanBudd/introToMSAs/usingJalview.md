@@ -40,9 +40,9 @@ The [Jalview website](http://www.jalview.org/index.html) provides several differ
 
 [a quick-references guide to using Jalview as an alignment editor](http://www.jalview.org/examples/editing.html) - i.e. using Jalview to insert/remove gaps in an alignment
 
-- this is so useful that we've stored a [copy of the page here](webpages/jalviewEditing.html), in case the Jalview site is having problems during our teaching
+- this is so useful that we've stored a [copy of the page here](../commonFiles/webpages/jalviewEditing.html), in case the Jalview site is having problems during our teaching
 
-[a quick-reference card in PDF format](http://www.jalview.org/refcard.pdf) describing and labeling the different features and regions of the Jalview Graphical User Interface (GUI) - again, [here is a local copy of the card](images/refcard.pdf) in case there are problems with the Jalview site
+[a quick-reference card in PDF format](http://www.jalview.org/refcard.pdf) describing and labeling the different features and regions of the Jalview Graphical User Interface (GUI) - again, [here is a local copy of the card](../commonFiles/images/refcard.pdf) in case there are problems with the Jalview site
 
 [the Jalview online documentation](http://www.jalview.org/help.html) - provides a detailed description of Jalview's many features and options
 
@@ -74,7 +74,7 @@ Taken as a screenshot from a Macintosh machine, the image below shows one Jalvie
 
 Additionally, a region selection has been made on the lower alignment, outlined in thin dashed red lines.
 
-![](screenshots/jalviewDesktopWindowTwoAlignmentWindowsRegionSelectionScreenshotAnnotated.png)
+![](../commonFiles/screenshots/jalviewDesktopWindowTwoAlignmentWindowsRegionSelectionScreenshotAnnotated.png)
 
 ### Starting Jalview - removing automatically-opened windows
 
@@ -161,7 +161,7 @@ Sequences are also selected when you [create a region selection](#Creating_regio
 
 The identifiers of selected sequences are shaded grey in the Sequence ID display - for example, in the image below, the sequences **1cpt** and **1oxa** have been selected, due to the creation of a region selection (the region enclosed in dashed red lines).
 
-![](screenshots/jalviewSmallAlignmentWindowSelectedRegionScreenshot.png)
+![](../commonFiles/screenshots/jalviewSmallAlignmentWindowSelectedRegionScreenshot.png)
 
 ### Selecting alignment columns
 
@@ -173,7 +173,7 @@ Once more than one column has been selected, hold down SHIFT and click on anothe
 
 For example, in the image below, columns 20 - 23 have been selected.
 
-![](screenshots/jalviewSmallAlignmentWindowSelectedColumns.png)
+![](../commonFiles/screenshots/jalviewSmallAlignmentWindowSelectedColumns.png)
 
 ### De-selecting all selected regions/columns/sequences
 

@@ -13,7 +13,7 @@ tool, and obtaining a result is usually trivial.
 
 #### Demonstration
 
-- Download [this set of proteins](./sequences/src_human_ncbiBlastpDefaultsTop50Seqs.fasta) in FASTA format that are very similar to the human src (UniProt:SRC_HUMAN, [P12931](http://www.uniprot.org/uniprot/P12931)) protein
+- Download [this set of proteins](../commonFiles/sequences/src_human_ncbiBlastpDefaultsTop50Seqs.fasta) in FASTA format that are very similar to the human src (UniProt:SRC_HUMAN, [P12931](http://www.uniprot.org/uniprot/P12931)) protein
 - Copy them into the [EBI MUSCLE web server](http://www.ebi.ac.uk/Tools/msa/muscle/)
 - Press submit
 - Enjoy the resulting MSA
@@ -26,7 +26,7 @@ To see how easy it is to do this, try the demonstration above, trying to carry i
 
 #### Demonstration
 
-We will demonstrate aligning these [two tublin sequences](./sequences/TBA1A_HUMAN_vs_TBA_ENCCU.fasta) to each other [using JalView](./usingJalview.html). The demonstration will involve
+We will demonstrate aligning these [two tublin sequences](../commonFiles/sequences/TBA1A_HUMAN_vs_TBA_ENCCU.fasta) to each other [using JalView](./usingJalview.html). The demonstration will involve
 
 - Loading the sequences into JalView using both
     - File-&gt;Input Alignment-&gt;from File
@@ -71,11 +71,11 @@ While carrying out the manual alignments, write down:
 
 Below are the sequences - if possible, try all of them, as they have been chosen to illustrate a range of different issues/points, and it will hopefully be useful for you to have encountered all of these.
 
-- The same [two tubulin sequences](./sequences/TBA1A_HUMAN_vs_TBA_ENCCU.fasta) used in the demonstration above
-- the [coding regions of the cDNA for the same two tubulin sequences](./sequences/TBA_ENCCU_vs_TBA1A_HUMAN_nucleotideSeqs.fasta) - note that to do the automatic alignments here you'll need to choose the nucleotide implementations of the tools
-- [fragments of mouse and rat collagen 18s](./sequences/rat_mouse_collagen18_fragments_1.fasta)
-- [ACTB\_CERPY and ACTB\_TRIVU](./sequences/ACTB_CERPY_vs_ACTB_TRIVU_fullLength.fasta)
-- [SRC\_HUMAN and SRK3\_SPOLA](./sequences/SRC_HUMAN_vs_SRK3_SPOLA_55id_1gap.fasta)[ kinase domains](./sequences/SRC_HUMAN_vs_SRK3_SPOLA_55id_1gap.fasta)
-- [ARPM1\_MOUSE and ACTB\_TRIVU](./sequences/ACTB_TRIVU_vs_ARPM1_MOUSE_id47_6gaps.fasta)
-- [SRC-like Kinases SRC\_MOUSE and STK\_HYDAT](./sequences/SRC_MOUSE_vs_STK_HYDAT_SH3.fasta)
-- [full length mouse and rat collagen 18s (for those who fancy a challenge)](./sequences/rat_mouse_collagen18_fullLength.fasta)
+- The same [two tubulin sequences](../commonFiles/sequences/TBA1A_HUMAN_vs_TBA_ENCCU.fasta) used in the demonstration above
+- the [coding regions of the cDNA for the same two tubulin sequences](../commonFiles/sequences/TBA_ENCCU_vs_TBA1A_HUMAN_nucleotideSeqs.fasta) - note that to do the automatic alignments here you'll need to choose the nucleotide implementations of the tools
+- [fragments of mouse and rat collagen 18s](../commonFiles/sequences/rat_mouse_collagen18_fragments_1.fasta)
+- [ACTB\_CERPY and ACTB\_TRIVU](../commonFiles/sequences/ACTB_CERPY_vs_ACTB_TRIVU_fullLength.fasta)
+- [SRC\_HUMAN and SRK3\_SPOLA](../commonFiles/sequences/SRC_HUMAN_vs_SRK3_SPOLA_55id_1gap.fasta)[ kinase domains](../commonFiles/sequences/SRC_HUMAN_vs_SRK3_SPOLA_55id_1gap.fasta)
+- [ARPM1\_MOUSE and ACTB\_TRIVU](../commonFiles/sequences/ACTB_TRIVU_vs_ARPM1_MOUSE_id47_6gaps.fasta)
+- [SRC-like Kinases SRC\_MOUSE and STK\_HYDAT](../commonFiles/sequences/SRC_MOUSE_vs_STK_HYDAT_SH3.fasta)
+- [full length mouse and rat collagen 18s (for those who fancy a challenge)](../commonFiles/sequences/rat_mouse_collagen18_fullLength.fasta)
