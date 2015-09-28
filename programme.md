@@ -31,7 +31,7 @@ DAY 1 - Monday 28 September 2015
 | 15:00-15:30 | Coffee Break                                                                                                   |                     | TGAC Atrium            |
 | 15:30-17:00 | [Continued: Chimera protein structure](trainingMaterial/scooterMorris)                                                                           | Scooter Morris      | Darwin - Training Room |
 | 17:00-17:30 | Coffee Break                                                                                                   |                     | TGAC Atrium            |
-| 17:30-19:00 | Trainee data practical session: working with your own data                                                     |                     | Darwin - Training Room |
+| 17:30-19:00 | [Introduction to Markdown, Pandoc, and Git](trainingMaterial/holgerDinkel/git/) | Holger Dinkel | Darwin - Training Room |
 | 19:00       | Coach departs TGAC to hotel                                                                                    |                     | Outside TGAC entrance  |
 | 19:30       | Dinner @ Toreros                                                                                               |                     | Meet at hotel lobby    |
 
