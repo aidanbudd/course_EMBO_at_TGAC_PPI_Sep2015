@@ -27,11 +27,11 @@ DAY 1 - Monday 28 September 2015
 | 10:30-11:00 | Coffee Break                                                                                                   |                     | TGAC Atrium            |
 | 11:00-12:30 | [Introduction to Markdown, Pandoc, and Git](trainingMaterial/holgerDinkel/git/) | Holger Dinkel | Darwin - Training Room |
 | 12:30-13:30 | Lunch                                                                                                          |                     | TGAC Atrium            |
-| 13:30-15:00 | [Chimera protein structure](trainingMaterial/scooterMorris)                                                                                      | Scooter Morris      | Darwin - Training Room |
+| 13:30-15:00 | [Introduction to bioinformatics](trainingMaterial/aidanBudd/introToBioinformatics/introToBioinformatics.md) and [Introduction to sequence alignments, practical and presentation](trainingMaterial/aidanBudd/introToMSAs/introToMSAsAidanBudd.html)                                                                                      | Aidan Budd      | Darwin - Training Room |
 | 15:00-15:30 | Coffee Break                                                                                                   |                     | TGAC Atrium            |
-| 15:30-17:00 | [Continued: Chimera protein structure](trainingMaterial/scooterMorris)                                                                           | Scooter Morris      | Darwin - Training Room |
+| 15:30-17:00 | [Chimera protein structure](trainingMaterial/scooterMorris)                                                                           | Scooter Morris      | Darwin - Training Room |
 | 17:00-17:30 | Coffee Break                                                                                                   |                     | TGAC Atrium            |
-| 17:30-19:00 | [Continued: Introduction to sequence alignments, practical and presentation](trainingMaterial/aidanBudd/introToMSAs/introToMSAsAidanBudd.html) | Aidan Budd          | Darwin - Training room |
+| 17:30-19:00 | [Chimera protein structure](trainingMaterial/scooterMorris)  | Scooter Morris         | Darwin - Training room |
 | 19:00       | Coach departs TGAC to hotel                                                                                    |                     | Outside TGAC entrance  |
 | 19:30       | Dinner @ Toreros                                                                                               |                     | Meet at hotel lobby    |
 
