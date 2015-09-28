@@ -1,5 +1,5 @@
 ---
-title: Norwich Unseminar in Bioinformatics: Open Data, Open Tools
+title: Norwich Unseminar in Bioinformatics -- Open Data, Open Tools
 layout: page
 author: Aidan Budd
 ---
