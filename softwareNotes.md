@@ -18,7 +18,13 @@ If you maximise a window on the desktop, just click on the top bar of the window
 
 ### Copy and paste
 
-Highlight the text you want to with your pointer, then right-click and choose **copy**. To paste, left-click to place the cursor, then right-click and choose **paste**
+Highlight the text you want to with your pointer, then right-click and choose **copy**. To paste, left-click to place the cursor, then right-click and choose **paste**. We did find yet a key shortcut to do this.
+
+Note - it's not possible to copy and paste text between the VM and the rest of your laptop!
+
+### Opening a new window of an application (Firefox, Terminal, etc.)
+
+Right-click on the icon for the application in the left icon bar, and then choose "Open a new window".
 
 ### Running Jalview
 
