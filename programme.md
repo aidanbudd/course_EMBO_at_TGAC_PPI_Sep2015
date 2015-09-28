@@ -96,9 +96,9 @@ DAY 5 - Friday 2 October 2015
 | 10:30-11:00 | Coffee Break |             | TGAC Atrium         |
 | 11:00-12:30 | [Multiple Sequence Alignments using JalView](trainingMaterial/tobyGibson/MSA_Jalview.html) | Holger Dinkel & Toby Gibson  | Darwin - Training Room |
 | 12:30-13:30 | Lunch |            | TGAC Atrium          |
-| 13:30-15:00 | [STRING, networking and PPIs](trainingMaterial/larsJuhlJensen/) | Lars Juhl Jensen | Darwin - Training Room |
+| 13:30-15:00 | [STRING - protein association networks](trainingMaterial/larsJuhlJensen/) | Lars Juhl Jensen | Darwin - Training Room |
 | 15:00-15:30 | Coffee Break |           | TGAC Atrium          |
-| 15:30-17:00 | [Continued: STRING, networking and PPIs](trainingMaterial/larsJuhlJensen/)  | Lars Juhl Jensen | Darwin - Training Room |
+| 15:30-17:00 | [Continued: STRING - protein association networks](trainingMaterial/larsJuhlJensen/)  | Lars Juhl Jensen | Darwin - Training Room |
 | 17:00       | Coach departs TGAC to hotel |         | Outside TGAC entrance |
 | 17:30       | Dinner - Maids Head Hotel |         | Meet at hotel restaurant |
 
