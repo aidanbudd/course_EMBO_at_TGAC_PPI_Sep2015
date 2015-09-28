@@ -11,9 +11,9 @@ author: Holger Dinkel
 
 ## Pandoc
 
-[Pandoc - Introductory Slides](./pandoc_intro.html)
+[Pandoc - brief intro](./pandoc_intro.html)
 
 ## Git
 
-[GIT - brief introduction](./git_intro.html)
-[GIT - Introductory Slides](./git_intro_slides.html)
+- [GIT - brief intro](./git_intro.html)
+- [GIT - Introductory Slides](./git_intro_slides.html)
