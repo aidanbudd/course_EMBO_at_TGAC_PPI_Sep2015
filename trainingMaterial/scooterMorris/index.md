@@ -27,7 +27,7 @@ Hopefully, you have installed Chimera on your laptop already.  If not, please ge
  1. [Superpositions and Alignments](./SuperpositionsAndAlignments.pdf).  Using [MatchMaker](https://www.rbvi.ucsf.edu/chimera/docs/ContributedSoftware/matchmaker/matchmaker.html) to align protein structures and create a multiple sequence alignment from the structural superpositions.
  1. [Comparative Modeling](./ComparativeModeling.pdf).  Using BLAST and Modeller from within Chimera
 1. Or one of these from various scenario-based demonstrations
- 1. [Functional Annotation Scenario: The Structure-Function Linkage Database (SFLD) and Chimera] (./FunctionalAnnotation.pdf). Originally prepared for an NIH site visit.  [FunctionalAnnotation.zip](./FunctionalAnnotation.zip) contains the data files mentioned in the tutorial.
+ 1. [Functional Annotation Scenario](./FunctionalAnnotation.pdf): The Structure-Function Linkage Database (SFLD) and Chimera.  Originally prepared for an NIH site visit.  [FunctionalAnnotation.zip](./FunctionalAnnotation.zip) contains the data files mentioned in the tutorial.
  1. [Mapping Sequence Conservation onto Structures with Chimera](./SequenceConservation.pdf).  You'll need the data in [SequenceConservation.zip](./SequenceConservation.zip) to do this one.
 
 ### Other useful links
