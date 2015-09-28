@@ -9,11 +9,11 @@ author: Holger Dinkel
 
 [Markdown Cheatsheet](./markdown_cheatsheet.pdf)
 
-
 ## Pandoc
 
 [Pandoc - Introductory Slides](./pandoc_intro.html)
 
 ## Git
 
-[GIT - Introductory Slides](./git_intro.html)
+[GIT - brief introduction](./git_intro.html)
+[GIT - Introductory Slides](./git_intro_slides.html)
