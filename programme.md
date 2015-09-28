@@ -23,7 +23,6 @@ DAY 1 - Monday 28 September 2015
 | 08:30-09:00 | Registration and Coffee                                                                                        |                     | TGAC Atrium            |
 | 09:00-09:15 | Welcome and introductions                                                                                      | Matt Drew           | Darwin - Training Room |
 | 09:15-10:00 | [1 to 1 introductions round](trainingMaterial/aidanBudd/whatWeGetFromACourse/introToTheCourseAidanBudd.html)                      | Aidan Budd          | Darwin - Training Room |
-| 10:00-10:30 | [Introduction to bioinformatics, protein modules, practical and presentation](trainingMaterial/aidanBudd/introToBioinformatics/introToBioinformatics.html)            | Aidan Budd          | Darwin - Training Room |
 | 10:30-11:00 | Coffee Break                                                                                                   |                     | TGAC Atrium            |
 | 11:00-12:30 | [Introduction to Markdown, Pandoc, and Git](trainingMaterial/holgerDinkel/git/) | Holger Dinkel | Darwin - Training Room |
 | 12:30-13:30 | Lunch                                                                                                          |                     | TGAC Atrium            |
