@@ -59,9 +59,9 @@ DAY 3 - Wednesday 30 September 2015
 | :---------- | :------------------------------------------------------------------------------------------------------------- | :------------- | :---------------------      |
 | 08:15       | Coach departs hotel to TGAC                                                                                    |                | Hotel Car Park              |
 | 08:30-09:00 | Morning Coffee                                                                                                 |                | TGAC Atrium                 |
-| 09:00-10:30 | [Prediction of protein features (in absence of 3D info)](trainingMaterial/miguelAndrade/proteinFeaturePrediction.html)                               | Miguel Andrade | Darwin - Training Room      |
+| 09:00-10:30 | [Prediction of protein features (in absence of 3D info)](trainingMaterial/miguelAndrade/)                               | Miguel Andrade | Darwin - Training Room      |
 | 10:30-11:00 | Coffee Break                                                                                                   |                | TGAC Atrium                 |
-| 11:00-12:30 | [Repeats, compositionally biased regions](trainingMaterial/miguelAndrade/repeats.html)                                              | Miguel Andrade | Darwin - Training Room      |
+| 11:00-12:30 | [Repeats, compositionally biased regions](trainingMaterial/miguelAndrade/)                                              | Miguel Andrade | Darwin - Training Room      |
 | 12:30-14:00 | Coach leaves for excursion to Sandringham Estate with Lunch                                                    |                | Outside TGAC entrance       |
 | 14:00-17:00 | Tour around Sandringham Estate and Gardens & Free Time                                                         |                |                             |
 | 17:00-18:30 | Coach leaves Sandringham Estate to hotel                                                                       |                | Sandringham Estate Car Park |
