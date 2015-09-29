@@ -271,7 +271,31 @@ the [ELM (Eukaryotic Linear Motif)](http://elm.eu.org) __database__.
 
 # PhosphoSitePlus:
 
-1.
+Get familiar with PhosphoSitePlus:
+
+This resource has an enormous collection of PTMs, referenced to the source literature. It has a symbiotic relationship with Cell Signaling Technology and links to their antibodies.
+
+The interface is a bit confusing at first glance so the exercises will show you to find information.
+
+1. Open [PhosphoSitePlus](http://www.phosphosite.org/)
+2. Search for p53 using the available search window
+   1. How many proteins are retrieved?
+   1. What are the modifications found in p53? (Mouse over show legend)
+3. Click on the links to find out what you get.
+4. Use that experience to click on the human p53 page. 
+    - Find the graphic with modifications. 
+    - Are PTMs mostly in the ~100AA disordered termini or in the folded DNA-binding domain?
+5. Some PTMs sites can't be clicked on in the graphic. 
+    - Why might that be? To find out, track down where the PTM evidence comes from for the Cysteine residue C229.
+6. Examine the large table of PTMs from different organisms. 
+    - What is LTP and what is HTP? 
+    - Which evidence type is more reliable? 
+    - Is it good to have both? 
+    - Is the residue with the most evidence important for function?
+7. How many p53 sites are sumoylated? 
+    - Is there any overlap of sumoylation and other PTMs?
+8. Click to get the multiple alignment. 
+    - Does mouse p53 have more experimental sites than human?
 
 * * * * *
 
