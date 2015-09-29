@@ -296,15 +296,6 @@ The interface is a bit confusing at first glance so the exercises will show you 
     8. Click to get the multiple alignment. 
         - Does mouse p53 have more experimental sites than human?
 
-
-1. (OPTIONAL) In the main page type ‘EGFR’ in the Protein Name search box
-    1. Click on search
-    1. You should get 4 results
-    1. A summary of the modification type is provided for each protein
-    1. The modification type are for protein, but are not specie specific, i.e. acetylation mightt have been detected experimentally only in mouse model and not in human, or rat, or pig
-    1. To go to the details page for EGFR (human) click on human
-    1. If you click on P00533 you will be redirected to UniProt
-
 1. (OPTIONAL) We would like to find proteins which are phosphorylated by the CSK kinase. For this we use the pattern from the ELM class [MOD_TYR_CSK](http://elm.eu.org/elms/MOD_TYR_CSK). Go back to the [PhosphoSitePlus](http://www.phosphosite.org/) home page and click on ‘Protein, Sequence or Reference search’
     1. In the motif search box type in the reg-exp for [MOD_TYR_CSK](http://elm.eu.org/elms/MOD_TYR_CSK) like this: ``[TAD][EA]xQY[QE]x[GQA][PEDLS]``
     1. Click search
