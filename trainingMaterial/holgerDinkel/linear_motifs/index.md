@@ -277,25 +277,39 @@ This resource has an enormous collection of PTMs, referenced to the source liter
 
 The interface is a bit confusing at first glance so the exercises will show you to find information.
 
-1. Open [PhosphoSitePlus](http://www.phosphosite.org/)
-2. Search for p53 using the available search window
-   1. How many proteins are retrieved?
-   1. What are the modifications found in p53? (Mouse over show legend)
-3. Click on the links to find out what you get.
-4. Use that experience to click on the human p53 page. 
-    - Find the graphic with modifications. 
-    - Are PTMs mostly in the ~100AA disordered termini or in the folded DNA-binding domain?
-5. Some PTMs sites can't be clicked on in the graphic. 
-    - Why might that be? To find out, track down where the PTM evidence comes from for the Cysteine residue C229.
-6. Examine the large table of PTMs from different organisms. 
-    - What is LTP and what is HTP? 
-    - Which evidence type is more reliable? 
-    - Is it good to have both? 
-    - Is the residue with the most evidence important for function?
-7. How many p53 sites are sumoylated? 
-    - Is there any overlap of sumoylation and other PTMs?
-8. Click to get the multiple alignment. 
-    - Does mouse p53 have more experimental sites than human?
+1. Open [PhosphoSitePlus](http://www.phosphosite.org/) and search for p53 using the available search window
+    1. How many proteins are retrieved?
+    1. What are the modifications found in p53? (Mouse over show legend)
+    3. Click on the links to find out what you get.
+    4. Use that experience to click on the human p53 page. 
+        - Find the graphic with modifications. 
+        - Are PTMs mostly in the ~100AA disordered termini or in the folded DNA-binding domain?
+    5. Some PTMs sites can't be clicked on in the graphic. 
+        - Why might that be? To find out, track down where the PTM evidence comes from for the Cysteine residue C229.
+    6. Examine the large table of PTMs from different organisms. 
+        - What is LTP and what is HTP? 
+        - Which evidence type is more reliable? 
+        - Is it good to have both? 
+        - Is the residue with the most evidence important for function?
+    7. How many p53 sites are sumoylated? 
+        - Is there any overlap of sumoylation and other PTMs?
+    8. Click to get the multiple alignment. 
+        - Does mouse p53 have more experimental sites than human?
+
+
+1. (OPTIONAL) In the main page type ‘EGFR’ in the Protein Name search box
+    1. Click on search
+    1. You should get 4 results
+    1. A summary of the modification type is provided for each protein
+    1. The modification type are for protein, but are not specie specific, i.e. acetylation mightt have been detected experimentally only in mouse model and not in human, or rat, or pig
+    1. To go to the details page for EGFR (human) click on human
+    1. If you click on P00533 you will be redirected to UniProt
+
+1. (OPTIONAL) We would like to find proteins which are phosphorylated by the CSK kinase. For this we use the pattern from the ELM class [MOD_TYR_CSK](http://elm.eu.org/elms/MOD_TYR_CSK). Go back to the [PhosphoSitePlus](http://www.phosphosite.org/) home page and click on ‘Protein, Sequence or Reference search’
+    1. In the motif search box type in the reg-exp for [MOD_TYR_CSK](http://elm.eu.org/elms/MOD_TYR_CSK) like this: ``[TAD][EA]xQY[QE]x[GQA][PEDLS]``
+    1. Click search
+    1. The result page will give you the list of the protein matches
+    1. Use the links to the human JMJD3 and BPAG1 proteins to try to find out which of these are likely to actually be phosphorylated by CSK. Have a look at the number of LTP vs. HTP references. Also follow the link to STRING to see if there are any interactions with CSK annotated.
 
 * * * * *
 
