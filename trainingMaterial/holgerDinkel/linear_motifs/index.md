@@ -96,8 +96,6 @@ Recently, you've learned about the protein 'EPSIN' and you are curious to know i
 <!-- \# How many phosphorylation sites are annotated for this protein? -->
 <!-- \# Limit this information to residue 530 (of the same protein) -->
 
-<!--{TODO} Mention Rest queries -->
-
 <!--(see chapter : *REST queries*) -->
 <!-- \# (OPTIONAL) Try to get the same information in CSV (comma separated values) format -->
 <!-- (see <http://phospho.elm.eu.org/help.html>) -->
@@ -143,8 +141,6 @@ Recently, you've learned about the protein 'EPSIN' and you are curious to know i
 __prediction tool__.
 
 <!--- <file:ELM_Eukaryotic_Linear_Motif_Resource.DinkelHolger.pdf> -->
-
-<!--- TODO: Check for cross-usage with phosphoelm -->
 
 1.  Search protein SRC_HUMAN (accession P12931) for ELMs using the following parameters:
     -   Cell Compartment: **Not specified**
@@ -320,17 +316,6 @@ The interface is a bit confusing at first glance so the exercises will show you 
         1. modified residues?
         1. region of interest?
         1. possible motifs mediating an interaction?
-
-
-
-<!-- TODO: use the exploratory features of switches.elm -->
-<!-- 1. submit protein ID XXXX to switches.elm prediction -->
-<!-- 1. highlight positions XXX as region of interest to you -->
-<!-- 1. click submit -->
-<!-- 1. investigate the resulting -->
-  <!-- 1. pay particular attention to conservation, overlapping motifs etc.-->
-
-
 
 
 
