@@ -5,6 +5,11 @@ author: Zsuzsanna Dosztanyi
 
 # PART 1
 
+**Presentation Slides**:
+
+- [Disorder_part1.pdf](norwich_disorder_part1.pdf)
+- [Disorder_part2.pdf](norwich_disorder_part2.pdf)
+
 # Prediction of protein disorder
 
 ## Exercise 1
@@ -128,8 +133,8 @@ One of the main applications of disorder prediction methods is to find regions t
 
 1. You can check PDB structures for this protein here:
     [http://www.rcsb.org/pdb/protein/O00401](http://www.rcsb.org/pdb/protein/O00401)
-2. Find PFAM families
-    check what is type of the PFAM entry
+2. Find PFAM families and  check their type
+
     1. Click on the domain
     2. Click on "Curation and model"
     3. Check type: 
