@@ -4,17 +4,9 @@ title: Miguel's teaching material
 author: Miguel Andrade
 ---
 
+### 1. Secondary structure prediction
 
-[![](miguel_files/header.png)](https://cbdm.uni-mainz.de/ "Computational Biology and Data Mining group")
-
-# Support materials for EMBO PPI course 2015 in Norwich
-
-
-## Day 3
-
-### 1. Secondary structure
-
-Presentation: [lesson\_pred2D\_3](https://cbdm.uni-mainz.de/files/2015/02/lesson_pred2D_3.pptx)
+Presentation: [PDF](./part1_pred2d/lesson_pred2D_4.pdf), [Powerpoint](./part1_pred2d/lesson_pred2D_4.pptx)
 
 Files for practical
 part: [MR1\_fasta](https://cbdm.uni-mainz.de/files/2015/02/MR1_fasta.txt) / [glul\_fasta](https://cbdm.uni-mainz.de/files/2015/02/glul_fasta.txt) / [glul\_aln](https://cbdm.uni-mainz.de/files/2015/02/glul_aln.txt)
