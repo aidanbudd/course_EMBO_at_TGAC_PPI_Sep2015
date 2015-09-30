@@ -179,14 +179,6 @@ arrow/.style={ thick };
 \note{}
     \titlepage
 \end{frame}
-%
-%\begin{frame}[plain]
-%\note{First: Introduction to Short Linear Motifs\\
-%    Then, The ELM Resource\\
-%    Followed by a monologue about data annotation in general and for the ELM DB in particular.\\}
-%    \tableofcontents[sections]
-%\end{frame}
-}
 
 \section{Short Linear Motifs}
 
@@ -262,7 +254,7 @@ explain/mention \textbf{functional site}
     \Paper{How viruses hijack cell regulation}{Davey, Trav\'{e} \& Gibson}{TiBS 2010}%
 \end{frame}
 
-\begin{frame}[t]\frametitle{Importance of Short Linear Motifs: Diseases}
+\begin{frame}\frametitle{Importance of Short Linear Motifs: Diseases}
         \note{The Bacillus-produced anthrax toxin LF (lethal factor), a
         protease, cleaves the N-terminal MAPK docking motif of several MAPK kinases
         (MAPKK).402 The catalytic domain of LF appears to have evolved specificity to
@@ -270,15 +262,14 @@ explain/mention \textbf{functional site}
         the MAPK pathways by disrupting MAPKK binding to MAPK and thereby block MAPKK
         phosphorylation of MAPK}%
 %        \vspace{-1.25em}%
-        \vfill See also \url{http://elm.eu.org/infos/diseases.html}%
-        \only<1|handout:0>{\hogsboxtop{Liddle's-Syndrome: WW-Interaction motif}{%
+        \vfill \only<1-2|handout:1>{\hogsboxtop{Liddle's-Syndrome: WW-Interaction motif}{%
         has been implicated with autosomal dominant activating mutations in the WW interaction motif in the $\beta${}- and
         $\gamma${}-subunits of the epithelial sodium channel \PROT{ENaC}. These mutations abrogate the binding to the
         ubiquitin ligase \PROT{NEDD4-2}, %thereby inhibiting channel degradation and prolonging the half-life of \PROT{ENaC}, 
         ultimately resulting in increased Na$^+$ reabsorption, plasma volume extension and hypertension.
         }}%
         %  \vspace{1em}%
-        \only<2|handout:0>{\hogsboxtop{Bacillus anthracis ``lethal factor''}{%
+        \visible<2|handout:1>{\hogsboxtop{Bacillus anthracis ``lethal factor''}{%
         The protein \PROT{LEF\_BACAN} is a metalloprotease that specifically
         targets mitogen-activated protein kinase kinases (MKKs).
         which are important regulators of signal transduction
@@ -291,6 +282,7 @@ explain/mention \textbf{functional site}
 %        25\,000.  This disease can be caused by mutations in either PDZ domains in \PROT{Harmonin} or the corresponding PDZ interaction motifs in
 %        \PROT{SANS} protein.
 %        }}%
+        \vspace{4em} \tiny{See \url{http://elm.eu.org/infos/diseases.html} for a list of motifs implicated in various diseases.}%
     \end{frame}
 
 \begin{frame}[t]\frametitle{Importance of Short Linear Motifs: Cancer}
@@ -704,53 +696,6 @@ Note also how anchoring motifs retain proteins in certain localizations. }
 \end{frame}
 
 \appendix
-
-%\begin{frame}[t]\frametitle{Acknowledgments} 
-%\note{ All of the Gibson Group, foremost Toby and also Kim: Very much enjoyed working with you.}
-%\vspace{-4mm}%
-%    \begin{columns}[T]
-%        \begin{column}{.4\textwidth}
-%            \begin{exampleblock}{Gibson Team}
-%                \begin{itemize}
-%                    \item Brigitte Altenberg
-%                    \item Aidan Budd
-%                    \item Norman Davey
-%                    \item Francesca Diella
-%                    \item \alert{\underline{Toby Gibson}}
-%                    \item Vladislava Milchevskaya
-%                    \item \alert{\underline{Kim van Roey}}
-%                    \item Grischa Toedt
-%                    \item Bora Uyar
-%                    \item Robert Weatheritt
-%                \end{itemize}
-%            \end{exampleblock}
-%            \begin{exampleblock}{Bio-IT Centers}
-%                \begin{itemize}
-%                    \item Matt Rogon
-%                \end{itemize}
-%            \end{exampleblock}
-%        \end{column}
-%        \begin{column}{.5\textwidth}
-%            \begin{alertblock}{More than 70 scientists from all over the world
-%                contributing to ELM}
-%                \begin{itemize}
-%                    \item Annotatation
-%                    \item Data submission
-%                    \item Code/Algorithm development
-%                    \item \ldots{}
-%                \end{itemize}
-%            \end{alertblock}
-%            \begin{block}{Open Source Community}
-%                \begin{itemize}
-%                    \item Python
-%                    \item Django
-%                    \item PostgreSQL
-%                    \item Linux
-%                \end{itemize}
-%            \end{block}
-%        \end{column}
-%    \end{columns}
-%\end{frame}
 
 \section{}
 \begin{frame}<presentation:1|handout:0>[t]\frametitle{Questions?}
