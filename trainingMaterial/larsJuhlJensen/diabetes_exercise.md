@@ -8,7 +8,7 @@ author: Lars Juhl Jensen
 Go to [STRING](http://string-db.org/) and query for human insulin receptor (INSR) using the search by name functionality.
 
 
-### Change between visual representations.
+### Change between visual representations
 
 The buttons below the network view allows you to change between different visual representations of the same network. Try changing between the confidence and evidence views.
 
