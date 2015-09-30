@@ -3,18 +3,16 @@ title: STRING - Protein association networks
 author: Lars Juhl Jensen
 ---
 
-# STRING: Protein association networks
-
-## Presentation
+### Presentation
 
 - [STRING](./STRING_presentation.pdf)
 
-## Exercises
+### Exercises
 
 - [Diabetes](./diabetes_exercise)
 - [M. tuberculosis](./tuberculosis_exercise)
 
-## Web resources
+### Web resources
 
 - [STRING](http://string-db.org)
 - [STITCH](http://stitch-db.org)
@@ -22,7 +20,7 @@ author: Lars Juhl Jensen
 - [TISSUES](http://tissues.jensenlab.org)
 - [DISEASES](http://diseases.jensenlab.org)
 
-## Articles about the resources
+### Articles about the resources
 
 - [STRING](./STRING_article.pdf)
 - [STITCH](./STITCH_article.pdf)
