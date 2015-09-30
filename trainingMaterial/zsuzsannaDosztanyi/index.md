@@ -132,10 +132,12 @@ One of the main applications of disorder prediction methods is to find regions t
     check what is type of the PFAM entry
     1. Click on the domain
     2. Click on "Curation and model"
-    3. Check type 
+    3. Check type: 
+    
 -domain 
 -family
 -motif
+
 3. Find low complexity regions. Which amino acids dominate in the low complexity region?
 4. Predict disorder (e.g. with IUPred)
 5. Which regions would you call disordered?
@@ -212,21 +214,8 @@ This entry contains the ensemble of the fuzzy complex between Sic1 and CDC4.
 3. What is the largest and smallest radius of gyration in ensemble 3?
 
 
+
 ## Exercise 11
-
-### Types of disorder conservation
-
-Sic1 contains 6 binding regions for its partner, Cdc4. 
-The first two are centered around the phosphorylated Serines at position 5 and 33 that are connected through a flexible linker.
-
-Using the [DISCONS](http://pedb.vib.be/discons/) server, what can you say about the type of disorder conservation around these two residues and the linker region?
-
-You can use the alignment here:
-
-
-
-
-## Exercise 12 
 
 ### Prediction binding sites based on patterns of conservation
 
