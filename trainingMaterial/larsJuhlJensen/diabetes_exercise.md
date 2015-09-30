@@ -8,7 +8,7 @@ author: Lars Juhl Jensen
 
 ## Query STRING for a single protein
 
-Go to http://string-db.org/ and query for human insulin receptor (INSR) using the search by name functionality.
+Go to [STRING](http://string-db.org/) and query for human insulin receptor (INSR) using the search by name functionality.
 
 
 ## Change between visual representations.
