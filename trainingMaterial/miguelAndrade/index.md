@@ -11,8 +11,8 @@ Presentation: [PDF](./part1_pred2d/lesson_pred2D_4.pdf), [Powerpoint](./part1_p
 Exercise files:
 
 - [glul_aln.txt](./part1_pred2d/glul_aln.txt)
-- [glul_fasta.txt](./part1_pred2d/)
-- [MR1_fasta.txt](./part1_pred2d/)
+- [glul_fasta.txt](./part1_pred2d/glul_fasta.txt)
+- [MR1_fasta.txt](./part1_pred2d/MR1_fasta.txt)
 
 ### 2. Structure modeling by homology
 
