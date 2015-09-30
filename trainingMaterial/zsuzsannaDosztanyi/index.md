@@ -157,6 +157,7 @@ One of the main applications of disorder prediction methods is to find regions t
 IDEAL [http://www.ideal.force.cs.is.nagoya-u.ac.jp/IDEAL/](http://www.ideal.force.cs.is.nagoya-u.ac.jp/IDEAL/)
 2. Can you find regions for this proteins that are annotated as disordered binding regions (called **ProS** in this database) ?
 3. Predict disordered binding regions using ANCHOR [http://anchor.enzim.hu](http://anchor.enzim.hu/)
+
 Can you find predicted binding regions for this protein?
 
 > From what you know about this protein, does the prediction is supported by experimental data?
@@ -176,7 +177,8 @@ The DISOPRED results can be found here :
 
     1. How many different binding partners can you see there?
     2. What type of secondary structures they adopt in the complex
-    check PDB 
+    check PDB:
+    
 - 1ma3
 - 1h26
 - 1jsp
@@ -189,7 +191,7 @@ What is the predicted secondary structure for the C-terminal region?
 
 ## Exercise 9
 
-###    
+###   Filtering motif hits
 
 > Dynein light chain protein binds to disordered segments that have a TQT binding motifs. One of its known interaction partner is FA83D ( Q9H4H8 ) with the region VGTQTS.
 > We found  the same sequence in the protein ASNSD1.
