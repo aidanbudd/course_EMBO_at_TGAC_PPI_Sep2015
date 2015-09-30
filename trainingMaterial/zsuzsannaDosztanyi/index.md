@@ -15,7 +15,7 @@ author: Zsuzsanna Dosztanyi
     [www.disprot.org](http://www.disprot.org/)
     
     You can start from UNIPROT, it has a link to DISPROT 
-    or search DISPROT directly by keyword. ( sequence search does not work)
+    or search DISPROT directly by keyword (sequence search does not work).
 
     1. What kind of information can you find on this page?
     2. Which regions are marked as disordered in DISPROT?
@@ -39,10 +39,10 @@ The input can be:
 - amino acid sequence in raw format (without header)
 - UNIPROT ID or accession number
 
->Please note, some methods are sensitive to line breaks 
+>Please note, some methods are sensitive to line breaks.
 >Minimum and maximum length of sequence 
 
-Some disordere prediction methods:
+Some disorder prediction methods:
 
 - IUPred [http://iupred.enzim.hu](http://iupred.enzim.hu/)
 - Globplot [http://globplot.embl.de/](http://globplot.embl.de/)
@@ -68,7 +68,7 @@ Some disordere prediction methods:
 
 ### MobiDB database
 
-1.Find calcineurin in MOBIDB
+1. Find calcineurin in MOBIDB
  [http://mobidb.bio.unipd.it/entries/Q08209](http://mobidb.bio.unipd.it/entries/Q08209)
 
 You can find the output of several other methods there.
@@ -87,13 +87,13 @@ You can find the output of several other methods there.
 1. Predict protein disorder for DISPROT DP00039
 2. Count number of positively charged amino acids
 3. Count number of negatively charged amino acids
-4.  Calculate net charge\
+4.  Calculate net charge 
     (or use the [protparam](http://web.expasy.org/protparam/) server)
 5. Check low complexity segments (you can take these from PFAM through
     uniprot)
 6. Check PFAM domains
 
-##### Is there a contradiction between PFAM domain assignments and predicted disorder?
+Is there a contradiction between PFAM domain assignments and predicted disorder?
 
 
 ## Exercise 5
@@ -113,9 +113,9 @@ One of the main applications of disorder prediction methods is to find regions t
    ALFSLANMVKPGTFDPEMKDFTTPGVTIFMQVPSYGDELQNFKLMLQSAQHIADEVGGVV
    LDDQRRMMTPQKLREYQDIIREVKDANA
 
- DisMeta is another disorder prediction server that was developed specifically for construct desing for X-ray crystallography. 
+ [DisMeta](http://www-nmr.cabm.rutgers.edu/bioinformatics/disorder/) is another disorder prediction server that was developed specifically for construct desing for X-ray crystallography. 
  It is a slow method, so the precomputed prediction result can be found here:
- [DisMeta server](http://www-nmr.cabm.rutgers.edu/bioinformatics/disorder/dismeta_results/test-YSlZ/test-YSlZ_predictResults.html)
+ [DisMeta results](http://www-nmr.cabm.rutgers.edu/bioinformatics/disorder/dismeta_results/test-YSlZ/test-YSlZ_predictResults.html)
 
 2. Check, which region has a structure?
 
@@ -130,8 +130,12 @@ One of the main applications of disorder prediction methods is to find regions t
     [http://www.rcsb.org/pdb/protein/O00401](http://www.rcsb.org/pdb/protein/O00401)
 2. Find PFAM families
     check what is type of the PFAM entry
-    you can find this information under \"Curation and model\"
-    domain? family? motif?
+    1. Click on the domain
+    2. Click on "Curation and model"
+    3. Check type 
+-domain 
+-family
+-motif
 3. Find low complexity regions. Which amino acids dominate in the low complexity region?
 4. Predict disorder (e.g. with IUPred)
 5. Which regions would you call disordered?
@@ -161,27 +165,24 @@ Can you find predicted binding regions for this protein?
 ## Disordered binding regions for human p53
       
 
-
 1. Predict disordered binding regions for p53
 Use ANCHOR [http://anchor.enzim.hu](http://anchor.enzim.hu/) 
 The DISOPRED results can be found here :
-
+[DISORPED](http://bioinf.cs.ucl.ac.uk/psipred/result/4f7b2286-6766-11e5-8c47-00163e110593)
 2. Check IDEAL to find regions that are involved in forming complexes  
    Focus on the C-terminal region
 
     1. How many different binding partners can you see there?
     2. What type of secondary structures they adopt in the complex
-    check PDB <ul>
-    <il> </il>
-    <il> </il>
-    <il> </il>
-    <il> </il>
-
-    </ul>
+    check PDB 
+-
+-
+-
+-    
     
 3. How well predictions agree with known binding region?
-4. Predict secondary structure for this protein
-What is the predicted secondary structure for the C-terminal region
+4. Check the predicted secondary structure for this protein (using PSIPRed that comes with DISOPRED)
+What is the predicted secondary structure for the C-terminal region?
 
 
 ## Exercise 9
@@ -198,19 +199,30 @@ What is the predicted secondary structure for the C-terminal region
 
 > You can add the VGTQTS motif to the search too.
 
-> Is that matching region predicted to have a disordered binding region?
+> Is the matching region predicted to have a disordered binding region?
 
 
 ## Exercise 10
 
 ### PED database
 
-
+1. In the PED database find the enrty corresponding to Sic1 PED5AAC
+This entry contains the ensemble of the fuzzy complex between Sic1 and CDC4.
+2. How many conformers are in ensemble 3?
+3. What is the largest and smallest radius of gyration in ensemble 3?
 
 
 ## Exercise 11
 
 ### Types of disorder conservation
+
+Sic1 contains 6 binding regions for its partner, Cdc4. 
+The first two are centered around the phosphorylated Serines at position 5 and 33 that are connected through a flexible linker.
+
+Using the [DISCONS](http://pedb.vib.be/discons/) server, what can you say about the type of disorder conservation around these two residues and the linker region?
+
+You can use the alignment here:
+
 
 
 
@@ -221,7 +233,7 @@ What is the predicted secondary structure for the C-terminal region
 1. Collect the sequence for uniprot entry Q9UK97
 2. Predict disordered binding regions using ANCHOR
 3. Run the prediction for this entry using the SlimPrints server
-    [http://bioware.ucd.ie/\~compass/biowareweb/Server\_pages/slimprints.php](http://bioware.ucd.ie/~compass/biowareweb/Server_pages/slimprints.php)
+    [http://bioware.ucd.ie/~compass/biowareweb/Server\_pages/slimprints.php](http://bioware.ucd.ie/~compass/biowareweb/Server_pages/slimprints.php)
 4. Which is the most significant hit?
     Look at the alignment. Which positions are the most conserved in this region?
 
