@@ -8,59 +8,47 @@ author: Miguel Andrade
 
 Presentation: [PDF](./part1_pred2d/lesson_pred2D_4.pdf), [Powerpoint](./part1_pred2d/lesson_pred2D_4.pptx)
 
-Files for practical
-part: [MR1\_fasta](https://cbdm.uni-mainz.de/files/2015/02/MR1_fasta.txt) / [glul\_fasta](https://cbdm.uni-mainz.de/files/2015/02/glul_fasta.txt) / [glul\_aln](https://cbdm.uni-mainz.de/files/2015/02/glul_aln.txt)
+Exercise files:
 
-Links:\
- [http://www.jalview.org](http://www.jalview.org/)\
- <http://www.ncbi.nlm.nih.gov/gene>\
-
-[http://www.compbio.dundee.ac.uk/jpred4](http://www.compbio.dundee.ac.uk/jpred4/)
+- [glul_aln.txt](./part1_pred2d/glul_aln.txt)
+- [glul_fasta.txt](./part1_pred2d/)
+- [MR1_fasta.txt](./part1_pred2d/)
 
 ### 2. Structure modeling by homology
 
-Presentation: [lesson\_model3D\_3](https://cbdm.uni-mainz.de/files/2015/02/lesson_model3D_3.pptx)
+Presentation: [PDF](./part2_3dhom/lesson_model3D_4.pdf), [Powerpoint](./part2_3dhom/lesson_model3D_4.pptx)
 
-Links:\
- [http://aquaria.ws](http://aquaria.ws/)\
- <http://aquaria.ws/Q9HD67/>\
+Links:
 
-[http://genetics.bwh.harvard.edu/pph2](http://genetics.bwh.harvard.edu/pph2/)
+- [Aquaria](http://aquaria.ws/)
+- Aquaria with results for [Q9HD67](http://aquaria.ws/Q9HD67/)
+- [pph2](http://genetics.bwh.harvard.edu/pph2)
 
 ### 3. Protein feature prediction
 
-Presentation: [lesson\_predTM\_3](https://cbdm.uni-mainz.de/files/2015/02/lesson_predTM_3.pptx)
+Presentation: [PDF](./part3_features/lesson_predTM_4.pdf), [Powerpoint](./part3_features/lesson_predTM_4.pptx)
 
-Files for practical
-part:[littleMSA\_fasta](https://cbdm.uni-mainz.de/files/2015/02/littleMSA_fasta.txt) / [ferredoxins2\_fasta](https://cbdm.uni-mainz.de/files/2015/02/ferredoxins2_fasta.txt)
+Exercise files:
 
-Links:\
- <http://www.uniprot.org/uniprot/Q28WW9>\
- <http://www.uniprot.org/uniprot/Q28WW9.fasta>\
+- [littleMSA_fasta.txt](./part3_features/littleMSA_fasta.txt)
+- [ferredoxins2_fasta.txt](./part3_features/ferredoxins2_fasta.txt)
 
-[http://www.cbs.dtu.dk/services/TMHMM](http://www.cbs.dtu.dk/services/TMHMM/)
+Links:
+
+- Uniprot record for [Q28WW9](http://www.uniprot.org/uniprot/Q28WW9)
+- Fasta sequnence for [Q28WW9](http://www.uniprot.org/uniprot/Q28WW9.fasta)
+- [TMHMM](http://www.cbs.dtu.dk/services/TMHMM/)
 
 ### 4. Composition bias and repeats
 
-Presentation: [lesson\_bias\_3](https://cbdm.uni-mainz.de/files/2015/02/lesson_bias_3.pptx)
+Presentation: [PDF](./part4_repeats/lesson_bias_4.pdf), [Powerpoint](./part4_repeats/lesson_bias_4.pptx)
 
-Files for practical
-part: [MR1\_fasta](https://cbdm.uni-mainz.de/files/2015/02/MR1_fasta.txt) / [littleMSA\_fasta](https://cbdm.uni-mainz.de/files/2015/02/littleMSA_fasta.txt)
+Exercise files:
 
-Links:\
- <http://myhits.isb-sib.ch/cgi-bin/dotlet>\
- <http://matthuska.github.io/biasviz/>
+- [littleMSA_fasta.txt](./part4_repeats/littleMSA_fasta.txt)
+- [MR1_fasta.txt](./part4_repeats/MR1_fasta.txt)
 
-</div>
+Links:
 
-</div>
-
-</div>
-
-<div id="spalterechts" class="widget-area threecol editorcontent last"
-role="complementary">
-
-<div id="homepage_toplinks" class="content">
-
-<div id="search">
-
+- [dotlet](http://myhits.isb-sib.ch/cgi-bin/dotlet)
+- [biasviz](http://matthuska.github.io/biasviz/)
