@@ -177,10 +177,10 @@ The DISOPRED results can be found here :
     1. How many different binding partners can you see there?
     2. What type of secondary structures they adopt in the complex
     check PDB 
--
--
--
--    
+- 1ma3
+- 1h26
+- 1jsp
+- 1dt7  
     
 3. How well predictions agree with known binding region?
 4. Check the predicted secondary structure for this protein (using PSIPRed that comes with DISOPRED)
@@ -199,7 +199,7 @@ What is the predicted secondary structure for the C-terminal region?
 
 > Hint: Predict disordered binding regions (e.g. with ANCHOR)
 
-> You can add the VGTQTS motif to the search too.
+> You can add the VGTQTS motif to the search too in the motif window
 
 > Is the matching region predicted to have a disordered binding region?
 
