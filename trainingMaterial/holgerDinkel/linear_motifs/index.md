@@ -307,10 +307,21 @@ The interface is a bit confusing at first glance so the exercises will show you 
 # switches.elm.eu.org:
 
  
-1. Search [Phospho.ELM](http://phospho.elm.eu.org) for protein 'CD3 zeta' (id P20963). 
-1. Which of these annotated phosphorylation sites are involved in switching mechanisms annotated at [Switches.ELM](http://switches.elm.eu.org)? 
-<!-- Phosphorylation sites 72,83 111,123 142,153 in P20963 CD3 zeta (T-cell surface glycoprotein CD3 zeta chain precursor) is annotated in switches 344, 347, 348 -->
-1. What types of switches are these? What do the phosphorylations effect?
+1. Search [Phospho.ELM](http://phospho.elm.eu.org) for transcription factor 'Fos' (id P01101).
+1. You would like to find out which of these annotated phosphorylation sites are involved in switching mechanisms annotated at [Switches.ELM](http://switches.elm.eu.org)? 
+    1. For this, enter ``P01101`` into the switches.elm search box ``Search database`` and click submit.
+    1. How many switching motifs do you find?
+    1. What type are these?
+    1. Click on the first one and investigate the role of the phosphorylation.
+
+1. Use the "Analyse" function at switches.elm and submit the accession number ``O70601``.
+    1. Select residues 170-180 and click submit.
+    1. Using the visualization to the right and focussing on the area highlighted by the ``Motif of interest``, what can you find out about:
+        1. modified residues?
+        1. region of interest?
+        1. possible motifs mediating an interaction?
+
+
 
 <!-- TODO: use the exploratory features of switches.elm -->
 <!-- 1. submit protein ID XXXX to switches.elm prediction -->
