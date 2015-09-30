@@ -3,12 +3,12 @@ title: Biology and prediction of intrinsically unstructured peptide regions
 author: Zsuzsanna Dosztanyi
 ---
 
-#  PART 1
-#  Prediction of protein disorder
+# PART 1
 
-
+# Prediction of protein disorder
 
 ## Exercise 1
+
 ### DISPROT database and analyzing calcineurin A
 
 1.  Find calcineurin A (PP2BA\_HUMAN) in DISPROT
@@ -27,35 +27,33 @@ author: Zsuzsanna Dosztanyi
 >> (DP00092)
 
 ##  Exercise 2 
-   
+
 ### Disorder prediction methods 
 
 1.  Collect prediction outputs for calcineurin A using various methods
 
 
 The input can be:
-<ul>
-    <li>the amino acid sequence in FASTA format</li>
-    <li>amino acid sequence in raw format (without header)</li>
-    <li>UNIPROT ID or accession number</li>
-</ul>
+
+- the amino acid sequence in FASTA format
+- amino acid sequence in raw format (without header)
+- UNIPROT ID or accession number
 
 >Please note, some methods are sensitive to line breaks 
 >Minimum and maximum length of sequence 
 
 Some disordere prediction methods:
-<ul>
-<li>IUPred [http://iupred.enzim.hu](http://iupred.enzim.hu/)</li>
-<li>Globplot [http://globplot.embl.de/](http://globplot.embl.de/)</li>
-<li>PONDR-FIT
-[http://www.disprot.org/pondr-fit.php](http://www.disprot.org/pondr-fit.php)</li>
-<li>PredictProtein
+
+- IUPred [http://iupred.enzim.hu](http://iupred.enzim.hu/)
+- Globplot [http://globplot.embl.de/](http://globplot.embl.de/)
+- PONDR-FIT
+[http://www.disprot.org/pondr-fit.php](http://www.disprot.org/pondr-fit.php)
+- PredictProtein
 [http://ppopen.informatik.tu-muenchen.de/](http://ppopen.informatik.tu-muenchen.de/)
-(MD, UCON, Norsp, Profbval)</li>
-<li>DISOPRED3 [http://bioinf.cs.ucl.ac.uk/psipred/](http://bioinf.cs.ucl.ac.uk/psipred/)
+(MD, UCON, Norsp, Profbval)
+- DISOPRED3 [http://bioinf.cs.ucl.ac.uk/psipred/](http://bioinf.cs.ucl.ac.uk/psipred/)
       (choose Disopred2 and 3 option!!!)
-</li>
-<li>or any other method you like.</li>
+- or any other method you like.
 
 
 
@@ -67,16 +65,18 @@ Some disordere prediction methods:
 
 
 ## Exercise 3 
+
 ### MobiDB database
 
 1.Find calcineurin in MOBIDB
-> [http://mobidb.bio.unipd.it/entries/Q08209](http://mobidb.bio.unipd.it/entries/Q08209)
+ [http://mobidb.bio.unipd.it/entries/Q08209](http://mobidb.bio.unipd.it/entries/Q08209)
 
 You can find the output of several other methods there.
-    1. Which regions are predicted as disordered by the majority of methods?
-    2. Which regions have matching PDB structure?
-    3. Can you find regions that cannot be unambigiously assigned? 
-        What could be the reason for that?    
+
+1. Which regions are predicted as disordered by the majority of methods?
+2. Which regions have matching PDB structure?
+3. Can you find regions that cannot be unambigiously assigned? 
+    What could be the reason for that?    
 
 
 
@@ -100,26 +100,22 @@ You can find the output of several other methods there.
 
 ### Finding suitable targets for structure determination.
 
-> One of the main applications of disorder prediction methods is to find regions that are suitable for structure determination
+One of the main applications of disorder prediction methods is to find regions that are suitable for structure determination
 
 
 1. Which region of this protein would you try to crytallize?
 
+   \>mystery protein
+   MMQDLRLILIIVGAIAIIALLVHGFWTSRKERSSMFRDRPLKRMKSKRDDDSYDEDVEDD
+   EGVGEVRVHRVNHAPANAQEHEAARPSPQHQYQPPYASAQPRQPVQQPPEAQVPPQHAPH
+   PAQPVQQPAYQPQPEQPLQQPVSPQVAPAPQPVHSAPQPAQQAFQPAEPVAAPQPEPVAE
+   PAPVMDKPKRKEAVIIMNVAAHHGSELNGELLLNSIQQAGFIFGDMNIYHRHLSPDGSGP
+   ALFSLANMVKPGTFDPEMKDFTTPGVTIFMQVPSYGDELQNFKLMLQSAQHIADEVGGVV
+   LDDQRRMMTPQKLREYQDIIREVKDANA
 
-<pre>
->mystery protein
-MMQDLRLILIIVGAIAIIALLVHGFWTSRKERSSMFRDRPLKRMKSKRDDDSYDEDVEDD
-EGVGEVRVHRVNHAPANAQEHEAARPSPQHQYQPPYASAQPRQPVQQPPEAQVPPQHAPH
-PAQPVQQPAYQPQPEQPLQQPVSPQVAPAPQPVHSAPQPAQQAFQPAEPVAAPQPEPVAE
-PAPVMDKPKRKEAVIIMNVAAHHGSELNGELLLNSIQQAGFIFGDMNIYHRHLSPDGSGP
-ALFSLANMVKPGTFDPEMKDFTTPGVTIFMQVPSYGDELQNFKLMLQSAQHIADEVGGVV
-LDDQRRMMTPQKLREYQDIIREVKDANA
-</pre>
-
-> DisMeta is another disorder prediction server that was developed specifically for construct desing for X-ray crystallography. 
-> It is a slow method, so the precomputed prediction result can be found here:
-> [DisMeta server](http://www-nmr.cabm.rutgers.edu/bioinformatics/disorder/dismeta_results/test-YSlZ/test-YSlZ_predictResults.html)
-
+ DisMeta is another disorder prediction server that was developed specifically for construct desing for X-ray crystallography. 
+ It is a slow method, so the precomputed prediction result can be found here:
+ [DisMeta server](http://www-nmr.cabm.rutgers.edu/bioinformatics/disorder/dismeta_results/test-YSlZ/test-YSlZ_predictResults.html)
 
 2. Check, which region has a structure?
 
@@ -141,14 +137,14 @@ LDDQRRMMTPQKLREYQDIIREVKDANA
 5. Which regions would you call disordered?
 
 
-<hr> 
-<hr>
 
 # PART 2
+
 #Finding functional regions within IDPs 
 
 
 ## Exercise 7        
+
 ### Disordered binding regions for N-WASP
 
 1. Using the accession number for human N-WASP, find the data for this protein in the IDEAL database
@@ -161,7 +157,8 @@ Can you find predicted binding regions for this protein?
 
 
 ## Exercise 8        
-### Disordered binding regions for human p53
+
+## Disordered binding regions for human p53
       
 
 
@@ -188,6 +185,7 @@ What is the predicted secondary structure for the C-terminal region
 
 
 ## Exercise 9
+
 ###    
 
 > Dynein light chain protein binds to disordered segments that have a TQT binding motifs. One of its known interaction partner is FA83D ( Q9H4H8 ) with the region VGTQTS.
@@ -204,12 +202,14 @@ What is the predicted secondary structure for the C-terminal region
 
 
 ## Exercise 10
+
 ### PED database
 
 
 
 
 ## Exercise 11
+
 ### Types of disorder conservation
 
 
