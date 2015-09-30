@@ -11,8 +11,8 @@ author: Lars Juhl Jensen
 
 ## Exercises
 
-- [Diabetes](./diabetes_exercise.md)
-- [M. tuberculosis](./tuberculosis_exercise.md)
+- [Diabetes](./diabetes_exercise)
+- [M. tuberculosis](./tuberculosis_exercise)
 
 ## Web resources
 
