@@ -4,10 +4,12 @@ layout: page
 author: Holger Dinkel
 ---
 
-Objective: Get familiar with the [Phospho.ELM](http://phospho.elm.eu.org) resource.
+# Objective: Get familiar with the [Phospho.ELM](http://phospho.elm.eu.org) resource.
 
-<!-- <file:Phospho.ELM.DinkelHolger.pdf> -->
-<!-- <file:Short_Linear_Motifs.DinkelHolger.pdf> -->
+**Presentation Slides**:
+
+- [Short_Linear_Motifs.pdf](Short_Linear_Motifs.pdf)
+- [Elm_Phospho_Switches.pdf](Elm_Phospho_Switches.pdf)
 
 ## Searching via protein id
 
