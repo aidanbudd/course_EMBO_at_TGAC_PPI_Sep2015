@@ -63,16 +63,16 @@ Recently, you've learned about the protein 'EPSIN' and you are curious to know i
     2.  Why the difference? <!--- BLAST=Search in homologous sequences -->
     3.  In which proteins / organisms? <!--- Abl, Abl2, TRKB / Human, mouse, Caenorhabditis, Drosophila -->
 
-* * * * *
-
-## Comparing predictions from multiple sources:
-
-1.  Go back to the phospho.elm startpage and search for uniprot id 'EGFR_HUMAN'.
-    1.  Use the link to go to Uniprot, scroll down (or click on 'Sequence annotation') and try to get an idea of the protein topology in order to be able to answer the next question. <!--- -645 = extracellular -->
-    2.  In which part of the protein do the most phosphorylations seem to be located? <!--- Carboxy-Terminus \> 678 -->
-    3.  (OPTIONAL) There are quite a lot of annotations, several of which come from high-throughput sources which generally are of lower quality. Go back to the search form, tick the box 'Do not show high throughput data' and rerun the search again. You should see significantly fewer results.
-    4.  (OPTIONAL) Use [IUPred](http://iupred.enzim.hu) to predict the disorder content of EGFR_HUMAN. Discuss these findings with your neighbor.
-
+<!-- * * * * * -->
+<!--  -->
+<!-- ## Comparing predictions from multiple sources: -->
+<!--  -->
+<!-- 1.  Go back to the phospho.elm startpage and search for uniprot id 'EGFR_HUMAN'. -->
+<!--     1.  Use the link to go to Uniprot, scroll down (or click on 'Sequence annotation') and try to get an idea of the protein topology in order to be able to answer the next question. --> <!--- -645 = extracellular -->
+<!--     2.  In which part of the protein do the most phosphorylations seem to be located? --> <!--- Carboxy-Terminus \> 678 -->
+<!--     3.  (OPTIONAL) There are quite a lot of annotations, several of which come from high-throughput sources which generally are of lower quality. Go back to the search form, tick the box 'Do not show high throughput data' and rerun the search again. You should see significantly fewer results. -->
+<!--     4.  (OPTIONAL) Use [IUPred](http://iupred.enzim.hu) to predict the disorder content of EGFR_HUMAN. Discuss these findings with your neighbor. -->
+<!--  -->
 <!-- 1.  Submit the [sequence](http://uniprot.org/uniprot/P49023.fasta) of Paxillin (P49023) to [DisPhos](http://www.dabi.temple.edu/disphos/) (default parameters) and [NetPhos](http://www.cbs.dtu.dk/services/NetPhos) -->
 <!--     1.  Run [Iupred](http://iupred.enzim.hu) (make sure to generate an output plot) on the sequence to get an idea of the likely globular/disorder composition of the protein. -->
 <!--     2.  Compare the results between NetPhos and DisPhos in particular with respect to phosphorylation sites in the carboxy terminus. -->
@@ -135,6 +135,43 @@ Recently, you've learned about the protein 'EPSIN' and you are curious to know i
 <!-- Compare with Phospho.BLAST results -->
 
 <!-- Maybe: P36507 -->
+
+* * * * * 
+
+# PhosphoSitePlus:
+
+Get familiar with PhosphoSitePlus:
+
+This resource has an enormous collection of PTMs, referenced to the source literature. It has a symbiotic relationship with Cell Signaling Technology and links to their antibodies.
+
+The interface is a bit confusing at first glance so the exercises will show you to find information.
+
+1. Open [PhosphoSitePlus](http://www.phosphosite.org/) and search for p53 using the available search window
+    1. How many proteins are retrieved?
+    1. What are the modifications found in p53? (Mouse over show legend)
+    3. Click on the links to find out what you get.
+    4. Use that experience to click on the human p53 page. 
+        - Find the graphic with modifications. 
+        - Are PTMs mostly in the ~100AA disordered termini or in the folded DNA-binding domain?
+    5. Some PTMs sites can't be clicked on in the graphic. 
+        - Why might that be? To find out, track down where the PTM evidence comes from for the Cysteine residue C229.
+    6. Examine the large table of PTMs from different organisms. 
+        - What is LTP and what is HTP? 
+        - Which evidence type is more reliable? 
+        - Is it good to have both? 
+        - Is the residue with the most evidence important for function?
+    7. How many p53 sites are sumoylated? 
+        - Is there any overlap of sumoylation and other PTMs?
+    8. Click to get the multiple alignment. 
+        - Does mouse p53 have more experimental sites than human?
+
+1. (OPTIONAL) We would like to find proteins which are phosphorylated by the CSK kinase. For this we use the pattern from the ELM class [MOD_TYR_CSK](http://elm.eu.org/elms/MOD_TYR_CSK). Go back to the [PhosphoSitePlus](http://www.phosphosite.org/) home page and click on ‘Protein, Sequence or Reference search’
+    1. In the motif search box type in the reg-exp for [MOD_TYR_CSK](http://elm.eu.org/elms/MOD_TYR_CSK) like this: ``[TAD][EA]xQY[QE]x[GQA][PEDLS]``
+    1. Click search
+    1. The result page will give you the list of the protein matches
+    1. Use the links to the human JMJD3 and BPAG1 proteins to try to find out which of these are likely to actually be phosphorylated by CSK. Have a look at the number of LTP vs. HTP references. Also follow the link to STRING to see if there are any interactions with CSK annotated.
+
+* * * * *
 
 # Objective: Get familiar with ELM 
 
@@ -265,41 +302,6 @@ the [ELM (Eukaryotic Linear Motif)](http://elm.eu.org) __database__.
 <!---  -->
 <!-- == Interactions ==  -->
 <!-- BIN1_HUMAN  -->
-
-# PhosphoSitePlus:
-
-Get familiar with PhosphoSitePlus:
-
-This resource has an enormous collection of PTMs, referenced to the source literature. It has a symbiotic relationship with Cell Signaling Technology and links to their antibodies.
-
-The interface is a bit confusing at first glance so the exercises will show you to find information.
-
-1. Open [PhosphoSitePlus](http://www.phosphosite.org/) and search for p53 using the available search window
-    1. How many proteins are retrieved?
-    1. What are the modifications found in p53? (Mouse over show legend)
-    3. Click on the links to find out what you get.
-    4. Use that experience to click on the human p53 page. 
-        - Find the graphic with modifications. 
-        - Are PTMs mostly in the ~100AA disordered termini or in the folded DNA-binding domain?
-    5. Some PTMs sites can't be clicked on in the graphic. 
-        - Why might that be? To find out, track down where the PTM evidence comes from for the Cysteine residue C229.
-    6. Examine the large table of PTMs from different organisms. 
-        - What is LTP and what is HTP? 
-        - Which evidence type is more reliable? 
-        - Is it good to have both? 
-        - Is the residue with the most evidence important for function?
-    7. How many p53 sites are sumoylated? 
-        - Is there any overlap of sumoylation and other PTMs?
-    8. Click to get the multiple alignment. 
-        - Does mouse p53 have more experimental sites than human?
-
-1. (OPTIONAL) We would like to find proteins which are phosphorylated by the CSK kinase. For this we use the pattern from the ELM class [MOD_TYR_CSK](http://elm.eu.org/elms/MOD_TYR_CSK). Go back to the [PhosphoSitePlus](http://www.phosphosite.org/) home page and click on ‘Protein, Sequence or Reference search’
-    1. In the motif search box type in the reg-exp for [MOD_TYR_CSK](http://elm.eu.org/elms/MOD_TYR_CSK) like this: ``[TAD][EA]xQY[QE]x[GQA][PEDLS]``
-    1. Click search
-    1. The result page will give you the list of the protein matches
-    1. Use the links to the human JMJD3 and BPAG1 proteins to try to find out which of these are likely to actually be phosphorylated by CSK. Have a look at the number of LTP vs. HTP references. Also follow the link to STRING to see if there are any interactions with CSK annotated.
-
-* * * * *
 
 # switches.elm.eu.org:
 
