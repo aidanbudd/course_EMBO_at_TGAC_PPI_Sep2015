@@ -161,8 +161,8 @@ __prediction tool__.
     4.  For the annotated instances, which of the ELM classes __require__ a phosphorylation at a certain residue of the motif? (Hint: This information can be found in the description of the ELM class)
     5.  Which residue in SRC_HUMAN corresponds to this and can you find evidence for a phosphorylation of this residue (using Phospho.ELM)?
 <!--- % \# Earlier today you searched Phospho.ELM for CDN1B_HUMAN and investigated the most conserved phosphorylation site. Try to find this using ELM % -->
-1.  Earlier today you searched Phospho.ELM for 'Epsin1' and investigated the most conserved phosphorylation site. Try to find these using ELM.
-    1.  Start the Jalview plugin to visualize the conservation of motifs in 'Epsin1'.
+<!--- 1.  Earlier today you searched Phospho.ELM for 'Epsin1' and investigated the most conserved phosphorylation site. Try to find these using ELM. -->
+<!---    1.  Start the Jalview plugin to visualize the conservation of motifs in 'Epsin1'. -->
 
 1.  Submit the [sequence](http://uniprot.org/uniprot/P49023.fasta) of Paxillin (P49023) to ELM, using default parameters.
     1.  Compare the results with a search for the same sequence when using the __cellular compartment__ 'plasma membrane'
