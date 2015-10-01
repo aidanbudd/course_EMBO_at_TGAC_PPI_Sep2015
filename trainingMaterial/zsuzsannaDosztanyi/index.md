@@ -120,7 +120,8 @@ One of the main applications of disorder prediction methods is to find regions t
 
  [DisMeta](http://www-nmr.cabm.rutgers.edu/bioinformatics/disorder/) is another disorder prediction server that was developed specifically for construct desing for X-ray crystallography. 
  It is a slow method, so the precomputed prediction result can be found here:
- [DisMeta results](http://www-nmr.cabm.rutgers.edu/bioinformatics/disorder/dismeta_results/test-YSlZ/test-YSlZ_predictResults.html)
+ [DisMeta results](http://www-nmr.cabm.rutgers.edu/bioinformatics/disorder/dismeta_results/test-YSlZ/test-YSlZ_predictResults.htm)
+
 
 2. Check, which region has a structure?
 
