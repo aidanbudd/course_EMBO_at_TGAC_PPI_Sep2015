@@ -139,10 +139,10 @@ One of the main applications of disorder prediction methods is to find regions t
     1. Click on the domain
     2. Click on "Curation and model"
     3. Check type: 
-    
--domain 
--family
--motif
+
+       - domain 
+       - family
+       - motif
 
 3. Find low complexity regions. Which amino acids dominate in the low complexity region?
 4. Predict disorder (e.g. with IUPred)
@@ -166,13 +166,12 @@ IDEAL [http://www.ideal.force.cs.is.nagoya-u.ac.jp/IDEAL/](http://www.ideal.forc
 
 Can you find predicted binding regions for this protein?
 
-> From what you know about this protein, does the prediction is supported by experimental data?
+From what you know about this protein, does the prediction is supported by experimental data?
 
 
 ## Exercise 8        
 
 ## Disordered binding regions for human p53
-      
 
 1. Predict disordered binding regions for p53
 Use ANCHOR [http://anchor.enzim.hu](http://anchor.enzim.hu/) 
@@ -183,13 +182,14 @@ The DISOPRED results can be found here :
 
     1. How many different binding partners can you see there?
     2. What type of secondary structures they adopt in the complex
+
     check PDB:
-    
-- 1ma3
-- 1h26
-- 1jsp
-- 1dt7  
-    
+
+     - 1ma3
+     - 1h26
+     - 1jsp
+     - 1dt7  
+
 3. How well predictions agree with known binding region?
 4. Check the predicted secondary structure for this protein (using PSIPRed that comes with DISOPRED)
 What is the predicted secondary structure for the C-terminal region?
@@ -199,17 +199,17 @@ What is the predicted secondary structure for the C-terminal region?
 
 ###   Filtering motif hits
 
-> Dynein light chain protein binds to disordered segments that have a TQT binding motifs. One of its known interaction partner is FA83D ( Q9H4H8 ) with the region VGTQTS.
-> We found  the same sequence in the protein ASNSD1.
+Dynein light chain protein binds to disordered segments that have a TQT binding motifs. One of its known interaction partner is FA83D ( Q9H4H8 ) with the region `VGTQTS`.
+We found  the same sequence in the protein `ASNSD1`.
 
  
 1. Do you think it can be a valid binding partner?
 
-> Hint: Predict disordered binding regions (e.g. with ANCHOR)
+Hint: Predict disordered binding regions (e.g. with ANCHOR)
 
-> You can add the VGTQTS motif to the search too in the motif window
+You can add the `VGTQTS` motif to the search too in the motif window
 
-> Is the matching region predicted to have a disordered binding region?
+Is the matching region predicted to have a disordered binding region?
 
 
 ## Exercise 10
