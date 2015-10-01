@@ -63,3 +63,10 @@ Beneath the network there is a button that allows you to enable the _advanced_ n
 Perform enrichment analyses for GO terms on the network. Do the enriched terms relate to the cell wall? Do the identified terms depend on the confidence cutoff chosen? Why?
 
 To make the network look nicer, remove the singletons from the visualization by selecting Hide disconnected nodes from the Options menu.
+
+
+### Explore the STITCH database
+
+[STITCH](http://stitch-db.org) is a sister database of STRING that contains also small molecule compounds.
+
+Search the STITCH database for _M. tuberculosis_ H37Rv adhD (Rv3086). What are some of the roles of the compounds in the network?
