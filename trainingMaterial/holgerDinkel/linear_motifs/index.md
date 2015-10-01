@@ -17,7 +17,7 @@ author: Holger Dinkel
     1.  How many annotated sites/residues do you find? Which sites have information from multiple references? <!--- 8 out of 11 -->
     2.  How many are annotated as *high throughput experiments*? <!--- 4 -->
     3.  What information is given on the surface accessibility of the annotated residues?
-    4.  (Optional) later during this course, when you've learned to use a 3D-viewer, use it to visualize the structure of ([1NW9](http://www.rcsb.org/pdb/explore/explore.do?structureId=1NW9)) and try to highlight the individual phosphorylatable residues and investigate their surface accessibility.
+    4.  (OPTIONAL) later during this course, when you've learned to use a 3D-viewer, use it to visualize the structure of ([1NW9](http://www.rcsb.org/pdb/explore/explore.do?structureId=1NW9)) and try to highlight the individual phosphorylatable residues and investigate their surface accessibility.
 
 1.  Query Phospho.ELM for phosphorylation sites of protein '*Cyclin dependent kinase inhibitor 1B*' (use the accession P46527)
     1.  How many phosphorylation sites are annotated for this protein? <!--- 10 -->
@@ -70,14 +70,13 @@ Recently, you've learned about the protein 'EPSIN' and you are curious to know i
 1.  Go back to the phospho.elm startpage and search for uniprot id 'EGFR_HUMAN'.
     1.  Use the link to go to Uniprot, scroll down (or click on 'Sequence annotation') and try to get an idea of the protein topology in order to be able to answer the next question. <!--- -645 = extracellular -->
     2.  In which part of the protein do the most phosphorylations seem to be located? <!--- Carboxy-Terminus \> 678 -->
-    3.  (Optional) There are quite a lot of annotations, several of which come from high-throughput sources which generally are of lower quality. Go back to the search form, tick the box 'Do not show high throughput data' and rerun the search again. You should see significantly fewer results.
-    4.  (Optional) Use [IUPred](http://iupred.enzim.hu) to predict the disorder content of EGFR_HUMAN. Discuss these findings with your neighbor.
+    3.  (OPTIONAL) There are quite a lot of annotations, several of which come from high-throughput sources which generally are of lower quality. Go back to the search form, tick the box 'Do not show high throughput data' and rerun the search again. You should see significantly fewer results.
+    4.  (OPTIONAL) Use [IUPred](http://iupred.enzim.hu) to predict the disorder content of EGFR_HUMAN. Discuss these findings with your neighbor.
 
-1.  Submit the [sequence](http://uniprot.org/uniprot/P49023.fasta) of Paxillin (P49023) to [DisPhos](http://www.dabi.temple.edu/disphos/) (default parameters) and [NetPhos](http://www.cbs.dtu.dk/services/NetPhos)
-    1.  Run [Iupred](http://iupred.enzim.hu) (make sure to generate an output plot) on the sequence to get an idea of the likely globular/disorder composition of the protein.
-    2.  Compare the results between NetPhos and DisPhos in particular with respect to phosphorylation sites in the carboxy terminus.
-    3.  Rerun the analysis of Paxillin (P49023) at [DisPhos](http://www.dabi.temple.edu/disphos/), this time instead of 'Default Predictor' select 'H. sapiens' as __organism__
-
+<!-- 1.  Submit the [sequence](http://uniprot.org/uniprot/P49023.fasta) of Paxillin (P49023) to [DisPhos](http://www.dabi.temple.edu/disphos/) (default parameters) and [NetPhos](http://www.cbs.dtu.dk/services/NetPhos) -->
+<!--     1.  Run [Iupred](http://iupred.enzim.hu) (make sure to generate an output plot) on the sequence to get an idea of the likely globular/disorder composition of the protein. -->
+<!--     2.  Compare the results between NetPhos and DisPhos in particular with respect to phosphorylation sites in the carboxy terminus. -->
+<!--     3.  Rerun the analysis of Paxillin (P49023) at [DisPhos](http://www.dabi.temple.edu/disphos/), this time instead of 'Default Predictor' select 'H. sapiens' as __organism__ -->
 
 <!-- \# Search [Phospho.ELM](http://phospho.elm.eu.org) for P46844 (BIEA_RAT) -->
 <!-- \#\# How many phosphorylation sites are annotated for this protein? -->
@@ -86,7 +85,7 @@ Recently, you've learned about the protein 'EPSIN' and you are curious to know i
 <!-- \#\# How many phosphorylations sites in homologous proteins do get? -->
 <!-- \#\# In which / how many proteins? -->
 <!-- \#\# Compare the findings of PhosphoBlast with the predictions of DisPhos -->
-<!-- \#\# (Optional) later during this course, when you've learned to use a 3D-viewer, use it to visualize the structure of ([2H63](http://www.rcsb.org/pdb/explore/explore.do?structureId=2h63)) and try to highlight the individual phosphorylatable residues and investigate their surface accessibility.-->
+<!-- \#\# (OPTIONAL) later during this course, when you've learned to use a 3D-viewer, use it to visualize the structure of ([2H63](http://www.rcsb.org/pdb/explore/explore.do?structureId=2h63)) and try to highlight the individual phosphorylatable residues and investigate their surface accessibility.-->
 
 
 <!-- \# Search Phospho.ELM for gene name KLF4 -->
@@ -194,8 +193,8 @@ __prediction tool__.
 1.  Search elm.eu.org using the protein name 'MDM4_HUMAN' and look for the 'USP binding motif' DOC_USP7_1.
     1.  How many such motif instances are found in this protein sequence? <!--- 6 -->
     2.  Try to assess the biological relevance of each of these instances. <!--- 2 TP, 2 TN, 2 Unknown -->
-    2.  (Optional) Repeat this exercise with protein 'AMPH_HUMAN' and ELM class 'LIG_Clathr_ClatBox_1'
-    1.  (Optional) Is the annotation for the biological relevance in accordance with the globular structure?
+    2.  (OPTIONAL) Repeat this exercise with protein 'AMPH_HUMAN' and ELM class 'LIG_Clathr_ClatBox_1'
+    1.  (OPTIONAL) Is the annotation for the biological relevance in accordance with the globular structure?
 
 1.  You're studying the cell surface expression of a receptor and find out that some isoforms are expressed at the surface (Q05586-2) while another isoform is retained in the endoplasmatic reticulum (Q05586-5). You want to investigate a possible role of linear motifs in this phenomenon.
     1.  First, align these sequences to see which parts are similar/identical and which are different (go to <http://www.uniprot.org/uniprot/Q05586>, scroll down to 'sequences', select isoforms 2 and 5 and click 'align').
@@ -244,7 +243,7 @@ the [ELM (Eukaryotic Linear Motif)](http://elm.eu.org) __database__.
 1.  (OPTIONAL) Search [Pubmed](http://www.ncbi.nlm.nih.gov/pubmed) for the terms "noonan syndrome" AND “motif” (you should get exactly one resulting publication, if not, make sure you use quotes around '"noonan syndrome"')
     1.  find the protein sequence that was analysed in this publication, retrieve the sequence from uniprot and submit it to ELM. Can you find the two mutation hotspots that are responsible for the syndrome described in the publication?
 
-1.  (Optional) Get all annotated instances for *Homo sapiens* that contain the search term *ciliar* (Hint: Use [http://elm.eu.org/elms/browse_instances.html](http://elm.eu.org/elms/browse_instances.html))
+1.  (OPTIONAL) Get all annotated instances for *Homo sapiens* that contain the search term *ciliar* (Hint: Use [http://elm.eu.org/elms/browse_instances.html](http://elm.eu.org/elms/browse_instances.html))
     1.  How many are there?
     2.  Which experimental evidence is annotated and how reliable is this evidence?
     3.  Try to get these instances as TSV-file (tab separated values)
