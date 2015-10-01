@@ -171,10 +171,10 @@ arrow/.style={ thick };
 \newcommand{\optional}[1]{\ifthenelse{\equal{\includeoptional}{true}}{#1}{---}}
 %
 {
-\setbeamertemplate{frametitle}{}
+%\setbeamertemplate{frametitle}{}
 \setbeamertemplate{framesubtitle}{}
 \setbeamertemplate{navigation symbols}{}
-\setbeamertemplate{headline}{}
+%\setbeamertemplate{headline}{}
 \begin{frame}[plain]
 \note{}
     \titlepage
@@ -254,7 +254,7 @@ explain/mention \textbf{functional site}
     \Paper{How viruses hijack cell regulation}{Davey, Trav\'{e} \& Gibson}{TiBS 2010}%
 \end{frame}
 
-\begin{frame}\frametitle{Importance of Short Linear Motifs: Diseases}
+\begin{frame}[t]\frametitle{Importance of Short Linear Motifs: Diseases}
         \note{The Bacillus-produced anthrax toxin LF (lethal factor), a
         protease, cleaves the N-terminal MAPK docking motif of several MAPK kinases
         (MAPKK).402 The catalytic domain of LF appears to have evolved specificity to
@@ -270,7 +270,7 @@ explain/mention \textbf{functional site}
         }}%
         %  \vspace{1em}%
         \visible<2|handout:1>{\hogsboxtop{Bacillus anthracis ``lethal factor''}{%
-        The protein \PROT{LEF\_BACAN} is a metalloprotease that specifically
+                The protein \PROT{LEF\_BACAN} is a metalloprotease (one of the three proteins composing the anthrax toxin) that specifically
         targets mitogen-activated protein kinase kinases (MKKs).
         which are important regulators of signal transduction
         as they phosphorylate and thus activate specific MAPKs (such as ERK1, ERK2, p38
@@ -282,7 +282,7 @@ explain/mention \textbf{functional site}
 %        25\,000.  This disease can be caused by mutations in either PDZ domains in \PROT{Harmonin} or the corresponding PDZ interaction motifs in
 %        \PROT{SANS} protein.
 %        }}%
-        \vspace{4em} \tiny{See \url{http://elm.eu.org/infos/diseases.html} for a list of motifs implicated in various diseases.}%
+        \vspace{0.4em} \tiny{See \url{http://elm.eu.org/infos/diseases.html} for a list of motifs implicated in various diseases.}%
     \end{frame}
 
 \begin{frame}[t]\frametitle{Importance of Short Linear Motifs: Cancer}
@@ -295,8 +295,8 @@ explain/mention \textbf{functional site}
                     \vspace{2mm}\optional{\includegraphics[height=.35\textheight]{images/b-catenin_TrCP1.png}
                 \end{column}
                 \begin{column}{0.7\textwidth}
-                    \vspace{2mm}The most recurrently mutated experimentally validated SLiM in the COSMIC DB
-                    is the conserved proteasomal degradation motif in the highly disordered N-terminal
+                    \vspace{2mm}The most recurrently mutated experimentally validated motif in the COSMIC DB
+                    is the conserved proteasomal degradation motif (DEG\_SCF\_TRCP1\_1)in the highly disordered N-terminal
                     region of $\beta${}-Catenin which mediates binding to the WD40 repeat domain of the
                     $\beta${}-TRCP subunit of the SCF-betaTRCP E3 ubiquitin ligase complex. (more
                     than 1700 mutation entries for this motif derived from 1692 unique samples
@@ -321,30 +321,30 @@ explain/mention \textbf{functional site}
 \end{frame}
 
 
-\begin{frame}\frametitle{Motifs in external proteins}
-    \note{Allegra’s RGD motif in solved structures is a good illustration of how 
-    extracellular motifs tend to be in loops of folded regions, IUP being much rarer 
-    in extracellular proteins (exceptions like mucins, collagens). Also two of the examples are parasite uses.
-    %
-    Solved structures of three different RGD--containing proteins. RGD motifs are
-    shown as orange sticks. The occurrence of identical motifs on completely
-    unrelated scaffolds supports the hypothesis they represent convergent evolution
-    events. Bottom left: Human Del-1 EGF2 domain. The RGD motif forms a type II'
-    beta turn at the tip of a long loop, dubbed the RGD finger, which is critical
-    for integrin binding; PDB: 4D90; bottom middle: Secreted aspartic proteinase
-    from C. albicans; PDB 4QZX; bottom right: RGD-containing
-    host-selective toxin Ptr ToxA from P. tritici-repentis; PDB: 1ZLD. }%
-
-    SLiMs play even a role in extracellular proteins as highlighted by these solved structures of three different RGD--containing proteins. 
-    (The occurrence of identical motifs on completely unrelated scaffolds supports the hypothesis they represent convergent evolution events).\\
-    \smaller{(Note how these extracellular motifs are located in loops of folded regions.)}
-    \begin{center}
-        \visible<+->{\optional{\includegraphics[height=.55\textheight]{images/Uyar_Via_RGD_1.png}}}
-        \visible<+->{\optional{\includegraphics[height=.55\textheight]{images/Uyar_Via_RGD_2.png}}}
-        \visible<+->{\optional{\includegraphics[height=.55\textheight]{images/Uyar_Via_RGD_3.png}}}
-    \end{center}
-    \Paper{How pathogens use linear motifs to perturb host cell networks}{Via et~al.}{Trends Biochem Sci. 2015}
-\end{frame}
+% \begin{frame}\frametitle{Motifs in external proteins}
+%     \note{Allegra’s RGD motif in solved structures is a good illustration of how 
+%     extracellular motifs tend to be in loops of folded regions, IUP being much rarer 
+%     in extracellular proteins (exceptions like mucins, collagens). Also two of the examples are parasite uses.
+%     %
+%     Solved structures of three different RGD--containing proteins. RGD motifs are
+%     shown as orange sticks. The occurrence of identical motifs on completely
+%     unrelated scaffolds supports the hypothesis they represent convergent evolution
+%     events. Bottom left: Human Del-1 EGF2 domain. The RGD motif forms a type II'
+%     beta turn at the tip of a long loop, dubbed the RGD finger, which is critical
+%     for integrin binding; PDB: 4D90; bottom middle: Secreted aspartic proteinase
+%     from C. albicans; PDB 4QZX; bottom right: RGD-containing
+%     host-selective toxin Ptr ToxA from P. tritici-repentis; PDB: 1ZLD. }%
+% 
+%     SLiMs play even a role in extracellular proteins as highlighted by these solved structures of three different RGD--containing proteins. 
+%     (The occurrence of identical motifs on completely unrelated scaffolds supports the hypothesis they represent convergent evolution events).\\
+%     \smaller{(Note how these extracellular motifs are located in loops of folded regions.)}
+%     \begin{center}
+%         \visible<+->{\optional{\includegraphics[height=.55\textheight]{images/Uyar_Via_RGD_1.png}}}
+%         \visible<+->{\optional{\includegraphics[height=.55\textheight]{images/Uyar_Via_RGD_2.png}}}
+%         \visible<+->{\optional{\includegraphics[height=.55\textheight]{images/Uyar_Via_RGD_3.png}}}
+%     \end{center}
+%     \Paper{How pathogens use linear motifs to perturb host cell networks}{Via et~al.}{Trends Biochem Sci. 2015}
+% \end{frame}
 
 \subsection{Classification of Motifs}
 \begin{frame}\frametitle{Classification of Motifs}
@@ -631,27 +631,27 @@ Note also how anchoring motifs retain proteins in certain localizations. }
 %}
 %
 
-\begin{frame}\frametitle{Visualizing Motif-Mediated Interactions}
-    \note{
-    By making this data available via a \tebtbf{RESTful interface},
-    With this kind of information people can go ahead and do all kinds of things.\\\textbf{Matt Rogon}
-    }
-    \only<1>{\optional{\includegraphics[width=1.1\textwidth]{images/elm_interactions_cys.png}}}
-    \only<2>{\optional{\includegraphics[width=.9\textwidth]{images/kegg_pathway_resizedCMYK.pdf}}}
-\end{frame}
-
-\subsection{Outlook: The ELM Resource}
-\begin{frame}[t]\frametitle{Outlook: The ELM Resource}
-    \note{ The Eukaryotic Linear Motif resource is a \structure{database} of over 240 thoroughly annotated motif
-        classes with over 2700 annotated instances. \\
-        It is also a \structure{prediction tool} to find instances of these motif classes in protein sequences. }
-    \begin{center}\optional{\includegraphics[width=.8\textwidth]{images/elm_title.png}}\end{center}\\%
-    ELM is a \structure{repository} of more than 240 thoroughly annotated motif
-    classes with over 2700 annotated instances. \\
-    It is also a \structure{prediction tool} to detect these motifs in protein sequences employing different filters to distinguish between \alert{functional}
-    and \alert{non-functional} motif instances.\\%
-%    \Paper{The eukaryotic linear motif resource ELM: 10 years and counting}{Dinkel, van~Roey, Michael, Davey, Weatheritt, Born, Speck, Kr"uger, Grebnev, Kuba\'{n}, Strumillo, Uyar, Budd, Altenberg, Seiler, Chemes, Glavina, S\'{a}nchez, Diella \& Gibson}{Nucleic~Acids~Res.~2014}
-\end{frame}
+% \begin{frame}\frametitle{Visualizing Motif-Mediated Interactions}
+%     \note{
+%     By making this data available via a \tebtbf{RESTful interface},
+%     With this kind of information people can go ahead and do all kinds of things.\\\textbf{Matt Rogon}
+%     }
+%     \only<1>{\optional{\includegraphics[width=1.1\textwidth]{images/elm_interactions_cys.png}}}
+%     \only<2>{\optional{\includegraphics[width=.9\textwidth]{images/kegg_pathway_resizedCMYK.pdf}}}
+% \end{frame}
+% 
+% \subsection{Outlook: The ELM Resource}
+% \begin{frame}[t]\frametitle{Outlook: The ELM Resource}
+%     \note{ The Eukaryotic Linear Motif resource is a \structure{database} of over 240 thoroughly annotated motif
+%         classes with over 2700 annotated instances. \\
+%         It is also a \structure{prediction tool} to find instances of these motif classes in protein sequences. }
+%     \begin{center}\optional{\includegraphics[width=.8\textwidth]{images/elm_title.png}}\end{center}\\%
+%     ELM is a \structure{repository} of more than 240 thoroughly annotated motif
+%     classes with over 2700 annotated instances. \\
+%     It is also a \structure{prediction tool} to detect these motifs in protein sequences employing different filters to distinguish between \alert{functional}
+%     and \alert{non-functional} motif instances.\\%
+% %    \Paper{The eukaryotic linear motif resource ELM: 10 years and counting}{Dinkel, van~Roey, Michael, Davey, Weatheritt, Born, Speck, Kr"uger, Grebnev, Kuba\'{n}, Strumillo, Uyar, Budd, Altenberg, Seiler, Chemes, Glavina, S\'{a}nchez, Diella \& Gibson}{Nucleic~Acids~Res.~2014}
+% \end{frame}
 
 % \subsection{Switches.ELM}
 % \begin{frame}[t]\frametitle{Switches.ELM}
