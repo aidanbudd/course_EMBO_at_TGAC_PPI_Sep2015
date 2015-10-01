@@ -164,9 +164,9 @@ __prediction tool__.
 <!--- 1.  Earlier today you searched Phospho.ELM for 'Epsin1' and investigated the most conserved phosphorylation site. Try to find these using ELM. -->
 <!---    1.  Start the Jalview plugin to visualize the conservation of motifs in 'Epsin1'. -->
 
-1.  Submit the [sequence](http://uniprot.org/uniprot/P49023.fasta) of Paxillin (P49023) to ELM, using default parameters.
+1.  Submit the following [sequence](http://uniprot.org/uniprot/P49023.fasta) to ELM, using default parameters, no cellular compartment.
     1.  Compare the results with a search for the same sequence when using the __cellular compartment__ 'plasma membrane'
-    2.  Remember the exercise from the Phospho.ELM section about Paxillin. Do you see why there where no phosphorylations annotated for the carboxy terminus of this protein?
+    2.  Are there any phosphorylations annotated for the carboxy terminus of this protein? Why?
 
 2.  There are three annotated instances of the ELM class LIG_NRBOX in the protein NCOA2_HUMAN. Do they reside in ordered or disordered regions (according to IUPred and SMART)?
 
