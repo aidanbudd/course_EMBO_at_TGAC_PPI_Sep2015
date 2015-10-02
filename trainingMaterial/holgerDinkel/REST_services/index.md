@@ -74,17 +74,17 @@ The Phospho.ELM help page describes some examples how you can access this resour
 ELM is a repository of functional linear motif sites in eukarytic proteins as well as a prediction tool to detect novel linear motif instances.
 Similar to Phospho.ELM, the Eukaryotic Linear Motif Resource can be queried via a REST-like interface (see the Downloads page for details)
 
-* (OPTIONAL) Get all instance sequences annotated for protein acc 'TAU_HUMAN' as FASTA format.
-* (OPTIONAL) Inspect these sequences and pay attention to the protein id / primary acc.
+1. Get all instance sequences annotated for protein acc 'TAU_HUMAN' as FASTA format using the [web form](http://elm.eu.org/instances/).
+1. Try to construct the URL by hand which you need to download ELM instances for the protein id ``EPN1_HUMAN``
+<!--- (OPTIONAL) Inspect these sequences and pay attention to the protein id / primary acc. -->
 
 ### Uniprot
 
 - Website: <http://www.uniprot.org>
-- REST help: [FAQ](http://www.uniprot.org/faq/28)
+- REST help: [FAQ on Programmatic access](http://www.uniprot.org/help/programmatic_access).
 
 The Universal Protein Resource ([UniProt](http://www.uniprot.org)) is a comprehensive resource for protein sequence and annotation data consisting of the UniProt Knowledgebase (UniProtKB), the UniProt Reference Clusters (UniRef), and the UniProt Archive (UniParc) and more.
 
-Programmatic access is described in detail in the FAQ.
 
 To access a full Uniprot entry by its unique id (as HTML), you would type <http://www.uniprot.org/uniprot/P12931>
 The same data is available in different formats:
@@ -97,8 +97,8 @@ The same data is available in different formats:
 
 #### Exercise:
 
-* Try these links to get a feeling for the different formats.
-* Substitute the id (P12931) with the name or id of a protein of interest ('ABL1_HUMAN', 'Epsin'). Which of these works, which doesn't?
+1. Try these links to get a feeling for the different formats.
+1. Substitute the id (P12931) with the name or id of a protein of interest ('ABL1_HUMAN', 'Epsin'). Which of these works, which doesn't?
 
 
 #### Performing queries
@@ -111,31 +111,31 @@ In order to get yourself acquainted with the Uniprot syntax, please use the butt
 
 
 
-1. Search for all proteins with the name 'GRB2' which have the status 'reviewed'
-1. Next, copy this 'name:GRB2 AND reviewed:yes' from the search field into the url: 
+1. Search for all proteins with the name ``GRB2`` which have the status ``reviewed``
+1. Next, copy this: ``name:GRB2 AND reviewed:yes`` from the search field into the url: 
 `http://www.uniprot.org/uniprot/?query=` so that your URL looks like this: 
 `http://www.uniprot.org/uniprot/?query=name:GRB2 AND reviewed:yes`
 1. Add the following to your query to turn the output format from HTML to TAB: `&format=tab`:
 `http://www.uniprot.org/uniprot/?query=name:GRB2 AND reviewed:yes&format=tab`
-1. Repeat this query with protein name 'ABL1'. How many resulting lines do you get?
+1. Repeat this query with protein name ``ABL1``. How many resulting lines do you get?
 
-**Different formats**
+   **Different formats**
+   
+   The uniprot output format can be one of:
+   
+   - html
+   - tab
+   - xls
+   - fasta
+   - gff
+   - txt
+   - xml
+   - rdf
+   - list
+   - rss
 
-The output format can be one of:
-
-- html
-- tab
-- xls
-- fasta
-- gff\
-- txt
-- xml
-- rdf
-- list
-- rss
-
-
-1. Try the previous exercises (eg. searching for GRB2 or ABL1) with at least three different output formats.
+1. Try the previous exercises (eg. searching for GRB2 or ABL1) with at least three different output formats. 
+1. (OPTIONAL) Instead of GRB2 or ABL1, try your favorite protein of interest.
 
 
 **Limiting results**
@@ -161,7 +161,7 @@ You can 'walk' along a set of results by using limit and offset, eg to retrieve 
 
 **Selecting columns**
 
-1. Read the FAQ (table in section 'Retrieving entries via queries') and find out which columns can be selected as returnvalues.
+1. Read the [FAQ](http://www.uniprot.org/help/programmatic_access#retrieving_entries_via_queries) (table in section 'Retrieving entries via queries') and find out which columns can be selected as returnvalues.
 1. Using the tab format, retrieve all proteins named 'Proepiregulin' and select 'id', 'entry name', and 'genes' as output columns.
 1. Using the same format and protein name, try at least three different column types as return (first indivdually, then all three at once)
 1. Get all 'ABL1' proteins and use 'entry name' and 'interactor' as output.
@@ -204,7 +204,7 @@ The Research Collaboratory for Structural Bioinformatics (RCSB) is hosting the P
 1. Get status of Structure 1HHB:
 <http://www.rcsb.org/pdb/rest/idStatus?structureId=1HHB>
 
-1. Try to receive the following PDB file (as text): 1NW9, 2H63
+1. Try to receive the following PDB files (as text): 1NW9, 2H63
 
 
 
@@ -223,7 +223,7 @@ The Ensembl REST web-service is a convenient way to access some of our popular d
 1. multiple sequences translated to protein: <http://beta.rest.ensembl.org/sequence/id/ENSG00000157764?multiple_sequences=1;type=protein>
 
 
-curl 'http://beta.rest.ensembl.org/sequence/id/ENSG00000157764?multiple_sequences=1;type=protein' -H 'Content-type:text/x-fasta'
+        curl 'http://beta.rest.ensembl.org/sequence/id/ENSG00000157764?multiple_sequences=1;type=protein' -H 'Content-type:text/x-fasta'
 
 
 
@@ -320,7 +320,7 @@ Retrieving all proteins which contain at least one SH3 domain and at least three
 
     wget -q "http://www.uniprot.org/uniprot/&format=tab&query=domain:SH3 AND annotation:(type:domain count:[3 TO *]) AND length:[200 TO 500]"
 
-First, query Uniprot for reviewed protein ID P46844 and retrieve only the column 'database(pdb)'. Use these PDB ids to get MolecularDescriptions of the corresponding PDB structures from RCSB:
+First, query Uniprot for reviewed protein ID P46844 and retrieve only the column `database(pdb)`. Use these PDB ids to get MolecularDescriptions of the corresponding PDB structures from RCSB:
 
     wget -q "http://www.uniprot.org/uniprot/?query=P46844 AND database:(type:pdb)&format=tab&columns=database(pdb)" -O - | grep -v 'cross' | tr ';' ',' | xargs -I '{}' curl "http://www.rcsb.org/pdb/rest/describeMol?structureId={}"
 

@@ -185,8 +185,9 @@ client/.style={ rectangle, minimum size=6mm, thick, draw=yellow!90!red!40, top c
 \note{}
 \begin{block}{}
 \begin{description}{}
-\item<+->[\alert<2>{Method}] defines what you want to do (\textbf{GET}=retrieve, \textbf{POST}=create/update, \textbf{DELETE}=remove).\\
+    \item<+->[\alert<1>{Method}] defines what you want to do (\textbf{GET}=retrieve, \textbf{POST}=create/update, \textbf{DELETE}=remove).\\
     {\scriptsize We'll be using just GET requests which can be thought of as read-only access. POST/DELETE are used to modify data on a server.}
+    \item<+->[\alert<2>{Protocol}] usually HTTP or HTTPS (secure)
     %
     \item<+->[\alert<3>{URL}] defines a path to a resource
     %
@@ -195,7 +196,7 @@ client/.style={ rectangle, minimum size=6mm, thick, draw=yellow!90!red!40, top c
     \end{block}
     \only<1->{%
       \begin{exampleblock}{Example: searching for the term 'EMBO':}
-      \alert<1>{https}://\alert<2>{startpage.com/do/search}\alert<3>{?query=EMBO\&with\_language=lang\_de}
+      \alert<2>{https}://\alert<3>{startpage.com/do/search}\alert<4>{?query=EMBO\&with\_language=lang\_de}
     \end{exampleblock}
     }
     \only<4->{\begin{alertblock}{Note:}
@@ -235,8 +236,8 @@ This way you'll have a protocol of what you've done and you can easily repeat th
     \only<1|handout:0>{\optional{\includegraphics[height=.7\textheight]{images/Phospho_startpage_elm.png}}}%
     \only<2-|handout:1>{\optional{\includegraphics[height=.7\textheight]{images/Phospho_access_methods.png}}}\\%
 \only<1>{http://phospho.elm.eu.org/index.html\\}%
-\only<2>{http://phospho.elm.eu.org/byAccession/P55211.html\\}%
-\only<3>{http://phospho.elm.eu.org/byAccession/P55211.{\color{red}csv}\\}%
+\only<2>{http://phospho.elm.eu.org/byAccession/P55211.\alert{html}\\}%
+\only<3>{http://phospho.elm.eu.org/byAccession/P55211.\alert{csv}\\}%
 \end{center}
 \end{frame}
 
