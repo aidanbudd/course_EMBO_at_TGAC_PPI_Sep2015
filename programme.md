@@ -99,7 +99,7 @@ DAY 5 - Friday 2 October 2015
 | 13:30-15:00 | [STRING - protein association networks](trainingMaterial/larsJuhlJensen/) | Lars Juhl Jensen | Darwin - Training Room |
 | 15:00-15:30 | Coffee Break |           | TGAC Atrium          |
 | 15:30-17:00 | [Continued: STRING - protein association networks](trainingMaterial/larsJuhlJensen/)  | Lars Juhl Jensen | Darwin - Training Room |
-| 17:00       | Coach departs TGAC to hotel |         | Outside TGAC entrance |
+| 18:00       | Coach departs TGAC to hotel |         | Outside TGAC entrance |
 | 19:30       | Dinner - Maids Head Hotel |         | Meet at hotel restaurant |
 
 DAY 6 - Saturday 3 October 2015
