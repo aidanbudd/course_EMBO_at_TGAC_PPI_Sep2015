@@ -303,28 +303,28 @@ Accessing OMIM via API is a bit more complicated as it requires registration and
 * [Using the Tools and Resources of the RCSB Protein Data Bank](http://onlinelibrary.wiley.com/doi/10.1002/0471250953.bi0109s20/full)
 * [Firefox Plugin to debug REST queries](http://restclient.net/)
 
-## Advanced applications
-
-Using Phospho.ELM REST interface, find out which residues are preferentially phosphorylated by AuroraA kinase:
-
-    curl -s "http://phospho.elm.eu.org/byKinase/Aurora%20A.csv" | grep -v Accession | cut -d';' -f2 | sort | uniq -c
-        24  S
-         6  T
-
-In contrast, which residues are preferentially phosphorylated by Abl kinase:
-
-    curl -s "http://phospho.elm.eu.org/byKinase/Abl.csv" | grep -v Accession | cut -d';' -f2 | sort | uniq -c
-        55  Y
-
-Retrieving all proteins which contain at least one SH3 domain and at least three domains in total and are between 200 and 500 amino acids in length:
-
-    wget -q "http://www.uniprot.org/uniprot/&format=tab&query=domain:SH3 AND annotation:(type:domain count:[3 TO *]) AND length:[200 TO 500]"
-
-First, query Uniprot for reviewed protein ID P46844 and retrieve only the column `database(pdb)`. Use these PDB ids to get MolecularDescriptions of the corresponding PDB structures from RCSB:
-
-    wget -q "http://www.uniprot.org/uniprot/?query=P46844 AND database:(type:pdb)&format=tab&columns=database(pdb)" -O - | grep -v 'cross' | tr ';' ',' | xargs -I '{}' curl "http://www.rcsb.org/pdb/rest/describeMol?structureId={}"
-
-Get all cross-references to PDB from Uniprot querying for Caspases:
-
-    for i in $(wget -q "http://www.uniprot.org/uniprot/?query=caspase AND reviewed:yes AND database:(type:pdb)&format=tab&columns=database(pdb)" -O - | grep -v 'cross' | tr ';' ' '); do echo $i; done
-
+<!-- ## Advanced applications -->
+<!--  -->
+<!-- Using Phospho.ELM REST interface, find out which residues are preferentially phosphorylated by AuroraA kinase: -->
+<!--  -->
+<!--     curl -s "http://phospho.elm.eu.org/byKinase/Aurora%20A.csv" | grep -v Accession | cut -d';' -f2 | sort | uniq -c -->
+<!--         24  S -->
+<!--          6  T -->
+<!--  -->
+<!-- In contrast, which residues are preferentially phosphorylated by Abl kinase: -->
+<!--  -->
+<!--     curl -s "http://phospho.elm.eu.org/byKinase/Abl.csv" | grep -v Accession | cut -d';' -f2 | sort | uniq -c -->
+<!--         55  Y -->
+<!--  -->
+<!-- Retrieving all proteins which contain at least one SH3 domain and at least three domains in total and are between 200 and 500 amino acids in length: -->
+<!--  -->
+<!--     wget -q "http://www.uniprot.org/uniprot/&format=tab&query=domain:SH3 AND annotation:(type:domain count:[3 TO *]) AND length:[200 TO 500]" -->
+<!--  -->
+<!-- First, query Uniprot for reviewed protein ID P46844 and retrieve only the column `database(pdb)`. Use these PDB ids to get MolecularDescriptions of the corresponding PDB structures from RCSB: -->
+<!--  -->
+<!--     wget -q "http://www.uniprot.org/uniprot/?query=P46844 AND database:(type:pdb)&format=tab&columns=database(pdb)" -O - | grep -v 'cross' | tr ';' ',' | xargs -I '{}' curl "http://www.rcsb.org/pdb/rest/describeMol?structureId={}" -->
+<!--  -->
+<!-- Get all cross-references to PDB from Uniprot querying for Caspases: -->
+<!--  -->
+<!--     for i in $(wget -q "http://www.uniprot.org/uniprot/?query=caspase AND reviewed:yes AND database:(type:pdb)&format=tab&columns=database(pdb)" -O - | grep -v 'cross' | tr ';' ' '); do echo $i; done -->
+<!--  -->
