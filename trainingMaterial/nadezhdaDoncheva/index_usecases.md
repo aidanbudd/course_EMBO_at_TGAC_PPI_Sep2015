@@ -22,4 +22,4 @@ author: Scooter Morris & Nadezhda Doncheva
 3. Annotate a set of genes or proteins with functional information (GO, pathways)
 4. Identify putative protein complexes in a protein interaction network
 5. Link protein interaction networks with protein structure visualization in UCSF Chimera
-6. 
+6. Your use case?
