@@ -17,6 +17,7 @@ The network shown below does not reside in Git. Instead it is fetched by your we
 <img src="http://string-db.org/api/image/network?identifier=9606.ENSP00000303830&required_score=900&limit=10&network_flavor=confidence" />
 
 This is done by including the following URL as an image in the HTML / Markdown page:
+
     http://string-db.org/api/image/network?identifier=9606.ENSP00000303830&required_score=900&limit=10&network_flavor=confidence
 
 Try opening the URL in your web browser and changing the different parameters to lower the confidence cutoff, increase the number of proteins shown, and changing the network mode from _confidence_ to _evidence_.
@@ -38,3 +39,18 @@ In both of the exercises above, you need to specify human INSR as ``9606.ENSP000
     http://string-db.org/api/tsv/resolve?identifier=INSR_HUMAN
 
 Retrieve this information from the command line and take a look at it.
+
+
+### Identifying names in text
+
+The named entity recognition engine (tagger) used by STRING and STITCH is also available via a REST API. This allows you to submit your own texts, in which names should be identified.
+
+To inspect the results of doing this, the tagger can visualize them using this URL:
+
+    http://tagger.jensenlab.org/Extract?document=Insulin%20is%20secreted%20by%20pancreatic%20beta%20cells,%20which%20are%20destroyed%20in%20type-1%20diabetes%20mellitus.&entity_types=9606+-22+-25+-26
+
+However, if you want to use the tagger from a script, you will more likely want the tab-delimited results:
+
+    http://tagger.jensenlab.org/GetEntities?document=Insulin%20is%20secreted%20by%20pancreatic%20beta%20cells,%20which%20are%20destroyed%20in%20type-1%20diabetes%20mellitus.&entity_types=9606+-22+-25+-26&format=tsv
+
+For details on all the parameters please refer to [the documentation](https://extract.hcmr.gr/).
