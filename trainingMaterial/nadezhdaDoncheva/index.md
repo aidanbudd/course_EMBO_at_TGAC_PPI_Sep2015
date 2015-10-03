@@ -5,7 +5,7 @@ author: Scooter Morris & Nadezhda Doncheva
 ---
 
 ### Introduction to Cytoscape
-- [Presentation slides](./2015 Cytoscape 3.2 Tutorial_v2.pdf)
+- Presentation slides: [PDF](./2015 Cytoscape 3.2 Tutorial_v2.pdf), [PPT](./2015 Cytoscape 3.2 Tutorial_v2.pptx)
 - [Supplementary reading on analysis and visualization of biological networks with Cytoscape](./Analysis_and_Visualization_of_Biological_Networks_with_Cytoscape_v10.pdf)
 
 
