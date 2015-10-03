@@ -285,17 +285,6 @@ The Reflect REST API is geared towards resource developers who wish to use the R
 
 
 
-### OMIM
-
-- Website: <http://www.omim.org>
-- REST help: <http://omim.org/help/api>
-
-Online Mendelian Inheritance in Man (OMIM) is a comprehensive, authoritative compendium of human genes and genetic phenotypes that is freely available and updated daily.
-The full-text, referenced overviews in OMIM contain information on all known mendelian disorders and over 12,000 genes.
-OMIM focuses on the relationship between phenotype and genotype.
-
-Accessing OMIM via API is a bit more complicated as it requires registration and the registration key has to be used in every query.
-
 ## References
 
 * <http://en.wikipedia.org/wiki/Representational_State_Transfer>

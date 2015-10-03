@@ -6,7 +6,7 @@ author: Marco Punta
 
 Presentation ([PDF](./EMBO-Course-Norwich-2015.pdf), [Keynote](./EMBO-Course-Norwich-2015.key))
 
-Exercise files:
+Marco exercise files:
 
 - Exercise 1
     - [PF03595_seed.txt](./EMBO-NORWICH-MATERIALS/Exercise-1/PF03595_seed.txt)
